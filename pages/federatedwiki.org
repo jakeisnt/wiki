@@ -47,3 +47,55 @@ Fusing all of the Wikia sites into a single, cohesive wiki seems incredibly usef
 - shared & enhanced pages :: fuse pages that cover similar or related topics together into one view.
 - consensus :: condense and share overlapping information, reducing the amount of duplication.
 - interoperable :: shift from one wiki to another easily.
+
+
+* Wiki IR related decentralized wiki idea (what we were talking about in chat, but not really what is above)
+ - uses wiki IR standard to link together many peoples personal wikis
+ - there is an engine at the center (or several?) that crawl the wikiverse and attempt to bring together pages that are similar
+   - when pages are similar (by AI?, NLP measure), suggest several types of merging
+     - suggestion ways
+       - as part of wiki IR cli tool display suggestions
+       - make tiny website dashbaord backed by small webapp that phones to recomender engine
+     - types of page merging (between peoples federated wiki)
+       - link at the bottom of page to other pages with similar content (like webring)
+       - transclude entire other page to bottom of your page (and vice versa, both pages in the link transclude eachother)
+       - suggest that pages are merged using git-esque strategy (pull request, text diff/merge tools like mergely)
+         - q: where does consenus page live? on neither page? (next to ai engines) on one page? (one of the merge requesters 'wins', one conceceds), or both (they share :))
+     - goals of merging
+       - reduce information duplication
+       - instead of conflicts of information being resolved in backchannel of wikipedia, consensus arguments are disputed publicly through pull requests and accepted/rejected page links
+       - epic and cool
+
+* Conversation linking
+  - make conversations first class primitive of wiki, so that concepts are linked to discussion in which they are conceived
+  - can be as simple as citations linking to specific conversations
+  - uses matrix? hard part is technical challenge of implementation
+
+* Backlink fixing
+  - move/rename pages and update backlinks
+* Automatically backup videos/external sites
+  - https://github.com/bibanon/tubeup
+  - like gwern, to prevent linkrot
+* Provide tools to make good public/private separation
+  - so that people can have shareable personal wiki concepts/reference pages, while also having extremely messy private brainstorming (brainstorming=unformed,errorfull,shameless,indulgently bad, creative, risky)/exobrain wiki pages.
+* Syntax that is not static/markup
+  - I want a markup syntax like (move [otherpage]: " this concept deserves to be in other page, but right now i am in [firstpage] and don't want to move all the way to otherpage in emacs so im gonna write this thought in a move block: this thought")
+    - and that will append that thought to the bottom of other page once i save or run tool or something (linter?)
+
+* Smart todo aggregation system
+  - dokuwiki has decent one,
+  - zimwiki also has some good features (like hiding todo until certain date)
+* New types of syntax
+  - some syntax for assigning how sure you are of an idea, or how much you like it
+     - font size???!
+     - number of exclamation points vs question marks !!!
+* First class support for sorting lists
+  - idk how this would work but interactive sorting is underrated!!!
+* Visualizers 
+  - like roam/logseq/etc.
+  - but if they want to use those interactively, just use them and use wiki IR to convert wiki to them
+  - maybe support something simple like
+* WIKI LSP
+  - breadcrumbs (https://i.stack.imgur.com/wu4kP.png)
+  - definition/lookup. like you can name concepts and hover for definitions?
+  - autocompletion of other page names
