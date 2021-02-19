@@ -201,3 +201,7 @@ get a nix shell for your whole configuration!
 # if (url.pathname === '/' && ua.match(/\bNix\//) != null) {
 #   return new Response('', { status: 302, headers: { location: `https://github.com/bouk/b/archive/master.tar.gz` } });
 # }
+* Flake tips
+Do not be afraid to use the --help flag! I've learned a lotfrom it.
+- Update a specific input: `nix flake update --update-input spicetify-nix`
+  do
