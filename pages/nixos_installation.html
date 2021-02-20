@@ -1,0 +1,90 @@
+<p>I've long been tired of the dependency management of Linux and wanted to try a new system: <a href="https://nixos.org">NixOS</a>. It's an operating system centered around system configuration – a DevOps tool and a way to manage configuration files as well as a proper Linux-based operating system.</p>
+<p>I did have a bit of trouble installing it so I wanted to catalogue the process here.</p>
+<p>To help with the installation, I referenced <a href="https://gist.github.com/domenkozar/b3c945035af53fa816e0ac460f1df853">Domen Kozar's instructions</a>, <a href="https://github.com/jethrokuan/nix-config">Jethro's configuration</a> and <a href="https://github.com/kylesferrazza/nix/">Kyle's configuration</a>. I also made substantial use of the <a href="https://nixos.org/nixos/manual">NixOS manual</a> and its instructions. I'll be summarizing steps taken by each of these articles; refer to the NixOS manual or the instructions if you'd like more information about the abbreviated steps.</p>
+<p>As the title says, I installed <code>NixOS 20.03</code> on the Dell XPS 9370 i7 UHD. I can't guarantee that these instructions will work for your system. My current configuration, including some of the code mentioned in this article, can be found <a href="https://github.com/jakechv/nix-cfg">here</a>.</p>
+<p>Make sure that you have a flash drive handy with a capacity greater than 2 gigabytes. My first go used installation media that didn't have the entire ISO written to it and I had issues booting.</p>
+<h1>Setup</h1>
+<h2>Recovery Disk</h2>
+<p>First remember to create a recovery disk for Windows. I didn't do this, but it's probably a good idea! (I'm still looking for my Windows partition…)</p>
+<h2>Reboot to the BIOS</h2>
+<p>Press F2 repeatedly when the Dell logo appears on boot (don't hold it, as this may be interpreted as a stuck key) and reboot into the BIOS settings.</p>
+<h2>BIOS Settings</h2>
+<p>Disable secure boot and RAID mode. It's unclear why RAID mode is on by default, but this isn't somethign that should be used by the XPS.</p>
+<h2>Make an Installation Disk</h2>
+<p>Download an ISO from <a href="https://nixos.org/download.html">the website</a>. I wouldn't recommend the graphical installation CD, as it'll take substantially longer to boot and at the time of this writing offers no real advantage over the minimal installation disk. You'll be using tools with command-line interfaces anyways.</p>
+<h2>Install ISO</h2>
+<p>For Linux, I recommend using <code>dd</code> to write the media to your USB. For Windows 10, I'd recommend using <a href="https://rufus.ie">Rufus</a>.</p>
+<p>I used Rufus and had trouble with the installation media when writing the ISO, but using DD mode worked well. I'd recommend using that to start.</p>
+<h1>Provisioning the Installation</h1>
+<h2>Booting the Installation Media</h2>
+<p>Plug the flash drive into any port on your laptop and reboot.</p>
+<p>On boot, press F10 repeatedly to enter the boot selection mode. Use the up and down arrow keys to navigate to the name of your flash drive loaded with the installation media. Press enter when the proper media is highlighted.</p>
+<h2>Initial System Configuration</h2>
+<p>The computer should now be booted to the NixOS installer. It'll show you several images to chose from.</p>
+<p>Select <code>NixOS Live CD</code> if you're ready to install. The other options provided may be used if you'd like to try out the operating system without a full installation.</p>
+<h3>Troubleshooting</h3>
+<p>If the media didn't boot properly and you do not now see a terminal showing that you've booted into NixOS, make sure that you've chosen the correct installation image for your system. If you provisioned your installation media as an ISO, try using DD mode.</p>
+<h2>Connecting to The Internet</h2>
+<p>Now that you've successfully booted the system, it's time to connect to the internet. Ethernet would be easy but we still have some networking tools.</p>
+<p>We'll want to do everything as root for the installation, so:</p>
+<div class="sourceCode" id="cb1" data-org-language="sh"><pre class="sourceCode bash"><code class="sourceCode bash"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="fu">sudo</span> <span class="at">-i</span></span></code></pre></div>
+<p>To connect to the internet, run</p>
+<div class="sourceCode" id="cb2" data-org-language="sh"><pre class="sourceCode bash"><code class="sourceCode bash"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="ex">wpa_supplicant</span> <span class="at">-i</span> {WiFi card} <span class="op">&lt;(</span><span class="ex">wpa_passphrase</span> <span class="st">&quot;{SSID}&quot;</span> <span class="st">&quot;{password}&quot;</span><span class="op">)</span></span></code></pre></div>
+<p>where {WiFi card} is the name found with <code>ifconfig</code> beginning with <code>wlp</code> or <code>wlan</code> (typically <code>wlan0</code> or <code>wlp2s0</code>), {SSID} is the name of your WiFi network and {password} is the password for the network. Make sure that the latter two are both strings.</p>
+<p>To confirm your connection, use <code>ping google.com</code> or <code>ping {stable site of choice}</code>. If you receive frequent responses at the terminal, you have a connection.</p>
+<h2>Partitioning the Drive</h2>
+<p>I'll yield to the Arch Wiki here; they'll maintain documentation more accurate and thorough than what I can cover here. Here's the gist of it:</p>
+<ul>
+<li>Create three partitions:
+<ul>
+<li>a boot partition {~100 mb},</li>
+<li>a main partition {rest of disk, -1/2 ram size},</li>
+<li>and a swap partition {1/2 ram capacity}.</li>
+</ul></li>
+<li>Format each with the file system of your choice.
+<ul>
+<li>The boot partition should be FAT.</li>
+<li>The main partition should be a file system of your choice. Use ext4 if you want something simple and reliable; use btrfs or zfs if you want something advanced.</li>
+<li>The swap partition should be formatted as a swap partition.</li>
+</ul></li>
+</ul>
+<h2>Mounting and Installing</h2>
+<p>This system's a UEFI system, so we'll have to mount two partitions. Mount your main partition to <code>/mnt</code>: #begin<sub>src</sub> sh mount nixos /mnt</p>
+<p>Mount your boot partition to <code>/mnt/boot</code>: #begin<sub>src</sub> sh mkdir -p /mnt/boot mount boot /mnt/boot</p>
+<p>This assumes that you've named your main and boot partitions 'nixos' and 'boot' respectively.</p>
+<h1>Initial Configuration</h1>
+<p>Now that everything is mounted, you'll want to generate an initial configuration for your system.</p>
+<p>This can be accomplished with</p>
+<div class="sourceCode" id="cb3" data-org-language="sh"><pre class="sourceCode bash"><code class="sourceCode bash"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="ex">nixos-generate-config</span> <span class="at">-d</span></span></code></pre></div>
+<h2>Editing the Configuration</h2>
+<p>You should now have two files visible in the <code>/etc/nixos</code> directory:</p>
+<ul>
+<li>configuration.nix</li>
+<li>hardware-configuration.nix</li>
+</ul>
+<p>Make sure that hardware-configuration.nix contains three partitions – one for each partition you created earlier – with the same file systems and configurations. If not, update the files with the correct values.</p>
+<h2>Initial Configuration</h2>
+<p>You'll now need to edit properly configure <code>configuration.nix</code>. Most of the defaults are fine, but you'll want to install a sane editor to make it immediately usable. I'd suggest <code>vim</code> or <code>nvim</code>. You'll probably also want <code>git</code> and <code>wget</code> for saving your configuration or cloning that of another. Add these to <code>environment.systemPackages</code>:</p>
+<div class="sourceCode" id="cb4"><pre class="sourceCode nix"><code class="sourceCode bash"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="ex">environment.systemPackages</span> = [</span>
+<span id="cb4-2"><a href="#cb4-2" aria-hidden="true" tabindex="-1"></a>  <span class="ex">nvim</span> wget git</span>
+<span id="cb4-3"><a href="#cb4-3" aria-hidden="true" tabindex="-1"></a><span class="ex">]</span><span class="kw">;</span></span></code></pre></div>
+<p>You might also want a better program for configuring networking. If you're accustomed to Network Manager, add</p>
+<div class="sourceCode" id="cb5"><pre class="sourceCode nix"><code class="sourceCode bash"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a><span class="ex">~services.networkmanager.enable</span> = true<span class="kw">;</span></span></code></pre></div>
+<p>to the configuration.</p>
+<p>You should probably add a user as well. There's a template for user configuration in the file, but try amending it:</p>
+<div class="sourceCode" id="cb6"><pre class="sourceCode nix"><code class="sourceCode bash"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a><span class="ex">users.users.{username}</span> = {</span>
+<span id="cb6-2"><a href="#cb6-2" aria-hidden="true" tabindex="-1"></a>  <span class="ex">isNormalUser</span> = true<span class="kw">;</span></span>
+<span id="cb6-3"><a href="#cb6-3" aria-hidden="true" tabindex="-1"></a>  <span class="ex">home</span> = <span class="st">&quot;/home/{username}&quot;</span><span class="kw">;</span></span>
+<span id="cb6-4"><a href="#cb6-4" aria-hidden="true" tabindex="-1"></a>  <span class="ex">extraGroups</span> = [ <span class="st">&quot;wheel&quot;</span> <span class="st">&quot;networkmanager&quot;</span> ]<span class="kw">;</span></span>
+<span id="cb6-5"><a href="#cb6-5" aria-hidden="true" tabindex="-1"></a><span class="er">}</span><span class="kw">;</span></span></code></pre></div>
+<p>You'll want to add yourself to the <code>"networkmanager"</code> group if you're using Network Manager in lieu of wpa<sub>supplicant</sub>. 'Wheel' will allow this user to use <code>sudo</code>.</p>
+<h1>First Boot</h1>
+<p>You're ready to install and boot the system! Run:</p>
+<div class="sourceCode" id="cb7" data-org-language="sh"><pre class="sourceCode bash"><code class="sourceCode bash"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a><span class="ex">nixos-install</span></span></code></pre></div>
+<p>Make sure to set the password for the root user to something you remember when prompted.</p>
+<h2>Final Touches</h2>
+<p>Reboot first: <code>reboot</code>. Now, log in as the root user when prompted for login and password.</p>
+<p>Set an initial password for the user you created:</p>
+<div class="sourceCode" id="cb8" data-org-language="sh"><pre class="sourceCode bash"><code class="sourceCode bash"><span id="cb8-1"><a href="#cb8-1" aria-hidden="true" tabindex="-1"></a><span class="fu">passwd</span> {username}</span></code></pre></div>
+<p>and provide the password when prompted.</p>
+<p>You're now ready to go!</p>

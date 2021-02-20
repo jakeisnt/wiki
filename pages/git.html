@@ -1,0 +1,72 @@
+<p>Git is a popular version control system.</p>
+<h1>Tricks</h1>
+<h1>Writing a Git Commit Message</h1>
+<p><a href="https://chris.beams.io/posts/git-commit/">Article Reference</a></p>
+<ul>
+<li>Concise and consistent length and form</li>
+<li>Communicate clear context about a change to fellow developers. Ensure that other developers understand <strong>why</strong> a change was made.</li>
+</ul>
+<h2>Rules</h2>
+<ul>
+<li>Separate subject from body with a blank line if the body is to be used.</li>
+<li>Limit subject line to 50 characters</li>
+<li>Capitalize subject line</li>
+<li>Do not end with period</li>
+<li>Use imperative mood; I 'do' this. Rationale: If applied, the commit will change these aspects of the code. Git's own built-in conventions use this form.</li>
+<li>Wrap at 72 characters</li>
+<li>Use the body to explain 'what' and 'why' as necessary</li>
+</ul>
+<h1>Repositories</h1>
+<dl>
+<dt>GitHub</dt>
+<dd>I use this; Microsoft is bad but the community is good
+</dd>
+<dt>Sourcehut</dt>
+<dd>Minimal free software repository. I would use this if the developer weren't an egotistical BDFL.
+</dd>
+<dt>Gitea</dt>
+<dd>Open source git repository; self host it
+</dd>
+</dl>
+<h1>Organization Thoughts</h1>
+<p>github organization:</p>
+<ul>
+<li>one repo per course - as most courses require partner work</li>
+</ul>
+<p>= repo for coding challenge practice problems</p>
+<ul>
+<li>managing research notes: ??? i am thinking a single org file for all of this</li>
+<li><ul>
+<li>that is, an org file in each project for the research notes pertaining to that project,</li>
+</ul></li>
+<li><ul>
+<li>and anotherorg file for misc. research ?? i will have to see how my research is used</li>
+</ul></li>
+</ul>
+<p><a href="https://danieltakeshi.github.io/2017/07/15/how-i-organize-my-github-repositories/">https://danieltakeshi.github.io/2017/07/15/how-i-organize-my-github-repositories/</a></p>
+<h1>Rewriting</h1>
+<p>It's a good idea to reformat commits to make them more readable.</p>
+<div class="sourceCode" id="cb1" data-org-language="sh"><pre class="sourceCode bash"><code class="sourceCode bash"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="fu">git</span> reset HEAD~<span class="va">${number</span><span class="er"> of commits to go back</span><span class="va">}</span></span></code></pre></div>
+<h1>Tricks</h1>
+<p><a href="http://joeyh.name/blog/entry/how_to_publish_git_repos_that_cannot_be_republished_to_github/">http://joeyh.name/blog/entry/how_to_publish_git_repos_that_cannot_be_republished_to_github/</a> :: cheeky way to abuse DMCA to avoid GitHub using your Git repos <a href="https://sourcehut.org/blog/2020-10-29-how-mailing-lists-prevent-censorship/">https://sourcehut.org/blog/2020-10-29-how-mailing-lists-prevent-censorship/</a> using the mailing list model over the built-in issue model, and how this naturally federated and local first procedure is superior to github's standard issue approach <a href="https://labs.consol.de/development/git/2017/02/22/gitignore.html">https://labs.consol.de/development/git/2017/02/22/gitignore.html</a> using .gitignore the right way</p>
+<h2>Patch previous commits with rebases</h2>
+<p><a href="https://stackoverflow.com/questions/9103396/how-do-i-edit-a-previous-git-commit">https://stackoverflow.com/questions/9103396/how-do-i-edit-a-previous-git-commit</a> If you need to change commit history:</p>
+<ul>
+<li>Make another commit to make the change</li>
+<li>Rebase starting at the commit you want to change</li>
+<li>Squash the new commit with the old one in the history</li>
+<li>Remove the second commit message (or merge it…)</li>
+</ul>
+<p>This did change the commit time for my latest commit, which is something to watch out for.</p>
+<h1>How Git Works</h1>
+<p><a href="https://blog.jcoglan.com/2017/09/19/the-patience-diff-algorithm/">Neat writeup on the Git patience diff algorithm</a> <a href="https://github.com/MichaelMure/git-bug">"Distributed, offline-first bug tracker embedded in git, with bridges"</a></p>
+<p><a href="https://github.com/jskjott/git-for-filmmakers">Prototype Git GUI for Filmmaking</a></p>
+<p><a href="https://github.com/ralphbean/bugwarrior">"Pull github, bitbucket, and trac issues into taskwarrior"</a></p>
+<p><a href="https://github.com/jonas/tig">Text-mode interface for git</a></p>
+<p><a href="https://github.com/bcongdon/git-trophy">bcongdon/git-trophy: ? Create a 3D Printed Model of Your Github Contributio</a></p>
+<h1>github</h1>
+<p><a href="https://github.com/git-series/git-series">track changes to a patch over time</a> <a href="https://github.com/nvie/gitflow">git flow</a>: git extensions for high level repository operations <a href="https://github.com/itsrainingmani/gitexplore">explore git cli with natural language search</a> <a href="https://yarmo.eu/post/github-sinking">github is sinking</a></p>
+<h2>readmes</h2>
+<p><a href="https://github.com/abhisheknaiidu/awesome-github-profile-readme"> A curated list of awesome Github Profile READMEs 📝</a> <a href="https://github.com/pifafu/pifafu/blob/main/readME.md">https://github.com/pifafu/pifafu/blob/main/readME.md</a> i love the font choice and the gif here!</p>
+<h1>alternatives</h1>
+<p><a href="https://www.fossil-scm.org/home/doc/trunk/www/fossil-v-git.wiki">https://www.fossil-scm.org/home/doc/trunk/www/fossil-v-git.wiki</a> <a href="https://blog.nil.im/?78">https://blog.nil.im/?78</a> ?? <a href="https://gerrit.googlesource.com/git-repo/+/refs/heads/master/README.md">repo: a tool built on git for managing monorepos</a> <a href="https://pijul.org/">https://pijul.org/</a> a distributed version control system <a href="http://bazaar.canonical.com/en/">http://bazaar.canonical.com/en/</a> look into tildegit</p>

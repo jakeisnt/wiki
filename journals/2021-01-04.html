@@ -1,0 +1,51 @@
+<h2>16:00 various thoughts</h2>
+<h3>what's wrong with posix io</h3>
+<p><a href="https://www.nextplatform.com/2017/09/11/whats-bad-posix-io/">src</a></p>
+<ul>
+<li><p>stateful: file descriptors must always be opened before reading or writing them, but this is all tracked internal to the kernel rather than externally; this measn that things can't be done asynchronously</p></li>
+<li><p>the posix io model causes the cost of opening a file to scale linearly with the number of requests in userland requesting the opening, <em>even</em> on parallel file systems!</p></li>
+<li><p>prescribing metadata doesn't seem all that bad… their point is that files are all kept track of independently but still must maintain the same standards. this cannot adapt to additional metadata information we want to store</p>
+<ul>
+<li>isn't it fine to just use extra files to denote additional specs? you can use the <em>format</em> of the file to carry that additional information, or manage it in other files as metadata. perhaps another system may want to track extra information… in this case, the separation is not quite ideal, but this does not seem like a significant issue</li>
+</ul></li>
+<li><p>semantics: after a write, each read returns the data specified by the previous write until the next write. this means that a write is required to block execution until a read call will produce the result from that write, which is grossly inneficient for async systems - but it provides strong guarantees to those systems, and without this guarantee you'd have to check back to see if the file was updated when monitoring files</p>
+<p><a href="http://doc.lustre.org/lustre_manual.xhtml#dbdoclet.50438206_86244">reduces consistency to a single node</a> <a href="http://docs.cray.com/books/S-0005-5204/S-0005-5204.pdf">relaxes stateful requirements of parallel data</a></p>
+<p>i don't think this article was quite meant for my work - in my world, the POSIX guarantees provided are better than alternatives. they're standards that provide guarantees I do think that certain technologies - synchronous requirements for linting, for example - that I use could be done asynchronously more effectively, but the real solution here is not to serialize out to files at all. programming shouldn't be about the file, it should be about the program!</p></li>
+</ul>
+<h3>partial rebuttal of the previous by robb, a plan9 author</h3>
+<p><a href="http://harmful.cat-v.org/software/andy_tanenbaum">src</a></p>
+<ul>
+<li>microkernels may not be the way to go for consumer software; plan9's kernel is much smaller than the linux kernel or any distributed system. [perhaps a monolithic kernel isn't the best for abstraction, but it offers much more compact functionality and better performance]</li>
+<li>unix as an application program? seems like an emulation layer that's way too difficult to approach</li>
+<li>enabling RPC but leaving it to the user to implement is silly and terrible. having to implement RPC standards for every userland program ruins the consistency of the system and any power necessary to maintain it</li>
+<li>async is not the answer to synchronous inneficiencies. they solve different problems!</li>
+<li>new languages are needed – they say no, but 29 years later i think the answer is an obvious yes – it's the lack of programming language development and higher level features, particularly in systems programming, that has hurt the user of such programs. languages like rust have carried a lot of the systems programming development, though its fixation with the imperfect LLVM</li>
+<li>distributed shared memory diss - i kind of agree</li>
+<li>if you have a good <em>process</em> model, you can ignore all of these process/thread distinctions and substantially simplify the machine. having both is a substantial flaw.</li>
+</ul>
+<h3>the reddit thread about rewriting unix-like</h3>
+<p><a href="https://www.reddit.com/r/linux/comments/kq4cet/if_a_linuxunix_was_rewritten_today_what_would_be/">src</a></p>
+<ul>
+<li>the user system was designed to protect the system from users rather than protecting users from malicious software, as is more often the case today. there are mitigations - 'hacks' like running each program 'in a container' with an isolated file system and new user, but this is a stopgap measure. proper single user environments should see real implementations; we don't share computers or systems as much as someone computing before the 80s would anticipate</li>
+<li><a href="https://www.youtube.com/watch?v=ZwjzfdLJtX4">cool video from leonard pottering</a> – making the user's data independent from the operating system means that you don't have to worry about reinstalling over it.</li>
+<li>config files need better and improved standards</li>
+<li>a standard way of parsing and returning command line inputs! if you standardize that <em>in the kernel</em>, then user programs trivially have to support identical interfaces! [there isn't that much space for creativity on the command line anyways…]</li>
+<li>shifting responsibility to things the user can't modify to guarantee consistency is excellent when done right - that is, when it's clear that there is a solution that will be liked or at least generally accepted. <a href="https://wiki.amigaos.net/wiki/Basic_Input_and_Output_Programming#Standard_Command_Line_Parsing">see the amigaos docs</a> <a href="https://clig.dev/">and command line standards document</a></li>
+<li>look into the selinux/apparmor permissions systems, just like what's implemented in android. these properly 'fix' the mermissions we have in mainline linux systems</li>
+</ul>
+<p>cool things about languages:</p>
+<ul>
+<li>nim: completely c interoperable; nimscript handles a lot</li>
+<li>zig: lightweight and memory safe</li>
+<li>rust: takes a significant amount of time to learn, a bit bloated, but a powerhouse and a joy to program in – particularly functionally</li>
+</ul>
+<p>the obvious one: why is piping plain text in and out the basis for an operating system? did ken thompson hate OO that much? microkernels are just better for software though, right?</p>
+<p>learn more about redox; it will be beneficial for the future <a href="https://doc.redox-os.org/book/ch01-05-why-redox.html">https://doc.redox-os.org/book/ch01-05-why-redox.html</a> <a href="../pages/os.org">Operating Systems</a> <a href="https://scattered-thoughts.net/writing/assorted-thoughts-on-zig-and-rust/">https://scattered-thoughts.net/writing/assorted-thoughts-on-zig-and-rust/</a> zig seems significantly easier to learn than rust while offering similar security, for the most part. it also seems to offer some ml style power, albeit without the syntax</p>
+<p>zig compilation is lazy, has very good support for cross-compilation. cool build system that differs from cargo and allows for the creation of arbitrary build systems</p>
+<p>zig has much lower cognitive overhead than rust, and seems better for faster development speed, but it doesnt have a good method for uaf escalation, data races, data sharing etc. rust lifetimes are cool and so are traits, but zig might have the facilities to implement them</p>
+<p><a href="https://en.wikipedia.org/wiki/Inferno_(operating_system)">https://en.wikipedia.org/wiki/Inferno_(operating_system)</a> sequel to plan9 - it even runs as a userspace application inside of the plan9 operating system. the fact that it provides an inbuilt virtual os is incredible. try this one out sometime when you want to learn more about os research. on android though? on nintendo ds????</p>
+<p>what's wrong with fork? some research:</p>
+<ul>
+<li><a href="https://www.microsoft.com/en-us/research/uploads/prod/2019/04/fork-hotos19.pdf">https://www.microsoft.com/en-us/research/uploads/prod/2019/04/fork-hotos19.pdf</a></li>
+<li><a href="https://drewdevault.com/2018/01/02/The-case-against-fork.html">https://drewdevault.com/2018/01/02/The-case-against-fork.html</a> the OOM killer…….. KnightOS? the spawn model, in which a new process is created and kept in limbo, then you can change its environment, pass it more file descriptors, and so forth until you're ready for the process to actually begin</li>
+</ul>

@@ -1,0 +1,157 @@
+<p>Small ideas for hackathons or small periods of time.</p>
+<p>These will each be eventually updated with their own posts as the ideas expand and they're given names.</p>
+<p>The name is the most important part of a project. Without a good name the project will fail.</p>
+<h1>Reddit Tree Navigation</h1>
+<p>Remember Prezi? You could click on different bubbles to navigate through a presentation nonlinearly, or could navigate it linearly with forward and backwards arrow keys.</p>
+<p>This has a lot of potential! Let's try it with Reddit threads. <a href="https://github.com/ssorallen/react-reddit-client">An example client to get started</a></p>
+<h2>UX</h2>
+<p>Visiting a reddit post and prefixing it with the reddit tree website's URL opens a window with the post's contents at the top of the webpage. Below this, there are lots of bubbles pseudorandomly scattered throughout the page. Their sizes are by default weighted by the number of upvotes on the comment, but they can be arranged by number of comments in the thread branching from the comment or some other metrics (TBD).</p>
+<p>Each bubble has the username, number of upvotes, and the prefix of the comment. They may have smaller bubbles visible to demonstrate the next layer of comments in the tree.</p>
+<p>Clicking on one of these bubbles does one of two things (not sure yet):</p>
+<ul>
+<li>Moves the bubble to the top right of the screen</li>
+<li>Replaces the text of the reddit post with that of the comment opened</li>
+</ul>
+<p>Either way, the user now has access to a back button to go 'back up' in the tree (we define clicking on a bubble as 'going down' the tree), and they also can see all of the comments descended from the currently open comment as first-class bubbles.</p>
+<p>Each of these pages will also havte a bubble with a plus sign on it in the bottom right of the page; clicking this opens a bubble that fills most of the screen, with the comment or post you're commenting on featured as a smaller bubble above it (perhaps it's visible as a semicircle under this bubble?). You can then make a reddit comment using the usual reddit facilities for this.</p>
+<h2>Production</h2>
+<h3>MVP</h3>
+<ul>
+<li>Visit a specific url on the reddit tree view website to open a reddit thread.</li>
+<li>View the post and each comment in a bubble.</li>
+<li>Click a bubble to view the next level of comments.</li>
+</ul>
+<h3>Enhanced UX</h3>
+<ul>
+<li>Tree view can be accessed by prefixing a reddit URL thread with our URL.</li>
+<li>Post bubbles are sized proportionally to their number of upvotes or some other ranking metric. You can see smaller bubbles around them that provide an estimate of the number of comments in their assoc. thread.</li>
+</ul>
+<h3>Usable for Reddit</h3>
+<ul>
+<li>The user can log in and make comments themselves.</li>
+</ul>
+<h3>Complete Product</h3>
+<p>Rather than providing alternate views to individual threads, the program can instead act as its own reddit client.</p>
+<p>The main page of the site functions just like Reddit's home page, only with bubbles for each subreddit. The bubbles are weighted proportional to the number of new posts, popularity of those posts or some other metric.</p>
+<p>When clicking on one of these subreddit bubbles, you open a secondary bubble view that showcases each post in the subreddit. A UI is provided to make new posts in the subreddit from this page.</p>
+<p>Clicking on an individual posts opens the fleshed out idea above, providing an alternative navigational experience for all of reddit.</p>
+<h1>Version Control for Music</h1>
+<p>Live coding is a good idea, but it's meant to be 'played'; current solutions for persisting livecoding information require recording, which compresses all of the structural information associated with the music, or meticulously copying and pasting code then saving it all.</p>
+<p>We can do better!</p>
+<p>A 'recording' mode for a live coding environment could be implemented.</p>
+<p>To start the recording mode, a new branch is created. Every time the file is updated and re-run, it's recorded as a git commit in a project's commit history. The commit message has notation demonstrating how long a certain commit was played (time from start of recording to first commit or from the last commit to the current one).</p>
+<p>When done recording, you can switch back to the main branch. The new branches are identified by a particular notation in the branch name to demonstrate that they were automatically created.</p>
+<p>These recordings can be:</p>
+<ul>
+<li>Played back. A menu is exposed to 'play' each of the created branches. When a branch is played, its first commit is run through the music interpreter for a specified amount of time, then the new commit is checked out and re-run; this is identical to a user manually editing the file and updating the played music, and tracks will only update if the code has been changed for them.</li>
+<li>Exported: this can be done in the same way tracks are played back.</li>
+<li>Converted to linear tracks. You can 'export' a branch to a linear arrangement to make it easier to edit and turn into a complete song without having to record it! This process generates the appropriate pauses in between the different parts of the music and loops to ensure that the different segments of the track are run at the right time and in the right order. This allows artists to take live coding projects that have been performed. convert them into full-fledged tracks, and export them without having to perform them.</li>
+</ul>
+<h1><span class="done DONE">DONE</span> Spell Check Hook</h1>
+<p>I hate improper spelling or formatting. A linter that checks for proper spelling in a project with git hooks! You won't be able to commit to your projecct until you fix those spelling errors.</p>
+<p>This is pretty easy with husky and eslint-plugin-spellcheck - - and it's a pain.</p>
+<h1>GitHub README Information Generators</h1>
+<p>These are tools dynamically queried by README files that show information about specific projects. They're lightweight and easily hosted. <a href="https://github.com/anuraghazra/github-readme-stats">https://github.com/anuraghazra/github-readme-stats</a> is a good place to start for learning how to make one such banner.</p>
+<p>Look into dynamically configuring and formatting text via a specific web query. Perhaps a server can be made to accept arbitrary html/css and output an image with this information?</p>
+<p>I'll also need a tool for converting such a file into a URL-compatible version, see <a href="https://stackoverflow.com/questions/1547899/which-characters-make-a-url-invalid#1547940">https://stackoverflow.com/questions/1547899/which-characters-make-a-url-invalid#1547940</a>.</p>
+<h1>Obscure programming languages web app</h1>
+<ul>
+<li>build it in cljs (clojurescript)</li>
+<li>provide interpreters for all of the silly obscure programming languages i can</li>
+<li>make it super easy for people new to the project to add and contribute more languages
+<ul>
+<li>support parsing BNF grammars and converting them into interpreters in the code as a sort of codegen, as a lot of the languages are specified using BNF</li>
+</ul></li>
+<li>reference: that one wiki. idea is to provide reference implementations for the reasonable ones to try out!</li>
+</ul>
+<h1>ETC</h1>
+<p>configure keybindings for multiple programs at once 'compile' to assign comprehensive keybindings to all utilities single point of control friendly, easy to use configuration langauge that can 'target' differnet things</p>
+<p>web search from terminal web search from rofi or something that just comes up that i can type into</p>
+<p>for projectional editing: provide clear auditory indications of different program behaviors to alarm us eg wiring up jenkins to unsuccessful deployments on different pipelines, different sounds for different themes</p>
+<p>pluggable sound system with insertable sound effects; able to hear two events occuring at identical intervals but it is difficult to see this in terms of time stamps!</p>
+<h1>working on linux</h1>
+<p>xournal for annotating pdf obs sdutio for webcam video audacity for autio editing video editing with openshot? pdfsandwich and tesseract ocr for searching pdfs qemo/kvm for virtual machines with almost native performance gnucash for accounting gimp for photo editing inkscape for vector graphics</p>
+<h1>org mode flow</h1>
+<p>org mode org board for offline archiving org capture for getting links from browser git repo for tracking histroy org-mind-map can be useful to visualize connections grep etc are useful for traversing everything!</p>
+<h1>working on os</h1>
+<p>richard stallman: live cheaply eric raymond: be independently wealthy large, talented people: identify and support important or promising open source projects. focus on how to improve the livelihoods of funding open source software and interfacing with it</p>
+<h1>learning from casual friends</h1>
+<ul>
+<li>find the person at the office who knows things and buy them a beer!</li>
+</ul>
+<p>become friends with amazing programmers. care about them and listen to their frustrations we have lots of 'tribal knowledge' that comes out but that we do not fully understand or internalize</p>
+<p>making sense of all of the information :: mandate making content. to make this content, you have to first learn – really understand – the content. to take an online class, you work towards some certification or end goal with which yuo can demonstrate the work. always do something to add to github at least. if you produce more, you will always learn more</p>
+<p>do not need to be good at all of the things; find a balance between being average in many topics and good in a few topics. getting a job means you know enough about enough! bounce around and learn more about more until you find something that really sticks.</p>
+<p>one of the best ways to learn a tool is by using it at work – you're mandated to use it.get a job to learn the thing you want to learn! it's not possible to do <strong>everything</strong> in your spare time, after all solve problems around you without asking permission</p>
+<h2>three steps</h2>
+<p><a href="https://www.jjude.com/sdl/">sdl</a> consume, produce and engage. first, lookfor the best articles, books videos on the topic and devour them then produce something – blog post, slides, illustration to contextualize the learning finally, share with others get feedback and perfect the opinion. can now make closet to a complete picture</p>
+<p>keep a running google doc; append anything interesting to it. go back to it every once and awhile to reinforce the ideas!</p>
+<p>blog :: keep <strong>logs</strong> of different categories and ideas. expand them as needed. by always working on the most interesting problem available, you have endless motivation. with this motivation you will not have incentive to quit! find the passion. thomas huxkey – a good liberal education is to know something about everything and everything about something. go deep on what you want to work in but become broad in skills with everything else.</p>
+<h1>couchsurfing</h1>
+<p>stay at strangers place entirely for free anything you ant it t be – fill out profile with detail and you can pick out whoever you want to host get ot meet incredible people and bring incredible people into ur home as both a host and proprietor! try this when u move off campus to see who u can meet . if its still around</p>
+<p>crossing the red line :: going from a basic feeling to a constant frustration, beyond such a frustration to this feeling that you can do much more than you thought you could do. the mind accepts even as the body tires, and that the mind has no use – you are now mind over matter, and can keep going if you need to because you've triumphed!</p>
+<h1>webrtc signal strategies</h1>
+<p>websockets xhr and complete options sip over websockets xmpp/jungle webrtc data channel</p>
+<p>sitting alone ate the crack of dawn makes me feel like my day has purpose leaders must own everything in their world. there is no one else to blame</p>
+<h1>finding time wfh</h1>
+<p>find alone time while off work go for a drive at least once a day make sure to have a sit down meal with family set boundaries, make sure people know when you are working give other free time as well! get away from work and clear your mind the most important thing to do is to avoid thinking about work when you are not doing it</p>
+<p>think of someone you love but do not see often. how many more times will you be able to see that person? how important is each of those meetings?</p>
+<p>how lucky i am to have something that makes goddbye so hard they say nothing is impossible, but i do nothing every day</p>
+<p>git rebase –interactive</p>
+<p>optimizing resumes add relevant words to electronic resumes in white letters on whitee background add quotes from company websites or job postings in white letters on white space get resume actually seen by everyone!</p>
+<p>fastcompany avoid tracking analyze daily movementa nd anchor points as well as doramnt periods leave cell phone behind during dormant periods and purchase prepaid no contract cell store burner phone in faraday bag and activate with clean computer on public wifi network encrypt number using otp and rename image file with code. use tor to post image to anon twitter account, signalling communications request with a partner leave cell behind, avoid anchor points, and receive phone call at prearranged time, then destroy handset</p>
+<p>computers are useless.they only give you answers. pablo picasso i refuse to do anything that computers can do - olin shivers</p>
+<p>think of meat as a side dish, not as a meal</p>
+<h1>NEXT Experiments</h1>
+<p><a href="https://garten.stordahl.dev/">https://garten.stordahl.dev/</a> some inspo</p>
+<p>A website, similar to a 'portfolio', that highlights a bunch of cool experiments I have going on with regards to web design.</p>
+<p>The main page, <a href="https://experiments.chvatal.com">https://experiments.chvatal.com</a>, provides an interface for easily browsing each of these without using any JavaScript (or minimizing its usage). It allows users to easily browse the different sample applications – potentially as inner HTML frames, but they could be in amy form. Users should have access to a preview of the experiments in some way.</p>
+<p>Regardless of presentation, the website should contain a folder of git submodules – each corresponding to one of the 'experiments'. These experiments are added to the final static site as links when the website is uploaded as part of a CI action or similar, though this can initially be done manually. Each submodule should display a website and should host itself in a subdirectory of 'experiments'.</p>
+<h1>NEXT Portfolio</h1>
+<p>I've been thinking that my single page introduction isn't quite enough for employers, and that it might be good to add a portfolio with writeups to document each of my projects.</p>
+<p>Maybe I could do this in a cool, nonlinear way, like SSENSE does or similar to how the minimal photography websites approach things. Think about how I can write about my projects and include them in a portfolio.</p>
+<p>Ideally I link the repositories and the description for the project is pulled from the README of each repository so I don't have to do any additional writing. These READMEs should already include appropriate screenshots, and whatever tool configures the portfolio website should be able to render these. (It could also take the GitHub summary line and make that the headline for the project!)</p>
+<p>Perhaps 'experiments' and 'portfolio' are one and the same; perhaps 'experiments' is completely abstract while 'portfolio' is concrete and professional. What's the best way to tackle this?</p>
+<h1>Idea journal with notes</h1>
+<p>i think i need a better idea of what i want first, this is kind of just logseq mobile at this point lol social network features really interest me though, like how we interact with things and all</p>
+<ol>
+<li>very basic android app</li>
+</ol>
+<ul>
+<li>take note</li>
+<li>note recorded with geolocation, some other info</li>
+</ul>
+<ol>
+<li>backend for the notes</li>
+</ol>
+<ul>
+<li>plaintext? git?</li>
+</ul>
+<ol>
+<li>map viz</li>
+<li>social network features</li>
+<li>federation? use react-leaflet on desktop (!!)</li>
+</ol>
+<h1>canary</h1>
+<p>simple app: asks once per week if you're alive or have any problems you respond with yes, no, whatever if you haven't responded in more than two weeks (the servre handles this), an email is sent to designated people (ie parents) to notify them able to provide additional information for 'status update' to let them know how you're doing briefly further conversaiton cna be synchronous of course</p>
+<h1>the idea chat!</h1>
+<ul>
+<li>tags :;<a href="wiki.org">Wiki</a>, <a href="quantified-self.org">Quantified Self</a></li>
+</ul>
+<p><a href="https://t.co/WR8o4OwBeT?amp=1">https://t.co/WR8o4OwBeT?amp=1</a> this is that shit we've been waiting for i would love to spend some time developing an ecosystem with the platform <a href="https://tfh.mit.edu/">https://tfh.mit.edu/</a> i think i like twitter and similar platforms as much as i do chat interfaces; i wonderif there's a way to combine these ideas with those from social media</p>
+<h1>hack idea: nixOS gui</h1>
+<ul>
+<li>tags ::<a href="nix.org"> Nix</a>, <a href="os.org">Operating Systems</a></li>
+</ul>
+<p>primarily leverages home-manager and that kind of thing allows you to pick different programs you want to install on your system based on a nice gallery that supports a subset of the `nixpkgs` repo you can select your system type: e.g. arm, etc this should be for nontechnical users that want to use linux, so they don't have to mess with nix's underlying data if they don't want to, but they have a nice interface to their code a needed – they can bring back up their program launcher thing and add, update, or roll back programs and systems as needed without touching the nix cli!</p>
+<h1>generative music</h1>
+<p>yes</p>
+<h1>Generative poems</h1>
+<p>inspiration:</p>
+<ul>
+<li><a href="https://wiki.xxiivv.com/site/the_will_the_wisp.html">https://wiki.xxiivv.com/site/the_will_the_wisp.html</a></li>
+</ul>
+<h1>General Ideas</h1>
+<p><a href="https://github.com/Rolstenhouse/unofficial-apis">unofficial apis</a></p>
+<h1><span class="todo TODO">TODO</span> automate tinder</h1>
+<p>make requests to randomly swipe or matching spotify profiles or matching face / gender factors</p>

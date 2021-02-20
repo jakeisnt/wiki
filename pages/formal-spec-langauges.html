@@ -1,0 +1,30 @@
+<h1>From Hillel Wayne's writing</h1>
+<p>A notation to describe the design of a system without implementing it. Can test the <strong>design</strong> for bugs rather than the implementation.</p>
+<h2>Examples</h2>
+<dl>
+<dt><a href="https://en.wikipedia.org/wiki/Z_notation">z</a></dt>
+<dd>The first specification language to reach widespread use. Relies on set theory to describe states and schemas to describe behavior, first catalogued as a way of managing 'data semantics'.
+</dd>
+<dt><a href="https://alloytools.org">Alloy</a></dt>
+<dd>A response to Z's complex syntax and tooling. Alloy is an attempt to simplify both of these, specifying everything as either a type signature or relationship between signatures. Alloy is popular for SAT problems and models; it easily visualizes models to share properties with nontechnical people as well. This would be the tool to try!
+</dd>
+</dl>
+<ul>
+<li><p><a href="https://en.wikipedia.org/wiki/TLA%2B">TLA^+</a> is a formal specification langauge used to model concurrent and distributed systems; it's best respected as testable pseudocode and is similar to the drawing of blueprints for complex software systems. It is also designed to check liveness properties of systems.</p>
+<p><a href="https://medium.com/espark-engineering-blog/formal-methods-in-practice-8f20d72bce4f">Hillel</a> has a good article on modeling a complex system in the software development world with formal methods.</p></li>
+<li><p>Prism :: Used to model <strong>probabilistic</strong> specifications, in which different things have different chances of happening and events are all dependent. Its syntax is very restrictive in order to be tractable, but the opportunity to model probabilistic systems is incredible.</p></li>
+<li><p>Spin :: As expressive as TLA+, but written to model network protocols.</p></li>
+</ul>
+<p>There are a lot more, but I'll investigate them further as I learn more.</p>
+<h1>Terms</h1>
+<dl>
+<dt>Temporal logic</dt>
+<dd>Extending standard mathematical notation to allow temporal logic to change over time. Temporal logic of actions is a subset of this concept that scales to real world systems.
+</dd>
+<dt>Liveness properties</dt>
+<dd>Similar to the definition in the compiler sphere, liveness properties are properties of systems that must <em>eventually</em> be true for the spec to be valid.
+</dd>
+</dl>
+<h1>etc</h1>
+<p><a href="https://github.com/wimmers/munta">https://github.com/wimmers/munta</a> <a href="https://melcer.dev/projects.html">https://melcer.dev/projects.html</a></p>
+<p><a href="https://mobile.twitter.com/EremondiJoey/status/1314319848592216064">Joey Eremondi on Twitter: &amp;quot;Has anyone seen a &amp;quot;reference&amp;quot; implementation of an SMT solver? Not one that is fast like Z3 or CVC4, but one that implements the algorithm in a fairly straightforward way that&amp;#39;s slow but grokkable. I&amp;#39;m particularly interested in how it handles uninterpreted functions (UF).&amp;quot; / Twitter</a> <a href="https://www.hillelwayne.com/post/alloydocs/">alloy: the neat formal method</a> <a href="http://www.ccs.neu.edu/home/pete/courses/Computer-Aided-Reasoning/2018-Fall/">http://www.ccs.neu.edu/home/pete/courses/Computer-Aided-Reasoning/2018-Fall/</a></p>

@@ -1,9 +1,0 @@
-<html><html><head><meta charset="UTF-8" /><meta content="width=device-width, initial-scale=1.0" name="viewport" /><link href="https://jakeisnt.github.io/wiki/static/css/firn_base.css" rel="stylesheet" /></head></html><body><main><article class="content"><h1>tricks for linux system</h1><div><div><section></section><div class="firn-headline-section firn-headline-section-1"><h1 class="firn-headline firn-headline-1" id="enable-pulseaudio-noise-cancellation"><span class="firn-headline-text"><span>enable pulseaudio noise cancellation</span></span></h1><section><p><span>put in /etc/pulse/default.pa:</span></p><pre class="language-sh"><code class="language-sh">load-module module-echo-cancel use_master_format=1 aec_method=webrtc aec_args="analog_gain_control=0\ digital_gain_control=1" source_name=echoCancel_source sink_name=echoCancel_sink
-set-default-source echoCancel_source
-set-default-sink echoCancel_sink
-</code></pre></section></div><div class="firn-headline-section firn-headline-section-1"><h1 class="firn-headline firn-headline-1" id="docker-troubleshooting"><span class="firn-headline-text"><span>docker troubleshooting</span></span></h1><section><pre class="language-sh"><code class="language-sh"># remove all containers
-docker rmi $(docker images -a -q)
-# stop all running containers
-docker stop $(docker ps -a -q)
-</code></pre></section></div><div class="firn-headline-section firn-headline-section-1"><h1 class="firn-headline firn-headline-1" id="pranks"><span class="firn-headline-text"><span>Pranks</span></span></h1><section><p><span>https://github.com/mathiasbynens/evil.sh
-https://github.com/zeroby0/pranks#7-change-editors</span></p></section></div></div></div></article></main></body></html>

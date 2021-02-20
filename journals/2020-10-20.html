@@ -1,0 +1,48 @@
+<h2>09:59 the future of community</h2>
+<p><a href="https://thesephist.com/posts/community-possibility/">src</a></p>
+<ul>
+<li><p>radically easier to create new communities</p></li>
+<li><p>easier to find members to scale</p></li>
+<li><p>people look to nurture small communities for growth</p>
+<p>it's so easy to find places to gather together!</p>
+<ul>
+<li>Rume</li>
+<li>Gather.Town</li>
+<li>Icebreaker</li>
+<li>Discord</li>
+</ul></li>
+</ul>
+<p>focusing on people connecting with each other and bootstrapping communities</p>
+<ul>
+<li>Commsor</li>
+<li>People &amp; Company</li>
+</ul>
+<p>as the public web becomes too crowded, entertainers continue to build in public, but the rest of us look for smaller, more private spaces; connecting everyone means that nobody has a true community, so people are driving towards smaller, intentionally brewed community groups</p>
+<p>how to bootstrap</p>
+<ul>
+<li>tribal knowledge</li>
+<li>tools are cruel and disconnected</li>
+</ul>
+<p>what are the 'best practices' for starting a small community? evetns? meetups? traditions? customs? subgroups? how can these be encouraged? mandated?</p>
+<p><a href="https://www.sohohouse.com/en-us/membership">https://www.sohohouse.com/en-us/membership</a></p>
+<h2>21:16 learned sorting algorithm case</h2>
+<p><a href="https://blog.acolyer.org/2020/10/16/the-case-for-a-learned-sorting-algorithm/">src</a> <a href="https://dl.acm.org/doi/10.1145/3318464.3389752">og paper</a> Learned sort :: beter performance than RadixSort <strong>including</strong> time to train model</p>
+<ul>
+<li>build a CDF of the data</li>
+<li>put each item into position estimated by the CDF</li>
+<li>use sorting algorithm very efficient with nearly sorted arrays</li>
+</ul>
+<p>solving collisions:</p>
+<ul>
+<li>scan for nearest vacant slot</li>
+<li>list of elements for each position</li>
+<li>spill bucket merged to the end of the array</li>
+</ul>
+<p>'experimentally', spill bucket worked the best</p>
+<p>lost to radix sort because of a sequential cache; make it cache efficient? use model prediction to bin the elements, not just insert them!</p>
+<p>first phase: cascading fucket sort, making predictions to put input elements into one of f ordered buckets</p>
+<p>after buckets of size t, each are sorted using the model predictions to put elements in the right position within the bucket concat the buckets in order merge and sort the spilled bucket with the others!</p>
+<p>model!</p>
+<ul>
+<li>linear spline fitting for training what is this? learn it if you want to come back! leads to faster training and fewer key slots used</li>
+</ul>

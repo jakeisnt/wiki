@@ -1,0 +1,23 @@
+<p>Checking and interacting with mail.</p>
+<h1>Etc</h1>
+<p><a href="https://dbp.io/essays/2013-06-29-hackers-replacement-for-gmail.html">https://dbp.io/essays/2013-06-29-hackers-replacement-for-gmail.html</a> <a href="https://www.reddit.com/r/selfhosted/comments/ha1ikl/best_vps_for_email_server/">https://www.reddit.com/r/selfhosted/comments/ha1ikl/best_vps_for_email_server/</a> <a href="https://dbp.io/essays/2018-01-01-home-backups.html">https://dbp.io/essays/2018-01-01-home-backups.html</a> backing up is important!</p>
+<p>email ideas:</p>
+<ul>
+<li>generate arb. email name with the same domain per website, using email similar to web name</li>
+<li>fwd these emails to central repo</li>
+<li>know exactly what service these emails came from</li>
+<li>quick frontend to generate these email addresses/inboxes for subscriptions</li>
+</ul>
+<p><a href="https://github.com/tomav/docker-mailserver/blob/master/README.md">https://github.com/tomav/docker-mailserver/blob/master/README.md</a> <a href="https://github.com/icyphox/mael">https://github.com/icyphox/mael</a> <a href="https://www.reddit.com/r/NEU/comments/hiqe2r/a_minimal_guide_to_sending_emails_through_office/">sending mail through office365</a> <a href="https://stevelosh.com/blog/2012/10/the-homely-mutt/">https://stevelosh.com/blog/2012/10/the-homely-mutt/</a> <a href="http://matt.might.net/articles/how-to-email/">http://matt.might.net/articles/how-to-email/</a> <a href="https://en.m.wikipedia.org/wiki/Anonymous_remailer">https://en.m.wikipedia.org/wiki/Anonymous_remailer</a> <a href="https://alot.readthedocs.io/en/latest/">https://alot.readthedocs.io/en/latest/</a> <a href="https://notmuchmail.org/frontends/">https://notmuchmail.org/frontends/</a></p>
+<p>you should probably use plaintext email instead of html most of the time: <a href="https://useplaintext.email/">https://useplaintext.email/</a></p>
+<h1>Setting up a NixOS email server</h1>
+<p>I used Vultr's VPS; install NixOS with it <a href="https://www.vultr.com/docs/install-nixos-on-vultr">adding the ISO with these instructions</a>, or using the ISO included with Vultr. (You'll still have to manually partition and install NixOS though).</p>
+<p>There are several nice preconfigured mail server options. I chose <a href="https://gitlab.com/simple-nixos-mailserver/nixos-mailserver/-/tree/nixos-20.09/mail-server/dovecot/imap_sieve">nixos-simple-mailserver</a> and run NixOS 20.09, managed with flakes and merged into my system configurations. <a href="https://nixos-mailserver.readthedocs.io/en/latest/index.html">The documentation</a> for the mail server is superb. <a href="https://timput.com/posts/mailserver.html">This article</a> might also be useful but could be dated.</p>
+<p>As part of the instructions, you'll have to set up a reverse DNS record. <a href="https://www.vultr.com/docs/how-to-create-reverse-dns-or-ptr-records-in-the-vultr-control-panel">Here's</a> how you handle that for Vultr.</p>
+<p>On Namecheap, the DNS records took several hours to propagate. The LetsEncrypt certificates in this mail server cannot be issued until your DNS records go into effect, so be patient until this happens.</p>
+<p><a href="http://www.asciiribbon.org/">use plain html email</a></p>
+<h1>Thunderbird configuration</h1>
+<ul>
+<li>Add new calendar with the specific calendar link off Radicale (Counted as calendar <em>account</em> on android but just one calendar on thunderbird)</li>
+<li>CardBook extension to synchronize contacts over CardDAV</li>
+</ul>

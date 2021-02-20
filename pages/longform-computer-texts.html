@@ -1,0 +1,770 @@
+<p>Feed: Pascal's Scribbles Title: Long-form Texts on Interesting Details of Computers Date: Wed, 15 Apr 2020 18:00:00 -0400 Link: <a href="https://deterministic.space/several-months-of-reading-material.html">https://deterministic.space/several-months-of-reading-material.html</a></p>
+<p>It seems especially recently I’ve come across more and more long-form texts (think: hour-long blog posts; free books; series of posts). I especially like the ones that go into the very fine details of some niche topic and maybe also ramble a bit about completely unrelated but highly entertaining asides. And while I will probably never have enough time to read them all, I decided to at least collect some of them here for future reference. I’ll do my best to add summaries, and to update this list semi-regularly.</p>
+<p>Contents</p>
+<ul>
+<li>“Learn Rust With Entirely Too Many Linked Lists” by Alexis Beingessner<a href="#fn1" class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a></li>
+<li>“Programming Algorithms” by Vsevolod Domkin<a href="#fn2" class="footnote-ref" id="fnref2" role="doc-noteref"><sup>2</sup></a></li>
+<li>“Aspects of Rust” by multiple people<a href="#fn3" class="footnote-ref" id="fnref3" role="doc-noteref"><sup>3</sup></a></li>
+<li>“Reading files the hard way” by Amos Wenger<a href="#fn4" class="footnote-ref" id="fnref4" role="doc-noteref"><sup>4</sup></a></li>
+<li>“Making our own ping” by Amos Wenger<a href="#fn5" class="footnote-ref" id="fnref5" role="doc-noteref"><sup>5</sup></a></li>
+<li>“Making our own executable packer” by Amos Wenger<a href="#fn6" class="footnote-ref" id="fnref6" role="doc-noteref"><sup>6</sup></a></li>
+<li>“Parsing” by Aleksey Kladov<a href="#fn7" class="footnote-ref" id="fnref7" role="doc-noteref"><sup>7</sup></a></li>
+<li>“JavaScript Allongé” by Reg “raganwald” Braithwaite<a href="#fn8" class="footnote-ref" id="fnref8" role="doc-noteref"><sup>8</sup></a></li>
+<li>“Crafting Interpreters” by Robert Nystrom<a href="#fn9" class="footnote-ref" id="fnref9" role="doc-noteref"><sup>9</sup></a></li>
+<li>“A relatively simple Datalog engine in Rust” by Frank McSherry<a href="#fn10" class="footnote-ref" id="fnref10" role="doc-noteref"><sup>10</sup></a></li>
+<li>“Non-lexical lifetimes” by Niko Matsakis<a href="#fn11" class="footnote-ref" id="fnref11" role="doc-noteref"><sup>11</sup></a></li>
+<li>“Shifgrethor” by Without Boats<a href="#fn12" class="footnote-ref" id="fnref12" role="doc-noteref"><sup>12</sup></a></li>
+<li>“Rayon/Parallel Iterators” by Niko Matsakis<a href="#fn13" class="footnote-ref" id="fnref13" role="doc-noteref"><sup>13</sup></a></li>
+<li>“How Rust optimizes async/await” by Tyler Mandry<a href="#fn14" class="footnote-ref" id="fnref14" role="doc-noteref"><sup>14</sup></a></li>
+<li>“Writing an OS in Rust” by Philipp Oppermann<a href="#fn15" class="footnote-ref" id="fnref15" role="doc-noteref"><sup>15</sup></a></li>
+<li>“Learning Parser Combinators With Rust” by Bodil Stokke<a href="#fn16" class="footnote-ref" id="fnref16" role="doc-noteref"><sup>16</sup></a></li>
+<li>“Manish vs. ASCII” by Manish Goregaokar<a href="#fn17" class="footnote-ref" id="fnref17" role="doc-noteref"><sup>17</sup></a></li>
+<li>“The Wayland Protocol” by Drew DeVault<a href="#fn18" class="footnote-ref" id="fnref18" role="doc-noteref"><sup>18</sup></a></li>
+</ul>
+<p>“Learn Rust With Entirely Too Many Linked Lists<a href="#fn19" class="footnote-ref" id="fnref19" role="doc-noteref"><sup>19</sup></a>” by Alexis Beingessner</p>
+<p>(~180 pages; archived<a href="#fn20" class="footnote-ref" id="fnref20" role="doc-noteref"><sup>20</sup></a>)</p>
+<p>The premise of this book is that writing a linked list is a beginner’s exercise in C but quite difficult to get right in Rust. So it takes that as an opportunity to do just what the title says: It teaches you Rust by implementing a linked list type in Rust, in five (as of April 2020) different ways.</p>
+<p>Niches: data structures; linked lists; rust; smart pointers</p>
+<p>Last update I saw: 2019-03-21</p>
+<p>“Programming Algorithms<a href="#fn21" class="footnote-ref" id="fnref21" role="doc-noteref"><sup>21</sup></a>” by Vsevolod Domkin</p>
+<p>(~300 pages; archived<a href="#fn22" class="footnote-ref" id="fnref22" role="doc-noteref"><sup>22</sup></a>)</p>
+<p>Book covering a lot of different data structures and algorithms. “Its aim is to systematically explain how to write efficient programs and, also, the approaches and tools for determining why the program isn’t efficient enough.”</p>
+<p>Niches: data structures; algorithms; lisp</p>
+<p>Last update I saw: 2020-04-16</p>
+<p>“Aspects of Rust” by multiple people</p>
+<p>Several stand-alone posts by various people whose only connection is that they cover nice aspects of Rust.</p>
+<p>Niches: rust</p>
+<ol>
+<li><p>A half-hour to learn Rust<a href="#fn23" class="footnote-ref" id="fnref23" role="doc-noteref"><sup>23</sup></a> (archived<a href="#fn24" class="footnote-ref" id="fnref24" role="doc-noteref"><sup>24</sup></a>)</p>
+<p>Whirlwind tour through Rust as a language by Amos Wenger.</p></li>
+<li><p>Typed Key Pattern<a href="#fn25" class="footnote-ref" id="fnref25" role="doc-noteref"><sup>25</sup></a> (archived<a href="#fn26" class="footnote-ref" id="fnref26" role="doc-noteref"><sup>26</sup></a>)</p>
+<p>By Aleksey Kladov.</p></li>
+<li><p>The Secret Life of Cows<a href="#fn27" class="footnote-ref" id="fnref27" role="doc-noteref"><sup>27</sup></a> (archived<a href="#fn28" class="footnote-ref" id="fnref28" role="doc-noteref"><sup>28</sup></a>)</p>
+<p>The Clone-on-Write smart pointer explained by yours truly.</p></li>
+<li><p>Newtype Index Pattern<a href="#fn29" class="footnote-ref" id="fnref29" role="doc-noteref"><sup>29</sup></a> (archived<a href="#fn30" class="footnote-ref" id="fnref30" role="doc-noteref"><sup>30</sup></a>)</p>
+<p>By Aleksey Kladov.</p></li>
+<li><p>How to implement a trait for &amp;str and &amp;[&amp;str]<a href="#fn31" class="footnote-ref" id="fnref31" role="doc-noteref"><sup>31</sup></a> (archived<a href="#fn32" class="footnote-ref" id="fnref32" role="doc-noteref"><sup>32</sup></a>)</p>
+<p>Some musing on traits and borrows by yours truly.</p></li>
+<li><p>Declarative memory management<a href="#fn33" class="footnote-ref" id="fnref33" role="doc-noteref"><sup>33</sup></a> (archived<a href="#fn34" class="footnote-ref" id="fnref34" role="doc-noteref"><sup>34</sup></a>)</p>
+<p>By Amos Wenger. Introducing the complexities of memory management and the ways Rust tries to represent them in a nice roundabout way.</p></li>
+<li><p>Return-type based dispatch<a href="#fn35" class="footnote-ref" id="fnref35" role="doc-noteref"><sup>35</sup></a> (archived<a href="#fn36" class="footnote-ref" id="fnref36" role="doc-noteref"><sup>36</sup></a>)</p>
+<p>By yours. By specifying at some later point in the code which type you want your function to return, the compiler can go back and fill in the blanks.</p></li>
+<li><p>Working with strings in Rust<a href="#fn37" class="footnote-ref" id="fnref37" role="doc-noteref"><sup>37</sup></a> (archived<a href="#fn38" class="footnote-ref" id="fnref38" role="doc-noteref"><sup>38</sup></a>)</p>
+<p>By Amos Wenger. Following the memory management post, this looks at how strings are actually pretty complicated and what Rust does about them.</p></li>
+</ol>
+<p>“Reading files the hard way” by Amos Wenger</p>
+<p>Writing files seems like a solved problem. But that doesn’t mean we can’t solve it again from scratch.</p>
+<p>Niches: POSIX; file systems; syscalls</p>
+<ol>
+<li>Part 1 (node.js, C, rust, strace)<a href="#fn39" class="footnote-ref" id="fnref39" role="doc-noteref"><sup>39</sup></a> (archived<a href="#fn40" class="footnote-ref" id="fnref40" role="doc-noteref"><sup>40</sup></a>)</li>
+<li>Part 2 (x86 asm, linux kernel)<a href="#fn41" class="footnote-ref" id="fnref41" role="doc-noteref"><sup>41</sup></a> (archived<a href="#fn42" class="footnote-ref" id="fnref42" role="doc-noteref"><sup>42</sup></a>)</li>
+<li>Part 3 (ftrace, disk layouts, ext4)<a href="#fn43" class="footnote-ref" id="fnref43" role="doc-noteref"><sup>43</sup></a> (archived<a href="#fn44" class="footnote-ref" id="fnref44" role="doc-noteref"><sup>44</sup></a>)</li>
+</ol>
+<p>“Making our own ping” by Amos Wenger</p>
+<ol>
+<li>A short (and mostly wrong) history of computer networking<a href="#fn45" class="footnote-ref" id="fnref45" role="doc-noteref"><sup>45</sup></a> (archived<a href="#fn46" class="footnote-ref" id="fnref46" role="doc-noteref"><sup>46</sup></a>)</li>
+<li>Windows dynamic libraries, calling conventions, and transmute<a href="#fn47" class="footnote-ref" id="fnref47" role="doc-noteref"><sup>47</sup></a></li>
+</ol>
+<p>(archived<a href="#fn48" class="footnote-ref" id="fnref48" role="doc-noteref"><sup>48</sup></a>)</p>
+<ol>
+<li>FFI-safe types in Rust, newtypes and MaybeUninit<a href="#fn49" class="footnote-ref" id="fnref49" role="doc-noteref"><sup>49</sup></a> (archived<a href="#fn50" class="footnote-ref" id="fnref50" role="doc-noteref"><sup>50</sup></a>)</li>
+<li>Designing and implementing a safer API on top of LoadLibrary<a href="#fn51" class="footnote-ref" id="fnref51" role="doc-noteref"><sup>51</sup></a></li>
+</ol>
+<p>(archived<a href="#fn52" class="footnote-ref" id="fnref52" role="doc-noteref"><sup>52</sup></a>)</p>
+<ol>
+<li>A simple ping library, parsing strings into IPv4 address<a href="#fn53" class="footnote-ref" id="fnref53" role="doc-noteref"><sup>53</sup></a> (archived<a href="#fn54" class="footnote-ref" id="fnref54" role="doc-noteref"><sup>54</sup></a>)</li>
+<li>The builder pattern, and a macro that keeps FFI code DRY<a href="#fn55" class="footnote-ref" id="fnref55" role="doc-noteref"><sup>55</sup></a> (archived<a href="#fn56" class="footnote-ref" id="fnref56" role="doc-noteref"><sup>56</sup></a>)</li>
+<li>Finding the default network interface through WMI<a href="#fn57" class="footnote-ref" id="fnref57" role="doc-noteref"><sup>57</sup></a> (archived<a href="#fn58" class="footnote-ref" id="fnref58" role="doc-noteref"><sup>58</sup></a>)</li>
+<li>Binding C APIs with variable-length structs and UTF-16<a href="#fn59" class="footnote-ref" id="fnref59" role="doc-noteref"><sup>59</sup></a> (archived<a href="#fn60" class="footnote-ref" id="fnref60" role="doc-noteref"><sup>60</sup></a>)</li>
+<li>Consuming Ethernet frames with the nom crate<a href="#fn61" class="footnote-ref" id="fnref61" role="doc-noteref"><sup>61</sup></a> (archived<a href="#fn62" class="footnote-ref" id="fnref62" role="doc-noteref"><sup>62</sup></a>)</li>
+</ol>
+<ol>
+<li>Improving error handling - panics vs. proper errors<a href="#fn63" class="footnote-ref" id="fnref63" role="doc-noteref"><sup>63</sup></a> (archived<a href="#fn64" class="footnote-ref" id="fnref64" role="doc-noteref"><sup>64</sup></a>)</li>
+<li>Parsing IPv4 packets, including numbers smaller than bytes<a href="#fn65" class="footnote-ref" id="fnref65" role="doc-noteref"><sup>65</sup></a></li>
+</ol>
+<p>(archived<a href="#fn66" class="footnote-ref" id="fnref66" role="doc-noteref"><sup>66</sup></a>)</p>
+<ol>
+<li>Parsing and serializing ICMP packets with cookie-factory.<a href="#fn67" class="footnote-ref" id="fnref67" role="doc-noteref"><sup>67</sup></a> (archived<a href="#fn68" class="footnote-ref" id="fnref68" role="doc-noteref"><sup>68</sup></a>)</li>
+<li>Crafting ARP packets to find a remote host’s MAC address<a href="#fn69" class="footnote-ref" id="fnref69" role="doc-noteref"><sup>69</sup></a> (archived<a href="#fn70" class="footnote-ref" id="fnref70" role="doc-noteref"><sup>70</sup></a>)</li>
+<li>Crafting ICMP-bearing IPv4 packets with the help of bitvec<a href="#fn71" class="footnote-ref" id="fnref71" role="doc-noteref"><sup>71</sup></a></li>
+</ol>
+<p>(archived<a href="#fn72" class="footnote-ref" id="fnref72" role="doc-noteref"><sup>72</sup></a>)</p>
+<p>“Making our own executable packer” by Amos Wenger</p>
+<ol>
+<li>What’s in a Linux executable?<a href="#fn73" class="footnote-ref" id="fnref73" role="doc-noteref"><sup>73</sup></a> (archived<a href="#fn74" class="footnote-ref" id="fnref74" role="doc-noteref"><sup>74</sup></a>)</li>
+<li>Running an executable without exec<a href="#fn75" class="footnote-ref" id="fnref75" role="doc-noteref"><sup>75</sup></a> (archived<a href="#fn76" class="footnote-ref" id="fnref76" role="doc-noteref"><sup>76</sup></a>)</li>
+<li>Position-independent code<a href="#fn77" class="footnote-ref" id="fnref77" role="doc-noteref"><sup>77</sup></a> (archived<a href="#fn78" class="footnote-ref" id="fnref78" role="doc-noteref"><sup>78</sup></a>)</li>
+<li>ELF relocations<a href="#fn79" class="footnote-ref" id="fnref79" role="doc-noteref"><sup>79</sup></a> (archived<a href="#fn80" class="footnote-ref" id="fnref80" role="doc-noteref"><sup>80</sup></a>)</li>
+<li>The simplest shared library<a href="#fn81" class="footnote-ref" id="fnref81" role="doc-noteref"><sup>81</sup></a> (archived<a href="#fn82" class="footnote-ref" id="fnref82" role="doc-noteref"><sup>82</sup></a>)</li>
+<li>Loading multiple ELF objects<a href="#fn83" class="footnote-ref" id="fnref83" role="doc-noteref"><sup>83</sup></a> (archived<a href="#fn84" class="footnote-ref" id="fnref84" role="doc-noteref"><sup>84</sup></a>)</li>
+<li>Dynamic symbol resolution<a href="#fn85" class="footnote-ref" id="fnref85" role="doc-noteref"><sup>85</sup></a> (archived<a href="#fn86" class="footnote-ref" id="fnref86" role="doc-noteref"><sup>86</sup></a>)</li>
+<li>Dynamic linker speed and correctness<a href="#fn87" class="footnote-ref" id="fnref87" role="doc-noteref"><sup>87</sup></a> (archived<a href="#fn88" class="footnote-ref" id="fnref88" role="doc-noteref"><sup>88</sup></a>)</li>
+<li>GDB scripting and Indirect functions<a href="#fn89" class="footnote-ref" id="fnref89" role="doc-noteref"><sup>89</sup></a> (archived<a href="#fn90" class="footnote-ref" id="fnref90" role="doc-noteref"><sup>90</sup></a>)</li>
+</ol>
+<ol>
+<li>Safer memory-mapped structures<a href="#fn91" class="footnote-ref" id="fnref91" role="doc-noteref"><sup>91</sup></a> (archived<a href="#fn92" class="footnote-ref" id="fnref92" role="doc-noteref"><sup>92</sup></a>)</li>
+<li>More ELF relocations<a href="#fn93" class="footnote-ref" id="fnref93" role="doc-noteref"><sup>93</sup></a> (archived<a href="#fn94" class="footnote-ref" id="fnref94" role="doc-noteref"><sup>94</sup></a>)</li>
+<li>A no<sub>std</sub> Rust binary<a href="#fn95" class="footnote-ref" id="fnref95" role="doc-noteref"><sup>95</sup></a> (archived<a href="#fn96" class="footnote-ref" id="fnref96" role="doc-noteref"><sup>96</sup></a>)</li>
+<li>Thread-local storage<a href="#fn97" class="footnote-ref" id="fnref97" role="doc-noteref"><sup>97</sup></a> (archived<a href="#fn98" class="footnote-ref" id="fnref98" role="doc-noteref"><sup>98</sup></a>)</li>
+</ol>
+<p>“Parsing” by Aleksey Kladov</p>
+<p>Not a real series of articles but a collection of posts by someone whose Github bio reads “Stuck writing parsers”.</p>
+<p>Niches: parsers</p>
+<ol>
+<li>Modern Parser Generator<a href="#fn99" class="footnote-ref" id="fnref99" role="doc-noteref"><sup>99</sup></a> (archived<a href="#fn100" class="footnote-ref" id="fnref100" role="doc-noteref"><sup>100</sup></a>)</li>
+<li>Simple but Powerful Pratt Parsing<a href="#fn101" class="footnote-ref" id="fnref101" role="doc-noteref"><sup>101</sup></a> (archived<a href="#fn102" class="footnote-ref" id="fnref102" role="doc-noteref"><sup>102</sup></a>)</li>
+<li>From Pratt to Dijkstra<a href="#fn103" class="footnote-ref" id="fnref103" role="doc-noteref"><sup>103</sup></a> (archived<a href="#fn104" class="footnote-ref" id="fnref104" role="doc-noteref"><sup>104</sup></a>)</li>
+</ol>
+<p>“JavaScript Allongé<a href="#fn105" class="footnote-ref" id="fnref105" role="doc-noteref"><sup>105</sup></a>” by Reg “raganwald” Braithwaite</p>
+<p>(~530 pages; archived<a href="#fn106" class="footnote-ref" id="fnref106" role="doc-noteref"><sup>106</sup></a>)</p>
+<p>Niches: functional programming; obscure JavaScript</p>
+<p>Last update I saw: 2019-04-26</p>
+<p>“Crafting Interpreters<a href="#fn107" class="footnote-ref" id="fnref107" role="doc-noteref"><sup>107</sup></a>” by Robert Nystrom</p>
+<p>(~800 pages; archived<a href="#fn108" class="footnote-ref" id="fnref108" role="doc-noteref"><sup>108</sup></a>)</p>
+<p>Last update I saw: 2020-04-05</p>
+<p>“A relatively simple Datalog engine in Rust<a href="#fn109" class="footnote-ref" id="fnref109" role="doc-noteref"><sup>109</sup></a>” by Frank McSherry</p>
+<p>(~20 pages; archived<a href="#fn110" class="footnote-ref" id="fnref110" role="doc-noteref"><sup>110</sup></a>)</p>
+<p>Building a datalog engine in Rust.</p>
+<p>Niches: datalog</p>
+<p>“Non-lexical lifetimes” by Niko Matsakis</p>
+<p>One of the main features of the Rust language is the concept of ownership and lifetimes. This series of posts by Niko Matsakis, one of the designers of the Rust language, is about the theory and practical implementation of a revamped and more complete way of this in the Rust compiler. It starts in early 2016 and goes all the way to after they feature landed (end of 2018).</p>
+<ol>
+<li>Introduction<a href="#fn111" class="footnote-ref" id="fnref111" role="doc-noteref"><sup>111</sup></a> (archived<a href="#fn112" class="footnote-ref" id="fnref112" role="doc-noteref"><sup>112</sup></a>)</li>
+<li>Non-lexical lifetimes based on liveness<a href="#fn113" class="footnote-ref" id="fnref113" role="doc-noteref"><sup>113</sup></a> (archived<a href="#fn114" class="footnote-ref" id="fnref114" role="doc-noteref"><sup>114</sup></a>)</li>
+<li>Adding the outlives relation<a href="#fn115" class="footnote-ref" id="fnref115" role="doc-noteref"><sup>115</sup></a> (archived<a href="#fn116" class="footnote-ref" id="fnref116" role="doc-noteref"><sup>116</sup></a>)</li>
+<li>Using liveness and location<a href="#fn117" class="footnote-ref" id="fnref117" role="doc-noteref"><sup>117</sup></a> (archived<a href="#fn118" class="footnote-ref" id="fnref118" role="doc-noteref"><sup>118</sup></a>)</li>
+<li>Nested method calls via two-phase borrowing<a href="#fn119" class="footnote-ref" id="fnref119" role="doc-noteref"><sup>119</sup></a> (archived<a href="#fn120" class="footnote-ref" id="fnref120" role="doc-noteref"><sup>120</sup></a>)</li>
+<li>Draft RFC and prototype available<a href="#fn121" class="footnote-ref" id="fnref121" role="doc-noteref"><sup>121</sup></a> (archived<a href="#fn122" class="footnote-ref" id="fnref122" role="doc-noteref"><sup>122</sup></a>)</li>
+<li>An alias-based formulation of the borrow checker<a href="#fn123" class="footnote-ref" id="fnref123" role="doc-noteref"><sup>123</sup></a> (archived<a href="#fn124" class="footnote-ref" id="fnref124" role="doc-noteref"><sup>124</sup></a>)</li>
+<li>MIR-based borrow check (NLL) status update<a href="#fn125" class="footnote-ref" id="fnref125" role="doc-noteref"><sup>125</sup></a> (archived<a href="#fn126" class="footnote-ref" id="fnref126" role="doc-noteref"><sup>126</sup></a>)</li>
+<li>MIR-based borrowck is almost here<a href="#fn127" class="footnote-ref" id="fnref127" role="doc-noteref"><sup>127</sup></a> (archived<a href="#fn128" class="footnote-ref" id="fnref128" role="doc-noteref"><sup>128</sup></a>)</li>
+</ol>
+<ol>
+<li>Interprocedural conflicts<a href="#fn129" class="footnote-ref" id="fnref129" role="doc-noteref"><sup>129</sup></a> (archived<a href="#fn130" class="footnote-ref" id="fnref130" role="doc-noteref"><sup>130</sup></a>)</li>
+<li>Polonius and region errors<a href="#fn131" class="footnote-ref" id="fnref131" role="doc-noteref"><sup>131</sup></a> (archived<a href="#fn132" class="footnote-ref" id="fnref132" role="doc-noteref"><sup>132</sup></a>)</li>
+<li>Polonius and the case of the hereditary harrop predicate<a href="#fn133" class="footnote-ref" id="fnref133" role="doc-noteref"><sup>133</sup></a></li>
+</ol>
+<p>(archived<a href="#fn134" class="footnote-ref" id="fnref134" role="doc-noteref"><sup>134</sup></a>)</p>
+<p>“Shifgrethor” by Without Boats</p>
+<p>A proposed API for a GC in Rust.</p>
+<ol>
+<li>Garbage collection as a Rust library<a href="#fn135" class="footnote-ref" id="fnref135" role="doc-noteref"><sup>135</sup></a> (archived<a href="#fn136" class="footnote-ref" id="fnref136" role="doc-noteref"><sup>136</sup></a>)</li>
+<li>Notes on tracing garbage collectors<a href="#fn137" class="footnote-ref" id="fnref137" role="doc-noteref"><sup>137</sup></a> (archived<a href="#fn138" class="footnote-ref" id="fnref138" role="doc-noteref"><sup>138</sup></a>)</li>
+<li>Rooting<a href="#fn139" class="footnote-ref" id="fnref139" role="doc-noteref"><sup>139</sup></a> (archived<a href="#fn140" class="footnote-ref" id="fnref140" role="doc-noteref"><sup>140</sup></a>)</li>
+<li>Tracing<a href="#fn141" class="footnote-ref" id="fnref141" role="doc-noteref"><sup>141</sup></a> (archived<a href="#fn142" class="footnote-ref" id="fnref142" role="doc-noteref"><sup>142</sup></a>)</li>
+</ol>
+<p>“Rayon/Parallel Iterators” by Niko Matsakis</p>
+<p>Niches: concurrency</p>
+<ol>
+<li>Rayon: Data parallelism in Rust<a href="#fn143" class="footnote-ref" id="fnref143" role="doc-noteref"><sup>143</sup></a> (archived<a href="#fn144" class="footnote-ref" id="fnref144" role="doc-noteref"><sup>144</sup></a>)</li>
+<li>Parallel Iterators Part 1: Foundations<a href="#fn145" class="footnote-ref" id="fnref145" role="doc-noteref"><sup>145</sup></a> (archived<a href="#fn146" class="footnote-ref" id="fnref146" role="doc-noteref"><sup>146</sup></a>)</li>
+<li>Parallel Iterators Part 2: Producers<a href="#fn147" class="footnote-ref" id="fnref147" role="doc-noteref"><sup>147</sup></a> (archived<a href="#fn148" class="footnote-ref" id="fnref148" role="doc-noteref"><sup>148</sup></a>)</li>
+<li>Parallel Iterators, part 3: Consumers<a href="#fn149" class="footnote-ref" id="fnref149" role="doc-noteref"><sup>149</sup></a> (archived<a href="#fn150" class="footnote-ref" id="fnref150" role="doc-noteref"><sup>150</sup></a>)</li>
+</ol>
+<p>“How Rust optimizes async/await” by Tyler Mandry</p>
+<p>Niches: compilers; memory layout</p>
+<ol>
+<li>Part I<a href="#fn151" class="footnote-ref" id="fnref151" role="doc-noteref"><sup>151</sup></a> (archived<a href="#fn152" class="footnote-ref" id="fnref152" role="doc-noteref"><sup>152</sup></a>)</li>
+<li>Part II: Program analysis<a href="#fn153" class="footnote-ref" id="fnref153" role="doc-noteref"><sup>153</sup></a> (archived<a href="#fn154" class="footnote-ref" id="fnref154" role="doc-noteref"><sup>154</sup></a>)</li>
+</ol>
+<p>“Writing an OS in Rust” by Philipp Oppermann</p>
+<p>Niches: operating systems, assembler</p>
+<ol>
+<li>A Freestanding Rust Binary<a href="#fn155" class="footnote-ref" id="fnref155" role="doc-noteref"><sup>155</sup></a> (archived<a href="#fn156" class="footnote-ref" id="fnref156" role="doc-noteref"><sup>156</sup></a>)</li>
+<li>A Minimal Rust Kernel<a href="#fn157" class="footnote-ref" id="fnref157" role="doc-noteref"><sup>157</sup></a> (archived<a href="#fn158" class="footnote-ref" id="fnref158" role="doc-noteref"><sup>158</sup></a>)</li>
+<li>VGA Text Mode<a href="#fn159" class="footnote-ref" id="fnref159" role="doc-noteref"><sup>159</sup></a> (archived<a href="#fn160" class="footnote-ref" id="fnref160" role="doc-noteref"><sup>160</sup></a>)</li>
+<li>Testing<a href="#fn161" class="footnote-ref" id="fnref161" role="doc-noteref"><sup>161</sup></a> (archived<a href="#fn162" class="footnote-ref" id="fnref162" role="doc-noteref"><sup>162</sup></a>)</li>
+<li>CPU Exceptions<a href="#fn163" class="footnote-ref" id="fnref163" role="doc-noteref"><sup>163</sup></a> (archived<a href="#fn164" class="footnote-ref" id="fnref164" role="doc-noteref"><sup>164</sup></a>)</li>
+<li>Double Faults<a href="#fn165" class="footnote-ref" id="fnref165" role="doc-noteref"><sup>165</sup></a> (archived<a href="#fn166" class="footnote-ref" id="fnref166" role="doc-noteref"><sup>166</sup></a>)</li>
+<li>Hardware Interrupts<a href="#fn167" class="footnote-ref" id="fnref167" role="doc-noteref"><sup>167</sup></a> (archived<a href="#fn168" class="footnote-ref" id="fnref168" role="doc-noteref"><sup>168</sup></a>)</li>
+<li>Introduction to Paging<a href="#fn169" class="footnote-ref" id="fnref169" role="doc-noteref"><sup>169</sup></a> (archived<a href="#fn170" class="footnote-ref" id="fnref170" role="doc-noteref"><sup>170</sup></a>)</li>
+<li>Paging Implementation<a href="#fn171" class="footnote-ref" id="fnref171" role="doc-noteref"><sup>171</sup></a> (archived<a href="#fn172" class="footnote-ref" id="fnref172" role="doc-noteref"><sup>172</sup></a>)</li>
+</ol>
+<ol>
+<li>Heap Allocation<a href="#fn173" class="footnote-ref" id="fnref173" role="doc-noteref"><sup>173</sup></a> (archived<a href="#fn174" class="footnote-ref" id="fnref174" role="doc-noteref"><sup>174</sup></a>)</li>
+<li>Allocator Designs<a href="#fn175" class="footnote-ref" id="fnref175" role="doc-noteref"><sup>175</sup></a> (archived<a href="#fn176" class="footnote-ref" id="fnref176" role="doc-noteref"><sup>176</sup></a>)</li>
+<li>Async/Await<a href="#fn177" class="footnote-ref" id="fnref177" role="doc-noteref"><sup>177</sup></a> (archived<a href="#fn178" class="footnote-ref" id="fnref178" role="doc-noteref"><sup>178</sup></a>)</li>
+</ol>
+<p>“Learning Parser Combinators With Rust<a href="#fn179" class="footnote-ref" id="fnref179" role="doc-noteref"><sup>179</sup></a>” by Bodil Stokke</p>
+<p>(~60 pages; archived<a href="#fn180" class="footnote-ref" id="fnref180" role="doc-noteref"><sup>180</sup></a>)</p>
+<p>Assuming you know Rust, this teaches you the fundamentals of parser combinators in a very hands-on way.</p>
+<p>Niches: parsers</p>
+<p>“Manish vs. ASCII” by Manish Goregaokar</p>
+<p>Several posts on why assuming text is ASCII is unhelpful.</p>
+<p>Niches: unicode</p>
+<ol>
+<li><p>Let’s Stop Ascribing Meaning to Code Points<a href="#fn181" class="footnote-ref" id="fnref181" role="doc-noteref"><sup>181</sup></a> (archived<a href="#fn182" class="footnote-ref" id="fnref182" role="doc-noteref"><sup>182</sup></a>)</p>
+<p>tl;dr you should not index into a Unicode text, like, ever.</p></li>
+<li><p>Breaking Our Latin-1 Assumptions<a href="#fn183" class="footnote-ref" id="fnref183" role="doc-noteref"><sup>183</sup></a> (archived<a href="#fn184" class="footnote-ref" id="fnref184" role="doc-noteref"><sup>184</sup></a>)</p>
+<p>Examples for scripts/languages that really don’t work if you assume you have ASCII text.</p></li>
+<li><p>Picking Apart the Crashing iOS String<a href="#fn185" class="footnote-ref" id="fnref185" role="doc-noteref"><sup>185</sup></a> (archived<a href="#fn186" class="footnote-ref" id="fnref186" role="doc-noteref"><sup>186</sup></a>)</p>
+<p>Fun analysis of a Unicode rendering bug that crashed iOS devices.</p></li>
+</ol>
+<p>“The Wayland Protocol[185]” by Drew DeVault</p>
+<p>(~156 pages; archived[186])</p>
+<p>“Wayland is the next-generation display server for Unix-like systems[…] This book will help you establish a firm understanding of the concepts, design, and implementation of [it]”.</p>
+<p>Niches: wayland; graphics; protocols; unix</p>
+<p>Links:</p>
+<section class="footnotes" role="doc-endnotes">
+<hr />
+<ol>
+<li id="fn1" role="doc-endnote"><pre class="example"><code>https://deterministic.space/feed.xml#learn-rust-with-entirely-too-many-linked-lists-by-alexis-beingessner (link)
+</code></pre>
+<a href="#fnref1" class="footnote-back" role="doc-backlink">↩︎</a></li>
+<li id="fn2" role="doc-endnote"><pre class="example"><code>https://deterministic.space/feed.xml#programming-algorithms-by-vsevolod-domkin (link)
+</code></pre>
+<a href="#fnref2" class="footnote-back" role="doc-backlink">↩︎</a></li>
+<li id="fn3" role="doc-endnote"><pre class="example"><code>https://deterministic.space/feed.xml#aspects-of-rust-by-multiple-people (link)
+</code></pre>
+<a href="#fnref3" class="footnote-back" role="doc-backlink">↩︎</a></li>
+<li id="fn4" role="doc-endnote"><pre class="example"><code>https://deterministic.space/feed.xml#reading-files-the-hard-way-by-amos-wenger (link)
+</code></pre>
+<a href="#fnref4" class="footnote-back" role="doc-backlink">↩︎</a></li>
+<li id="fn5" role="doc-endnote"><pre class="example"><code>https://deterministic.space/feed.xml#making-our-own-ping-by-amos-wenger (link)
+</code></pre>
+<a href="#fnref5" class="footnote-back" role="doc-backlink">↩︎</a></li>
+<li id="fn6" role="doc-endnote"><pre class="example"><code>https://deterministic.space/feed.xml#making-our-own-executable-packer-by-amos-wenger (link)
+</code></pre>
+<a href="#fnref6" class="footnote-back" role="doc-backlink">↩︎</a></li>
+<li id="fn7" role="doc-endnote"><pre class="example"><code>https://deterministic.space/feed.xml#parsing-by-aleksey-kladov (link)
+</code></pre>
+<a href="#fnref7" class="footnote-back" role="doc-backlink">↩︎</a></li>
+<li id="fn8" role="doc-endnote"><pre class="example"><code>https://deterministic.space/feed.xml#javascript-allong%C3%A9-by-reg-raganwald-braithwaite (link)
+</code></pre>
+<a href="#fnref8" class="footnote-back" role="doc-backlink">↩︎</a></li>
+<li id="fn9" role="doc-endnote"><pre class="example"><code>https://deterministic.space/feed.xml#crafting-interpreters-by-robert-nystrom (link)
+</code></pre>
+<a href="#fnref9" class="footnote-back" role="doc-backlink">↩︎</a></li>
+<li id="fn10" role="doc-endnote"><pre class="example"><code>https://deterministic.space/feed.xml#a-relatively-simple-datalog-engine-in-rust-by-frank-mcsherry (link)
+</code></pre>
+<a href="#fnref10" class="footnote-back" role="doc-backlink">↩︎</a></li>
+<li id="fn11" role="doc-endnote"><pre class="example"><code>https://deterministic.space/feed.xml#non-lexical-lifetimes-by-niko-matsakis (link)
+</code></pre>
+<a href="#fnref11" class="footnote-back" role="doc-backlink">↩︎</a></li>
+<li id="fn12" role="doc-endnote"><pre class="example"><code>https://deterministic.space/feed.xml#shifgrethor-by-without-boats (link)
+</code></pre>
+<a href="#fnref12" class="footnote-back" role="doc-backlink">↩︎</a></li>
+<li id="fn13" role="doc-endnote"><pre class="example"><code>https://deterministic.space/feed.xml#rayonparallel-iterators-by-niko-matsakis (link)
+</code></pre>
+<a href="#fnref13" class="footnote-back" role="doc-backlink">↩︎</a></li>
+<li id="fn14" role="doc-endnote"><pre class="example"><code>https://deterministic.space/feed.xml#how-rust-optimizes-asyncawait-by-tyler-mandry (link)
+</code></pre>
+<a href="#fnref14" class="footnote-back" role="doc-backlink">↩︎</a></li>
+<li id="fn15" role="doc-endnote"><pre class="example"><code>https://deterministic.space/feed.xml#writing-an-os-in-rust-by-philipp-oppermann (link)
+</code></pre>
+<a href="#fnref15" class="footnote-back" role="doc-backlink">↩︎</a></li>
+<li id="fn16" role="doc-endnote"><pre class="example"><code>https://deterministic.space/feed.xml#learning-parser-combinators-with-rust-by-bodil-stokke (link)
+</code></pre>
+<a href="#fnref16" class="footnote-back" role="doc-backlink">↩︎</a></li>
+<li id="fn17" role="doc-endnote"><pre class="example"><code>https://deterministic.space/feed.xml#manish-vs-ascii-by-manish-goregaokar (link)
+</code></pre>
+<a href="#fnref17" class="footnote-back" role="doc-backlink">↩︎</a></li>
+<li id="fn18" role="doc-endnote"><pre class="example"><code>https://deterministic.space/feed.xml#the-wayland-protocol-by-drew-devault (link)
+</code></pre>
+<a href="#fnref18" class="footnote-back" role="doc-backlink">↩︎</a></li>
+<li id="fn19" role="doc-endnote"><pre class="example"><code>https://rust-unofficial.github.io/too-many-lists/index.html (link)
+</code></pre>
+<a href="#fnref19" class="footnote-back" role="doc-backlink">↩︎</a></li>
+<li id="fn20" role="doc-endnote"><pre class="example"><code>https://web.archive.org/web/20200416132847/https://rust-unofficial.github.io/too-many-lists/index.html (link)
+</code></pre>
+<a href="#fnref20" class="footnote-back" role="doc-backlink">↩︎</a></li>
+<li id="fn21" role="doc-endnote"><pre class="example"><code>https://leanpub.com/progalgs/read (link)
+</code></pre>
+<a href="#fnref21" class="footnote-back" role="doc-backlink">↩︎</a></li>
+<li id="fn22" role="doc-endnote"><pre class="example"><code>https://web.archive.org/web/20200416131734/https://leanpub.com/progalgs/read (link)
+</code></pre>
+<a href="#fnref22" class="footnote-back" role="doc-backlink">↩︎</a></li>
+<li id="fn23" role="doc-endnote"><pre class="example"><code>https://fasterthanli.me/blog/2020/a-half-hour-to-learn-rust/ (link)
+</code></pre>
+<a href="#fnref23" class="footnote-back" role="doc-backlink">↩︎</a></li>
+<li id="fn24" role="doc-endnote"><pre class="example"><code>https://web.archive.org/web/20200416203813/https://fasterthanli.me/blog/2020/a-half-hour-to-learn-rust/ (link)
+</code></pre>
+<a href="#fnref24" class="footnote-back" role="doc-backlink">↩︎</a></li>
+<li id="fn25" role="doc-endnote"><pre class="example"><code>https://matklad.github.io/2018/05/24/typed-key-pattern.html (link)
+</code></pre>
+<a href="#fnref25" class="footnote-back" role="doc-backlink">↩︎</a></li>
+<li id="fn26" role="doc-endnote"><pre class="example"><code>https://web.archive.org/web/20200426170858/https://matklad.github.io/2018/05/24/typed-key-pattern.html (link)
+</code></pre>
+<a href="#fnref26" class="footnote-back" role="doc-backlink">↩︎</a></li>
+<li id="fn27" role="doc-endnote"><pre class="example"><code>https://deterministic.space/secret-life-of-cows.html (link)
+</code></pre>
+<a href="#fnref27" class="footnote-back" role="doc-backlink">↩︎</a></li>
+<li id="fn28" role="doc-endnote"><pre class="example"><code>https://web.archive.org/web/20200426171212/https://deterministic.space/secret-life-of-cows.html (link)
+</code></pre>
+<a href="#fnref28" class="footnote-back" role="doc-backlink">↩︎</a></li>
+<li id="fn29" role="doc-endnote"><pre class="example"><code>https://matklad.github.io/2018/06/04/newtype-index-pattern.html (link)
+</code></pre>
+<a href="#fnref29" class="footnote-back" role="doc-backlink">↩︎</a></li>
+<li id="fn30" role="doc-endnote"><pre class="example"><code>https://web.archive.org/web/20200426170901/https://matklad.github.io/2018/06/04/newtype-index-pattern.html (link)
+</code></pre>
+<a href="#fnref30" class="footnote-back" role="doc-backlink">↩︎</a></li>
+<li id="fn31" role="doc-endnote"><pre class="example"><code>https://deterministic.space/return-type-based-dispatch.html (link)
+</code></pre>
+<a href="#fnref31" class="footnote-back" role="doc-backlink">↩︎</a></li>
+<li id="fn32" role="doc-endnote"><pre class="example"><code>https://web.archive.org/web/20200426171311/https://deterministic.space/return-type-based-dispatch.html (link)
+</code></pre>
+<a href="#fnref32" class="footnote-back" role="doc-backlink">↩︎</a></li>
+<li id="fn33" role="doc-endnote"><pre class="example"><code>https://fasterthanli.me/blog/2019/declarative-memory-management/ (link)
+</code></pre>
+<a href="#fnref33" class="footnote-back" role="doc-backlink">↩︎</a></li>
+<li id="fn34" role="doc-endnote"><pre class="example"><code>https://web.archive.org/web/20200416202910/https://fasterthanli.me/blog/2019/declarative-memory-management/ (link)
+</code></pre>
+<a href="#fnref34" class="footnote-back" role="doc-backlink">↩︎</a></li>
+<li id="fn35" role="doc-endnote"><pre class="example"><code>https://deterministic.space/return-type-based-dispatch.html (link)
+</code></pre>
+<a href="#fnref35" class="footnote-back" role="doc-backlink">↩︎</a></li>
+<li id="fn36" role="doc-endnote"><pre class="example"><code>https://web.archive.org/web/20200426171311/https://deterministic.space/return-type-based-dispatch.html (link)
+</code></pre>
+<a href="#fnref36" class="footnote-back" role="doc-backlink">↩︎</a></li>
+<li id="fn37" role="doc-endnote"><pre class="example"><code>https://fasterthanli.me/blog/2020/working-with-strings-in-rust/ (link)
+</code></pre>
+<a href="#fnref37" class="footnote-back" role="doc-backlink">↩︎</a></li>
+<li id="fn38" role="doc-endnote"><pre class="example"><code>https://web.archive.org/web/20200416203533/https://fasterthanli.me/blog/2020/working-with-strings-in-rust/ (link)
+</code></pre>
+<a href="#fnref38" class="footnote-back" role="doc-backlink">↩︎</a></li>
+<li id="fn39" role="doc-endnote"><pre class="example"><code>https://fasterthanli.me/blog/2019/reading-files-the-hard-way/ (link)
+</code></pre>
+<a href="#fnref39" class="footnote-back" role="doc-backlink">↩︎</a></li>
+<li id="fn40" role="doc-endnote"><pre class="example"><code>https://web.archive.org/web/20200416203146/https://fasterthanli.me/blog/2019/reading-files-the-hard-way/ (link)
+</code></pre>
+<a href="#fnref40" class="footnote-back" role="doc-backlink">↩︎</a></li>
+<li id="fn41" role="doc-endnote"><pre class="example"><code>https://fasterthanli.me/blog/2019/reading-files-the-hard-way-2/ (link)
+</code></pre>
+<a href="#fnref41" class="footnote-back" role="doc-backlink">↩︎</a></li>
+<li id="fn42" role="doc-endnote"><pre class="example"><code>https://web.archive.org/web/20200416203148/https://fasterthanli.me/blog/2019/reading-files-the-hard-way-2/ (link)
+</code></pre>
+<a href="#fnref42" class="footnote-back" role="doc-backlink">↩︎</a></li>
+<li id="fn43" role="doc-endnote"><pre class="example"><code>https://fasterthanli.me/blog/2019/reading-files-the-hard-way-3/ (link)
+</code></pre>
+<a href="#fnref43" class="footnote-back" role="doc-backlink">↩︎</a></li>
+<li id="fn44" role="doc-endnote"><pre class="example"><code>https://web.archive.org/web/20200416203157/https://fasterthanli.me/blog/2019/reading-files-the-hard-way-3/ (link)
+</code></pre>
+<a href="#fnref44" class="footnote-back" role="doc-backlink">↩︎</a></li>
+<li id="fn45" role="doc-endnote"><pre class="example"><code>https://fasterthanli.me/blog/2019/making-our-own-ping/ (link)
+</code></pre>
+<a href="#fnref45" class="footnote-back" role="doc-backlink">↩︎</a></li>
+<li id="fn46" role="doc-endnote"><pre class="example"><code>https://web.archive.org/web/20200416134726/https://fasterthanli.me/blog/2019/making-our-own-ping/ (link)
+</code></pre>
+<a href="#fnref46" class="footnote-back" role="doc-backlink">↩︎</a></li>
+<li id="fn47" role="doc-endnote"><pre class="example"><code>https://fasterthanli.me/blog/2019/making-our-own-ping-2/ (link)
+</code></pre>
+<a href="#fnref47" class="footnote-back" role="doc-backlink">↩︎</a></li>
+<li id="fn48" role="doc-endnote"><pre class="example"><code>https://web.archive.org/web/20200416145917/https://fasterthanli.me/blog/2019/making-our-own-ping-2/ (link)
+</code></pre>
+<a href="#fnref48" class="footnote-back" role="doc-backlink">↩︎</a></li>
+<li id="fn49" role="doc-endnote"><pre class="example"><code>https://fasterthanli.me/blog/2019/making-our-own-ping-3/ (link)
+</code></pre>
+<a href="#fnref49" class="footnote-back" role="doc-backlink">↩︎</a></li>
+<li id="fn50" role="doc-endnote"><pre class="example"><code>https://web.archive.org/web/20200416145936/https://fasterthanli.me/blog/2019/making-our-own-ping-3/ (link)
+</code></pre>
+<a href="#fnref50" class="footnote-back" role="doc-backlink">↩︎</a></li>
+<li id="fn51" role="doc-endnote"><pre class="example"><code>https://fasterthanli.me/blog/2019/making-our-own-ping-4/ (link)
+</code></pre>
+<a href="#fnref51" class="footnote-back" role="doc-backlink">↩︎</a></li>
+<li id="fn52" role="doc-endnote"><pre class="example"><code>https://web.archive.org/web/20200416145936/https://fasterthanli.me/blog/2019/making-our-own-ping-4/ (link)
+</code></pre>
+<a href="#fnref52" class="footnote-back" role="doc-backlink">↩︎</a></li>
+<li id="fn53" role="doc-endnote"><pre class="example"><code>https://fasterthanli.me/blog/2019/making-our-own-ping-5/ (link)
+</code></pre>
+<a href="#fnref53" class="footnote-back" role="doc-backlink">↩︎</a></li>
+<li id="fn54" role="doc-endnote"><pre class="example"><code>https://web.archive.org/web/20200416145942/https://fasterthanli.me/blog/2019/making-our-own-ping-5/ (link)
+</code></pre>
+<a href="#fnref54" class="footnote-back" role="doc-backlink">↩︎</a></li>
+<li id="fn55" role="doc-endnote"><pre class="example"><code>https://fasterthanli.me/blog/2019/making-our-own-ping-6/ (link)
+</code></pre>
+<a href="#fnref55" class="footnote-back" role="doc-backlink">↩︎</a></li>
+<li id="fn56" role="doc-endnote"><pre class="example"><code>https://web.archive.org/web/20200416145943/https://fasterthanli.me/blog/2019/making-our-own-ping-6/ (link)
+</code></pre>
+<a href="#fnref56" class="footnote-back" role="doc-backlink">↩︎</a></li>
+<li id="fn57" role="doc-endnote"><pre class="example"><code>https://fasterthanli.me/blog/2019/making-our-own-ping-7/ (link)
+</code></pre>
+<a href="#fnref57" class="footnote-back" role="doc-backlink">↩︎</a></li>
+<li id="fn58" role="doc-endnote"><pre class="example"><code>https://web.archive.org/web/20200416145943/https://fasterthanli.me/blog/2019/making-our-own-ping-7/ (link)
+</code></pre>
+<a href="#fnref58" class="footnote-back" role="doc-backlink">↩︎</a></li>
+<li id="fn59" role="doc-endnote"><pre class="example"><code>https://fasterthanli.me/blog/2019/making-our-own-ping-8/ (link)
+</code></pre>
+<a href="#fnref59" class="footnote-back" role="doc-backlink">↩︎</a></li>
+<li id="fn60" role="doc-endnote"><pre class="example"><code>https://web.archive.org/web/20200416150009/https://fasterthanli.me/blog/2019/making-our-own-ping-8/ (link)
+</code></pre>
+<a href="#fnref60" class="footnote-back" role="doc-backlink">↩︎</a></li>
+<li id="fn61" role="doc-endnote"><pre class="example"><code>https://fasterthanli.me/blog/2019/making-our-own-ping-9/ (link)
+</code></pre>
+<a href="#fnref61" class="footnote-back" role="doc-backlink">↩︎</a></li>
+<li id="fn62" role="doc-endnote"><pre class="example"><code>https://web.archive.org/web/20200416150006/https://fasterthanli.me/blog/2019/making-our-own-ping-9/ (link)
+</code></pre>
+<a href="#fnref62" class="footnote-back" role="doc-backlink">↩︎</a></li>
+<li id="fn63" role="doc-endnote"><pre class="example"><code>https://fasterthanli.me/blog/2019/making-our-own-ping-10/ (link)
+</code></pre>
+<a href="#fnref63" class="footnote-back" role="doc-backlink">↩︎</a></li>
+<li id="fn64" role="doc-endnote"><pre class="example"><code>https://web.archive.org/web/20200416150009/https://fasterthanli.me/blog/2019/making-our-own-ping-10/ (link)
+</code></pre>
+<a href="#fnref64" class="footnote-back" role="doc-backlink">↩︎</a></li>
+<li id="fn65" role="doc-endnote"><pre class="example"><code>https://fasterthanli.me/blog/2019/making-our-own-ping-11/ (link)
+</code></pre>
+<a href="#fnref65" class="footnote-back" role="doc-backlink">↩︎</a></li>
+<li id="fn66" role="doc-endnote"><pre class="example"><code>https://web.archive.org/web/20200416150021/https://fasterthanli.me/blog/2019/making-our-own-ping-11/ (link)
+</code></pre>
+<a href="#fnref66" class="footnote-back" role="doc-backlink">↩︎</a></li>
+<li id="fn67" role="doc-endnote"><pre class="example"><code>https://fasterthanli.me/blog/2019/making-our-own-ping-12/ (link)
+</code></pre>
+<a href="#fnref67" class="footnote-back" role="doc-backlink">↩︎</a></li>
+<li id="fn68" role="doc-endnote"><pre class="example"><code>https://web.archive.org/web/20200416150207/https://fasterthanli.me/blog/2019/making-our-own-ping-12/ (link)
+</code></pre>
+<a href="#fnref68" class="footnote-back" role="doc-backlink">↩︎</a></li>
+<li id="fn69" role="doc-endnote"><pre class="example"><code>https://fasterthanli.me/blog/2019/making-our-own-ping-13/ (link)
+</code></pre>
+<a href="#fnref69" class="footnote-back" role="doc-backlink">↩︎</a></li>
+<li id="fn70" role="doc-endnote"><pre class="example"><code>https://web.archive.org/web/20200416150054/https://fasterthanli.me/blog/2019/making-our-own-ping-13/ (link)
+</code></pre>
+<a href="#fnref70" class="footnote-back" role="doc-backlink">↩︎</a></li>
+<li id="fn71" role="doc-endnote"><pre class="example"><code>https://fasterthanli.me/blog/2019/making-our-own-ping-14/ (link)
+</code></pre>
+<a href="#fnref71" class="footnote-back" role="doc-backlink">↩︎</a></li>
+<li id="fn72" role="doc-endnote"><pre class="example"><code>https://web.archive.org/web/20200416150207/https://fasterthanli.me/blog/2019/making-our-own-ping-14/ (link)
+</code></pre>
+<a href="#fnref72" class="footnote-back" role="doc-backlink">↩︎</a></li>
+<li id="fn73" role="doc-endnote"><pre class="example"><code>https://fasterthanli.me/blog/2020/whats-in-a-linux-executable/ (link)
+</code></pre>
+<a href="#fnref73" class="footnote-back" role="doc-backlink">↩︎</a></li>
+<li id="fn74" role="doc-endnote"><pre class="example"><code>https://web.archive.org/web/20200416203931/https://fasterthanli.me/blog/2020/whats-in-a-linux-executable/ (link)
+</code></pre>
+<a href="#fnref74" class="footnote-back" role="doc-backlink">↩︎</a></li>
+<li id="fn75" role="doc-endnote"><pre class="example"><code>https://fasterthanli.me/blog/2020/running-an-executable-without-exec/ (link)
+</code></pre>
+<a href="#fnref75" class="footnote-back" role="doc-backlink">↩︎</a></li>
+<li id="fn76" role="doc-endnote"><pre class="example"><code>https://web.archive.org/web/20200416203942/https://fasterthanli.me/blog/2020/running-an-executable-without-exec/ (link)
+</code></pre>
+<a href="#fnref76" class="footnote-back" role="doc-backlink">↩︎</a></li>
+<li id="fn77" role="doc-endnote"><pre class="example"><code>https://fasterthanli.me/blog/2020/position-independent-code/ (link)
+</code></pre>
+<a href="#fnref77" class="footnote-back" role="doc-backlink">↩︎</a></li>
+<li id="fn78" role="doc-endnote"><pre class="example"><code>https://web.archive.org/web/20200416203931/https://fasterthanli.me/blog/2020/position-independent-code/ (link)
+</code></pre>
+<a href="#fnref78" class="footnote-back" role="doc-backlink">↩︎</a></li>
+<li id="fn79" role="doc-endnote"><pre class="example"><code>https://fasterthanli.me/blog/2020/elf-relocations/ (link)
+</code></pre>
+<a href="#fnref79" class="footnote-back" role="doc-backlink">↩︎</a></li>
+<li id="fn80" role="doc-endnote"><pre class="example"><code>https://web.archive.org/web/20200416203942/https://fasterthanli.me/blog/2020/elf-relocations/ (link)
+</code></pre>
+<a href="#fnref80" class="footnote-back" role="doc-backlink">↩︎</a></li>
+<li id="fn81" role="doc-endnote"><pre class="example"><code>https://fasterthanli.me/blog/2020/the-simplest-shared-library/ (link)
+</code></pre>
+<a href="#fnref81" class="footnote-back" role="doc-backlink">↩︎</a></li>
+<li id="fn82" role="doc-endnote"><pre class="example"><code>https://web.archive.org/web/20200416203942/https://fasterthanli.me/blog/2020/the-simplest-shared-library/ (link)
+</code></pre>
+<a href="#fnref82" class="footnote-back" role="doc-backlink">↩︎</a></li>
+<li id="fn83" role="doc-endnote"><pre class="example"><code>https://fasterthanli.me/blog/2020/loading-multiple-elf-objects/ (link)
+</code></pre>
+<a href="#fnref83" class="footnote-back" role="doc-backlink">↩︎</a></li>
+<li id="fn84" role="doc-endnote"><pre class="example"><code>https://web.archive.org/web/20200416203946/https://fasterthanli.me/blog/2020/loading-multiple-elf-objects/ (link)
+</code></pre>
+<a href="#fnref84" class="footnote-back" role="doc-backlink">↩︎</a></li>
+<li id="fn85" role="doc-endnote"><pre class="example"><code>https://fasterthanli.me/blog/2020/dynamic-symbol-resolution/ (link)
+</code></pre>
+<a href="#fnref85" class="footnote-back" role="doc-backlink">↩︎</a></li>
+<li id="fn86" role="doc-endnote"><pre class="example"><code>https://web.archive.org/web/20200416203951/https://fasterthanli.me/blog/2020/dynamic-symbol-resolution/ (link)
+</code></pre>
+<a href="#fnref86" class="footnote-back" role="doc-backlink">↩︎</a></li>
+<li id="fn87" role="doc-endnote"><pre class="example"><code>https://fasterthanli.me/blog/2020/dynamic-linker-speed-and-correctness/ (link)
+</code></pre>
+<a href="#fnref87" class="footnote-back" role="doc-backlink">↩︎</a></li>
+<li id="fn88" role="doc-endnote"><pre class="example"><code>https://web.archive.org/web/20200416203951/https://fasterthanli.me/blog/2020/dynamic-linker-speed-and-correctness/ (link)
+</code></pre>
+<a href="#fnref88" class="footnote-back" role="doc-backlink">↩︎</a></li>
+<li id="fn89" role="doc-endnote"><pre class="example"><code>https://fasterthanli.me/blog/2020/gdb-scripting-and-indirect-functions/ (link)
+</code></pre>
+<a href="#fnref89" class="footnote-back" role="doc-backlink">↩︎</a></li>
+<li id="fn90" role="doc-endnote"><pre class="example"><code>https://web.archive.org/web/20200416203954/https://fasterthanli.me/blog/2020/gdb-scripting-and-indirect-functions/ (link)
+</code></pre>
+<a href="#fnref90" class="footnote-back" role="doc-backlink">↩︎</a></li>
+<li id="fn91" role="doc-endnote"><pre class="example"><code>https://fasterthanli.me/blog/2020/safer-memory-mapped-structures/ (link)
+</code></pre>
+<a href="#fnref91" class="footnote-back" role="doc-backlink">↩︎</a></li>
+<li id="fn92" role="doc-endnote"><pre class="example"><code>https://web.archive.org/web/20200416204004/https://fasterthanli.me/blog/2020/safer-memory-mapped-structures/ (link)
+</code></pre>
+<a href="#fnref92" class="footnote-back" role="doc-backlink">↩︎</a></li>
+<li id="fn93" role="doc-endnote"><pre class="example"><code>https://fasterthanli.me/blog/2020/more-elf-relocations/ (link)
+</code></pre>
+<a href="#fnref93" class="footnote-back" role="doc-backlink">↩︎</a></li>
+<li id="fn94" role="doc-endnote"><pre class="example"><code>https://web.archive.org/web/20200416204015/https://fasterthanli.me/blog/2020/more-elf-relocations/ (link)
+</code></pre>
+<a href="#fnref94" class="footnote-back" role="doc-backlink">↩︎</a></li>
+<li id="fn95" role="doc-endnote"><pre class="example"><code>https://fasterthanli.me/blog/2020/a-no-std-rust-binary/ (link)
+</code></pre>
+<a href="#fnref95" class="footnote-back" role="doc-backlink">↩︎</a></li>
+<li id="fn96" role="doc-endnote"><pre class="example"><code>https://web.archive.org/web/20200426170253/https://fasterthanli.me/blog/2020/a-no-std-rust-binary/ (link)
+</code></pre>
+<a href="#fnref96" class="footnote-back" role="doc-backlink">↩︎</a></li>
+<li id="fn97" role="doc-endnote"><pre class="example"><code>https://fasterthanli.me/blog/2020/thread-local-storage/ (link)
+</code></pre>
+<a href="#fnref97" class="footnote-back" role="doc-backlink">↩︎</a></li>
+<li id="fn98" role="doc-endnote"><pre class="example"><code>https://web.archive.org/web/20200504104021/https://fasterthanli.me/blog/2020/thread-local-storage/ (link)
+</code></pre>
+<a href="#fnref98" class="footnote-back" role="doc-backlink">↩︎</a></li>
+<li id="fn99" role="doc-endnote"><pre class="example"><code>https://matklad.github.io/2018/06/06/modern-parser-generator.html (link)
+</code></pre>
+<a href="#fnref99" class="footnote-back" role="doc-backlink">↩︎</a></li>
+<li id="fn100" role="doc-endnote"><pre class="example"><code>https://web.archive.org/web/20200426170539/https://matklad.github.io/2018/06/06/modern-parser-generator.html (link)
+</code></pre>
+<a href="#fnref100" class="footnote-back" role="doc-backlink">↩︎</a></li>
+<li id="fn101" role="doc-endnote"><pre class="example"><code>https://matklad.github.io/2020/04/13/simple-but-powerful-pratt-parsing.html (link)
+</code></pre>
+<a href="#fnref101" class="footnote-back" role="doc-backlink">↩︎</a></li>
+<li id="fn102" role="doc-endnote"><pre class="example"><code>https://web.archive.org/web/20200416155208/https://matklad.github.io/2020/04/13/simple-but-powerful-pratt-parsing.html (link)
+</code></pre>
+<a href="#fnref102" class="footnote-back" role="doc-backlink">↩︎</a></li>
+<li id="fn103" role="doc-endnote"><pre class="example"><code>https://matklad.github.io/2020/04/15/from-pratt-to-dijkstra.html (link)
+</code></pre>
+<a href="#fnref103" class="footnote-back" role="doc-backlink">↩︎</a></li>
+<li id="fn104" role="doc-endnote"><pre class="example"><code>https://web.archive.org/web/20200416155220/https://matklad.github.io/2020/04/15/from-pratt-to-dijkstra.html (link)
+</code></pre>
+<a href="#fnref104" class="footnote-back" role="doc-backlink">↩︎</a></li>
+<li id="fn105" role="doc-endnote"><pre class="example"><code>https://leanpub.com/javascriptallongesix/read (link)
+</code></pre>
+<a href="#fnref105" class="footnote-back" role="doc-backlink">↩︎</a></li>
+<li id="fn106" role="doc-endnote"><pre class="example"><code>https://web.archive.org/web/20200416145246/https://leanpub.com/javascriptallongesix/read (link)
+</code></pre>
+<a href="#fnref106" class="footnote-back" role="doc-backlink">↩︎</a></li>
+<li id="fn107" role="doc-endnote"><pre class="example"><code>http://craftinginterpreters.com/contents.html (link)
+</code></pre>
+<a href="#fnref107" class="footnote-back" role="doc-backlink">↩︎</a></li>
+<li id="fn108" role="doc-endnote"><pre class="example"><code>https://web.archive.org/web/20200411062649/http://craftinginterpreters.com/contents.html (link)
+</code></pre>
+<a href="#fnref108" class="footnote-back" role="doc-backlink">↩︎</a></li>
+<li id="fn109" role="doc-endnote"><pre class="example"><code>https://github.com/frankmcsherry/blog/blob/81e9555bbee110954f2c3d35caf86ea7e7612fa6/posts/2018-05-19.md (link)
+</code></pre>
+<a href="#fnref109" class="footnote-back" role="doc-backlink">↩︎</a></li>
+<li id="fn110" role="doc-endnote"><pre class="example"><code>https://web.archive.org/web/20200423163205/https://github.com/frankmcsherry/blog/blob/81e9555bbee110954f2c3d35caf86ea7e7612fa6/posts/2018-05-19.md (link)
+</code></pre>
+<a href="#fnref110" class="footnote-back" role="doc-backlink">↩︎</a></li>
+<li id="fn111" role="doc-endnote"><pre class="example"><code>https://smallcultfollowing.com/babysteps/blog/2016/04/27/non-lexical-lifetimes-introduction/ (link)
+</code></pre>
+<a href="#fnref111" class="footnote-back" role="doc-backlink">↩︎</a></li>
+<li id="fn112" role="doc-endnote"><pre class="example"><code>https://web.archive.org/web/20200416170054/https://smallcultfollowing.com/babysteps/blog/2016/04/27/non-lexical-lifetimes-introduction/ (link)
+</code></pre>
+<a href="#fnref112" class="footnote-back" role="doc-backlink">↩︎</a></li>
+<li id="fn113" role="doc-endnote"><pre class="example"><code>http://smallcultfollowing.com/babysteps/blog/2016/05/04/non-lexical-lifetimes-based-on-liveness/ (link)
+</code></pre>
+<a href="#fnref113" class="footnote-back" role="doc-backlink">↩︎</a></li>
+<li id="fn114" role="doc-endnote"><pre class="example"><code>https://web.archive.org/web/20190917065228/http://smallcultfollowing.com/babysteps/blog/2016/05/04/non-lexical-lifetimes-based-on-liveness/ (link)
+</code></pre>
+<a href="#fnref114" class="footnote-back" role="doc-backlink">↩︎</a></li>
+<li id="fn115" role="doc-endnote"><pre class="example"><code>https://smallcultfollowing.com/babysteps/blog/2016/05/09/non-lexical-lifetimes-adding-the-outlives-relation/ (link)
+</code></pre>
+<a href="#fnref115" class="footnote-back" role="doc-backlink">↩︎</a></li>
+<li id="fn116" role="doc-endnote"><pre class="example"><code>https://web.archive.org/web/20200416170116/https://smallcultfollowing.com/babysteps/blog/2016/05/09/non-lexical-lifetimes-adding-the-outlives-relation/ (link)
+</code></pre>
+<a href="#fnref116" class="footnote-back" role="doc-backlink">↩︎</a></li>
+<li id="fn117" role="doc-endnote"><pre class="example"><code>https://smallcultfollowing.com/babysteps/blog/2017/02/21/non-lexical-lifetimes-using-liveness-and-location/ (link)
+</code></pre>
+<a href="#fnref117" class="footnote-back" role="doc-backlink">↩︎</a></li>
+<li id="fn118" role="doc-endnote"><pre class="example"><code>https://web.archive.org/web/20200416170119/https://smallcultfollowing.com/babysteps/blog/2017/02/21/non-lexical-lifetimes-using-liveness-and-location/ (link)
+</code></pre>
+<a href="#fnref118" class="footnote-back" role="doc-backlink">↩︎</a></li>
+<li id="fn119" role="doc-endnote"><pre class="example"><code>https://smallcultfollowing.com/babysteps/blog/2017/03/01/nested-method-calls-via-two-phase-borrowing/ (link)
+</code></pre>
+<a href="#fnref119" class="footnote-back" role="doc-backlink">↩︎</a></li>
+<li id="fn120" role="doc-endnote"><pre class="example"><code>https://web.archive.org/web/20200416170122/https://smallcultfollowing.com/babysteps/blog/2017/03/01/nested-method-calls-via-two-phase-borrowing/ (link)
+</code></pre>
+<a href="#fnref120" class="footnote-back" role="doc-backlink">↩︎</a></li>
+<li id="fn121" role="doc-endnote"><pre class="example"><code>https://smallcultfollowing.com/babysteps/blog/2017/07/11/non-lexical-lifetimes-draft-rfc-and-prototype-available/ (link)
+</code></pre>
+<a href="#fnref121" class="footnote-back" role="doc-backlink">↩︎</a></li>
+<li id="fn122" role="doc-endnote"><pre class="example"><code>https://web.archive.org/web/20200416170125/https://smallcultfollowing.com/babysteps/blog/2017/07/11/non-lexical-lifetimes-draft-rfc-and-prototype-available/ (link)
+</code></pre>
+<a href="#fnref122" class="footnote-back" role="doc-backlink">↩︎</a></li>
+<li id="fn123" role="doc-endnote"><pre class="example"><code>https://smallcultfollowing.com/babysteps/blog/2018/04/27/an-alias-based-formulation-of-the-borrow-checker/ (link)
+</code></pre>
+<a href="#fnref123" class="footnote-back" role="doc-backlink">↩︎</a></li>
+<li id="fn124" role="doc-endnote"><pre class="example"><code>https://web.archive.org/web/20200416170128/https://smallcultfollowing.com/babysteps/blog/2018/04/27/an-alias-based-formulation-of-the-borrow-checker/ (link)
+</code></pre>
+<a href="#fnref124" class="footnote-back" role="doc-backlink">↩︎</a></li>
+<li id="fn125" role="doc-endnote"><pre class="example"><code>https://smallcultfollowing.com/babysteps/blog/2018/06/15/mir-based-borrow-check-nll-status-update/ (link)
+</code></pre>
+<a href="#fnref125" class="footnote-back" role="doc-backlink">↩︎</a></li>
+<li id="fn126" role="doc-endnote"><pre class="example"><code>https://web.archive.org/web/20200416170132/https://smallcultfollowing.com/babysteps/blog/2018/06/15/mir-based-borrow-check-nll-status-update/ (link)
+</code></pre>
+<a href="#fnref126" class="footnote-back" role="doc-backlink">↩︎</a></li>
+<li id="fn127" role="doc-endnote"><pre class="example"><code>https://smallcultfollowing.com/babysteps/blog/2018/10/31/mir-based-borrowck-is-almost-here/ (link)
+</code></pre>
+<a href="#fnref127" class="footnote-back" role="doc-backlink">↩︎</a></li>
+<li id="fn128" role="doc-endnote"><pre class="example"><code>https://web.archive.org/web/20200416170139/https://smallcultfollowing.com/babysteps/blog/2018/10/31/mir-based-borrowck-is-almost-here/ (link)
+</code></pre>
+<a href="#fnref128" class="footnote-back" role="doc-backlink">↩︎</a></li>
+<li id="fn129" role="doc-endnote"><pre class="example"><code>https://smallcultfollowing.com/babysteps/blog/2018/11/01/after-nll-interprocedural-conflicts/ (link)
+</code></pre>
+<a href="#fnref129" class="footnote-back" role="doc-backlink">↩︎</a></li>
+<li id="fn130" role="doc-endnote"><pre class="example"><code>https://web.archive.org/web/20200416170144/https://smallcultfollowing.com/babysteps/blog/2018/11/01/after-nll-interprocedural-conflicts/ (link)
+</code></pre>
+<a href="#fnref130" class="footnote-back" role="doc-backlink">↩︎</a></li>
+<li id="fn131" role="doc-endnote"><pre class="example"><code>https://smallcultfollowing.com/babysteps/blog/2019/01/17/polonius-and-region-errors/ (link)
+</code></pre>
+<a href="#fnref131" class="footnote-back" role="doc-backlink">↩︎</a></li>
+<li id="fn132" role="doc-endnote"><pre class="example"><code>https://web.archive.org/web/20200416170147/https://smallcultfollowing.com/babysteps/blog/2019/01/17/polonius-and-region-errors/ (link)
+</code></pre>
+<a href="#fnref132" class="footnote-back" role="doc-backlink">↩︎</a></li>
+<li id="fn133" role="doc-endnote"><pre class="example"><code>https://smallcultfollowing.com/babysteps/blog/2019/01/21/hereditary-harrop-region-constraints/ (link)
+</code></pre>
+<a href="#fnref133" class="footnote-back" role="doc-backlink">↩︎</a></li>
+<li id="fn134" role="doc-endnote"><pre class="example"><code>https://web.archive.org/web/20200416170150/https://smallcultfollowing.com/babysteps/blog/2019/01/21/hereditary-harrop-region-constraints/ (link)
+</code></pre>
+<a href="#fnref134" class="footnote-back" role="doc-backlink">↩︎</a></li>
+<li id="fn135" role="doc-endnote"><pre class="example"><code>https://boats.gitlab.io/blog/post/shifgrethor-i/ (link)
+</code></pre>
+<a href="#fnref135" class="footnote-back" role="doc-backlink">↩︎</a></li>
+<li id="fn136" role="doc-endnote"><pre class="example"><code>https://web.archive.org/web/20200416172628/https://boats.gitlab.io/blog/post/shifgrethor-i/ (link)
+</code></pre>
+<a href="#fnref136" class="footnote-back" role="doc-backlink">↩︎</a></li>
+<li id="fn137" role="doc-endnote"><pre class="example"><code>https://boats.gitlab.io/blog/post/shifgrethor-ii/ (link)
+</code></pre>
+<a href="#fnref137" class="footnote-back" role="doc-backlink">↩︎</a></li>
+<li id="fn138" role="doc-endnote"><pre class="example"><code>https://web.archive.org/web/20200416172630/https://boats.gitlab.io/blog/post/shifgrethor-ii/ (link)
+</code></pre>
+<a href="#fnref138" class="footnote-back" role="doc-backlink">↩︎</a></li>
+<li id="fn139" role="doc-endnote"><pre class="example"><code>https://boats.gitlab.io/blog/post/shifgrethor-iii/ (link)
+</code></pre>
+<a href="#fnref139" class="footnote-back" role="doc-backlink">↩︎</a></li>
+<li id="fn140" role="doc-endnote"><pre class="example"><code>https://web.archive.org/web/20200416172636/https://boats.gitlab.io/blog/post/shifgrethor-iii/ (link)
+</code></pre>
+<a href="#fnref140" class="footnote-back" role="doc-backlink">↩︎</a></li>
+<li id="fn141" role="doc-endnote"><pre class="example"><code>https://boats.gitlab.io/blog/post/shifgrethor-iv/ (link)
+</code></pre>
+<a href="#fnref141" class="footnote-back" role="doc-backlink">↩︎</a></li>
+<li id="fn142" role="doc-endnote"><pre class="example"><code>https://web.archive.org/web/20200416172639/https://boats.gitlab.io/blog/post/shifgrethor-iv/ (link)
+</code></pre>
+<a href="#fnref142" class="footnote-back" role="doc-backlink">↩︎</a></li>
+<li id="fn143" role="doc-endnote"><pre class="example"><code>https://smallcultfollowing.com/babysteps/blog/2015/12/18/rayon-data-parallelism-in-rust/ (link)
+</code></pre>
+<a href="#fnref143" class="footnote-back" role="doc-backlink">↩︎</a></li>
+<li id="fn144" role="doc-endnote"><pre class="example"><code>https://web.archive.org/web/20200423162646/https://smallcultfollowing.com/babysteps/blog/2015/12/18/rayon-data-parallelism-in-rust/ (link)
+</code></pre>
+<a href="#fnref144" class="footnote-back" role="doc-backlink">↩︎</a></li>
+<li id="fn145" role="doc-endnote"><pre class="example"><code>https://smallcultfollowing.com/babysteps/blog/2016/02/19/parallel-iterators-part-1-foundations/ (link)
+</code></pre>
+<a href="#fnref145" class="footnote-back" role="doc-backlink">↩︎</a></li>
+<li id="fn146" role="doc-endnote"><pre class="example"><code>https://web.archive.org/web/20200423162647/https://smallcultfollowing.com/babysteps/blog/2016/02/19/parallel-iterators-part-1-foundations/ (link)
+</code></pre>
+<a href="#fnref146" class="footnote-back" role="doc-backlink">↩︎</a></li>
+<li id="fn147" role="doc-endnote"><pre class="example"><code>https://smallcultfollowing.com/babysteps/blog/2016/02/25/parallel-iterators-part-2-producers/ (link)
+</code></pre>
+<a href="#fnref147" class="footnote-back" role="doc-backlink">↩︎</a></li>
+<li id="fn148" role="doc-endnote"><pre class="example"><code>https://web.archive.org/web/20200423162653/https://smallcultfollowing.com/babysteps/blog/2016/02/25/parallel-iterators-part-2-producers/ (link)
+</code></pre>
+<a href="#fnref148" class="footnote-back" role="doc-backlink">↩︎</a></li>
+<li id="fn149" role="doc-endnote"><pre class="example"><code>https://smallcultfollowing.com/babysteps/blog/2016/11/14/parallel-iterators-part-3-consumers/ (link)
+</code></pre>
+<a href="#fnref149" class="footnote-back" role="doc-backlink">↩︎</a></li>
+<li id="fn150" role="doc-endnote"><pre class="example"><code>https://web.archive.org/web/20200423162650/https://smallcultfollowing.com/babysteps/blog/2016/11/14/parallel-iterators-part-3-consumers/ (link)
+</code></pre>
+<a href="#fnref150" class="footnote-back" role="doc-backlink">↩︎</a></li>
+<li id="fn151" role="doc-endnote"><pre class="example"><code>https://tmandry.gitlab.io/blog/posts/optimizing-await-1/ (link)
+</code></pre>
+<a href="#fnref151" class="footnote-back" role="doc-backlink">↩︎</a></li>
+<li id="fn152" role="doc-endnote"><pre class="example"><code>https://web.archive.org/web/20200417142143/https://tmandry.gitlab.io/blog/posts/optimizing-await-1/ (link)
+</code></pre>
+<a href="#fnref152" class="footnote-back" role="doc-backlink">↩︎</a></li>
+<li id="fn153" role="doc-endnote"><pre class="example"><code>https://tmandry.gitlab.io/blog/posts/optimizing-await-2/ (link)
+</code></pre>
+<a href="#fnref153" class="footnote-back" role="doc-backlink">↩︎</a></li>
+<li id="fn154" role="doc-endnote"><pre class="example"><code>https://web.archive.org/web/20200417142149/https://tmandry.gitlab.io/blog/posts/optimizing-await-2/ (link)
+</code></pre>
+<a href="#fnref154" class="footnote-back" role="doc-backlink">↩︎</a></li>
+<li id="fn155" role="doc-endnote"><pre class="example"><code>https://os.phil-opp.com/freestanding-rust-binary/ (link)
+</code></pre>
+<a href="#fnref155" class="footnote-back" role="doc-backlink">↩︎</a></li>
+<li id="fn156" role="doc-endnote"><pre class="example"><code>https://web.archive.org/web/20200419114640/https://os.phil-opp.com/freestanding-rust-binary/ (link)
+</code></pre>
+<a href="#fnref156" class="footnote-back" role="doc-backlink">↩︎</a></li>
+<li id="fn157" role="doc-endnote"><pre class="example"><code>https://os.phil-opp.com/minimal-rust-kernel/ (link)
+</code></pre>
+<a href="#fnref157" class="footnote-back" role="doc-backlink">↩︎</a></li>
+<li id="fn158" role="doc-endnote"><pre class="example"><code>https://web.archive.org/web/20200419114644/https://os.phil-opp.com/minimal-rust-kernel/ (link)
+</code></pre>
+<a href="#fnref158" class="footnote-back" role="doc-backlink">↩︎</a></li>
+<li id="fn159" role="doc-endnote"><pre class="example"><code>https://os.phil-opp.com/vga-text-mode/ (link)
+</code></pre>
+<a href="#fnref159" class="footnote-back" role="doc-backlink">↩︎</a></li>
+<li id="fn160" role="doc-endnote"><pre class="example"><code>https://web.archive.org/web/20200419114648/https://os.phil-opp.com/vga-text-mode/ (link)
+</code></pre>
+<a href="#fnref160" class="footnote-back" role="doc-backlink">↩︎</a></li>
+<li id="fn161" role="doc-endnote"><pre class="example"><code>https://os.phil-opp.com/testing/ (link)
+</code></pre>
+<a href="#fnref161" class="footnote-back" role="doc-backlink">↩︎</a></li>
+<li id="fn162" role="doc-endnote"><pre class="example"><code>https://web.archive.org/web/20200419114651/https://os.phil-opp.com/testing/ (link)
+</code></pre>
+<a href="#fnref162" class="footnote-back" role="doc-backlink">↩︎</a></li>
+<li id="fn163" role="doc-endnote"><pre class="example"><code>https://os.phil-opp.com/cpu-exceptions/ (link)
+</code></pre>
+<a href="#fnref163" class="footnote-back" role="doc-backlink">↩︎</a></li>
+<li id="fn164" role="doc-endnote"><pre class="example"><code>https://web.archive.org/web/20200419114838/https://os.phil-opp.com/cpu-exceptions/ (link)
+</code></pre>
+<a href="#fnref164" class="footnote-back" role="doc-backlink">↩︎</a></li>
+<li id="fn165" role="doc-endnote"><pre class="example"><code>https://os.phil-opp.com/double-fault-exceptions/ (link)
+</code></pre>
+<a href="#fnref165" class="footnote-back" role="doc-backlink">↩︎</a></li>
+<li id="fn166" role="doc-endnote"><pre class="example"><code>https://web.archive.org/web/20200419114841/https://os.phil-opp.com/double-fault-exceptions/ (link)
+</code></pre>
+<a href="#fnref166" class="footnote-back" role="doc-backlink">↩︎</a></li>
+<li id="fn167" role="doc-endnote"><pre class="example"><code>https://os.phil-opp.com/hardware-interrupts/ (link)
+</code></pre>
+<a href="#fnref167" class="footnote-back" role="doc-backlink">↩︎</a></li>
+<li id="fn168" role="doc-endnote"><pre class="example"><code>https://web.archive.org/web/20200419114844/https://os.phil-opp.com/hardware-interrupts/ (link)
+</code></pre>
+<a href="#fnref168" class="footnote-back" role="doc-backlink">↩︎</a></li>
+<li id="fn169" role="doc-endnote"><pre class="example"><code>https://os.phil-opp.com/paging-introduction/ (link)
+</code></pre>
+<a href="#fnref169" class="footnote-back" role="doc-backlink">↩︎</a></li>
+<li id="fn170" role="doc-endnote"><pre class="example"><code>https://web.archive.org/web/20200419115000/https://os.phil-opp.com/paging-introduction/ (link)
+</code></pre>
+<a href="#fnref170" class="footnote-back" role="doc-backlink">↩︎</a></li>
+<li id="fn171" role="doc-endnote"><pre class="example"><code>https://os.phil-opp.com/paging-implementation/ (link)
+</code></pre>
+<a href="#fnref171" class="footnote-back" role="doc-backlink">↩︎</a></li>
+<li id="fn172" role="doc-endnote"><pre class="example"><code>https://web.archive.org/web/20200419115003/https://os.phil-opp.com/paging-implementation/ (link)
+</code></pre>
+<a href="#fnref172" class="footnote-back" role="doc-backlink">↩︎</a></li>
+<li id="fn173" role="doc-endnote"><pre class="example"><code>https://os.phil-opp.com/heap-allocation/ (link)
+</code></pre>
+<a href="#fnref173" class="footnote-back" role="doc-backlink">↩︎</a></li>
+<li id="fn174" role="doc-endnote"><pre class="example"><code>https://web.archive.org/web/20200419115006/https://os.phil-opp.com/heap-allocation/ (link)
+</code></pre>
+<a href="#fnref174" class="footnote-back" role="doc-backlink">↩︎</a></li>
+<li id="fn175" role="doc-endnote"><pre class="example"><code>https://os.phil-opp.com/allocator-designs/ (link)
+</code></pre>
+<a href="#fnref175" class="footnote-back" role="doc-backlink">↩︎</a></li>
+<li id="fn176" role="doc-endnote"><pre class="example"><code>https://web.archive.org/web/20200419115009/https://os.phil-opp.com/allocator-designs/ (link)
+</code></pre>
+<a href="#fnref176" class="footnote-back" role="doc-backlink">↩︎</a></li>
+<li id="fn177" role="doc-endnote"><pre class="example"><code>https://os.phil-opp.com/async-await/ (link)
+</code></pre>
+<a href="#fnref177" class="footnote-back" role="doc-backlink">↩︎</a></li>
+<li id="fn178" role="doc-endnote"><pre class="example"><code>https://web.archive.org/web/20200419115012/https://os.phil-opp.com/async-await/ (link)
+</code></pre>
+<a href="#fnref178" class="footnote-back" role="doc-backlink">↩︎</a></li>
+<li id="fn179" role="doc-endnote"><pre class="example"><code>https://bodil.lol/parser-combinators/ (link)
+</code></pre>
+<a href="#fnref179" class="footnote-back" role="doc-backlink">↩︎</a></li>
+<li id="fn180" role="doc-endnote"><pre class="example"><code>https://web.archive.org/web/20200423162949/https://bodil.lol/parser-combinators/ (link)
+</code></pre>
+<a href="#fnref180" class="footnote-back" role="doc-backlink">↩︎</a></li>
+<li id="fn181" role="doc-endnote"><pre class="example"><code>https://manishearth.github.io/blog/2017/01/14/stop-ascribing-meaning-to-unicode-code-points/ (link)
+</code></pre>
+<a href="#fnref181" class="footnote-back" role="doc-backlink">↩︎</a></li>
+<li id="fn182" role="doc-endnote"><pre class="example"><code>https://web.archive.org/web/20200430223156/https://manishearth.github.io/blog/2017/01/14/stop-ascribing-meaning-to-unicode-code-points/ (link)
+</code></pre>
+<a href="#fnref182" class="footnote-back" role="doc-backlink">↩︎</a></li>
+<li id="fn183" role="doc-endnote"><pre class="example"><code>https://manishearth.github.io/blog/2017/01/15/breaking-our-latin-1-assumptions/ (link)
+</code></pre>
+<a href="#fnref183" class="footnote-back" role="doc-backlink">↩︎</a></li>
+<li id="fn184" role="doc-endnote"><pre class="example"><code>https://web.archive.org/web//https://manishearth.github.io/blog/2017/01/15/breaking-our-latin-1-assumptions/ (link)
+</code></pre>
+<a href="#fnref184" class="footnote-back" role="doc-backlink">↩︎</a></li>
+<li id="fn185" role="doc-endnote"><pre class="example"><code>https://manishearth.github.io/blog/2018/02/15/picking-apart-the-crashing-ios-string/ (link)
+</code></pre>
+<a href="#fnref185" class="footnote-back" role="doc-backlink">↩︎</a></li>
+<li id="fn186" role="doc-endnote"><pre class="example"><code>https://web.archive.org/web/20200430223226/https://manishearth.github.io/blog/2018/02/15/picking-apart-the-crashing-ios-string/ (link)
+</code></pre>
+<a href="#fnref186" class="footnote-back" role="doc-backlink">↩︎</a></li>
+</ol>
+</section>

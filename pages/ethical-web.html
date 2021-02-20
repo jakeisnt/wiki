@@ -1,0 +1,147 @@
+<dl>
+<dt>Backlinks</dt>
+<dd><a href="./web.org">Web</a>
+</dd>
+</dl>
+<p>Thoughts on the current state of the web and taking action to make it more ethical.</p>
+<p>The modern web often forces all developers to adhere to more and more specifications (have you seen how long and convoluted the RFC manual is?), and lives in a world where only the companies that create the standards can practically adhere to them.</p>
+<p>This is bad abstraction! This process is no different from forcing everyone who <strong>uses</strong> a technology to add specific components to their work rather than taking on this responsibility as the browser.</p>
+<p>Of course, information like a robots.txt, a webpage title and these sorts of things should be standardized and mandated by the user – but there are lots of sensible defaults, like keyboard-navigable websites, that could be applied and later overridden by the user if they don't like these defaults.</p>
+<h1>Resource Usage</h1>
+<h2>Resources</h2>
+<ul>
+<li><a href="https://www.websitecarbon.com/">Website Carbon Calculator</a></li>
+<li><a href="https://visitmy.website/2020/07/13/this-website-is-killing-the-planet/">This Website is killing the planet</a></li>
+<li><a href="https://kevq.uk/how-local-fonts-can-save-the-environment">go green with local fonts</a></li>
+<li><a href="https://buttondown.email/hillelwayne/archive/no-your-clean-code-wont-save-the-planet/">no, your clean code won't save the planet</a></li>
+<li><a href="https://joanielemercier.com/energy-consumption/ ">energy consumption measurement of a studio</a>. may not be the best place for this</li>
+<li><a href="https://www.notechmagazine.com/low-tech-magazine-the-printed-website">low tech mag: the printed website</a></li>
+<li><a href="https://cmhb.de/web-design-and-carbon-impact">Web Design and Carbon Impact – Carl MH Barenbrug – Minimalissimo – Minimalism Life</a></li>
+</ul>
+<h1>Web Minimalism</h1>
+<h2>Size Compression</h2>
+<p>There are transpilers and minifying tools, but to best optimize for small websites you might as well roll your own static site generator. I've been using Python's Jinja2 template engine but I'm sure there are better options.</p>
+<p>Lots of resources suggest that your site, or its critical resources at the least, should fit in the first ten packets:</p>
+<ul>
+<li><a href="https://www.tunetheweb.com/blog/critical-resources-and-the-first-14kb/">https://www.tunetheweb.com/blog/critical-resources-and-the-first-14kb/</a></li>
+<li><a href="https://www.smashingmagazine.com/2020/01/front-end-performance-checklist-2020-pdf-pages/#setting-realistic-goals">https://www.smashingmagazine.com/2020/01/front-end-performance-checklist-2020-pdf-pages/#setting-realistic-goals</a></li>
+<li><a href="https://tylercipriani.com/blog/2016/09/25/the-14kb-in-the-tcp-initial-window/">https://tylercipriani.com/blog/2016/09/25/the-14kb-in-the-tcp-initial-window/</a></li>
+</ul>
+<p>There are obvious performance improvements to some actions as well:</p>
+<ul>
+<li><a href="https://blog.logrocket.com/improve-site-performance-inlining-css/">https://blog.logrocket.com/improve-site-performance-inlining-css/</a></li>
+<li><a href="https://www.filamentgroup.com/lab/load-css-simpler/">https://www.filamentgroup.com/lab/load-css-simpler/</a></li>
+</ul>
+<p><a href="https://www.matuzo.at/blog/writing-even-more-css-with-accessibility-in-mind-user-preferences/">writing css with accessibility in mind</a></p>
+<h1>Behavior</h1>
+<p><a href="https://blog.matsu.io/stop-breaking-links-with-javascript">Stop breaking links with javascript</a> :: the web app should act exactly as one would expect a typical website to do. Back buttons should be reproduced to have consistent behavior at the last!</p>
+<h1>Accessibility</h1>
+<h2>Resources</h2>
+<ul>
+<li>REact ESLint Plugin</li>
+<li><a href="https://blog.brownplt.org/2018/06/11/philogenic-colors.html">Picking friendly colors for error messages for Pyret</a></li>
+<li>Axe-core (+Storybook a11y addon): checks rendered HTML for accessibility; browser extensions and react integrations are both available</li>
+<li><a href="https://chrome.google.com/webstore/detail/spectrum/ofclemegkcmilinpcimpjkfhjfgmhieb/related">Spectrum</a>: browser extension to examine how those with different color vision deficiencies will view the application</li>
+<li>Tab through you application! Make sure that the tab key proceeds in an order that makes sense. A 'skip navigation' link should appear the first time the 'Tab' key is pressed (a la GitHub) to enable users to tab through the relevant content rather than the heading.</li>
+<li>Always try to zoom to 200%; many users use the web this way! The size should behave in exactly the same way.</li>
+<li>Use a screen reader to browse. This will ensure that your semantic markup, interactive elements and other utilities are up to spec.</li>
+<li>Open content in browser reading mode; ensure that the minimum viable amount of content is available.</li>
+</ul>
+<h2>WCAG Standard</h2>
+<h3>Text</h3>
+<ul>
+<li>All non-text content must have a visible text alternative.</li>
+<li>Any prerecorded audio and video media must have alternatives completely presented via text. Captions and descriptions for these mediums must always be provided.</li>
+<li>Sign language interpretation is provided for all prerecorded audio content on synchronized media.</li>
+<li>Information, structure and relationships can be programmatically determined via text. Tags, aria labels and semantic elements should be used to strictly define navigable websites.</li>
+<li>The purpose of an element must always be determined independent of the component, icon or region (use names and text everywhere).</li>
+<li>Content does not restrict its viewing to a specific display orientation.</li>
+<li>Never use color as the only means of conveying information.</li>
+<li>Contrast ratio is very important, and text should be resized 200%+ without loss of content or functionality.</li>
+<li>No loss of content functionality occurs from:
+<ul>
+<li>Line height 1.5x</li>
+<li>Spacing 2x</li>
+<li>Letter spacing 0.12x</li>
+<li>Word spacing 0.16x</li>
+<li>hover on focus: can dismiss without focus</li>
+</ul></li>
+</ul>
+<h3>Keyboard navigable</h3>
+<ul>
+<li>No keyboard trap; all available through keyboard shortcuts, always remap or turn shortcut off</li>
+<li>No more than three flashes in one second period</li>
+<li>Any animation motion can be disabled</li>
+<li>Bypass repeated blocks of content</li>
+<li>Focus order preserves meaning</li>
+<li>Link purpose can be determined by link text alone</li>
+<li>More than one way to locate a web page</li>
+<li>Focus always visible</li>
+<li>Pointer gestures very important! Target at least 44x44 CSS pixels</li>
+</ul>
+<h3>Understandable</h3>
+<ul>
+<li>Identify specific definitions used in an unusual way, jargon, idioms</li>
+<li>Definitions provided for all abbreviations</li>
+<li>Changing the setting does not change context</li>
+<li>Navigational mechanisms are repeated in many web pages</li>
+<li>Error location is identified and error described to user in text</li>
+<li>Labels &amp; instructions provided for all user input</li>
+<li>Error prevention: legal, financial:
+<ul>
+<li>Submissions are reversible</li>
+<li>Data is always checked and validated</li>
+<li>Method for reviewing, confirming and correcting information before finalizing</li>
+</ul></li>
+<li>Context sensitive help is always available to the user. (What does this mean?)</li>
+</ul>
+<h3>Robustness in Context</h3>
+<ul>
+<li>Parseable: properly nested, unique IDs, no duplicate attributes</li>
+<li>Name and role can be programmatically determined</li>
+<li>Status messages can be determined programmatically for assistive tech</li>
+</ul>
+<h2>Tips</h2>
+<ul>
+<li>Episodic memory can be hard. Introduce product features gradually.</li>
+<li>Never divide screen into multiple actions.</li>
+<li>Provide clear feedback on progress or completion</li>
+<li>Provide reminders and alerts for habitual actions</li>
+<li>Do not assume anything; abbreviations, acronyms, scrolling, search, back button</li>
+<li>Long-form text is okay as long as attention is focused</li>
+<li>Font size of <strong>at least</strong> 16px.</li>
+<li>Always pair icons and symbols with text.</li>
+<li>Avoid using blue for colors and never use color to convey a message.</li>
+<li>Reduce the distance between sequential interface elements. Buttons should be at least 9.6mm diagonally for ages up to 70.</li>
+<li>Interface elements to be clicked with a mouse should be at least 11mm diagonally.</li>
+<li>Clear, bold headings to gravitate to are vital to navigation.</li>
+<li>Standard treatments for links should be used as they're familiar.</li>
+<li>Buttons and links should all be clearly labeled and show that they've been clicked; some graphic buttons can be distracting rather than informative, and here text is better.</li>
+<li>Use static menus – leading to another apge on click - rather than walking menus – exposing a sub menu. Sub menus should be on click rather than hover.</li>
+<li>Do error pages provide a robust description to the user?</li>
+<li>Is there a clear site map available from every page that provides an overview of the entire site?</li>
+<li>Can the page be skimmed? Is there an easy starting point? If pages are dense is it grouped?</li>
+<li>Is there an obvious way to increase the font size?</li>
+<li>Is the content written in the active voice?</li>
+</ul>
+<h2>Sources</h2>
+<p><a href="https://www.uxmatters.com/mt/archives/2017/04/designing-user-interfaces-for-an-aging-population.php">Designing user interfaces for an aging population</a> <a href="https://www.w3.org/WAI/standards-guidelines/wcag/">W3C WCAG: Web Content Accessibility Guidelines</a></p>
+<ul>
+<li><a href="https://www.w3.org/TR/2016/NOTE-WCAG20-TECHS-20160317/">Suggested Accessibility Techniques</a></li>
+</ul>
+<p><a href="https://uxplanet.org/accessible-design-designing-for-the-elderly-41704a375b5d">Designing for the elderly</a> <a href="https://www.smashingmagazine.com/2015/02/designing-digital-technology-for-the-elderly/">same thing</a> <a href="http://assets.aarp.org/www.aarp.org_/articles/research/oww/AARP-50Sites.pdf">AARP Site Accessibility</a> <a href="https://www.iso.org/accessing-my-world.html">ISO: Accessing the World</a> <a href="https://blog.sapegin.me/all/accessibility-testing/">A myriad of accessibility testing tips, links, resources</a> <span class="spurious-link" target="humanetech.com"><em>humanetech.com</em></span></p>
+<h1>Organizations</h1>
+<p><a href="https://disroot.org/en">Disroot</a>: an organization that stands for internet freedom and provides free services for git, hosting, mail and many others. <a href="https://opensource.builders/">https://opensource.builders/</a>: open source alternatives to your favorite tools (Primarily web-based!)</p>
+<p><a href="https://developer.mozilla.org/en-US/docs/Web/HTTP/Basics_of_HTTP/Evolution_of_HTTP">The evolution of HTTP</a> <a href="https://rogs.me/2020/05/de-google-my-blog-how-to-blog-in-2020-without-google/">de-google your blog</a></p>
+<h1>web hostility</h1>
+<p><a href="https://neustadt.fr/essays/against-a-user-hostile-web/">article</a> "Facebook is at odds with the open web that I love and defend…" Netscape Navigator (small internet) -&gt; big internet! The modern web is being destroyed – personalized content, growth hacking, social media activation, CMS and user experience. These websites are not built to appreciate the visitor – they are constructed to make the user a customer. Cookies bad! Small blogging good! <a href="https://shouldiblockads.com/#ha">what is wrong with ads?</a></p>
+<h1>today's js</h1>
+<p><a href="https://lea.verou.me/2020/05/todays-javascript-from-an-outsiders-perspective/">https://lea.verou.me/2020/05/todays-javascript-from-an-outsiders-perspective/</a> article THe modern web is painful. Interfacing with js and node results in conflitts between es and js versions, node incompatibilities, differnet import syntax in different circumstances, etc. it's painful. How do you import with node? without node? &lt;script&gt; tag or not to script? Where did the node modules go? This is a good rant of questions and things to feature on the wbesite</p>
+<p><a href="https://news.ycombinator.com/item?id=20323246">choose boring tech.</a></p>
+<p><a href="http://bootstrappable.org/projects.html">http://bootstrappable.org/projects.html</a> good projects to work on this is a general build philosophy addressing the chicken and egg problem – to trust platforms, we must see how each part is produced from source, but we do not have access to the source of compiled code when we run it against the language they are compiling!</p>
+<p><a href="https://stackoverflow.com/questions/121203/how-to-detect-if-javascript-is-disabled">How to detect if JavaScript is disabled?</a></p>
+<p><a href="https://www.garron.blog/posts/no-javascript-sites.html">Create No-JavaScript friendly sites</a> <a href="https://news.ycombinator.com/item?id=23246170">Why is this website port scanning me?</a> <a href="https://jeffhuang.com/designed_to_last/">designing webpages to last</a> <a href="https://github.com/tycrek/degoogle/blob/master/README.md">cutting gooogle out of your life</a></p>
+<p><a href="https://evenbettermotherfucking.website/">Even Better Motherfucking Website</a> <a href="https://underjord.io/is-this-evil.html">Is tracking users with CSS evil?</a> <a href="https://www.rfc-editor.org/rfc/rfc8890.txt">The internet is for end users</a></p>
+<p><a href="https://4042302.org/">don't break the web; just make 404s into 302s!</a> you can do this in nginx : ) <a href="https://macwright.com/2020/05/10/spa-fatigue.html">second-guessing the modern web</a> <a href="https://news.ycombinator.com/item?id=23191493">in defense of the modern web</a> <a href="https://accessibility.umn.edu/">accessibility at the university level</a> <a href="https://html.energy/">https://html.energy/</a> <a href="https://github.com/arismelachroinos/lscript">https://github.com/arismelachroinos/lscript</a> lazy scripts for kali linux to enhance penetration testing things</p>
+<p><a href="https://archive.softwareheritage.org/save/">the software heritage archive, for backing up code</a> <a href="https://timkadlec.com/remembers/2019-01-09-the-ethics-of-performance/">ethical performance on the web</a> <a href="https://gomakethings.com/always-bet-on-html/">always bet on html</a></p>
+<p><a href="https://sourcehut.org/blog/2020-05-27-accessibility-through-simplicity/">accessibility through simplicity</a> <a href="https://gtmetrix.com/leverage-browser-caching.html">taking advantage of browser cacheing</a> <a href="https://www.cnil.fr/en/cnil-publishes-gdpr-guide-developers">gdpr compliance guide for best practices</a> <a href="https://news.ycombinator.com/item?id=24258855">https://news.ycombinator.com/item?id=24258855</a> efficiency after throwing away react</p>

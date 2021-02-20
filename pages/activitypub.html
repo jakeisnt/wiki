@@ -1,0 +1,35 @@
+<p><a href="https://raw.githubusercontent.com/w3c/activitypub/gh-pages/activitypub-tutorial.txt">A good explanation of how the protocol works.</a></p>
+<h1>Research</h1>
+<ol>
+<li>host local servers, one tracking each service</li>
+<li>connect to these servers with a locally hosted mastodon client</li>
+<li>each server takes account information and mocks external accounts:
+<ul>
+<li><p>logs in through social media api</p></li>
+<li><p>view posts, corresponding threads/comments sections</p></li>
+<li><p>server publishes data form these services in real time to mastodon</p></li>
+<li><p>server creates/tracks fake mastodon user from every other user</p></li>
+<li><p>these users are visible with clever naming scheme and tolerated by server</p></li>
+<li><p>interacting with these real servers from ur acct (must be hosted in same place) == ur account on that social media interacting with their real acct</p></li>
+<li><p>likes, follows etc. also emulated – though have to check if current user is following them, has liked, has followed etc.</p></li>
+<li><p>should port over images, videos, gifs etc from whatever proprietary twitter thing they use to sane default formats to display on mastodon (i guess these should be cached for some time period, then…)</p></li>
+</ul></li>
+</ol>
+<p><a href="https://pleroma.tilde.zone/main/all">Federated social media is the future.</a></p>
+<h1>Mastodon</h1>
+<ul>
+<li>An implementation of ActivityPub</li>
+</ul>
+<p><a href="https://github.com/tleb/awesome-mastodon">awesome page</a> <a href="https://github.com/mouse-reeve/bookwyrm">bookwyrm</a> :: a decentralized reading and reviewing service with activitypub</p>
+<h1>P2P</h1>
+<p><a href="https://octodon.social/@cwebber/99015530843597174">feasibility of p2p activitypub</a> want to avoid static ip, ideally</p>
+<ul>
+<li>run on home server, always-on computer kind of deal ie beaglebone</li>
+<li>NAT TOR? Zooko's triangle – choosing between human readable, decentralized and unique is impossible. PetNames proposal may be useful</li>
+<li>key upgrade, but all that is needed is tor .onion address support, truly</li>
+</ul>
+<p><a href="https://wiki.xxiivv.com/site/rotonde.html">https://wiki.xxiivv.com/site/rotonde.html</a> cool distributed social network</p>
+<p><a href="https://dev.lemmy.ml/docs/contributing_apub_api_outline.html">ActivityPub API Outline - Lemmy Documentation</a></p>
+<p><a href="https://activitypub.rocks/">https://activitypub.rocks/</a> explanation of the activity pub prococol and how</p>
+<p><a href="https://write.as/matt/our-activitypub-projects">https://write.as/matt/our-activitypub-projects</a> neat ActivityPub projects</p>
+<p><a href="https://github.com/alexwennerberg/gourami">"A decentralized social network for the small web, implemented in ActivityPub"</a> <a href="https://news.ycombinator.com/item?id=16222478">hn thread</a></p>
