@@ -13,5 +13,4 @@ org/private/
 org-roam.db
 private/
 .direnv/
-public/pages/*.html
-public/journals/*.html
+public/**/*.html

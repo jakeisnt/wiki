@@ -23,12 +23,3 @@ I often use [[https://logseq.com][Logseq]] to work on these notes, though my pri
 
 * Contributing
 If you've found an issue with the wiki or would otherwise like to contribute, feel free to open a pull request!
-
-
-https://github.com/srid/rib-sample is a good reference for how to build a static site generator; look there for guidance. it's also built with nix which is good for examples!
-
-the big problem here is how to sneak in javascript
-
-https://chrisdone.com/posts/lucid2/ lucid tutorial
-https://mmhaskell.com/blog/2020/3/9/blaze-lightweight-html-generation blaze tutorial
-https://www.jaspervdj.be/blaze/tutorial.html good blaze

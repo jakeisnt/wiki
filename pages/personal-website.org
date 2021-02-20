@@ -1,5 +1,3 @@
-#+setupfile:./hugo_setup.org
-#+hugo_slug: personal-website
 #+TITLE: Personal Website
 
 Everyone should have a bit of a personal website with a little blurb about who they are and what they do.
@@ -365,3 +363,16 @@ https://antyfest.ru/en?mc_cid=ce7cd9a7c7&mc_eid=538eb81695 online festivals!
 https://seththompson.org/ love love love this design for a portfolio. its so dynamic and combines so many cool ideas.
 
 https://github.com/diracdeltas/random-training site that genrates rnadom training workouts
+
+* new round of sites
+https://findsai.me/about/: very impressive and professional
+ https://niksethi.com/ : a website as a conversation!
+
+ https://plato.stanford.edu/entries/russell-paradox/  wiki inspiration: love this website!
+https://www.liangela.com/ ! - very simple and to the point
+
+ future cpp talk
+https://www.youtube.com/watch?v=LJh5QCV4wDg&t=3s
+ https://vimeo.com/511271022  project cambria: strongly recommended by cool ppl
+
+https://ofcr.se/: very clean. member of cool teams for different open source projects !!!!
