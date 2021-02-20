@@ -306,3 +306,5 @@ or
 matching spotify profiles
 or
 matching face / gender factors
+* art
+broadcast and share different user inputs from your device (ie mouse, touchscreen, microphone)
