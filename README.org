@@ -32,8 +32,3 @@ the big problem here is how to sneak in javascript
 https://chrisdone.com/posts/lucid2/ lucid tutorial
 https://mmhaskell.com/blog/2020/3/9/blaze-lightweight-html-generation blaze tutorial
 https://www.jaspervdj.be/blaze/tutorial.html good blaze
-
-
-* Trying a new deployment.
-This is a test!
-this is test2
