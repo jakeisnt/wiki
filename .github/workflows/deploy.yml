@@ -1,11 +1,11 @@
-name: host
+name: build and deploy
 on:
   push:
     branches:
       - main
       - gh-actions
 jobs:
-  system:
+  build-and-deploy:
     strategy:
       fail-fast: false
     runs-on: ubuntu-latest
@@ -31,3 +31,8 @@ jobs:
       run: cd ./wikigen && nix build && cd .. 
     - name: Run wikigen
       run: && ./result/bin/wikigen ./wiki && cp wiki/public .
+    - name: Deploy
+      uses: JamesIves/github-pages-deploy-action
+      with:
+        branch: gh-pages
+        folder: public
