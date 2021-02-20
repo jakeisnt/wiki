@@ -19,7 +19,6 @@ jobs:
       uses: actions/checkout@v2
       with:
         repository: jakeisnt/wikigen
-        ref: refs/head/main
         path: ./wikigen
     - name: Install nix
       uses: cachix/install-nix-action@v12
@@ -30,9 +29,9 @@ jobs:
     - name: Install wikigen
       run: cd ./wikigen && nix build && cd .. 
     - name: Run wikigen
-      run: ./result/bin/wikigen ./wiki && cp wiki/public .
+      run: ./wikigen/result/bin/wikigen generate --dirPath $PWD/wiki && cp -r wiki/.git .
     - name: Deploy
-      uses: JamesIves/github-pages-deploy-action
+      uses: JamesIves/github-pages-deploy-action@4.0.0
       with:
         branch: gh-pages
-        folder: public
+        folder: wiki/public

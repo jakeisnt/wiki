@@ -17,6 +17,8 @@ This website has been inspired by the following:
 - [[https://braindump.jethro.dev][Jethro's Braindump]]
 and is in a state of continuous improvement.
 
+It's built with a tool I wrote, [[https://github.com/jakeisnt/wikigen]].
+
 I often use [[https://logseq.com][Logseq]] to work on these notes, though my primary interface to them is through [[https://github.com/org-roam/org-roam][org-roam]].
 
 * Contributing
