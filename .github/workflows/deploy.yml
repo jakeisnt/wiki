@@ -29,7 +29,7 @@ jobs:
     - name: Install wikigen
       run: cd ./wikigen && nix build && cd .. 
     - name: Run wikigen
-      run: ./wikigen/result/bin/wikigen generate --dirPath $PWD/wiki && cp wiki/public .
+      run: ./wikigen/result/bin/wikigen generate --dirPath $PWD/wiki && cp -r wiki/public .
     - name: Deploy
       uses: JamesIves/github-pages-deploy-action@4.0.0
       with:
