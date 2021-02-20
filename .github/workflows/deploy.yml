@@ -19,7 +19,6 @@ jobs:
       uses: actions/checkout@v2
       with:
         repository: jakeisnt/wikigen
-        ref: refs/head/main
         path: ./wikigen
     - name: Install nix
       uses: cachix/install-nix-action@v12
