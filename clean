@@ -1,0 +1,4 @@
+#!/usr/bin/env sh
+rm -rf public/journals/*.html
+rm -rf public/pages/*.html
+rm public/index.html
