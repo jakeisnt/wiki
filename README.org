@@ -1,11 +1,10 @@
 #+TITLE: Wiki
 
-This is my personal wiki, sometimes served at [[https://wiki.chvatal.com]].
+This is my personal wiki, served at [[https://wiki.jacob.chvatal.com]].
 Daily thoughts are stored in journals/, while pages/ holds long-term notes.
 
-Note that hosting the wiki is a work in progress. I've decided to abandon
-using Hugo's static site generator for my own system, but the system hasn't been 
-finished yet. I'll get there someday : ' )
+The wiki's built with a tool I wrote and maintain, [[https://github.com/jakeisnt/wikigen][wikigen]].
+Feel free to check it out and request any features you'd like - especially if you'd like to use the tool yourself!
 
 This website has been inspired by the following:
 - [[https://wiki.xxiivv.com/site/home.html][Devine Lu Linvega's Blog]]
@@ -16,8 +15,6 @@ This website has been inspired by the following:
 - [[https://bphenriques.github.io/knowledge-base/][Bruno Henriquez' Knowledge Base]]
 - [[https://braindump.jethro.dev][Jethro's Braindump]]
 and is in a state of continuous improvement.
-
-It's built with a tool I wrote, [[https://github.com/jakeisnt/wikigen]].
 
 I often use [[https://logseq.com][Logseq]] to work on these notes, though my primary interface to them is through [[https://github.com/org-roam/org-roam][org-roam]].
 
