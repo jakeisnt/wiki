@@ -1,11 +1,8 @@
-#+setupfile:./hugo_setup.org
-#+hugo_slug: mtg
-#+TITLE: Magic The Gathering
+#+TITLE: Magic: The Gathering
 
 I've been playing magic the gathering on and off for about ten years. my relationship with the game has changed -- starting as something that resembles a board game, my understanding of the game adapted and i became a collector, then a competitor, then a collector again.
 
-
-With recent administrative decisions leading to both mass bans and unhealthy card liquidation, I'll no longer be partaking in the game's ecosystem. It's unhealthy to dedicate time to something so inherently capitalist anyways. 
+With recent administrative decisions leading to both mass bans and unhealthy card liquidation, I'll no longer be playing or investing in the game. It's unhealthy to dedicate time to something so inherently capitalist.
 
 * Engines
 
