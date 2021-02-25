@@ -1,6 +1,4 @@
-#+setupfile:./hugo_setup.org
-#+hugo_slug: static-analysis
-#+TITLE: static-analysis
+#+TITLE: Static Analysis
 
 http://www.paulgraham.com/thist.html some of these notes are prompted by this
 scope
