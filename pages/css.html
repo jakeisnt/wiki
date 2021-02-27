@@ -31,4 +31,29 @@
 <h1>vulnerabilities</h1>
 <p><a href="https://github.com/saizai/cssfingerprint">saizai/cssfingerprint: a research project to see how well the CSS history hack can fingerprint a user</a></p>
 <p><a href="https://codepen.io/MrBlank/pen/JjXxovL">https://codepen.io/MrBlank/pen/JjXxovL</a> cool css animation with envelope opening <a href="https://tympanus.net/codrops/2020/10/05/recreating-the-100-days-of-poetry-effect-with-shader-scrolltriger-and-css-grid/">https://tympanus.net/codrops/2020/10/05/recreating-the-100-days-of-poetry-effect-with-shader-scrolltriger-and-css-grid/</a> <a href="https://polypane.app/css-3d-transform-examples/">https://polypane.app/css-3d-transform-examples/</a></p>
-<p><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/@counter-style">count in CSS</a></p></body></html>
+<p><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/@counter-style">count in CSS</a></p>
+<h2>Security</h2>
+<h3>Do not blindly copy paste</h3>
+<p><a href="https://lyngvaer.no/log/browser-to-clipboard-tainted">source</a></p>
+<p>In this code segment, it's trivial to hide the truth of the text that's being copied, thus resulting in a blind paste into terminal being malicious:</p>
+<div class="sourceCode" id="cb1"><pre class="sourceCode html"><code class="sourceCode html"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="kw">&lt;style&gt;</span></span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a>span {</span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a>    <span class="kw">font-family</span>: <span class="dv">monospace</span><span class="op">;</span></span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a>    <span class="kw">position</span>: <span class="dv">absolute</span><span class="op">;</span></span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a>    <span class="kw">color</span>: <span class="cn">white</span><span class="op">;</span></span>
+<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a>    <span class="kw">cursor</span>: <span class="dv">text</span><span class="op">;</span></span>
+<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a>}</span>
+<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a>span<span class="in">::selection</span> {</span>
+<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a>    <span class="kw">background</span>: <span class="cn">#accef7</span><span class="op">;</span></span>
+<span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a>    <span class="kw">color</span>: <span class="cn">#accef7</span><span class="op">;</span></span>
+<span id="cb1-11"><a href="#cb1-11" aria-hidden="true" tabindex="-1"></a>}</span>
+<span id="cb1-12"><a href="#cb1-12" aria-hidden="true" tabindex="-1"></a>span<span class="in">::before</span> {</span>
+<span id="cb1-13"><a href="#cb1-13" aria-hidden="true" tabindex="-1"></a>    <span class="kw">content</span>: <span class="st">&quot;clip&quot;</span><span class="op">;</span></span>
+<span id="cb1-14"><a href="#cb1-14" aria-hidden="true" tabindex="-1"></a>    <span class="kw">position</span>: <span class="dv">absolute</span><span class="op">;</span></span>
+<span id="cb1-15"><a href="#cb1-15" aria-hidden="true" tabindex="-1"></a>    <span class="kw">color</span>: <span class="cn">black</span><span class="op">;</span></span>
+<span id="cb1-16"><a href="#cb1-16" aria-hidden="true" tabindex="-1"></a>}</span>
+<span id="cb1-17"><a href="#cb1-17" aria-hidden="true" tabindex="-1"></a><span class="kw">&lt;/style&gt;</span></span>
+<span id="cb1-18"><a href="#cb1-18" aria-hidden="true" tabindex="-1"></a><span class="kw">&lt;span&gt;</span>fuck<span class="kw">&lt;/span&gt;</span></span></code></pre></div>
+<p>One way the author recommends safe pasting is via this command:</p>
+<div class="sourceCode" id="cb2"><pre class="sourceCode zsh"><code class="sourceCode zsh"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="kw">alias</span> <span class="ot">prepaste=</span><span class="st">&#39;builtin fc -e &quot;vim -c %d -c \&quot;set paste\&quot;&quot;&#39;</span></span></code></pre></div>
+<p>This opens the line pasted in vim before sending it to the browser, encouraging you to preview and edit it.</p></body></html>
