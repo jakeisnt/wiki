@@ -127,3 +127,36 @@ https://tympanus.net/codrops/2020/10/05/recreating-the-100-days-of-poetry-effect
 https://polypane.app/css-3d-transform-examples/
 
 [[https://developer.mozilla.org/en-US/docs/Web/CSS/@counter-style][count in CSS]]
+** Security
+*** Do not blindly copy paste
+[[https://lyngvaer.no/log/browser-to-clipboard-tainted][source]]
+
+In this code segment, it's trivial to hide the truth of the text that's being copied, thus resulting in a blind paste into terminal being malicious:
+
+#+BEGIN_SRC html
+<style>
+span {
+    font-family: monospace;
+    position: absolute;
+    color: white;
+    cursor: text;
+}
+span::selection {
+    background: #accef7;
+    color: #accef7;
+}
+span::before {
+    content: "clip";
+    position: absolute;
+    color: black;
+}
+</style>
+<span>fuck</span>
+#+END_SRC
+
+One way the author recommends safe pasting is via this command:
+#+BEGIN_SRC zsh
+alias prepaste='builtin fc -e "vim -c %d -c \"set paste\""'
+#+END_SRC
+
+This opens the line pasted in vim before sending it to the browser, encouraging you to preview and edit it.

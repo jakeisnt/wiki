@@ -1,5 +1,3 @@
-#+setupfile:./hugo_setup.org
-#+hugo_slug: design
 #+title: Design
 
 Notes on medium-agnostic design principles.
@@ -33,3 +31,9 @@ https://dbsbank.design/ writing about one of the best bank products in the world
 
   [[https://www.joelsimon.net/evo_floorplans.html][optimizing floor plans with algorithms]]
 https://nymag.com/strategist/article/explaining-the-chubby-design-trend.html what the fuck
+
+https://www.pinterest.com/gurafiku/_created/ survey of the history of japanese graphic design
+
+
+[[https://m.youtube.com/watch?feature=youtu.be&v=MmkNSsGAZhw][The Simple Essence of Automatic Differentiation - YouTube]]
+[[https://m.youtube.com/watch?feature=youtu.be&v=Kgw9fblSOx4][Residential Programming without Mutable State - Thomas Getgood - YouTube]]

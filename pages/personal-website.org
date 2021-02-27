@@ -5,7 +5,7 @@ I love the personal website; it says so much about who someone is, what they sta
 Mine can be found at https://jacob.chvatal.com!
 * Inspiration
 ** Animated
-- https://github.com/zzh8829/zihao has an excellent game on his website that involves placing blocks in various places, build with a combination of hugo and node. uses tween.js to show some great animations working!
+- https://github.com/zzh8829/zihao has an excellent game on his website that involves placing blocks in various places, build with a combination of hugo and node. uses twien.js to show some great animations working!
 - https://www.zx2c4.com/# :: Love that this fetches projects from git as well as shows a scrolling interface through their source code. I should make a website like this to showcase my own projects via the github api! See https://github.com/jakeisnt/projects.
 - https://github.com/xdesro/vogue :: There is so much dynamism here! Very enjoyable to interact with.
 - https://tatianamac.com/ :: Lots fo detail but none of it is distracting. So many important articles!
@@ -13,6 +13,9 @@ Mine can be found at https://jacob.chvatal.com!
 - http://umru.pcmusic.info/ :: This rendered animation in the background is... a lot.
 - https://simone.computer/#/ :: Just incredible! Like an old windows machine, complete with animated screensaver if the user stops browsing for awhile.
 - http://eeerik.com/ :: Another web portal; this feels so much more modern. I love the idea of developing little applets and running them inside the web portal. The bootup page is fantastic as well!
+- https://seththompson.org/ :: This is a website I'd love to have if I were more of a designer. I love how cluttered it is, displaying tons of information yet managing it super well. Seriously [[file:20210226200637-brutalist.org][brutalist]] design that's incredible to follow. Love that they're now pursuing a school of architecture after working at Google!
+- https://antyfest.ru/en?mc_cid=ce7cd9a7c7&mc_eid=538eb81695 :: fun website for checking out festivals - with ants?
+- https://sno2wman.dev/ :: This is just a circle with several social media links, but I /love/ the animations that go along with it. The source code can be found [[https://github.com/SnO2WMaN/sno2wman.dev-vol.3][here]].
 ** Beyond web
 - [[https://ameyama.com/hey][novel design!]] a website that interfaces with a physical device, a pi, and flashes a smiley face whenever someone visits the page. lends some personal, physical characteristics to an otherwise void webspace. they also have very good book recommendations
 ** Minimal
@@ -27,45 +30,55 @@ Mine can be found at https://jacob.chvatal.com!
 - https://ofcr.se/ :: Phrased introduction similar to my website but with much more information on it. It's worth considering adding more words to mine; this reads very well.
 - https://ariellam.com/ :: I love the frames! This website has some excellent design work behind it.
 - https://inns.studio/ :: This isn't exactly javascript minimal, but the scrolling feels incredible here.
+- https://aaron.ng/ :: The font is a bit strong - don't think I'm a fan of the headings - but I like a lot of Aaron's ideas!
+- https://zvava.org/ :: That graphic at the top is some incredible work. I love the dots and zig-zags - not something that's seen often!
+- http://000024.org/ :: No CSS! This is a [[file:programming-languages.org][Programming Languages]] researcher for sure. Lots of interesting projects to check out.
+- https://gndclouds.cc/ :: Love the boxes and colors!
+- https://whitequark.org/ :: Of the essay type, from a very impressive and prolific programmer working on systems and programming languages tasks. Their [[https://lab.whitequark.org/][lab notebook]] is definitely worth a peek as well.
+- https://benkettle.xyz/ :: Love how minimal this site is with little to no design requirements.
+- https://samgildea.space/ :: Such a fun site to navigate. Shoutout to Sam. Easy and fun to use; the animations are excellent.
+- https://www.dandevri.es/ :: Great blocks with lots of dotgrid styles!
+- https://mariaadelaide.com/ :: Incredibly simple. Shows project name and collaborators every time. Great source of inspiration for web development; lots to learn here. Their project here: https://cornelljournalofarchitecture.cornell.edu/ seems super useful as well.
+- https://parkimminent.com/ :: Incredibly simple and easy to navigate!
+- https://eti.tf/ :: Incredible logo on the main page. Their bookmarks are also super useful and relevant as well.
 ** Resume-Like
 - https://2d4.dev/ :: I love the look of this. It feels just like a resume, but it's able to accurately and properly communicate all of their interests, projects and accomplishments!
+- https://www.jainfamilyinstitute.org/ :: Great [[file:20210226200637-brutalist.org][brutalist]] showcase of works under a foundation.
+** Brutalist
+- https://www.r2design.pt/ :: Great overview of lots of minimal books.
+- http://timput.com/ :: Seems like a super fun person. Simple blog theme.
 ** Quirky/Novel
 - https://github.com/diracdeltas/random-training :: A bit of a sloppy site that generates random training workouts. Love the slapped together aesthetic that feels both quick and deliberate; if it weren't purposeful, there would certainly be more padding issues.
 - https://niksethi.com/ :: This website is a conversation - a choose your own adventure that walks the reader through their accomplishments! Great work.
 - https://t-ravis.com/#r=start&amp;c=look :: The personal website as a dungeon crawler.
+- https://v-os.ca/ :: All of the wild visuals, graphics and navigation quirks here make this site incredibly fun to navigate. I've never seen anything like it!
+- https://copiona.com/dise%C3%B1o/2019/10/08/collagetober.html :: An incredible brutalist theme and work. This is a joy to browse and explore; it has just enough color to engage the user but is minimal enough to not distract from the art and content that's such a focal point of the site.
 ** Blog
 - https://paco.sh/blog :: Nice layout here; great font and spacing. Love the light interaction hovering over each article. Shows just the right amount of information with good enough padding.
-** etc
-[[https://m.youtube.com/watch?feature=youtu.be&v=MmkNSsGAZhw][The Simple Essence of Automatic Differentiation - YouTube]]
-[[https://m.youtube.com/watch?feature=youtu.be&v=Kgw9fblSOx4][Residential Programming without Mutable State - Thomas Getgood - YouTube]]
-https://sivers.org/ cool entreprenuer
-* others!
-[[https://ertdfgcvb.xyz][ertdfgcvb]]
-[[http://alyssamcdevitt.me][Alyssa McDevitt - Software Engineer]]
-[[https://github.com/theWebalyst][Mark Hughes (happybeing) theWebalyst]]
-[[https://mobile.twitter.com/jackiehluo/status/1285199233398734848][jackie luo]]
-[[https://jacobjackson.com/][Home | Jacob Jackson]]
-[[https://linus.zone/latest][latest | linus.zone]]
-[[https://sharanry.github.io/][Sharan Yalburgi]]
-https://eli.li/ book recommendations!  fun blog theme! i love how this person ties together the responses they make on different social media websites and posts this all publicly on their website. I should look into setting up a centralized 'feed' to do something like this
-https://en.m.wikipedia.org/wiki/Expression_problem notion is kind of plain, but he has some fun ideas
-[[http://jamesoconnor.xyz/][pgs in remote sensing, now earth observation data scientist]]
-[[http://henge.glitch.me/][lil data music website: henge]]
-[[https://romainaubert.com/][great personal website, with the premise of the book]]
-[[http://apgwoz.com/][personal website that looks just like a manpage!]]
-[[https://flak.tedunangst.com/post/good-idea-bad-implementation-crosstalk][i love the rendering and loading animations!]]
- [[http://www.cyberdelia.party/][i love the animated text on this site!]]
-[[https://josephmannis.com/index.html][Joe Annis]]
-[[https://romandistefano.com][Roman Distefano]]
-[[http://matthewpanzer.com][Matt Panzer]]
-[[https://stephanieji.com][Stephanie Ji – Product Designer]]
-[[https://blog.256bit.org/][random advice in the form of a system printout?]]
-[[https://www.siteinspire.com/websites?categories=109+14][photography website inspiration]]
-[[https://www.dandevri.es/][cool blocked website from indie maker]]
-[[https://samgildea.space/][sam gildea]]
-[[https://ottomated.net/][developer with very cool map on their site]]
-https://notes.andymatuschak.org/About_these_notes?stackedNotes=zUw5PuD8op9oq8kHvni6sug6eRTNtR9Wqma
-[[https://s.ai/iaq][Sai - Infrequently Asked Questions]] very wild character
-[[https://github.com/SnO2WMaN/sno2wman.dev-vol.3][pretty site]]: basically a circle with a bunch of links, but it's super well animated!
-https://copiona.com/dise%C3%B1o/2019/10/08/collagetober.html hol shit this website design is incredible - the colors, the minimal lines, the style of the navigation!
-https://www.pinterest.com/gurafiku/_created/ survey of the history of japanese graphic design
+- http://seenaburns.com/ :: This 'devlog', as it's labeled, catalogues a lot of cool visual code experiments. Love the way it's concisely presented - and the style really stays out of the way.
+- http://www.brendangregg.com/ :: I don't think that this was a conscious effort or a particular exercise in web design, but I love how easy it is to see exactly what Brendan's written and worked on!
+- http://npisanti.com/main/index.html :: Little more than a feed of different animated web experiments; I love that it showcases all of these cool code animations. Definitely a great source of inspiration for some 3D tidbits. It would be excellent if I could add this feature in this [[file:wiki.org][Wiki]]!
+** Retro
+- https://blog.256bit.org/ :: Incredible visual that looks like a boot screen.
+- http://www.cyberdelia.party/ :: This website doesn't say much of anything, but I love the waves of ascii characters that are generated and displayed!
+- http://apgwoz.com/ :: A website that looks just like a manpage! Love how simple it is as well as the blinking cursor at the bottom.
+- https://flak.tedunangst.com/post/good-idea-bad-implementation-crosstalk :: Love the blocks here. Excellent choice of font as well. Feels retro and modern at the same time! Wish there were a bit more padding... The loading animation looks incredible but it's a bit annoying when interacting with the site for longer periods of time.
+- https://ertdfgcvb.xyz/ :: Wonderful text and code animations. It's so exciting to watch this! Definitely inspired - look into how these things can be imitated.
+** Photography
+- https://www.siteinspire.com/websites?categories=109+14 :: Excellent inspiration for different photography websites.
+* Others!
+- https://eli.li/ :: book recommendations! fun blog theme! i love how this person ties together the responses they make on different social media websites and posts this all publicly on their website. I should look into setting up a centralized 'feed' to do something like this
+- https://www.firstdraft-publishing.com/ :: Really cool book website.
+- [[https://s.ai/iaq][Sai - Infrequently Asked Questions]] :: A very wild character.
+- http://retiary.org/ls/writings.html :: Very powerful person; lots of information about computer music and early hypertext history.
+- https://ameyama.com/ :: Excellent blog. Love their concept of link dumps, mental health updates and reflections on seemingly mundane aspects of their life. The bookshelf sounds excellent as well!
+- https://kor.nz/projects :: lots of very cool projects.
+- https://studiofnt.com/ :: super clear and straightforward studio site.
+- https://miles.land/#portfolio :: Maintains politiwatch; some ery interesting work! Great visual design, particularly in the technical ethics space.
+- https://jborichevskiy.com/ideas/ :: Cool ideas! Love the automatic integration of hypothes.is; it's definitely worth learning and knowing ore about what they're doing. Most of these ideas pertain to [[file:20210226215238-social_media.org][social media]] concepts.
+- https://lav.io/ :: Wonderful portfolio of art. Super cool data visualizations, particularly relating to public policy - [[https://lav.io/projects/get-well-soon/][get well soon]] visualies gofundme well wishes in response to calls for help, while [[https://lav.io/projects/new-york-apartment/][new york apartment]] allows users to experience new york apartment spaces. This is definitely someone to look to when thinking about data visualization work as well as digital art that can have a tangible impact.
+- https://www.amalbansode.com/pages/projects/data/index.html :: Cool data visualization projects!
+- https://a9.io/ :: Great blog with lots of [[file:20210226215238-social_media.org][social media]] work.
+- https://alexanderlim.io/ :: Neat data visualization projects entwined with lots of prose. "Data journalism" is a very cool principle! Love his idea to [[https://alexanderlim9.github.io/concerts/][track each of his concerts]] among other projects. Check out Northeastern's co-lab for data impact ([[file:academia.org][Academia]])!
+- https://www.paritybit.ca/ :: Very interested to check out their sh-based static site generator.
+- https://electro.pizza/ :: P2P enthusiast! Love their reading and writing caragories as well as their hosting supporting the dat protocol. Look into hosting this way via [[file:20210226215250-small_internet.org][small internet]] or [[file:20210226220537-peer_to_peer.org][peer to peer]] technologies.

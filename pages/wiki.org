@@ -22,7 +22,10 @@ It allows me to easily share my thoughts and perspectives with friends or collea
 
 ** Publicity
 This portal also enables recruiters or future collaborators to learn more about me, my skills and my interests. Perhaps I can build a following, inspire someone, or find an interesting job opportunity if someone stumbles upon this wiki.
-
+* Ideas
+- https://years.cblgh.org/ Briefly summarize what you've done each month and year! This is excellent for reflection, learning and growth. It can be easily contrasted with goals. I think that doing this on a monthly basis would be much more helpful than yearly; perhaps I could introduce some tags to the wiki that would help catalogue this.
+- https://www.brendanschlagel.com/2017/11/05/canonize-creating-personal-canon-template/ :: Add a personal canon; catalogue the things that have had the most impact on you. This could be difficult but it's worth goingthrough the effort! Would be great to do some justice to each thing that's inspired you.
+- https://phse.net/values/ :: Cataloguing a list of values on the website seems incredibly value for myself or for others. These ideas are definitely admirable. (Making connections with other people has a higher return than making good work, it seems!)
 * Design
 - tags :: [[file:web_design.org][Web Design]],[[file:design.org][Design]]
 The design of this wiki has gone through multiple phases.
@@ -40,8 +43,14 @@ I've taken inspiration from several others who maintain wikis.
   https://github.com/kormyen/memex
 
 * Further Inspiration
-[[https://plato.stanford.edu/entries/russell-paradox/][Stanford's psychology wiki]] is detailed and easy to navigate.
-[[https://github.com/frankmcsherry/blog][Frank McSherry's blog]] is maintained entirely by .md files in a journal with a simple markdown index. Git *is* the UI.
+- https://notes.andymatuschak.org/About_these_notes?stackedNotes=zUw5PuD8op9oq8kHvni6sug6eRTNtR9Wqma
+- https://royniang.com/ has an excellent wiki with a ton of great ideas. Good style! Worth linking [[file:personal-website.org][Personal Website]].
+- [[https://plato.stanford.edu/entries/russell-paradox/][Stanford's psychology wiki]] is detailed and easy to navigate.
+- [[https://github.com/frankmcsherry/blog][Frank McSherry's blog]] is maintained entirely by .md files in a journal with a simple markdown index. Git *is* the UI.
+  https://twtxt.net/ is an interesting microblogging platform
+- https://codeberg.org/Valenoern/bopwiki :: a small wiki implemented entirely in a DSL that's been written in common lisp!
+- https://blot.im/ :: blog with your favorite text editor, publish to the service. Basically a static site generator?
+- https://azlen.me/ is an excellent second brain. They're an admirable writer with loads worth following.
 https://github.com/jackmcdade/secret-public-journal
 https://github.com/HermanMartinus/bearblog
 https://github.com/bphenriques/knowledge-base elisp wiki

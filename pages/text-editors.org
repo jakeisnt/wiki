@@ -72,3 +72,6 @@ indent on the z axis : ' ) increase font size as you continue!
 
 https://via.hypothes.is/http:/www.vpri.org/pdf/hc_what_Is_a_dynabook.pdf#annotations:C1V5ghbIEeuNkF8ZS7HZaw i really love these annotations-- and -t's a great [[file:books.org][Books]]
 [[http://acme.cat-v.org/][the ACME text editor]]: default for plan-9. interesting mobile system incorporating mouse usage and chording! it's different from traditional text editors and worth trying.
+https://penrose.ink/
+http://akkartik.name/about
+- https://factorcode.org/slava/ :: personal website with lots of work on text editors and notes. cool hypercard experiment!

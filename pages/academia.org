@@ -88,3 +88,12 @@ https://andres.systems :: great theorem proving person. working under adam chlip
 https://www-cs-faculty.stanford.edu/~knuth/retd.html -- of course, knuth
 
 https://ccrma.stanford.edu/~jos/ [[file:music.org][Music]]  work
+
+- [[https://andrewblinn.com/][Andrew Blinn]] :: Adminral researcher working on incredible projectional editors. Love the personality shown through the words chosen on his site.
+
+- http://jamesoconnor.xyz/ :: Great work with digital imaging and earth observation. Definitely a perspective not common in tech.
+- https://michel.steuwer.info/ :: has some interesing work on parallel programming.
+http://conal.net/ major haskell developer now working on interesting machine learning problems!
+https://kmicinski.com/
+https://clairelegoues.com/
+https://thume.ca/resume/
