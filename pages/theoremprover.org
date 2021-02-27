@@ -32,3 +32,5 @@ http://acl2s.ccs.neu.edu/acl2s/doc/
 
  https://plv.csail.mit.edu/blog/ blog from adam chlipapa's lab!
 http://www.cse.chalmers.se/research/group/logic/publications.html
+
+https://www.stephanboyer.com/ a great article for approaching theorem proving is featured here. Look to learn from this as needed!

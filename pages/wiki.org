@@ -1,5 +1,3 @@
-#+setupfile:./hugo_setup.org
-#+hugo_slug: wiki
 #+title: Wiki
 
 Wikis are tree-based tools for representing
@@ -9,53 +7,40 @@ This personal wiki is the one I maintain.
 Others refer to personal wikis as /Digital Gardens/,
 /Brain Dumps/, or /Personal Libraries/.
 
-The source of this wiki can be found at [[https://github.com/jakechv/wiki]].
+The source of this wiki can be found at [[https://github.com/jakeisnt/wiki]].
 
 * Motivation
 ** Organization
-
 I needed a way to better organize my ideas.
 Administering structure to my data was a good way
 to do this, and org-mode provides a good facility for this.
-Further, the constraints administered by the website motivate
-me to better organize my notes as they're visible to the public;
-without this structure the notes won't even render properly.
+Further, the constraints administered by the website motivate me to better organize my notes as they're visible to the public; without this structure the notes won't even render properly.
 
 ** Accessibility
-
 I'd like my notes to be easily visible to anyone.
-It allows me to easily share my thoughts and perspectives with
-friends or colleagues.
+It allows me to easily share my thoughts and perspectives with friends or colleagues.
 
 ** Publicity
-
-This portal also enables recruiters or future collaborators to
-learn more about me, my skills and my interests. Perhaps I can
-build a following, inspire someone, or find an interesting job
-opportunity if someone stumbles upon this wiki.
+This portal also enables recruiters or future collaborators to learn more about me, my skills and my interests. Perhaps I can build a following, inspire someone, or find an interesting job opportunity if someone stumbles upon this wiki.
 
 * Design
-
 - tags :: [[file:web_design.org][Web Design]],[[file:design.org][Design]]
-The design of this wiki takes after the principles of simple and minimal as discussed.
-I introduce additional logic for the multi-pane browsing as I feel that it's more conducive
-to consuming information than the typical browser structure and it adds a unique feel to the site.
-[[https://github.com/jakchv/cortex][Here]] is the template I use to publish this wiki.
-I may consider other templates or alternative views in the future,
-and will continue iterating on this design,
-but I plan to keep this template around.
+The design of this wiki has gone through multiple phases.
+
+I started with a Hugo template, adding browsing features in multiple panes to the site, but Hugo proved to be too complex of a tool to sustainably use in the long term.
+
+The current iteration of this site is generated with a Pandoc-based tool I've written myself, as I felt I wanted more customizability. Eventually, I'd like to generate multiple front-ends for the website -- so that visitors can view it as a wiki, as a traditional blog, a series of journals, or something in between -- depending on how they view the website.
 
 * References
-
 I've taken inspiration from several others who maintain wikis.
 - [[https://github.com/tommy-mor][Tommy Morriss]] first introduced me to the idea with his personal (private) wiki.
 - [[https://jethro.dev][Jethro]] has easily accessible articles and templates that I've made use of to put this together.
-- [[file:../people/100_rabbits.org][100 Rabbits]] publish all of their notes and information in a custom wiki framework.
-  https://github.com/logseq/logseq is a cool framework that syncs with github
+- [[https://100r.co][100 Rabbits]] publish all of their notes and information in a custom wiki framework.
+  [[https://github.com/logseq/logseq][Logseq]] is a really cool tool for maintaining a personal knowledge basin that syncs effortlessly with GitHub.
   https://github.com/kormyen/memex
 
 * Further Inspiration
-
+[[https://plato.stanford.edu/entries/russell-paradox/][Stanford's psychology wiki]] is detailed and easy to navigate.
 [[https://github.com/frankmcsherry/blog][Frank McSherry's blog]] is maintained entirely by .md files in a journal with a simple markdown index. Git *is* the UI.
 https://github.com/jackmcdade/secret-public-journal
 https://github.com/HermanMartinus/bearblog
@@ -67,16 +52,7 @@ https://github.com/nikitavoloboev/knowledge -- i *love* the idea of visualizing 
 https://github.com/aceyoung9/garden
 https://github.com/binyamin/eleventy-garden
 
-* Frameworks
-
-[[https://github.com/buckket/twtxt][txtxt is a CLI microblogging service for 'hackers']]
-https://codeberg.org/Valenoern/bopwiki microwiki
-https://blot.im/ blog platform with no interface
-
 * Notes
-
-https://www.youtube.com/watch?v=nXgqnYVAzKk&app=desktop note citation system for vim and pandoc
-https://blog.griffin.sh/2020/06/05/how-we-write/ improving language for blogging
 https://jlelse.blog/posts/wiki-approach/ cool wiki approach :: find the best method for me ! I think writing a blog post is the best way to help me organize my thoughts, i should get that infrastructure up. nextcloud notes is also a good option, but i do have to set up a nextcloud server to handle that
 https://dpitt.me/blog/2020/03/zettelkasten/
 [[https://obsidian.md/][obsidian md knowledge base]]
@@ -170,7 +146,6 @@ https://wiki.nikitavoloboev.xyz/
 http://okmij.org/ftp/
 [[https://memex.naughtons.org/][Memex 1.1 | John Naughton&#39;s online diary]]
 https://mboxed.github.io/sodatsu/#home
-https://www.madewithtea.com/
 
 [[https://www.mentalnodes.com/a-gardening-guide-for-your-mind][A gardening guide for your mind • Mental Nodes]]
 

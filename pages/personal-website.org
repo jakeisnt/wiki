@@ -1,378 +1,71 @@
 #+TITLE: Personal Website
 
-Everyone should have a bit of a personal website with a little blurb about who they are and what they do.
-https://jacob.chvatal.com
+I love the personal website; it says so much about who someone is, what they stand for, and how they'd like to represent themselves - from both a technical and an aesthetic perspective. One of my favorite pastimes is browsing these sites and trying to learn more about the people behind them.
+
+Mine can be found at https://jacob.chvatal.com!
 * Inspiration
-https://github.com/pacocoursey/paco
-https://github.com/azlen/azlen.me
-[[https://ameyama.com/hey][novel design!]] a website that interfaces with a physical device, a pi, and flashes a smiley face whenever someone visits the page. lends some personal, physical characteristics to an otherwise void webspace. they also have very good book recommendations
-https://github.com/zzh8829/zihao
-https://github.com/ottomated/portfolio
-
-https://github.com/kickscondor/fraidycat follow everything from a single page
-[[https://github.com/xdesro/vogue][xdesro/vogue]]
-https://aaron.ng/
-http://ryanhileman.com/
-http://ryandoeng.es/
-https://lucumr.pocoo.org/
-https://controls.ee/links/
-https://magoz.studio/
-http://www.jameschip.io/
-https://weasyprint.org/
-https://omar.yt/
-
-https://shifrakhan.com/ this is close to what i want my site to look like!
-https://www.amalbansode.com/pages/projects/data/index.html
-http://whydontyoulove.me/
-https://whitequark.org/ && https://lab.whitequark.org/
-https://lyngvaer.no/
-https://ambrevar.xyz/articles.html
-https://emersion.fr/
-https://craze.co.uk/
-https://benkettle.xyz/ i really like this site as well!
-http://jmct.cc/ galois person
-http://people.cs.uchicago.edu/~rchugh/
-http://people.cs.uchicago.edu/~brianhempel/ can we augment programming with direct manipulation interactions?
-
-https://a9.io/
-https://penrose.ink/ beautiful diagrams with math notation in plain text
-https://www.katvlasova.com/ art
-http://www.brendangregg.com/
-
-[[100r.co][100 rabbits site]] is also a great reference for personal site look
-http://seenaburns.com/
-http://akkartik.name/about
-https://www.welcometothejungle.com/en/collections/behind-the-code
-https://frnsys.com/
-https://www.jainfamilyinstitute.org/
-https://mutantc.gitlab.io/
-
-https://www.zx2c4.com/ this is so sick
-
-[[https://royniang.com/][koikoi — index]]
-[[http://kmicinski.com/][Kristopher Micinski]]
-[[https://cblgh.org/now/][now | cblgh.org]]
-[[https://clairelegoues.com/][Claire Le Goues]]
-
+** Animated
+- https://github.com/zzh8829/zihao has an excellent game on his website that involves placing blocks in various places, build with a combination of hugo and node. uses tween.js to show some great animations working!
+- https://www.zx2c4.com/# :: Love that this fetches projects from git as well as shows a scrolling interface through their source code. I should make a website like this to showcase my own projects via the github api! See https://github.com/jakeisnt/projects.
+- https://github.com/xdesro/vogue :: There is so much dynamism here! Very enjoyable to interact with.
+- https://tatianamac.com/ :: Lots fo detail but none of it is distracting. So many important articles!
+- https://willcrichton.net/# :: It's a personal website that's playable inside a game boy! This is a major motivation for me to work on this wiki platform -- I want a single source of truth for all of my web spaces, but I also want to be able to render different representations of my website depending on how I'd like to display it at any given time. The question is, though, how I should best separate these concerns!
+- http://umru.pcmusic.info/ :: This rendered animation in the background is... a lot.
+- https://simone.computer/#/ :: Just incredible! Like an old windows machine, complete with animated screensaver if the user stops browsing for awhile.
+- http://eeerik.com/ :: Another web portal; this feels so much more modern. I love the idea of developing little applets and running them inside the web portal. The bootup page is fantastic as well!
+** Beyond web
+- [[https://ameyama.com/hey][novel design!]] a website that interfaces with a physical device, a pi, and flashes a smiley face whenever someone visits the page. lends some personal, physical characteristics to an otherwise void webspace. they also have very good book recommendations
+** Minimal
+- http://mikhailkhoury.com/ :: I patterned my current website after mikhail's. It's incredibly minimal and feels mysterious and personal at the same time.
+- http://ryanhileman.com/ :: No CSS! Super communicative with brief descriptions of all of their projects and interests. There is no mystery to what they've made.
+- http://ryandoeng.es/ :: "And the gears notch and the engines wheel."[[file:academia.org][Academia]]
+- https://omar.yt/ :: incredibly simple. super easy to read their website just by looking at it. wish there were more substance though...
+- https://shifrakhan.com/ :: the minimalism speaks to a lot of their accomplishments; seems like a very impressive person.
+- https://craze.co.uk/ :: They fille the space incredibly well with this design, even though it's clearly designed with minimalism in mind. Love that navigation and 'back' are entirely built into the site. Try this out for a personal website sometime.
+- http://charlix.cx/ :: This is incredible! The website is *blurry*. Figure out how this is accomplished!
+- http://www.call-with-current-continuation.org/ :: That ascii art is beautiful. I love how much dynamism it adds to their website without having to introduce any graphics. I wonder if there's some way to generate cool ascii art to showcase on different websites...
+- https://ofcr.se/ :: Phrased introduction similar to my website but with much more information on it. It's worth considering adding more words to mine; this reads very well.
+- https://ariellam.com/ :: I love the frames! This website has some excellent design work behind it.
+- https://inns.studio/ :: This isn't exactly javascript minimal, but the scrolling feels incredible here.
+** Resume-Like
+- https://2d4.dev/ :: I love the look of this. It feels just like a resume, but it's able to accurately and properly communicate all of their interests, projects and accomplishments!
+** Quirky/Novel
+- https://github.com/diracdeltas/random-training :: A bit of a sloppy site that generates random training workouts. Love the slapped together aesthetic that feels both quick and deliberate; if it weren't purposeful, there would certainly be more padding issues.
+- https://niksethi.com/ :: This website is a conversation - a choose your own adventure that walks the reader through their accomplishments! Great work.
+- https://t-ravis.com/#r=start&amp;c=look :: The personal website as a dungeon crawler.
+** Blog
+- https://paco.sh/blog :: Nice layout here; great font and spacing. Love the light interaction hovering over each article. Shows just the right amount of information with good enough padding.
+** etc
 [[https://m.youtube.com/watch?feature=youtu.be&v=MmkNSsGAZhw][The Simple Essence of Automatic Differentiation - YouTube]]
-
 [[https://m.youtube.com/watch?feature=youtu.be&v=Kgw9fblSOx4][Residential Programming without Mutable State - Thomas Getgood - YouTube]]
-
-[[https://thume.ca/resume/][i like layout of resume and pers proj]]
-
-https://people.csail.mit.edu/karger/
-https://www.stephanboyer.com/
-
 https://sivers.org/ cool entreprenuer
-https://secondbreakfast.co/patio11-s-law
-https://tinysubversions.com/
-https://jae.moe/
-https://www.paritybit.ca/
-
-http://mikhailkhoury.com/
-https://www.reddit.com/r/compsci/comments/69h3vb/rank_polymorphism_for_array_languages/
-https://weiweihuanghuang.github.io/
-http://janvitek.org/whoowns.html
-
-http://rmculpepper.github.io/gamble/
-http://www.call-with-current-continuation.org/ i love the art here!
-https://sarahguo.com/
-https://alexanderlim.io/
-
-https://h313.info/ i like this site
-https://andres.systems/
-http://nathancorbyn.com/
-https://www.perell.com/blog/peter-thiel
-https://craphound.com/
-https://erik.itland.no/
-
-https://en.m.wikipedia.org/wiki/L%C3%A1szl%C3%B3_Polg%C3%A1r
-http://www1.ece.neu.edu/~eyeh/
-http://www.ccs.neu.edu/home/hlnguyen/
-http://www.ccs.neu.edu/home/rancohen/
-https://christine.website/contact
-https://jswrenn.comhttp://www.ccs.neu.edu/home/hlnguyen/
-https://jswrenn.com//
-http://people.cs.uchicago.edu/~jhr/
-https://www.ccs.neu.edu/home/ryanc/
-http://users.umiacs.umd.edu/~hal/cv.html
-https://users.cs.northwestern.edu/~jesse/
-** olin shivers
-http://www.ccs.neu.edu/home/shivers/autoweapons.html
-his thesis is incredible
-https://news.ycombinator.com/item?id=2382531
-stuff about olin
-comedy:
-https://www.wanderings.net/notebook/Main/BitterAcknowledgmentsOfOlinShivers
-http://www.ccs.neu.edu/home/shivers/newstyle.html
-http://www.ccs.neu.edu/home/shivers/scribblings.html
-** knuth
-https://www-cs-faculty.stanford.edu/~knuth/boss.html
-https://www-cs-faculty.stanford.edu/~knuth/news08.html
-https://www-cs-faculty.stanford.edu/~knuth/taocp.html
-https://www-cs-faculty.stanford.edu/~knuth/retd.html
-https://www-cs-faculty.stanford.edu/~knuth/vita.html
-https://docs.google.com/presentation/d/1gkVFtXpXcySlu7qiPaaACIMAXBT0Cfn_p_yBn1NFrOs/mobilepresent#slide=id.g17dd02dfa8_4_16
-https://www-cs-faculty.stanford.edu/~knuth/cp.html
-
-** mike shah
-http://www.mshah.io/pizza/artofpizza.html pizza
-http://www.mshah.io/conf/18/cppcon/index.html debugging with the gui
-https://docs.google.com/presentation/d/1jps3KpD2zbsBwwApDnsU9LsgpXX-8ttmwtwEKoNKHt8/mobilepresent#slide=id.g358c9a0181_0_7
-
-** matthias
-https://felleisen.org/matthias/Thoughts/Referential_Transparency.html
-https://felleisen.org/matthias/Thoughts/Why_How_do_I_get_a_PhD.html -- on grad
-school
-https://link.springer.com/article/10.1007/BF00277387
-https://mitpress.mit.edu/sites/default/files/sicp/full-text/book/book-Z-H-20.html#%_idx_2990
-sicp, somehow
-https://www.cis.upenn.edu/~halleyy/ phd student working on generative models
-https://mitpress.mit.edu/sites/default/files/sicp/index.html
-http://ccs.neu.edu/home/types/extras/extras.html -- been greenman, cool guy!
-https://felleisen.org/matthias/4620-s18/index.html
-https://felleisen.org/matthias/7480-s17/lectures.html -- talks from a lot of PL
-
 * others!
-people
-https://willcrichton.net/ very very cool website
-
-[[https://electro.pizza][cool person]]
-[[https://slim.computer/][v cool person !! ! ! !]]
-
-[[https://mcwhirter.io][mcwhirter.io]]
 [[https://ertdfgcvb.xyz][ertdfgcvb]]
-https://bennetthardwick.com/ okay site
-[[https://henry.codes/about/][incredible look to this site]]
-https://t-ravis.com/#r=start&amp;c=look terminal based personal website!
-http://worrydream.com/#!/quotes
-
-http://worrydream.com/#!/Bio -- this guy has done a lot and has a lot of
-[[https://www.microsoft.com/en-us/research/people/simonpj/][Simon Peyton Jones at Microsoft Research]]
-interests
-http://cs.brown.edu/research/plt/ -- self explanatory
-http://blog.ezyang.com/about/ -- edward yang, a stanford phd student who works
-with ml and functional languages
-https://ryanjung.dev/ -- in fundies, has great personal website -- work on mine!
-http://justinpombrio.net/ -- pl guy, phd student from brown
-https://shreyaskapur.com/ -- mit undergrad, really on top of it
-https://nicholas-miklaucic.github.io/ -- northeastern guy, great blog
-https://guillaumelegoy.github.io/ -- Boring Data Science blog with lots of cool
-trinkets
-http://herpolhode.com/rob/ -- archer, unix guy who writes about things!
-https://web.stanford.edu/~ouster/cgi-bin/home.php -- behind raft; cool dude
-http://aviral.io/ -- prl phd student who does a lot of cool work
-https://en.wikipedia.org/wiki/Greg_Marinovich -- photographer who has worked at a lot of different places, very well known, he works in BU
-http://willghatch.net/blog/ -- good writing on a bunch of people doing things
-with operating systems
-https://jborichevskiy.com/ideas/ -- this person has a lot of cool ideas r work
-https://www-cs-faculty.stanford.edu/~knuth/retd.html -- of course, knuth
-http://lav.io/ lots of gool 3d and visual art work
-http://madebyevan.com/ -- 3d stuff !
-https://en.wikipedia.org/wiki/Daniel_S._Weld
-http://mumble.net/~jar/ -- this guy works on cool open source things
-https://miles.land/#portfolio -- very cool and entreprenurial !
-https://winston.me/ -- winston seems cool
-https://www.karenx.com/ -- high profile filmmaker and designer
-
 [[http://alyssamcdevitt.me][Alyssa McDevitt - Software Engineer]]
 [[https://github.com/theWebalyst][Mark Hughes (happybeing) theWebalyst]]
 [[https://mobile.twitter.com/jackiehluo/status/1285199233398734848][jackie luo]]
-https://blog.jse.li/
 [[https://jacobjackson.com/][Home | Jacob Jackson]]
-https://thesephist.com/projects/
-https://mynrd.co.uk/
-https://ziv.codes/
-
 [[https://linus.zone/latest][latest | linus.zone]]
 [[https://sharanry.github.io/][Sharan Yalburgi]]
-https://mboxed.github.io/sodatsu/#home
-
-https://v-os.ca/i-tema i love love love this site and its animating glyphs! [[file:language.org][Language]]
-
-https://2d4.dev/ this acts primarily as a resume, but the flow looks incredibly nice on the front page. look into setting up something like this to use as my resume!
-
-[[https://rezmason.net/projects.html][rezmason.net - Projects]]
-https://dhh.dk/
-http://nathancorbyn.com/ pl and systems person
-https://nomand.co/#home i really like the design though its not something i'd personally do! it's too 'clean', the photos too high resolution
-https://azlen.me/ cool[[file:wiki.org][Wiki]]  and personal site
-https://oddworlds.org/  mostly a [[file:blogs.org][Blogs]]
-https://kor.nz/projects A[[file:blogs.org][Blogs]]  of projects, mostly. a sailor!
-
 https://eli.li/ book recommendations!  fun blog theme! i love how this person ties together the responses they make on different social media websites and posts this all publicly on their website. I should look into setting up a centralized 'feed' to do something like this
-https://materialfuture.net/
 https://en.m.wikipedia.org/wiki/Expression_problem notion is kind of plain, but he has some fun ideas
-https://raymii.org/s/ c adn cpp developer with some fun ideas
-https://zcreativelabs.com/ open source development studio
-https://sydgibs.com/ phd student at cmu !
-
-https://ccrma.stanford.edu/~jos/ [[file:music.org][Music]]  work
-
-https://mariaadelaide.com/
-https://www.r2design.pt/ design firm website. beautiful stuff.
-http://conal.net/ [[file:machine-learning.org][Machine Learning]] researcher and [[file:language.org][Language]] work
-https://nora.codes/
 [[http://jamesoconnor.xyz/][pgs in remote sensing, now earth observation data scientist]]
 [[http://henge.glitch.me/][lil data music website: henge]]
 [[https://romainaubert.com/][great personal website, with the premise of the book]]
 [[http://apgwoz.com/][personal website that looks just like a manpage!]]
 [[https://flak.tedunangst.com/post/good-idea-bad-implementation-crosstalk][i love the rendering and loading animations!]]
-
-https://blog.cyberpunk.net.ar/
  [[http://www.cyberdelia.party/][i love the animated text on this site!]]
-[[https://github.com/TimPut/timput.com][website built with nix and hakyll]]
-https://joshtriplett.org/ phd at [[file:portland.org][Portland]]  state, working on ocol parallel programming projects (or did! everything on the site looks old...)
-
-[[https://vaughnwalters.com][vaughn@walters:~$]]
 [[https://josephmannis.com/index.html][Joe Annis]]
 [[https://romandistefano.com][Roman Distefano]]
 [[http://matthewpanzer.com][Matt Panzer]]
 [[https://stephanieji.com][Stephanie Ji – Product Designer]]
-https://lily.digital/
 [[https://blog.256bit.org/][random advice in the form of a system printout?]]
-http://www.kaufer.org/ cool animated text on the site!
 [[https://www.siteinspire.com/websites?categories=109+14][photography website inspiration]]
 [[https://www.dandevri.es/][cool blocked website from indie maker]]
-
-
-https://pjrvs.com/
-https://rosswintle.uk/ has a built in terminal!
-https://davidalindahl.com/
-https://miguelpiedrafita.com/ maker with one of those gradient things
 [[https://samgildea.space/][sam gildea]]
-https://acha.ninja/
 [[https://ottomated.net/][developer with very cool map on their site]]
-https://benfickes.dev/
-https://www.netmeister.org/
-https://cutebouncingbunnies.wordpress.com/ yes
-http://umru.pcmusic.info/
-https://waitbutwhy.com/2015/12/the-tail-end.html
-https://jdublu10.github.io/
-https://zsavvas.github.io/
 https://notes.andymatuschak.org/About_these_notes?stackedNotes=zUw5PuD8op9oq8kHvni6sug6eRTNtR9Wqma
-
-https://azlen.me/projects/micro_learning_futures/ future of learning
-https://azlen.me/projects/
-https://azlen.me/blog/writing_as_distilled_thought/
-
-
-https://andrewblinn.com/ really cool guy, works on [[file:text-editors.org][Text Editors]]
- and other cool structured programming ideas. check out his phd lab!
-
-
-https://ifreund.xyz/ simple site, check out how the pgp key is hosted
-
 [[https://s.ai/iaq][Sai - Infrequently Asked Questions]] very wild character
 [[https://github.com/SnO2WMaN/sno2wman.dev-vol.3][pretty site]]: basically a circle with a bunch of links, but it's super well animated!
-
-https://dequis.org/
-https://v-os.ca/
-https://maxdeviant.com/posts/2020/the-high-cost-of-caring/
-https://maxdeviant.com/
-https://alarmingdevelopment.org/?p=1475
-https://years.cblgh.org/
-https://ruby0x1.ca/#home
-https://cblgh.org/support.html
-
-
-https://zvava.org/ sper cool site, try to replicate this isn mart for mine!!
-https://tatianamac.com/ cool designer, great format, i love the design but its not my style
-
-
-https://michel.steuwer.info/ works on compilers and parallel programming!
-https://simone.computer/#/ yoooo this is like using a window 98 computer!
-https://eti.tf/ incredible splash graphic, https://eti.tf/bookmarks with lots of content worth remembering
-
-http://npisanti.com/main/index.html incredible work, lots of very cool animations posted in a feed
-
 https://copiona.com/dise%C3%B1o/2019/10/08/collagetober.html hol shit this website design is incredible - the colors, the minimal lines, the style of the navigation!
-
-
-https://tinysubversions.com/ very cool guy, working in portland, oregon
-https://www.itsnicethat.com/ very cool portfolios and things to follow based on design
-
-https://type.today/en/journal [[file:fonts.org][Fonts]]  inspiration
-https://heystudio.es/ designer with lots of fun layouts
-
-cute personal site : ' )  https://pond.computer/
-
-legendary vintage os page  http://eeerik.com/ with similar https://simone.computer/#/webdesktops
-http://aiju.de/code/
-
-
-https://mariaadelaide.com/ creative web developer with a super simple and nice interface. great projects too
-https://davidfq.me/ joy
-https://www.natecation.com/
-http://www.shlohmo.com/ simple artist site
-
-https://guzey.com/ building 'new science' a la gwern
-
-
-https://parkimminent.com/ i love this one too
-
-https://www.firstdraft-publishing.com/ great layout for a book publisher
-
-http://retiary.org/ls/writings.html [[file:music.org][Music]]
-https://slim.computer/ does great programming and systems work
-. i like how easy it is to learn about her from the page!
-https://alexbo.land/ so simple and elegant!
-
-https://inns.studio/ the scrolling feels so good here!
-https://ameyama.com/ also good looks, very simple. i like hteir idea about link dumps and they have excellent writing
-https://gndclouds.cc/ colors a bit off for me but love this! fun community of entreprenuers. try to do more with your website and others. https://rosano.ca/ shipping a product each month is a great goal
-
-https://phse.net/values/ record your values on your own website and keep them logged!
-http://000024.org/ lots of work on conlangs or other fun things
-https://szymonkaliski.com/ works at ink and switch, seems like a cool person!
-https://zsavvas.github.io/ fun
-https://mikhailkhoury.com/ big inspiration for my website; i love the letter format and plain text
-https://www.brendanschlagel.com/2017/11/05/canonize-creating-personal-canon-template/ the 'personal canon', or a maintained list of infliences
-https://tianyin.github.io/
-
-http://people.cs.uchicago.edu/~jhr/ [[file:compilers.org][Compilers]]
-
- kinda cool
-https://solquemal.com/
-https://gueorgui.net/ like their art!
-
-https://lazerwalker.com/ idkk
-https://lingdong.works/ loads of projects, [[file:generative-art.org][Generative Art]]
-http://treedub.org/ another classic minimal webpage
-https://factorcode.org/slava/ started as hypercard and with factor programming lang!
-
-
- https://www.mamboleoo.be/ cute frame! this is a fun one but i don't have the images to show.
-
-
- https://neauoire.github.io/age/#1986-03-22 show my age on a site
-https://blog.burntsushi.net/about/ ripgrep guy!
-https://cs.uwaterloo.ca/~plragde/ academic
-
-
-https://ariellam.com/ i love this one! the windows are super clever.
-https://studiofnt.com/ another ocol design studio site. kind of genric
-https://shuka.design/ &&
-
 https://www.pinterest.com/gurafiku/_created/ survey of the history of japanese graphic design
-https://www.siteinspire.com/
-https://eyeondesign.aiga.org/
-https://klikkentheke.com/
-https://antyfest.ru/en?mc_cid=ce7cd9a7c7&mc_eid=538eb81695 online festivals!
-
-https://seththompson.org/ love love love this design for a portfolio. its so dynamic and combines so many cool ideas.
-
-https://github.com/diracdeltas/random-training site that genrates rnadom training workouts
-
-* new round of sites
-https://findsai.me/about/: very impressive and professional
- https://niksethi.com/ : a website as a conversation!
-
- https://plato.stanford.edu/entries/russell-paradox/  wiki inspiration: love this website!
-https://www.liangela.com/ ! - very simple and to the point
-
- future cpp talk
-https://www.youtube.com/watch?v=LJh5QCV4wDg&t=3s
- https://vimeo.com/511271022  project cambria: strongly recommended by cool ppl
-
-https://ofcr.se/: very clean. member of cool teams for different open source projects !!!!

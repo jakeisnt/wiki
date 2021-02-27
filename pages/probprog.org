@@ -1,4 +1,3 @@
 #+TITLE: Probprog
-https://github.com/rmculpepper/gamble
-
+https://github.com/rmculpepper/gamble, and the racket page: http://rmculpepper.github.io/gamble/
 http://adriansampson.net/doc/ppl.html excellent introduction to probabilistic programming langauges.

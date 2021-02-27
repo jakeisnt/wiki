@@ -21,3 +21,70 @@ https://github.com/LeifAndersen/PLGradSchools
 
 https://github.com/AZHenley/hcse-dissertations human centered swe dissertations
 https://github.com/TyGuS/hoogle_plus [[file:haskell.org][Haskell]]
+
+http://people.cs.uchicago.edu/~rchugh/
+http://people.cs.uchicago.edu/~brianhempel/ can we augment programming with direct manipulation interactions?
+
+** People
+http://www1.ece.neu.edu/~eyeh/
+http://www.ccs.neu.edu/home/hlnguyen/
+http://www.ccs.neu.edu/home/rancohen/
+https://christine.website/contact
+https://jswrenn.comhttp://www.ccs.neu.edu/home/hlnguyen/
+https://jswrenn.com//
+http://people.cs.uchicago.edu/~jhr/
+https://www.ccs.neu.edu/home/ryanc/
+http://users.umiacs.umd.edu/~hal/cv.html
+https://users.cs.northwestern.edu/~jesse/
+** olin shivers
+http://www.ccs.neu.edu/home/shivers/autoweapons.html
+his thesis is incredible
+https://news.ycombinator.com/item?id=2382531
+stuff about olin
+comedy:
+https://www.wanderings.net/notebook/Main/BitterAcknowledgmentsOfOlinShivers
+http://www.ccs.neu.edu/home/shivers/newstyle.html
+http://www.ccs.neu.edu/home/shivers/scribblings.html
+** knuth
+https://www-cs-faculty.stanford.edu/~knuth/boss.html
+https://www-cs-faculty.stanford.edu/~knuth/news08.html
+https://www-cs-faculty.stanford.edu/~knuth/taocp.html
+https://www-cs-faculty.stanford.edu/~knuth/retd.html
+https://www-cs-faculty.stanford.edu/~knuth/vita.html
+https://docs.google.com/presentation/d/1gkVFtXpXcySlu7qiPaaACIMAXBT0Cfn_p_yBn1NFrOs/mobilepresent#slide=id.g17dd02dfa8_4_16
+https://www-cs-faculty.stanford.edu/~knuth/cp.html
+
+** mike shah
+http://www.mshah.io/pizza/artofpizza.html pizza
+http://www.mshah.io/conf/18/cppcon/index.html debugging with the gui
+https://docs.google.com/presentation/d/1jps3KpD2zbsBwwApDnsU9LsgpXX-8ttmwtwEKoNKHt8/mobilepresent#slide=id.g358c9a0181_0_7
+
+** matthias
+https://felleisen.org/matthias/Thoughts/Referential_Transparency.html
+https://felleisen.org/matthias/Thoughts/Why_How_do_I_get_a_PhD.html -- on grad
+school
+https://link.springer.com/article/10.1007/BF00277387
+https://mitpress.mit.edu/sites/default/files/sicp/full-text/book/book-Z-H-20.html#%_idx_2990
+sicp, somehow
+https://www.cis.upenn.edu/~halleyy/ phd student working on generative models
+https://mitpress.mit.edu/sites/default/files/sicp/index.html
+http://ccs.neu.edu/home/types/extras/extras.html -- been greenman, cool guy!
+https://felleisen.org/matthias/4620-s18/index.html
+https://felleisen.org/matthias/7480-s17/lectures.html -- talks from a lot of PL
+
+[[https://www.microsoft.com/en-us/research/people/simonpj/][Simon Peyton Jones at Microsoft Research]]
+interests
+http://cs.brown.edu/research/plt/ -- self explanatory
+http://blog.ezyang.com/about/ -- edward yang, a stanford phd student who works
+with ml and functional languages
+
+http://people.cs.uchicago.edu/~jhr/ [[file:compilers.org][Compilers]]
+
+https://cs.uwaterloo.ca/~plragde/ academic
+
+https://people.csail.mit.edu/karger/ [[file:text-editors.org][Text Editors]] [[file:quantified-self.org][Quantified Self]]
+
+https://andres.systems :: great theorem proving person. working under adam chlipala
+https://www-cs-faculty.stanford.edu/~knuth/retd.html -- of course, knuth
+
+https://ccrma.stanford.edu/~jos/ [[file:music.org][Music]]  work
