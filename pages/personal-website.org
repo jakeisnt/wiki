@@ -2,7 +2,7 @@
 
 I love the personal website; it says so much about who someone is, what they stand for, and how they'd like to represent themselves - from both a technical and an aesthetic perspective. One of my favorite pastimes is browsing these sites and trying to learn more about the people behind them.
 
-Mine can be found at https://jacob.chvatal.com!
+My site can be found at https://jacob.chvatal.com.
 * Inspiration
 ** Animated
 - https://github.com/zzh8829/zihao has an excellent game on his website that involves placing blocks in various places, build with a combination of hugo and node. uses twien.js to show some great animations working!
