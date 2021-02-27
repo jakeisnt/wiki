@@ -119,3 +119,4 @@ https://hal.inria.fr/tel-01102401
 https://sed-bso.gitlabpages.inria.fr/sonarqube/
 https://hal.inria.fr/hal-01588422
 https://en.wikipedia.org/wiki/Loop-invariant_code_motion
+https://h313.info/blog/cpp/security/binary-analysis/2020/11/06/improve-software-debugging-with-binary-analysis.html :: binary analysis, which is similar I suppose...

@@ -1,6 +1,6 @@
-#+setupfile:./hugo_setup.org
-#+hugo_slug: quotes
 #+TITLE: Quotes
+
+Largely inspired by http://worrydream.com/#!/quotes.
 
 * Inspirational Quotes
 * https://applygrad.cs.cmu.edu/apply/index.php?domain=80

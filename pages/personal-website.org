@@ -16,6 +16,7 @@ My site can be found at https://jacob.chvatal.com.
 - https://seththompson.org/ :: This is a website I'd love to have if I were more of a designer. I love how cluttered it is, displaying tons of information yet managing it super well. Seriously [[file:20210226200637-brutalist.org][brutalist]] design that's incredible to follow. Love that they're now pursuing a school of architecture after working at Google!
 - https://antyfest.ru/en?mc_cid=ce7cd9a7c7&mc_eid=538eb81695 :: fun website for checking out festivals - with ants?
 - https://sno2wman.dev/ :: This is just a circle with several social media links, but I /love/ the animations that go along with it. The source code can be found [[https://github.com/SnO2WMaN/sno2wman.dev-vol.3][here]].
+- https://eyeondesign.aiga.org/ :: The eyes that flash when you first open the site /make/ this experience!
 ** Beyond web
 - [[https://ameyama.com/hey][novel design!]] a website that interfaces with a physical device, a pi, and flashes a smiley face whenever someone visits the page. lends some personal, physical characteristics to an otherwise void webspace. they also have very good book recommendations
 ** Minimal
@@ -41,12 +42,18 @@ My site can be found at https://jacob.chvatal.com.
 - https://mariaadelaide.com/ :: Incredibly simple. Shows project name and collaborators every time. Great source of inspiration for web development; lots to learn here. Their project here: https://cornelljournalofarchitecture.cornell.edu/ seems super useful as well.
 - https://parkimminent.com/ :: Incredibly simple and easy to navigate!
 - https://eti.tf/ :: Incredible logo on the main page. Their bookmarks are also super useful and relevant as well.
+- https://www.liangela.com/ :: The projects and work experience are put front and center here. Love the styling they've used for navigating their journal - apt reflection on personal experiences - as well as their colors and choices. Read their writing and learn to write more like them! It all seems to just flow together.
+- https://alexbo.land/ :: There is very little here but it feels like a bridge to a ton of content.
+- https://romainaubert.com/ :: Another iteration on a simple, clean design that's super easy to navigate.
 ** Resume-Like
 - https://2d4.dev/ :: I love the look of this. It feels just like a resume, but it's able to accurately and properly communicate all of their interests, projects and accomplishments!
 - https://www.jainfamilyinstitute.org/ :: Great [[file:20210226200637-brutalist.org][brutalist]] showcase of works under a foundation.
+- https://mynrd.co.uk/ :: This is so fun to navigate. Hints for finding hidden secrets are throughout the website!
 ** Brutalist
 - https://www.r2design.pt/ :: Great overview of lots of minimal books.
 - http://timput.com/ :: Seems like a super fun person. Simple blog theme.
+- https://solquemal.com/ :: Love this layout. The plants put a positive twist on brutalism that I'm a huge fan of. They have super interesting projects too!  https://oooooooooooo.xyz/ is of particular note.
+- https://ruby0x1.ca/#home :: Yes!
 ** Quirky/Novel
 - https://github.com/diracdeltas/random-training :: A bit of a sloppy site that generates random training workouts. Love the slapped together aesthetic that feels both quick and deliberate; if it weren't purposeful, there would certainly be more padding issues.
 - https://niksethi.com/ :: This website is a conversation - a choose your own adventure that walks the reader through their accomplishments! Great work.
@@ -64,6 +71,7 @@ My site can be found at https://jacob.chvatal.com.
 - http://apgwoz.com/ :: A website that looks just like a manpage! Love how simple it is as well as the blinking cursor at the bottom.
 - https://flak.tedunangst.com/post/good-idea-bad-implementation-crosstalk :: Love the blocks here. Excellent choice of font as well. Feels retro and modern at the same time! Wish there were a bit more padding... The loading animation looks incredible but it's a bit annoying when interacting with the site for longer periods of time.
 - https://ertdfgcvb.xyz/ :: Wonderful text and code animations. It's so exciting to watch this! Definitely inspired - look into how these things can be imitated.
+- https://rosswintle.uk/ :: A terminal hosted at the top of the website! Shares similar values in terms of sustainable web design as well : )
 ** Photography
 - https://www.siteinspire.com/websites?categories=109+14 :: Excellent inspiration for different photography websites.
 * Others!
@@ -82,3 +90,15 @@ My site can be found at https://jacob.chvatal.com.
 - https://alexanderlim.io/ :: Neat data visualization projects entwined with lots of prose. "Data journalism" is a very cool principle! Love his idea to [[https://alexanderlim9.github.io/concerts/][track each of his concerts]] among other projects. Check out Northeastern's co-lab for data impact ([[file:academia.org][Academia]])!
 - https://www.paritybit.ca/ :: Very interested to check out their sh-based static site generator.
 - https://electro.pizza/ :: P2P enthusiast! Love their reading and writing caragories as well as their hosting supporting the dat protocol. Look into hosting this way via [[file:20210226215250-small_internet.org][small internet]] or [[file:20210226220537-peer_to_peer.org][peer to peer]] technologies.
+- https://miguelpiedrafita.com/ :: This person seems very accomplished and has done a ton of work - and they're younger than you. Learn a lot from them. Love the border too!
+- https://findsai.me/about/ :: Good website to investigate when considering how to market myself for consulting work.
+- https://gueorgui.net/ :: Excellent [[file:20210226222945-photography.org][photography]] work - well worth a reference.
+- https://lazerwalker.com/ :: Love their playful and experimental games!
+- https://lingdong.works/ :: Very cool work with digital art, primarily investigating the revisualization of chinese characters.
+- https://guzey.com/ :: A new science blog.
+- https://www.siteinspire.com/ :: Good website showcase for inspiration.
+- https://slim.computer/ :: Love all of the highlights, her research work and the tagline! Her work's incredible. [[file:academia.org][Academia]] adjacent for sure.
+- https://www.natecation.com/ :: Really cool individual with lots of great personal stories.
+- https://szymonkaliski.com/ :: Not really sure wht to say - some cool projects.
+- https://oddworlds.org/ :: Philosophical blog work. Fellow Merveilles member.
+- https://materialfuture.net/ :: Yes!

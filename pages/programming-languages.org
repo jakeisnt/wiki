@@ -645,3 +645,4 @@ https://github.com/LeifAndersen/interactive-syntax-clojure
 [[http://www.zifyoip.com/wysiscript/sigbovik.html][programming with syntax highlighting]]
 https://news.ycombinator.com/item?id=24480504 parsing strategies
 https://news.ycombinator.com/item?id=24263117 test case generation
+https://www.reddit.com/r/compsci/comments/69h3vb/rank_polymorphism_for_array_languages/ !!
