@@ -1,4 +1,4 @@
-#+TITLE: Personal Website
+#+TITLE: Personal Websites
 
 I love the personal website; it says so much about who someone is, what they stand for, and how they'd like to represent themselves - from both a technical and an aesthetic perspective. One of my favorite pastimes is browsing these sites and trying to learn more about the people behind them.
 

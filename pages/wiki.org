@@ -44,7 +44,7 @@ I've taken inspiration from several others who maintain wikis.
 
 * Further Inspiration
 - https://notes.andymatuschak.org/About_these_notes?stackedNotes=zUw5PuD8op9oq8kHvni6sug6eRTNtR9Wqma
-- https://royniang.com/ has an excellent wiki with a ton of great ideas. Good style! Worth linking [[file:personal-website.org][Personal Website]].
+- https://royniang.com/ has an excellent wiki with a ton of great ideas. Good style! Worth linking [[file:personal-website.org][Personal Websites]].
 - [[https://plato.stanford.edu/entries/russell-paradox/][Stanford's psychology wiki]] is detailed and easy to navigate.
 - [[https://github.com/frankmcsherry/blog][Frank McSherry's blog]] is maintained entirely by .md files in a journal with a simple markdown index. Git *is* the UI.
   https://twtxt.net/ is an interesting microblogging platform
@@ -159,7 +159,7 @@ https://mboxed.github.io/sodatsu/#home
 [[https://www.mentalnodes.com/a-gardening-guide-for-your-mind][A gardening guide for your mind • Mental Nodes]]
 
 [[https://collectednotes.com/][Collected Notes.]]
-https://bismuth.garden/now another[[file:personal-website.org][Personal Website]]  and wiki
+https://bismuth.garden/now another[[file:personal-website.org][Personal Websites]]  and wiki
 https://libarynth.org/start
 
 
