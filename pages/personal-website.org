@@ -5,7 +5,7 @@ I love the personal website; it says so much about who someone is, what they sta
 My site can be found at https://jacob.chvatal.com.
 * Inspiration
 ** Animated
-- https://github.com/zzh8829/zihao has an excellent game on his website that involves placing blocks in various places, build with a combination of hugo and node. uses twien.js to show some great animations working!
+- https://github.com/zzh8829/zihao :: An excellent game on his website that involves placing blocks in various places, build with a combination of hugo and node. uses twien.js to show some great animations working!
 - https://www.zx2c4.com/# :: Love that this fetches projects from git as well as shows a scrolling interface through their source code. I should make a website like this to showcase my own projects via the github api! See https://github.com/jakeisnt/projects.
 - https://github.com/xdesro/vogue :: There is so much dynamism here! Very enjoyable to interact with.
 - https://tatianamac.com/ :: Lots fo detail but none of it is distracting. So many important articles!
