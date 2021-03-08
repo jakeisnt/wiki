@@ -1,5 +1,3 @@
-#+setupfile:./hugo_setup.org
-#+hugo_slug: acl2
 #+title: Lisp
 
 Lisp is an elegant programming language referred to as 'better than blub'.
@@ -7,7 +5,7 @@ Lisp is an elegant programming language referred to as 'better than blub'.
 * Future Work
 [[http://gigamonkeys.com/book/][practical common lisp]]
 [[https://www.dreamsongs.com/WIB.html][winning big with lisp]]
-
+[[https://stevelosh.com/blog/2018/08/a-road-to-common-lisp/][a great introduction to common lisp]]
 [[http://lisperator.net/blog/queen-chess-fast-lisp/][queens]]
 [[http://lisperator.net/blog/a-little-javascript-problem/][js problem]]
 [[http://lisperator.net/blog/pull-request-based-development-sucks/][pr based dev]]

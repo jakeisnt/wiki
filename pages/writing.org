@@ -1,0 +1,11 @@
+#+TITLE: Writing
+
+Improving quality of writing.
+
+* Why good writing is important
+[[https://blog.griffin.sh/2020/06/05/how-we-write/][src]]
+- tone :: attitude. changes depending on circumstance, and is used to set the mode of conversation
+- voice :: setting a consistent voice is the most important thing you can do for advertising. clear, honest transparency is a great way to start, but introducing flavorful word choice can build upon this. this is a discussion of consistent words and terms to refer to companies in internal and external writing; for example, 'independents' vs. 'employees'.
+- natural speech :: write as you speak, using fewer nouns and more verbs - this infuses words with empathy.
+- speak the audience's language.
+- avoid business speak.

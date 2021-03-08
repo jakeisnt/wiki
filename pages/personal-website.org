@@ -21,6 +21,7 @@ My site can be found at https://jacob.chvatal.com.
 - [[https://ameyama.com/hey][novel design!]] a website that interfaces with a physical device, a pi, and flashes a smiley face whenever someone visits the page. lends some personal, physical characteristics to an otherwise void webspace. they also have very good book recommendations
 ** Minimal
 - http://mikhailkhoury.com/ :: I patterned my current website after mikhail's. It's incredibly minimal and feels mysterious and personal at the same time.
+- https://nthea.xyz/ :: Big fan of her fits and her web work doesn't disappoint - done in good taste. Love the functionality of the interactive menus.
 - http://ryanhileman.com/ :: No CSS! Super communicative with brief descriptions of all of their projects and interests. There is no mystery to what they've made.
 - http://ryandoeng.es/ :: "And the gears notch and the engines wheel."[[file:academia.org][Academia]]
 - https://omar.yt/ :: incredibly simple. super easy to read their website just by looking at it. wish there were more substance though...
@@ -102,3 +103,5 @@ My site can be found at https://jacob.chvatal.com.
 - https://szymonkaliski.com/ :: Not really sure wht to say - some cool projects.
 - https://oddworlds.org/ :: Philosophical blog work. Fellow Merveilles member.
 - https://materialfuture.net/ :: Yes!
+- https://nico.xyz/projects/ :: Love the interface; minimal summary to the right coupled with panes appearing and fading to the right.
+- https://twitter.com/gwern/status/1092221945427517440 :: some excellent notes from gwern about web design and optimizations.

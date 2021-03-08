@@ -1,0 +1,2 @@
+#+title: retrosite
+thinking about making a site about retro computin

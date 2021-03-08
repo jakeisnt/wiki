@@ -236,3 +236,4 @@ http://blog.sigfpe.com/2006/08/algebraic-topology-in-haskell.html?m=1
 
 * important
 https://artyom.me/aeson#fromjson-instances-for-other-types the best aeson tutorial
+[[https://adrian.geek.nz/haskell_docs/ghc.html][incredible read on how GPC works]]

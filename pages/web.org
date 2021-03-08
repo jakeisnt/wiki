@@ -190,3 +190,5 @@ static file listing and directories
 http://shithouse.tv/ fire
 http://photorequestsfromsolitary.org/ photo requests out of teh blue from random people. you can submit answers to these requests! [[file:camera.org][Camera]]
 https://well-versed.gilgamesh.cc/ poetry fridge on the internet!
+
+[[https://lobste.rs/s/mdmvuw/webcheck_high_confidence_browser#c_4kjqpg][webcheck: high confidence browser testing]]

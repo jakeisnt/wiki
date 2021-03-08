@@ -54,3 +54,9 @@ https://pislices.ca/archive
 https://github.com/RenaudRohlinger/r3f-next-starter good start for threejs
 
 https://github.com/AndrewPrifer/react-three-editable etitable interface for react three fiber
+* Other WebGL Utilities
+[[https://oframe.github.io/ogl/examples/?src=indexed-vs-non-indexed.html][OFrame demos]]
+https://tympanus.net/codrops/2019/10/16/case-study-chang-liu-portfolio-v4/ neat tutorial!
+http://reagent-project.github.io/docs/master/index.html
+https://iamsound.zora.co/gallery incredible 3d work
+https://smoothstep.io/anim/26d46785c1f6 incredible implementation of game of life inside of game of life

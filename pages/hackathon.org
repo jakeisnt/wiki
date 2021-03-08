@@ -1,5 +1,3 @@
-#+setupfile:./hugo_setup.org
-#+hugo_slug: hackathon
 #+TITLE: Hackathon
 
 Small ideas for hackathons or small periods of time.
@@ -308,3 +306,16 @@ or
 matching face / gender factors
 * art
 broadcast and share different user inputs from your device (ie mouse, touchscreen, microphone)
+* Retro computing website
+Make it look like it's an overengineered 90s site with all of the quirks!
+[[https://www.hitwebcounter.com/][Add a hit counter!]]
+Learn from it and try to build little components of retro design into other products.
+* Ideas from linus
+[[https://thesephist.com/posts/tools/][one of many of his projects]]
+- long term note system
+- ephemeral note system
+- tracking people, what you know and what you've talked about. leverage carddav contact system for this.
+- public availability calendar that enables scheduling times
+- workflows are more important than tools in general. focus on these!
+- own these tools; they should grow with your workflow!
+- https://soundsfromplaces.surge.sh/ sounds from places; records of places visited and sounds recorded from them.
