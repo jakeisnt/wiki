@@ -1,0 +1,11 @@
+#+TITLE: Wednesday, 03/10/2021
+** 11:22
+today my goal is to:
+- complete the bf part of the beautiful racket textbook
+- start making my way through the TAPL textbook
+- write a quick julia program to upload local files to the remarkable
+- write basic review of the two bags!
+- come up with some more article ideas!
+- try to film some b roll footage for product reviews!
+- go for a walk!
+- extras: wiki, product review and edit photos!!
