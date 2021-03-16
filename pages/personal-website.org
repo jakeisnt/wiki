@@ -73,6 +73,7 @@ My site can be found at https://jacob.chvatal.com.
 - https://flak.tedunangst.com/post/good-idea-bad-implementation-crosstalk :: Love the blocks here. Excellent choice of font as well. Feels retro and modern at the same time! Wish there were a bit more padding... The loading animation looks incredible but it's a bit annoying when interacting with the site for longer periods of time.
 - https://ertdfgcvb.xyz/ :: Wonderful text and code animations. It's so exciting to watch this! Definitely inspired - look into how these things can be imitated.
 - https://rosswintle.uk/ :: A terminal hosted at the top of the website! Shares similar values in terms of sustainable web design as well : )
+- https://benshapi.ro/ :: This looks just like a BIOS screen - perhaps it's meant to resemble an old not-quite-computer-GUI though. I love the loading animation and the color scheme; really feels like I'm booting up an ancient IBM machine.
 ** Photography
 - https://www.siteinspire.com/websites?categories=109+14 :: Excellent inspiration for different photography websites.
 * Others!

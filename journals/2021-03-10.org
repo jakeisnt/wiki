@@ -2,10 +2,12 @@
 ** 11:22
 today my goal is to:
 - complete the bf part of the beautiful racket textbook
-- start making my way through the TAPL textbook
+- start making my way through the TAPL textbook. flip through chapter 1
 - write a quick julia program to upload local files to the remarkable
 - write basic review of the two bags! (with this, images and org mode!)
 - come up with some more article ideas!
 - try to film some b roll footage for product reviews!
 - go for a walk!
+- make a reddit post about my OS layout
+- clear out part of my email
 - extras: wiki, product review and edit photos!!

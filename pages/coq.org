@@ -28,3 +28,4 @@ https://github.com/uwplse/pumpkin-pi something to do with a coq plugin suite?
 
 https://www.reddit.com/r/Coq/comments/tzpb9/webbased_proofbypointing_frontend_to_coq/
 https://news.ycombinator.com/item?id=26288749: a great approach to coq through a sample z3 tutorial
+[[http://www.cse.chalmers.se/research/group/logic/TypesSS05/resources/coq/CoqArt/][coqart]]: a textbook for learning more coq!

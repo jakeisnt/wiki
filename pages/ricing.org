@@ -196,17 +196,9 @@ http://thedarnedestthing.com/dmenu2
 byobu ?? https://www.byobu.org/
 
 * diversifying systems
-you should probably install and set up multiple operating systems - one
-'experimental' one, with other 'stable' partitions in case the unstable one
-really messes up
+- try keeping around a MacOS partition? could come in handy!
 https://www.reddit.com/r/unixporn/comments/ff0o8d/refind_which_kernel_are_you_feeling_like_today/
-https://www.reddit.com/r/unixporn/comments/ff1xru/oc_freebsd_ricing_guide/ --
-helpful if i install bsd
-- void linux? bedrock linux?
-- macos -- make sure to have working configuration here
-- freebsd / openbsd ? i think the former is supposed to be cooler
 refind configuration: https://github.com/ibhagwan/dots/blob/master/refind/refind.conf
-https://parabola.nu -- arch with all free software
 
 * keybindings
 [[https://github.com/baskerville/sxhkd][keyboard hotkey demon]]
@@ -226,3 +218,4 @@ configure .desktop files properly for configuration
 https://xn--gckvb8fzb.com/a-nomads-computer/
 [[https://github.com/achiurizo/consular][automate dev workflow setup ??]]
 [[https://tudorr.ro/software/windowchef/][i like this website layout, not sure if super relevant]]
+[[https://www.reddit.com/r/unixporn/comments/ltfpp8/xmonad_shakespeare_would_use_arch/][love the color scheme and decoration here.]]
