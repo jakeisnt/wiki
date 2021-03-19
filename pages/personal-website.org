@@ -66,6 +66,7 @@ My site can be found at https://jacob.chvatal.com.
 - http://seenaburns.com/ :: This 'devlog', as it's labeled, catalogues a lot of cool visual code experiments. Love the way it's concisely presented - and the style really stays out of the way.
 - http://www.brendangregg.com/ :: I don't think that this was a conscious effort or a particular exercise in web design, but I love how easy it is to see exactly what Brendan's written and worked on!
 - http://npisanti.com/main/index.html :: Little more than a feed of different animated web experiments; I love that it showcases all of these cool code animations. Definitely a great source of inspiration for some 3D tidbits. It would be excellent if I could add this feature in this [[file:wiki.org][Wiki]]!
+- https://ellen.cool/ :: this website looks like it's completely handwritten - it could have been composed on my remarkable. love the look. worth trying out for a project of my own!
 ** Retro
 - https://blog.256bit.org/ :: Incredible visual that looks like a boot screen.
 - http://www.cyberdelia.party/ :: This website doesn't say much of anything, but I love the waves of ascii characters that are generated and displayed!

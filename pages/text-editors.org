@@ -75,3 +75,7 @@ https://via.hypothes.is/http:/www.vpri.org/pdf/hc_what_Is_a_dynabook.pdf#annotat
 https://penrose.ink/
 http://akkartik.name/about
 - https://factorcode.org/slava/ :: personal website with lots of work on text editors and notes. cool hypercard experiment!
+[[https://www.maria.cloud/][maria: a clojurescript envvironment for beginners. try it out!]]
+hazel, of /course/.
+- https://coda.io/welcome :: an active computing document. substantial improvement upon the skills that spreadsheet wizards already have
+- https://glitch.com/ :: excellent way to ship web projects : )

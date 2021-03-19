@@ -646,3 +646,5 @@ https://github.com/LeifAndersen/interactive-syntax-clojure
 https://news.ycombinator.com/item?id=24480504 parsing strategies
 https://news.ycombinator.com/item?id=24263117 test case generation
 https://www.reddit.com/r/compsci/comments/69h3vb/rank_polymorphism_for_array_languages/ !!
+https://www.cis.upenn.edu/~bcpierce/courses/670Fall04/GreatWorksInPL.shtml tons of great reading material.
+http://www.is.ocha.ac.jp/~asai/Black/ :: an extension of scheme that not only allows for metaprogramming, but also meta-modification of the interpreter it's running on! any program can modify the behavior of the _interpreter_. nuts!

@@ -292,6 +292,11 @@ this should be for nontechnical users that want to use linux, so they don't have
 
 * generative music
 yes
+* Personal calendar
+I love calendly but wish it had integrations with other non-proprietary software. Rebuild its interface (but more mininally) with the following integrations:
+- Jitsi Meet for calls (with support for using a custom Jitsi server, as needed)
+- Smess chat meeting : ) - super powerful! Find a FOSS alternative to Loom video? Or make one?
+- CalDAV - i want to be able to use an open source calendar rather than Google Calendar BS.
 * Generative poems
 inspiration:
 - https://wiki.xxiivv.com/site/the_will_the_wisp.html
