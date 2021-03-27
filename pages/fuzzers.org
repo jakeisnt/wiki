@@ -1,0 +1,71 @@
+#+TITLE: Fuzzers: from
+* John Regehr talk
+two types
+- generative fuzzers. comes up with these things out of nowhere to try test inputs
+- mutation fuzzers. tweak existing corpus
+
+  structure is often very ill-defined and vague.
+
+  can start to build up justified sense of confidence that your code doesn't suck
+
+  what's different about approaching the code?
+
+
+for one compiler, the generated code could stack overflow. forces you to be super tight about catching corner cases earlier in the start rather than actually just putting up with them without the fuzzing testing. gets you to dig into these test cases more easily.
+
+outgrowth of test driven development - it's about being able to define classes of test cases you care about and iterate on testing those cases
+
+
+you want to look for anything - crashes, things going wrong, etc...
+as you're writing the code, you embed test oracles (assertions, primarily) within the code to dynamically check this! the weaker the language the more you need.
+
+
+property testing and fuzzing are related; property testing is thought of as fuzzing with more oracles - it allows you to describe the properties, whereas fuzzing is thought of as more 'black box'
+
+adjusting to languages with fewer guardrails, or type safety; ships the responsibility to the testing, mostly
+this is why gradual typing are so exciting! you can shift towards a fully typed environment and ensure that you add the types later, saving you a /ton/ of the trouble of testing.
+
+don't invest a lot of work into generating test cases if you already have a super rich corpus of text to have your fuzzer draw from
+
+however, eg csmith, had lots of undefined behavior, so a very strong property had to be enforced on the test code
+
+need to impose structure on the testing - valid c++ is one of the most difficult file formats.generators are so hard to write for not much benefit!
+
+what should be fuzzed? what doesn't matter?
+ideal workflow with fuzzing involved
+- project started from scratch
+  write genreators as you write the code. okay to throw away them if they aren't scalable, continue to iterate
+- project you pick up: heavily depends on use case obviously
+don't fuzz if your code doesn't yet have the maturity to do it!
+
+fuzzing is just weak verificatio: it's a weak quantifier over all possible inputs in the space of inputs. it's one of hte closest ways we can get to formal verification without the effort to do it! most things are mostly wrong and you need to fuzz them before proving them correct! only after fuzzing does verification make any sense. always fuzz with assertions, too, now have a decent specification for the system already after doing this fuzzing campaign!
+
+almost everything he does is about /people/ and making things better for people! great programming language trend towards interactivity and ways to work with you the way you want to work in code!
+
+Insight that makes creduce works across languages - alcohol and lisp? shared syntax of block structure language - understands all of the braces at some rudimentary level. has tokenizatio npass based on c tokenizer, but it works half decently for other things?
+
+creduce:
+- smtlib files? works fine . there is another smtlib reducer. creduce is pluggable and modular, plugs in a lot of reduction passes. could hack it to delete a bunch of passes from c and replace them with other ones as needed. can't work super well with other things, as it tries to label everything with ssa values - very hard coded for algol, lisp or similar.
+- jits?
+
+  what keeps us from doing automated testing in industry today? why do you think people aren't using it more?
+
+  focus fuzzing on hot paths and common paths rather than all of the paths. bad things: not prioritizing bugs, not being able to focus on things that fuzzers care about. fuzzers can be /dynamic/ - people don't necessarily want static checking!
+
+DSL to specify what you care about - take advantage of what you care about in testing! in general this is an incredible view on this program
+
+use modern languages, test rigorously, write proper fuzzer generators
+
+* Resources
+https://concuerror.com/: stateless model checker for erlang
+https://github.com/csmith-project/creduce/blob/master/creduce/creduce.in the creduce code
+https://www.carolemieux.com/rlcheck_preprint.pdf reinforcemenet learning for testing inputs!
+
+https://gamozolabs.github.io/fuzzing/2020/12/06/fuzzos.html OS for fuzzing optimization??
+https://embed.cs.utah.edu/csmith/ best fuzzer for C
+
+https://www.fuzzingbook.org/html/Grammars.html fuzzing with grammars
+https://blog.trailofbits.com/2018/12/31/fuzzing-like-its-1989/ a decent fuzzing article
+delta debugging was mentioned as an interesting tactic to use
+
+https://embed.cs.utah.edu/creduce/: works pretty well on lots of languages!
