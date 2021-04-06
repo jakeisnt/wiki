@@ -1,0 +1,5 @@
+#+TITLE: Blockchain
+
+[[https://ethereum.org/en/developers/docs/smart-contracts/languages/][An overview of different smart contract languages]]
+[[https://101blockchains.com/how-to-build-a-blockchain-app/][how to build a blockchain app: a decent overview]]
+[[https://www.dappuniversity.com/articles/how-to-build-a-blockchain-app#preview][leveraging eth to build such an app!]]
