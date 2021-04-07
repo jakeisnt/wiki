@@ -65,7 +65,7 @@ sriram krishnamurthi's work on developing editors for education to help students
 
 
 indent on the z axis : ' ) increase font size as you continue!
-[[https://www.notion.so/Future-of-Programming-Lab-241d162461a04064ae1fd9ae32bf4cb1][future of programming lab]]: type theory to human studies. TODO come back to this - this is what you ewant to do!!!!
+[[https://www.notion.so/Future-of-Programming-Lab-241d162461a04064ae1fd9ae32bf4cb1][future of programming lab]]: type theory to human studies. TODO come back to this - this is what you want to do!!!!
  [[https://neonpad.io/][neonpad.io - A neon plain text editor]]
 [[https://numinous.productions/ttft/][transformative tools for thought]] [[file:wiki.org][Wiki]]
 
@@ -79,3 +79,6 @@ http://akkartik.name/about
 hazel, of /course/.
 - https://coda.io/welcome :: an active computing document. substantial improvement upon the skills that spreadsheet wizards already have
 - https://glitch.com/ :: excellent way to ship web projects : )
+
+   https://squeak.org/ : a fascinating smalltalk editor!
+   [[natto.dev]]: interactive, multidimensional js coding environment
