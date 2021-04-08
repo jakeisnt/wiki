@@ -373,3 +373,4 @@ https://xsznix.wordpress.com/
 [[https://drewdevault.com/editing][videos of people editing text]]
 
 https://github.com/shapr/markovkeyboard keyboard that changes by markov freuqnecy
+https://kevinlynagh.com/rust-zig/ : keyboard firmware in rust and zig! and a keyboard with it: https://www.reddit.com/r/MechanicalKeyboards/comments/eaufzh/every_pieces_are_precious/

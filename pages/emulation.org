@@ -43,3 +43,9 @@ https://jakekinsella.com/projects/intel8080/
 - https://frank-buss.de/lispcpu/
 - https://stevelosh.com/blog/2016/12/chip8-cpu/
 https://stackoverflow.com/questions/448673/how-do-emulators-work-and-how-are-they-written#448689
+
+* chips!
+https://blog.scottlogic.com/2017/12/13/chip8-emulator-webassembly-rust.html
+https://github.com/origamitower/purr-site? can't remember exactly why i saved this
+http://www.michaelburge.us/2019/03/18/nes-design.html implementing a nes emulator in rust!
+https://prilik.com/blog/post/widenes/ the basic overview of how the nes works!

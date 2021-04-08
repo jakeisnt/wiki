@@ -1,6 +1,6 @@
 #+TITLE: Clojure
 
-Clojure is a fascinating Java-based lisp ecosystem. It's well supported on several platforms thanks to Clojurescript and is probably the best Lisp for production today!
+Clojure is a fascinating Java-based lisp ecosystem. It's well supported on several platforms thanks to Clojurescript and is probably the best Lisp for production today! I've been using it extensively - it's my favorits browser-based programming language.
 
 * Libraries
 [[https://github.com/davidsantiago/hickory][hickory]]: parse html into clojure data structures
@@ -12,3 +12,6 @@ Clojure is a fascinating Java-based lisp ecosystem. It's well supported on sever
 [[https://github.com/tonsky/rum][rum]]: client server library for html ui in clojurescript. works as a React wrapper
 [[https://github.com/dakrone/cheshire][cheshire]]: fast JSON encoding in clojure.
 https://github.com/onetom/clj-figwheel-main-devcards setting up nix with clojure, figwheel and devcards ui
+
+* frameworks
+https://luminusweb.com/docs/guestbook

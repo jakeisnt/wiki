@@ -1,0 +1,10 @@
+#+TITLE: Tuesday, 04/06/2021
+** 23:06 making art never seems to get easy
+[[https://tylerxhobbs.com/essays/2019/reflections-on-five-years-of-making-art-through-programming][, somehow]].
+
+I think this is what I need for my free time: generative artwork. This isn't something to tout on an NFT website, nor is it some nergy bragging right - genuine experimentation with algorithmic art is incredibly important, and exploring it, I think, is vital to me and helpful for taking a break from the mundane. The algorithms hit different parts of the brain than type theory and formal reasoning can - these are incredibly important to practice, and equally important is exploring a space that has no tractable end goal. This generative rendering forces you to analyze in a way industry software and research never really could.
+
+Having a dedicated space is probably the most important thing you can do for your art. Do it! Make this space and take the time to work on what you'd like. Bring the visualizations in your head to life - in one way or another.
+It's great that I've come back to this after so long, and I really look forward to generative art playing a larger part of my life and time going forward. It'll help me from burnout while keeping me "productive", both learning and exercising creativity.
+** 23:14 freeze frame!
+https://freeze.app/: this is basically a wrapper for systemd cgroups and workspaces - it's totally possible on linux with a bit of effort! you could make this work!

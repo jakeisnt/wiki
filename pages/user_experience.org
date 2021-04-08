@@ -2,3 +2,4 @@
 
 [[https://mudita.com/products/pure/muditaos][an os optimized for mobile simplicity]]
 [[https://dl.acm.org/doi/abs/10.1145/166117.166125][alternative ui research from 90s]]
+https://component.gallery/: great resource for developing interfaces!

@@ -324,3 +324,7 @@ Learn from it and try to build little components of retro design into other prod
 - workflows are more important than tools in general. focus on these!
 - own these tools; they should grow with your workflow!
 - https://soundsfromplaces.surge.sh/ sounds from places; records of places visited and sounds recorded from them.
+* chat bot
+reasonml, using elisa algorithm!
+* recipe app
+ https://www.ica.se/recept/kladdig-kladdkaka-722982/ we can do so much better

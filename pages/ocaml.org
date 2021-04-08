@@ -1,4 +1,6 @@
-#+TITLE: Ocaml
+#+TITLE: OCaml
+
+Super fun ML programming language! [[file:coq.org][Coq]] is essentially embedded in it. Great type system but the language doesn't pose substantial limitations to the developer, unlike the purity that languages like [[file:haskell.org][Haskell]] tout.
 
 https://github.com/ezyang/ocaml-cminsketch
 https://github.com/NathanReb/ocaml-afl-examples [[file:cybersecurity.org][Cybersecurity]]
@@ -9,3 +11,10 @@ https://github.com/jfecher/row-polymorphism
 [[https://www.reddit.com/r/ocaml/comments/i31lhf/multicore_ocaml_july_2020/][Multicore OCaml: July 2020 - ocaml]]
 http://rgrinberg.com/posts/deriving-slowly/
 https://github.com/rossberg/1ml
+
+* Reason
+An alternative syntax for OCaml that works in the browser.
+The messaging here is very confusing - bucklescript? ReasonReact? Which is it?
+Some good example projects:
+- https://github.com/paulshen/nook-exchange-old
+- https://github.com/paulshen/listening-bar

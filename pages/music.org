@@ -194,4 +194,7 @@ https://pressurecookerreliefvalve.bandcamp.com/album/towards-a-new-architecture
 https://www.youtube.com/watch?v=WY5o2plCfKk&app=desktop
 https://soundcloud.com/2xln/fausto-mercier-glutrmx
 https://github.com/thi-ng/synstack forth vm for audio dsl experiments
-[[https://www.reddit.com/r/haskell/comments/gtq3yk/making_music_with_haskell_from_scratch/][making music in haskell!]]
+[[https://www.reddit.com/r/haskell/comments/gtq3yk/making_music_with_haskell_from_scratch/][making music in haskell!]] [[file:haskell.org][Haskell]] [[file:generative-art.org][Generative Art]]
+
+https://cprimozic.net/blog/buliding-a-wavetable-synthesizer-with-rust-wasm-and-webaudio/#demo [[file:rust.org][Rust ]][[file:generative-art.org][Generative Art]]
+https://www.toptal.com/webassembly/webassembly-rust-tutorial-web-audio
