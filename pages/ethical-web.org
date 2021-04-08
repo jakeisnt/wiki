@@ -144,6 +144,8 @@ This is a good rant of questions and things to feature on the wbesite
 
 [[https://news.ycombinator.com/item?id=20323246][choose boring tech.]]
 
+[[http://solarprotocol.net/][a solar protocol hosted across a network of solar powered servers!]]
+
 http://bootstrappable.org/projects.html good projects to work on
 this is a general build philosophy addressing the chicken and egg problem --
 to trust platforms, we must see how each part is produced from source, but we

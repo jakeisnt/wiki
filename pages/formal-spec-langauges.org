@@ -1,4 +1,4 @@
-#+TITLE: Formal Spec Langauges
+#+TITLE: Formal Specification Langauges
 
 * From Hillel Wayne's writing
 A notation to describe the design of a system without implementing it.

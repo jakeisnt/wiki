@@ -42,6 +42,7 @@ Program as functionally as possible!
 
 [[https://joshwcomeau.com/performance/embracing-modern-image-formats/][Using WebP images with React · Josh W Comeau]]
 
-https://overreacted.io/goodbye-clean-code/
-https://github.com/SSENSE/flip react to vue component transpiler
-https://github.com/SSENSE/vue-carousel vue carousel
+the best way to handle react forms: https://react-hook-form.com/get-started
+https://usehooks.com/: react hook recipes!!
+https://github.com/ruvkr/react-components-by-ruvkr: mobile responsive react components!
+https://github.com/DustinBrett/x: react based desktop environment in the browser

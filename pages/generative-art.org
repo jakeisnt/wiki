@@ -48,3 +48,6 @@ https://eyeburfi-blog.tumblr.com/
 https://inconvergent.net/2016/shepherding-random-growth/: using generative organic methods for growth!
 
 https://www.youtube.com/watch?v=me04ZrTJqWA : create generative art using image data. this looks absolutely incredible!
+https://github.com/jasonwebb/morphogenesis-resources: archive of resources for the creation of form through code!
+https://www.notion.so/Creative-coding-algorithms-techniques-c5550ef2f7574126bdc77b09ed76651b: notion database cataloguing tons of generative art techniques!
+https://quazikb.github.io/WaveEq/index.html: a real time wave tracer technique

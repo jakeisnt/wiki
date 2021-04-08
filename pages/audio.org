@@ -1,0 +1,5 @@
+#+TITLE: Audio
+
+Notes on working with audio in code.
+
+http://www.rossbencina.com/code/real-time-audio-programming-101-time-waits-for-nothing: real time audio programming

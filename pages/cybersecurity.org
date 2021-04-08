@@ -52,3 +52,6 @@ http://matt.might.net/articles/practicing-privacy-encryption/ quick overview of 
 https://www.edwinwenink.xyz/posts/41-function_creep_encryption/ function creep, cryptography and security
 
 [[https://freedom-to-tinker.com/2015/10/14/how-is-nsa-breaking-so-much-crypto/][how is the nsa breaking so much crypto?]] they're spending tons of money to hack hard coded large values and bash them.
+
+
+https://blog.excalidraw.com/end-to-end-encryption/: using the crypto js API to encrypt and decrypt things in the browser without much work!

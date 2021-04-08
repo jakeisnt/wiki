@@ -112,6 +112,8 @@ https://getpocket.com/redirect?url=https%3A%2F%2Fgithub.com%2Fhundredrabbits%2FT
 [[https://github.com/brainrape/win95.css][brainrape/win95.css: Responsive Bootstrap 4 windows 95/98 theme &amp; landing t]]
 [[https://web.dev/one-line-layouts/][Ten modern layouts in one line of CSS]]
 [[https://www.tailwindtoolbox.com/][Tailwind Toolbox - Free Starter Templates and Components for Tailwind CSS]]
+
+[[https://tympanus.net/codrops/2021/02/10/simple-css-line-hover-animations-for-links/][simple css line hover animations for links!]]
 * Convention
 ** Don't use Margin
 [[https://www.amazon.com/dp/B0771V3SSP/?tag=wtpl-20][Don't use Margin]]
@@ -160,3 +162,5 @@ alias prepaste='builtin fc -e "vim -c %d -c \"set paste\""'
 #+END_SRC
 
 This opens the line pasted in vim before sending it to the browser, encouraging you to preview and edit it.
+
+css modules: https://github.com/css-modules/css-modules. a specification and convention for how we should interface with CSS.

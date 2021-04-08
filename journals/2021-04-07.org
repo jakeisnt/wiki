@@ -1,0 +1,20 @@
+#+TITLE: Wednesday, 04/07/2021
+** 22:25 a quick note, from march 15th
+I'm Jake
+when I'm surrounded by too many conversations i have an inexplicable urge to retreat, to run, to hide, to avoid people and confrontation and strange looks from white girls with precut bangs and red solo cups with coctails - not quite molotov - out of the mixed drink hell that is boxed wine and captain morgan and sprite but never with cranberries. never with juuls, unless the puff bar sitting next to you on the dorm room desk could have just enough for another hit, in which case we go digging. digging through seventeen stories of freshman year honors dormitory filled with virtual reality star wars and pseudointellectualism and an academically gentrified penthouse
+*** living with parents
+life moves both fast and slow. different things make waves in this house - not ideas, but people, and teh actions of those people, make the most impact.
+
+*** programming languages have a ceiling and floor
+ood programming language allows the programmer to express themselves in a concise, flexible, easy to follow snd easy to read way - the 'ceiling'
+
+a bad programming language is one that permits the programmer to do write code tba-' the floor'
+
+javascript, by this definition, reaches both ends of tbe spectrum 
+** 22:40 evaluating opportunities via utility maximization
+https://www.lesswrong.com/posts/voLHQgNncnjjgAPH7/utility-maximization-description-length-minimization
+pussing the world into a small set of states starting from a large number of states, retaining only those states that are valuable
+this article has some great math behind it, but the results are useful too; this is equivalent to expected utility optimization!
+** 22:46 half heartedness
+[[https://ava.substack.com/p/how-to-avoid-half-heartedness?token=eyJ1c2VyX2lkIjoxOTQ4ODUwNiwicG9zdF9pZCI6MzQ0MTc2MzksIl8iOiI3Mk5YMiIsImlhdCI6MTYxNzg2MDY5NiwiZXhwIjoxNjE3ODY0Mjk2LCJpc3MiOiJwdWItMjM0MTciLCJzdWIiOiJwb3N0LXJlYWN0aW9uIn0.JaVa82X_Fd5ZM5fXgn_MwhAGAY4n6SONJJrSEJK4JRI][src]]
+If you don't truly understand the messaging from others, and want to truly decipher the messages of others, perhaps you yourself are not confident, looking for reassurance from and with them. Writing is thinking; a way to access yourself and construct something from it. Everything that happens to you is material. Write it down. You get to decide if it matters, not others, not anyone else. Reaching for others will never be as strong as reaching within yourself.

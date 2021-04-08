@@ -15,3 +15,6 @@ https://www.maa.org/news/interview-tony-derose  -- from computer graphics pionee
 https://aphyr.com/posts/342-typing-the-technical-interview excellent article
 
 https://github.com/QasimWani/LeetHub automatically sync leetcode solutions to github account
+
+* Intel Internship Interview Experience
+Had a great time interviewing for this Intel AI internship, but didn't

@@ -37,3 +37,5 @@ https://www.pinterest.com/gurafiku/_created/ survey of the history of japanese g
 
 [[https://m.youtube.com/watch?feature=youtu.be&v=MmkNSsGAZhw][The Simple Essence of Automatic Differentiation - YouTube]]
 [[https://m.youtube.com/watch?feature=youtu.be&v=Kgw9fblSOx4][Residential Programming without Mutable State - Thomas Getgood - YouTube]]
+
+[[https://haikei.app/][great tool for generating SVGs]]
