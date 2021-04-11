@@ -13,3 +13,8 @@ if a chat is not used for 24h it is automatically archived. nobody can chat in i
 archived chat may have different ui that helps browse history in a better way. see the chatting with glue idea.
 
 the motivation behind this is to create something spontaneous and synchronous for hashing out ideas - like you would with a video call or meeting - but because it's chat only everything is documented and traceable. inspired by synchronous meetings and mailing list archives - we want the longetivity and traceability of a mailing list archive with the real time impact of synchronous meetings and the sponteneity of a viral tweet (share idea from a chat on twitter - > implicitly invites others to chat - > 1 click signup to get into the chat room - no sign up concerns).
+
+It's worth noting that `smess` does not intend to be a production-grade solution. Rather, it's a general framework to allow me to experiment with messaging ideas that have been suggested for a variety of platforms. It's designed to be temporary and incredibly configurable - an toolbox of ideas for an end user to try rather than a polished product to be deployed at scale.
+
+* Inspiration
+ https://cabal.chat/: a decentralized chat platform
