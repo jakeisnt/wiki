@@ -94,3 +94,5 @@ https://github.com/ssrg-vt/hermitux binary compatible unikernel
 
 https://github.com/oasislinux/oasis statically linked linux system
 https://github.com/dlannan/ljos luajit command line os
+* etc
+https://news.ycombinator.com/item?id=10957020: overview of real alternative operating systems for considering. lots of interesting innovations!

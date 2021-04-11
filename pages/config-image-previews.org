@@ -1,6 +1,6 @@
-#+TITLE: Config Image Previews
+#+TITLE: Configure Image Previews
 
-[[file:web.org][Web]]
+- Backlinks :: [[file:web.org][Web]]
 
 Configuring image previews for different websites.
 - [[https://opengraphprotocol.org/][Open Graph Protocol]]

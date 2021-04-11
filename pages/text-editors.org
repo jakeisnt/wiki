@@ -82,3 +82,4 @@ hazel, of /course/.
 
    https://squeak.org/ : a fascinating smalltalk editor!
    [[natto.dev]]: interactive, multidimensional js coding environment
+https://bypaulshen.com/posts/exploring-codebases: what's the best way to navigate a codebase? this is one of the most important parts of the software development experience, yet it's one that largely is not focused on.

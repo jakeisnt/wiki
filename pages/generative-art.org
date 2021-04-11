@@ -51,3 +51,5 @@ https://www.youtube.com/watch?v=me04ZrTJqWA : create generative art using image 
 https://github.com/jasonwebb/morphogenesis-resources: archive of resources for the creation of form through code!
 https://www.notion.so/Creative-coding-algorithms-techniques-c5550ef2f7574126bdc77b09ed76651b: notion database cataloguing tons of generative art techniques!
 https://quazikb.github.io/WaveEq/index.html: a real time wave tracer technique
+
+https://play.ertdfgcvb.xyz/abc.html#notes:technical a browser based live coding environment with live coding output; a tool and playground to play with ASCII, [[file:fonts.org][Fonts]], and otherwise.

@@ -46,3 +46,7 @@ the best way to handle react forms: https://react-hook-form.com/get-started
 https://usehooks.com/: react hook recipes!!
 https://github.com/ruvkr/react-components-by-ruvkr: mobile responsive react components!
 https://github.com/DustinBrett/x: react based desktop environment in the browser
+* Demos
+https://www.reddit.com/r/reactjs/comments/k4u4fj/demo_of_morphing_talking_bubble_on_codepen_built/: morphing designs on codepen!
+https://www.reddit.com/r/reactjs/comments/i2t2ww/pull_to_refresh_velocitybased_morphing_svgs_with/: velocity svg manipulation
+https://www.reddit.com/r/reactjs/comments/ixjngh/trying_something_different_for_my_portfolio_what/: portfolio chat bot!

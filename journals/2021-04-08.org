@@ -3,3 +3,65 @@
 comes from being able to communicate things that seem important.
 can anything that can be thought be thought clearly? it's important not to panic when it cannot, will not, be molded into shape.
 maybe reading is a better filter for the mind. the patience it imbues is unmatched.
+** 11:30 learning in public
+- be competitive, but try to focus on effort and not output. twitter is always filled with what someone could do and how they could be doing better. when someone tries hard, respect their effort to try hard and not necessarily their end result; this is what's better to admire.
+- setting practical goals is modest and beneficial.
+- have a routine but do not be incredibly strict about it. aim for something very basic, like one post a week, a post a month, or some sort of quantized creative output. as long as you set a basic, achievable goal as part of a daily routine, you'll often exceed it!
+- deviating from a routine is fine but abandoning it entirely is outright dangerous. aim for 80% adherence
+- experiment o find your voice
+- choose something that you actually enjoy doing!
+- make something that your past self would love. close the taste gap: the difference between what you judge to be good and what you're actually doing!
+** 22:18 some life advice blog posts
+*** learn how things work
+[[https://jvns.ca/blog/learn-how-things-work/][learn how things work]]
+- Seek a moderate solution to working with code.
+- Use services and learn them as much as you need.
+- If you realize there's a bug in your mental model (not a typo), take a step back to review the conceptual understanding
+- If you use and work with these technologies seriously, you really should know how they work! Even learning a few facts is useful; you don't need to know all of the details.
+- Make sure to connect this information to what you already know and explore the connections!
+- Ask concrete yes/no questions to figure things out. Spend lots of time formulating these questions so that they're easy to confirm and easy to use to inform the end user.
+- Asking yes or no questions is not easy - it can often reveal incorrect understadning or mental models. 
+- It's incredibly important to understand what you do not understand rather than making assumptions. This will allow you to yield to experts rather than overcompensating.
+*** superorganizers
+[[https://every.to/superorganizers/action-item-how-to-see-the-future?p=d08be86a3e63fb38266a3b7f25e34350dbef20c5c34b4465625e16fb09b2b3fe][geoffrey litt]]
+"The problem with software today, he thinks, is that it's the same for everyone—like a hotel room we rent for the night. Instead, he wants to move us toward a world where software is like a home we own: infinitely extensible, customizable, and personal—even if you can't program."
+
+Stops to seriously consider his answers, phrasing in head before responding.
+
+- Keep calendar open for deep work on projects
+- Use a paper notwbook to sketch out the day
+- Identify major goals for the day, estimating goals to accomplish and blocking time out into approximate increments
+
+- To connect dots, need to collect mind soup;; follow the 'sparks' or ideas that seem most interesting.
+- Make planned literature reviews.
+- Dedicate time to "rabbit-holing" - following trails on subjects you're interested in. Concretely for notes: Obsidian and Muse.
+
+**** Unit of work: research paper
+- Divide outline into final paper, each gets one line in the outline
+- Gradually iterate on the paper, adding more lines to the outline, honing the paper and improving on it
+- Single paragraphs, then multiple paragraphs, then a complete essay
+**** Key takeaway
+sense of time: want ot do foundational research hat can connect ot the world and make a real impact.
+Do not expect to have anything of value in 5 years; but perhaps this will come in 10.
+** 22:38 knowledge how
+
+[[https://plato.stanford.edu/entries/knowledge-how/][src]]
+Three kinds of knowledge:
+- truly knowing a person
+- knowledge that :: know that something is true
+- knowledge how :: knowing how to do something
+what does knowledge how consist of? these knowledges are clearly distinct, but viewing them as a binary may be viewed as anti-intellectualism? i don't entirely understand that.
+greeks: episteme vs techne
+- episteme :: knowledge
+- techne :: craft or art
+to live a good life we need knowledge of the forms to virtue by which to live; bad moral conduct can often be dismissed as the ignorance of facts or intellectual error.
+*** TODO I will come back to this later, somehow.
+There's a lot more to glean from this article.
+From [[https://twitter.com/michellehuang42/status/1338984791979515904?s=19][this thread]] as well.
+** 22:59 tech
+[[https://geohot.github.io/blog/jekyll/update/2021/01/18/technology-without-industry.html][simple geohot thoughts: technology without industry]]
+if it centralizes power, it's good. if it decentralizes power, it's bad. this is the simple rule by which you should work with technology.
+[[https://gbt.org/text/sayers.html][the lost tools of learning]]
+these detail a lot of interesting issues, and primarily focuses on the experience of teaching - revolutionizing or modernizing work. it's clear that debate cannot often stay focused, committee meetings largely distract, definitions are vague, and others make sweeping assumptions.
+*** TODO this is an excellent work that I will surely come back to for something profound, but I am now too tired
+http://rickardlindberg.me/writing/alan-kay-notes/ and what you can find above.
