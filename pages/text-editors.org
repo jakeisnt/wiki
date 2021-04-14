@@ -1,5 +1,3 @@
-#+setupfile:./hugo_setup.org
-#+hugo_slug: text-editors
 #+TITLE: Text Editors
 
 Text editors control the way you interface with written content. For programmers, this is the vast majority of the content they create, develop, and perhaps consume.

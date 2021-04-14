@@ -366,3 +366,5 @@ http://nickcammarata.com/bookshelf this bookshelf is an incredible source of ins
 
 [[https://tommycollison.com/greatbooks][excellent classic book recommendations and noble goal.]]
 [[https://ava.substack.com/p/on-hungry-ghosts?token=eyJ1c2VyX2lkIjoxOTQ4ODUwNiwicG9zdF9pZCI6MzMxMjg4MzcsIl8iOiI3Mk5YMiIsImlhdCI6MTYxNzg2MzQzMSwiZXhwIjoxNjE3ODY3MDMxLCJpc3MiOiJwdWItMjM0MTciLCJzdWIiOiJwb3N0LXJlYWN0aW9uIn0.UGfiGi9DLk82xSApGGccmZEgTrytSUQwWBfMNowlPGU][i am a hungry ghost]]: an article and corresponding, in-depth book on addiction, craving and resolving it
+[[https://en.wikipedia.org/wiki/Bullshit_Jobs][Bullshit Jobs]]: a reflection of much of the software engineering process. shows why automation has led to pointless employment rather than a smaller work week.
+https://en.wikipedia.org/wiki/Camera_Lucida_(book): recommended by sibling
