@@ -12,6 +12,7 @@ Aside from Linux, Windows, MacOS and derivatives...
 https://www.ipredia.org/os/
 
 - [[https://illuminos.org][IlluminOS]] :: An operating system that claims to provide advanced system debugging, a next-generation file system, networking and visualization.
+- https://ameliorated.info/ :: Windows 10 with the crap removed
 - [[http://gerigeri.uw.hu/DawnOS/][DawnOS]] :: An operating system built on the [[http://mazonka.com/subleq/][subleq]] higher level language architecture. See the [[https://www.youtube.com/watch?v=dlxMy_zrgAU][video]] for a detailed overview!
 - [[https://github.com/tomaka/redshirt][Redshirt]]
 - [[https://gitlab.redox-os.org/redox-os/redox][Redox]] :: is a Rust operating system with a microkernel-based design.

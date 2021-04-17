@@ -1,0 +1,6 @@
+editor to alias keywords while writing the language and automatically change them
+
+for example:
+    zig has var and not let, but i have javascript trauma regarding var, so i want to write let and swap to var onsave
+    obviously this should be done per language, maybe some way to mechanize determining what can be rewritten?
+    or just defining a standard library with a macro? zig might be able to do this?

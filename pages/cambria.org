@@ -1,0 +1,13 @@
+[[https://vimeo.com/511271022][project cambria]]
+- api request -> stack of transformations -> sent to application logic back and forth
+- this allows older apis to transform up the stack into a modern server
+- when distributing: need compatibility of multiple schemas
+- what would it look like to have good tools for handling distributed systems in a systematic way? (shotgun parsing - parsing by if statements - riddling code with little tests and hoping things stick. tools like protobuf in the long term means only adding optional fields, and eventually the data schema has entirely optional types - how do you know what's still relevant at all?)
+- manage schema compatibility separate from application logic!
+  - provide data transformations; 'bidirectional lenses' - one transformation for the whole schema, as written in a DSL.
+  - graph of connected schemas and associated lenses. show how the schemas connect with those lenses
+- cambria then:
+  - automatically translates data at runtime
+  - provides ts type definitions as well as JSON schemas for your code. json's checkable at runtime as needed!
+  - integration with Automerge CRDT
+- what is the pushpin architecture (from ink and switch?)

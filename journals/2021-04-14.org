@@ -1,0 +1,6 @@
+#+TITLE: Wednesday, 04/14/2021
+** 14:27 building first, building outright
+it's often hard to realize or rationalize, but it's impossile to build the perfect tool outright.
+the perfect tool is only built over many iterations and trials; it's important to continue to iterate, rather 
+
+trends are cast over shorter time periods than we account for.  when working with data, it's often risky to extrapolate with just two or four data points; with human behavior, these trends are often both pointed out and lost. 
