@@ -56,26 +56,25 @@ This did change the commit time for my latest commit, which is something to watc
 * How Git Works
 [[https://blog.jcoglan.com/2017/09/19/the-patience-diff-algorithm/][Neat writeup on the Git patience diff algorithm]]
 [[https://github.com/MichaelMure/git-bug]["Distributed, offline-first bug tracker embedded in git, with bridges"]]
-
 [[https://github.com/jskjott/git-for-filmmakers][Prototype Git GUI for Filmmaking]]
-
 [[https://github.com/ralphbean/bugwarrior]["Pull github, bitbucket, and trac issues into taskwarrior"]]
-
 [[https://github.com/jonas/tig][Text-mode interface for git]]
-
 [[https://github.com/bcongdon/git-trophy][bcongdon/git-trophy: ? Create a 3D Printed Model of Your Github Contributio]]
-* github
+* Worktrees
+- A git repository can have multiple working trees - allowing you to check out more than one workspace at a time!
+  + Among other things, this allows you to work on multiple branches at once without having multiple copies of the file, and maps git branches or tags to other directories on your system. Use it to check on different efforts on projects without messing up your current editing environment - to look at code from other branches locally and simultaneously, for example!
+- `git worktree add $PATH` :: Adds a new branch with a name associated with the final component of $PATH. `git worktree remove` and `git worktree prune` both allow you to cut off external worktrees.
+- Flow example: latest develop, latest branch of work, and a third for reviewing pull requests and/or the work from other developers.
+* Github
 [[https://github.com/git-series/git-series][track changes to a patch over time]]
 [[https://github.com/nvie/gitflow][git flow]]: git extensions for high level repository operations
 [[https://github.com/itsrainingmani/gitexplore][explore git cli with natural language search]]
 [[https://yarmo.eu/post/github-sinking][github is sinking]]
-** readmes
+** READMEs
 [[https://github.com/abhisheknaiidu/awesome-github-profile-readme][ A curated list of awesome Github Profile READMEs 📝]]
 https://github.com/pifafu/pifafu/blob/main/readME.md i love the font choice and the gif here!
-* alternatives
-https://www.fossil-scm.org/home/doc/trunk/www/fossil-v-git.wiki
-https://blog.nil.im/?78 ??
-[[https://gerrit.googlesource.com/git-repo/+/refs/heads/master/README.md][repo: a tool built on git for managing monorepos]]
-https://pijul.org/ a distributed version control system
-http://bazaar.canonical.com/en/
-look into tildegit
+* Alternatives
+- fossil :: git with additional features such as task management. it seems like a superset of git's system. [[https://www.fossil-scm.org/home/doc/trunk/www/fossil-v-git.wiki][Fossil vs. Git]] [[https://blog.nil.im/?78][Incrementally converting from git to fossil while working on the git repo]]
+- [[https://gerrit.googlesource.com/git-repo/+/refs/heads/master/README.md][repo]] :: Google's tool for managing monorepos.
+- [[https://pijul.org/][Pijul]] :: A distributed version control system
+- [[http://bazaar.canonical.com/en/][Bazaar]] :: Canonical's version control system

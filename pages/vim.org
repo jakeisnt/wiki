@@ -75,3 +75,16 @@ https://github.com/xero/dotfiles
 * the best leader key
 https://www.reddit.com/r/vim/comments/hy3yma/what_is_the_best_leader_key/ finding the best leader key
 comma: as it should always be followed with a space grammatically, every other key can be freely mapped to with no delay! you lose the functionality of backwards repeating though...
+
+
+* Lua plugins
+- feline.nvim
+- [[https://reddit.com/r/neovim/comments/jqfjor/eslint_and_nvimlsp][Setting up NeoVim with its built in lsp server and ESLint]]
+- github.com/simrat39/rust-tools.nvim :: good tools for writing for rust with nvim!
+- https://www.reddit.com/r/neovim/comments/mqrmco/git_worktrees/ : working with git worktrees in nvim
+- gitabra :: working with magit in neovim
+ [[https://www.reddit.com/r/neovim/comments/m6vup7/full_lua_neovim_configuration/][good example of full lua neovim configuraion]]
+ - https://www.reddit.com/r/neovim/comments/mn8ipa/lsp_add_missing_imports_on_complete_using_the/ 
+  https://www.reddit.com/r/neovim/comments/mbtboe/neovim_05_lsp_treesitter_compe_indentblankline/
+   https://www.reddit.com/r/neovim/comments/mrae84/neovim_config_showcase/
+ https://www.reddit.com/r/neovim/comments/mrep3l/speedup_your_prettier_formatting_using_prettierd/ 

@@ -1,5 +1,3 @@
-#+setupfile:./hugo_setup.org
-#+hugo_slug: racket
 #+TITLE: Racket
 [[https://github.com/Bogdanp/marionette][Control Firefox via the Marionette protocol]]
 [[https://github.com/greghendershott/fear-of-macros][practical guide to racket macros]]
@@ -23,3 +21,19 @@ https://redex.racket-lang.org/
 https://blog.brownplt.org/2020/06/27/data-org.html
 
 https://github.com/videolang/interactive-syntax tools for building interactive direct manipulation tools in racket
+
+[[https://docs.racket-lang.org/eopl/index.html][subset of racket programming languages that align with the Scheme 5 Specification]]
+
+* potentially cool textbooks making use of racket
+https://docs.racket-lang.org/plai/index.html
+[[https://docs.racket-lang.org/redex/index.html][Redex Semantics Engineering]]
+https://docs.racket-lang.org/pie/index.html: the programming language used for http://thelittletyper.com/.
+The language has a [[https://docs.racket-lang.org/pie-a-let-mode/index.html][cool fork]]!
+
+* some cool libraries in racket
+https://docs.racket-lang.org/csexp/index.html
+https://docs.racket-lang.org/mode-lambda/index.html
+https://docs.racket-lang.org/datalog/index.html
+https://docs.racket-lang.org/Elle/index.html
+https://docs.racket-lang.org/heresy/index.html
+https://docs.racket-lang.org/plai-typed/index.html: scheme lang with ml type system

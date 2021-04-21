@@ -81,3 +81,6 @@ hazel, of /course/.
    https://squeak.org/ : a fascinating smalltalk editor!
    [[natto.dev]]: interactive, multidimensional js coding environment
 https://bypaulshen.com/posts/exploring-codebases: what's the best way to navigate a codebase? this is one of the most important parts of the software development experience, yet it's one that largely is not focused on.
+
+
+[[https://glisp.app][glisp]]: an incredible layout environment for structured design and editing. this site seems to autogenerate documentation, taking color cues from the environment to do so! The source is [[https://github.com/baku89/glisp]].

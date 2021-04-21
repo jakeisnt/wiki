@@ -1,0 +1,7 @@
+#+TITLE: Monday, 04/19/2021
+** 18:21 for the future:
+implement a SAT solver to learn how it works
+try to incorporate elements of that paper which is super cool
+check out https://github.com/max-heller/sat for a brief student implementation!
+https://github.com/theseus-os/Theseus this looks very interesting as well - shifting responsibility to the programming language from the OS!
+figure out what this is! https://github.com/BillHallahan/G2

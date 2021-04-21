@@ -20,6 +20,7 @@ My site can be found at https://jacob.chvatal.com.
 ** Beyond web
 - [[https://ameyama.com/hey][novel design!]] a website that interfaces with a physical device, a pi, and flashes a smiley face whenever someone visits the page. lends some personal, physical characteristics to an otherwise void webspace. they also have very good book recommendations
 - https://hyena.network/geocity/: an incredible array of wild designs, designed to resemble a window system. i'm getting some rugrats, early 2000s energy from this one.
+- [[https://ins-stud.io][ins-studio]] :: Love mousing over the different subjects to view more detail about them throughout the website. Incredibly well-designed work.
 ** Minimal
 - http://mikhailkhoury.com/ :: I patterned my current website after mikhail's. It's incredibly minimal and feels mysterious and personal at the same time.
 - https://mackenzie.blue/ :: Love the phone animation, the fading blue text, the red border, and all of the sections showcasing little art projects in between. Great model!
