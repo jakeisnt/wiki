@@ -60,14 +60,32 @@
 </ul>
 <p>This did change the commit time for my latest commit, which is something to watch out for.</p>
 <h1>How Git Works</h1>
-<p><a href="https://blog.jcoglan.com/2017/09/19/the-patience-diff-algorithm/">Neat writeup on the Git patience diff algorithm</a> <a href="https://github.com/MichaelMure/git-bug">"Distributed, offline-first bug tracker embedded in git, with bridges"</a></p>
-<p><a href="https://github.com/jskjott/git-for-filmmakers">Prototype Git GUI for Filmmaking</a></p>
-<p><a href="https://github.com/ralphbean/bugwarrior">"Pull github, bitbucket, and trac issues into taskwarrior"</a></p>
-<p><a href="https://github.com/jonas/tig">Text-mode interface for git</a></p>
-<p><a href="https://github.com/bcongdon/git-trophy">bcongdon/git-trophy: ? Create a 3D Printed Model of Your Github Contributio</a></p>
-<h1>github</h1>
+<p><a href="https://blog.jcoglan.com/2017/09/19/the-patience-diff-algorithm/">Neat writeup on the Git patience diff algorithm</a> <a href="https://github.com/MichaelMure/git-bug">"Distributed, offline-first bug tracker embedded in git, with bridges"</a> <a href="https://github.com/jskjott/git-for-filmmakers">Prototype Git GUI for Filmmaking</a> <a href="https://github.com/ralphbean/bugwarrior">"Pull github, bitbucket, and trac issues into taskwarrior"</a> <a href="https://github.com/jonas/tig">Text-mode interface for git</a> <a href="https://github.com/bcongdon/git-trophy">bcongdon/git-trophy: ? Create a 3D Printed Model of Your Github Contributio</a></p>
+<h1>Worktrees</h1>
+<ul>
+<li>A git repository can have multiple working trees - allowing you to check out more than one workspace at a time!
+<ul>
+<li>Among other things, this allows you to work on multiple branches at once without having multiple copies of the file, and maps git branches or tags to other directories on your system. Use it to check on different efforts on projects without messing up your current editing environment - to look at code from other branches locally and simultaneously, for example!</li>
+</ul></li>
+<li>`git worktree add $PATH` :: Adds a new branch with a name associated with the final component of $PATH. `git worktree remove` and `git worktree prune` both allow you to cut off external worktrees.</li>
+<li>Flow example: latest develop, latest branch of work, and a third for reviewing pull requests and/or the work from other developers.</li>
+</ul>
+<h1>Github</h1>
 <p><a href="https://github.com/git-series/git-series">track changes to a patch over time</a> <a href="https://github.com/nvie/gitflow">git flow</a>: git extensions for high level repository operations <a href="https://github.com/itsrainingmani/gitexplore">explore git cli with natural language search</a> <a href="https://yarmo.eu/post/github-sinking">github is sinking</a></p>
-<h2>readmes</h2>
+<h2>READMEs</h2>
 <p><a href="https://github.com/abhisheknaiidu/awesome-github-profile-readme"> A curated list of awesome Github Profile READMEs 📝</a> <a href="https://github.com/pifafu/pifafu/blob/main/readME.md">https://github.com/pifafu/pifafu/blob/main/readME.md</a> i love the font choice and the gif here!</p>
-<h1>alternatives</h1>
-<p><a href="https://www.fossil-scm.org/home/doc/trunk/www/fossil-v-git.wiki">https://www.fossil-scm.org/home/doc/trunk/www/fossil-v-git.wiki</a> <a href="https://blog.nil.im/?78">https://blog.nil.im/?78</a> ?? <a href="https://gerrit.googlesource.com/git-repo/+/refs/heads/master/README.md">repo: a tool built on git for managing monorepos</a> <a href="https://pijul.org/">https://pijul.org/</a> a distributed version control system <a href="http://bazaar.canonical.com/en/">http://bazaar.canonical.com/en/</a> look into tildegit</p></body></html>
+<h1>Alternatives</h1>
+<dl>
+<dt>fossil</dt>
+<dd>git with additional features such as task management. it seems like a superset of git's system. <a href="https://www.fossil-scm.org/home/doc/trunk/www/fossil-v-git.wiki">Fossil vs. Git</a> <a href="https://blog.nil.im/?78">Incrementally converting from git to fossil while working on the git repo</a>
+</dd>
+<dt><a href="https://gerrit.googlesource.com/git-repo/+/refs/heads/master/README.md">repo</a></dt>
+<dd>Google's tool for managing monorepos.
+</dd>
+<dt><a href="https://pijul.org/">Pijul</a></dt>
+<dd>A distributed version control system
+</dd>
+<dt><a href="http://bazaar.canonical.com/en/">Bazaar</a></dt>
+<dd>Canonical's version control system
+</dd>
+</dl></body></html>
