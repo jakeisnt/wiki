@@ -1,0 +1,9 @@
+- nautilus file manager (or some other drag n drop file manager)
+- install cobang:
+  - install flatpak (services flatpak enable for nixos)
+  - install the flathub repo on flatpak thing
+  - install cobang from flathub (instructions are on github, i think)
+- segfault happened when trying to read from my non ir cameras, so i had to switch to the mode that had a drag and drop, install the nautilus file manager, then drag and drop an image onto cobang to get it to find the wifi configuratino
+i think cobang uses networkmanager so its fine?
+
+TODO: mimic the AUR pkgbuild as a nix flake
