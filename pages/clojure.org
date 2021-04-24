@@ -3,15 +3,22 @@
 Clojure is a fascinating Java-based lisp ecosystem. It's well supported on several platforms thanks to Clojurescript and is probably the best Lisp for production today! I've been using it extensively - it's my favorits browser-based programming language.
 
 * Libraries
-[[https://github.com/davidsantiago/hickory][hickory]]: parse html into clojure data structures
-[[https://github.com/tonsky/tongue][tongue]]: i18n
-[[https://github.com/borkdude/sci][sci]]: builtin clojure interpreter for scripting and DSLs
-[[https://github.com/plumatic/dommy][dommy]]: clojurescript DOM manipulation library
-[[https://github.com/weavejester/medley][medley]]: useful, pure functions missing from clojure.core
-[[https://github.com/tonsky/datascript][datascript]]: an immutable in-memory database and datalog query engine running in the browser
-[[https://github.com/tonsky/rum][rum]]: client server library for html ui in clojurescript. works as a React wrapper
-[[https://github.com/dakrone/cheshire][cheshire]]: fast JSON encoding in clojure.
+- [[https://github.com/davidsantiago/hickory][hickory]] :: parse html into clojure data structures
+- [[https://github.com/tonsky/tongue][tongue]] :: i18n
+- [[https://github.com/borkdude/sci][sci]] :: builtin clojure interpreter for scripting and DSLs
+- [[https://github.com/plumatic/dommy][dommy]] :: clojurescript DOM manipulation library
+- [[https://github.com/weavejester/medley][medley]] :: useful, pure functions missing from clojure.core
+- [[https://github.com/tonsky/datascript][datascript]] :: an immutable in-memory database and datalog query engine running in the browser
+- [[https://github.com/tonsky/rum][rum]] :: client server library for html ui in clojurescript. works as a React wrapper
+- [[https://github.com/dakrone/cheshire][cheshire]] :: fast JSON encoding in clojure.
 https://github.com/onetom/clj-figwheel-main-devcards setting up nix with clojure, figwheel and devcards ui
 
-* frameworks
+* Frameworks
+** Fulcro
+Passing functions between front-end and backend is cool, so is convenient integration with many of the databases - but treating the site as a monolithic interface from which data can be queried feels so different from React's mindset of avoiding global state and exposing the minimum amount of data necessary for the system to function as a whole.
+
+I really like the shadow-cljs approach and think NodeJS is more fun than working with Java on the backend (despite whatever potential performance caveats may come from that) but it's unclear whether the monolithic query approach - one that partially but doesn't completely obfuscate the network connection - is net beneficial or just confusing for the end user.
+** Luminus
 https://luminusweb.com/docs/guestbook
+** Reagent
+This is much easier to use than Rum, but has caveats: it doesn't have any mixins and uses its own implementation of atoms rather than falling back to React's lifecycle/hooks APIs or Clojurescript's. This makes it easier to use and more of a 'framework' - all of your code happens inside of the Reagent component ecosystem, unlike Rum - but is a bit harder to get creative with and doesn't feel like it's in the spirit of Lisp's easily composable libraries.

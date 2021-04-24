@@ -13,7 +13,7 @@ My site can be found at https://jacob.chvatal.com.
 - http://umru.pcmusic.info/ :: This rendered animation in the background is... a lot.
 - https://simone.computer/#/ :: Just incredible! Like an old windows machine, complete with animated screensaver if the user stops browsing for awhile.
 - http://eeerik.com/ :: Another web portal; this feels so much more modern. I love the idea of developing little applets and running them inside the web portal. The bootup page is fantastic as well!
-- https://seththompson.org/ :: This is a website I'd love to have if I were more of a designer. I love how cluttered it is, displaying tons of information yet managing it super well. Seriously [[file:20210226200637-brutalist.org][brutalist]] design that's incredible to follow. Love that they're now pursuing a school of architecture after working at Google!
+- https://seththompson.org/ :: This is a website I'd love to have if I were more of a designer. I love how cluttered it is, displaying tons of information yet managing it super well. Seriously [[file:../../.local/share/Trash/files/20210226200637-brutalist.org][brutalist]] design that's incredible to follow. Love that they're now pursuing a school of architecture after working at Google!
 - https://antyfest.ru/en?mc_cid=ce7cd9a7c7&mc_eid=538eb81695 :: fun website for checking out festivals - with ants?
 - https://sno2wman.dev/ :: This is just a circle with several social media links, but I /love/ the animations that go along with it. The source code can be found [[https://github.com/SnO2WMaN/sno2wman.dev-vol.3][here]].
 - https://eyeondesign.aiga.org/ :: The eyes that flash when you first open the site /make/ this experience!
@@ -51,7 +51,7 @@ My site can be found at https://jacob.chvatal.com.
 - https://romainaubert.com/ :: Another iteration on a simple, clean design that's super easy to navigate.
 ** Resume-Like
 - https://2d4.dev/ :: I love the look of this. It feels just like a resume, but it's able to accurately and properly communicate all of their interests, projects and accomplishments!
-- https://www.jainfamilyinstitute.org/ :: Great [[file:20210226200637-brutalist.org][brutalist]] showcase of works under a foundation.
+- https://www.jainfamilyinstitute.org/ :: Great [[file:../../.local/share/Trash/files/20210226200637-brutalist.org][brutalist]] showcase of works under a foundation.
 - https://mynrd.co.uk/ :: This is so fun to navigate. Hints for finding hidden secrets are throughout the website!
 ** Brutalist
 - https://www.r2design.pt/ :: Great overview of lots of minimal books.
@@ -96,7 +96,7 @@ My site can be found at https://jacob.chvatal.com.
 - https://a9.io/ :: Great blog with lots of [[file:../../.local/share/Trash/files/20210226215238-social_media.org][social media]] work.
 - https://alexanderlim.io/ :: Neat data visualization projects entwined with lots of prose. "Data journalism" is a very cool principle! Love his idea to [[https://alexanderlim9.github.io/concerts/][track each of his concerts]] among other projects. Check out Northeastern's co-lab for data impact ([[file:academia.org][Academia]])!
 - https://www.paritybit.ca/ :: Very interested to check out their sh-based static site generator.
-- https://electro.pizza/ :: P2P enthusiast! Love their reading and writing caragories as well as their hosting supporting the dat protocol. Look into hosting this way via [[file:20210226215250-small_internet.org][small internet]] or [[file:../../.local/share/Trash/files/20210226220537-peer_to_peer.org][peer to peer]] technologies.
+- https://electro.pizza/ :: P2P enthusiast! Love their reading and writing caragories as well as their hosting supporting the dat protocol. Look into hosting this way via [[file:../../.local/share/Trash/files/20210226215250-small_internet.org][small internet]] or [[file:../../.local/share/Trash/files/20210226220537-peer_to_peer.org][peer to peer]] technologies.
 - https://miguelpiedrafita.com/ :: This person seems very accomplished and has done a ton of work - and they're younger than you. Learn a lot from them. Love the border too!
 - https://findsai.me/about/ :: Good website to investigate when considering how to market myself for consulting work.
 - https://gueorgui.net/ :: Excellent [[file:../../.local/share/Trash/files/20210226222945-photography.org][photography]] work - well worth a reference.

@@ -5,7 +5,6 @@ They're most commonly used to translate higher level languages like C to lower l
 
 * To Review
 [[https://www.cs.cornell.edu/courses/cs6120/2019fa/][CS 6120]] :: advanced compilers course
-
 https://o1o.ch/about/ interesting compilers work in R
 - [[https://news.ycombinator.com/item?id=23175280][explore compiler ir]]
 - [[https://www.reddit.com/r/Compilers/comments/bg1g2w/interesting_topics_for_study_at_university/][cool topics to study]]
