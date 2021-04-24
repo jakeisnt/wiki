@@ -1,5 +1,3 @@
-#+setupfile:./hugo_setup.org
-#+hugo_slug: nix
 #+TITLE: Supercollider
 
 SuperCollider is software for [[file:../concepts/livecoding.org][Livecoding]].

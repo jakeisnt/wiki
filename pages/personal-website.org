@@ -90,16 +90,16 @@ My site can be found at https://jacob.chvatal.com.
 - https://kor.nz/projects :: lots of very cool projects.
 - https://studiofnt.com/ :: super clear and straightforward studio site.
 - https://miles.land/#portfolio :: Maintains politiwatch; some ery interesting work! Great visual design, particularly in the technical ethics space.
-- https://jborichevskiy.com/ideas/ :: Cool ideas! Love the automatic integration of hypothes.is; it's definitely worth learning and knowing ore about what they're doing. Most of these ideas pertain to [[file:20210226215238-social_media.org][social media]] concepts.
+- https://jborichevskiy.com/ideas/ :: Cool ideas! Love the automatic integration of hypothes.is; it's definitely worth learning and knowing ore about what they're doing. Most of these ideas pertain to [[file:../../.local/share/Trash/files/20210226215238-social_media.org][social media]] concepts.
 - https://lav.io/ :: Wonderful portfolio of art. Super cool data visualizations, particularly relating to public policy - [[https://lav.io/projects/get-well-soon/][get well soon]] visualies gofundme well wishes in response to calls for help, while [[https://lav.io/projects/new-york-apartment/][new york apartment]] allows users to experience new york apartment spaces. This is definitely someone to look to when thinking about data visualization work as well as digital art that can have a tangible impact.
 - https://www.amalbansode.com/pages/projects/data/index.html :: Cool data visualization projects!
-- https://a9.io/ :: Great blog with lots of [[file:20210226215238-social_media.org][social media]] work.
+- https://a9.io/ :: Great blog with lots of [[file:../../.local/share/Trash/files/20210226215238-social_media.org][social media]] work.
 - https://alexanderlim.io/ :: Neat data visualization projects entwined with lots of prose. "Data journalism" is a very cool principle! Love his idea to [[https://alexanderlim9.github.io/concerts/][track each of his concerts]] among other projects. Check out Northeastern's co-lab for data impact ([[file:academia.org][Academia]])!
 - https://www.paritybit.ca/ :: Very interested to check out their sh-based static site generator.
-- https://electro.pizza/ :: P2P enthusiast! Love their reading and writing caragories as well as their hosting supporting the dat protocol. Look into hosting this way via [[file:20210226215250-small_internet.org][small internet]] or [[file:20210226220537-peer_to_peer.org][peer to peer]] technologies.
+- https://electro.pizza/ :: P2P enthusiast! Love their reading and writing caragories as well as their hosting supporting the dat protocol. Look into hosting this way via [[file:20210226215250-small_internet.org][small internet]] or [[file:../../.local/share/Trash/files/20210226220537-peer_to_peer.org][peer to peer]] technologies.
 - https://miguelpiedrafita.com/ :: This person seems very accomplished and has done a ton of work - and they're younger than you. Learn a lot from them. Love the border too!
 - https://findsai.me/about/ :: Good website to investigate when considering how to market myself for consulting work.
-- https://gueorgui.net/ :: Excellent [[file:20210226222945-photography.org][photography]] work - well worth a reference.
+- https://gueorgui.net/ :: Excellent [[file:../../.local/share/Trash/files/20210226222945-photography.org][photography]] work - well worth a reference.
 - https://lazerwalker.com/ :: Love their playful and experimental games!
 - https://lingdong.works/ :: Very cool work with digital art, primarily investigating the revisualization of chinese characters.
 - https://guzey.com/ :: A new science blog.

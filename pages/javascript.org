@@ -1,5 +1,3 @@
-#+setupfile:./hugo_setup.org
-#+hugo_slug: javascript
 #+TITLE: JavaScript
 
 It's a terrible language, but given its status as the de-facto language of the web, it has an incredible ecosystem of tools developed to help out.

@@ -1,5 +1,3 @@
-#+setupfile:./hugo_setup.org
-#+hugo_slug: gemini
 #+TITLE: Gemini
 
 HTTP is a bloated protocol.

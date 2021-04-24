@@ -1,5 +1,3 @@
-#+setupfile:./hugo_setup.org
-#+hugo_slug: mtg
 #+TITLE: Magic The Gathering
 
 I've been playing magic the gathering on and off for about ten years. my relationship with the game has changed -- starting as something that resembles a board game, my understanding of the game adapted and i became a collector, then a competitor, then a collector again.

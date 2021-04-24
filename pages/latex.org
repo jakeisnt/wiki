@@ -1,5 +1,3 @@
-#+setupfile:./hugo_setup.org
-#+hugo_slug: latex
 #+TITLE: LaTeX
 
 LaTeX is a document typesetting language that compiles to other useful document formats like PDFs.

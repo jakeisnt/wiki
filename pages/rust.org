@@ -1,5 +1,3 @@
-#+setupfile:./hugo_setup.org
-#+hugo_slug: rust
 #+TITLE: Rust
 - tags ::[[file:programming-languages.org][ Programming Languages]]
 * innovation in rust

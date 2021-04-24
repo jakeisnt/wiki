@@ -1,5 +1,3 @@
-#+setupfile:./hugo_setup.org
-#+hugo_slug: mail
 #+TITLE: Mail
 
 Checking and interacting with mail.

@@ -1,5 +1,3 @@
-#+setupfile:./hugo_setup.org
-#+hugo_slug: package-management
 #+TITLE: Package Management
 
 Package managers are tools that manage the installation of sofware on your computer.

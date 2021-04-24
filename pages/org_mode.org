@@ -1,5 +1,3 @@
-#+setupfile:./hugo_setup.org
-#+hugo_slug: org_mode
 #+title: Org Mode
 Org Mode is a markup language and a part of the Emacs ecosystem.
 It's a favorite of developers, writers, and researchers alike,

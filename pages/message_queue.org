@@ -1,7 +1,0 @@
-#+setupfile:./hugo_setup.org
-#+hugo_slug: message_queue
-#+title: Message Queue
-
-- tags :: [[file:../tools/zeromq.org][zeroMQ]]
-Message queues are queues for messages.
-

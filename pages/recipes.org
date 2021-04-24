@@ -1,5 +1,3 @@
-#+setupfile:./hugo_setup.org
-#+hugo_slug: recipes
 #+TITLE: Recipes
 
 * Recipes

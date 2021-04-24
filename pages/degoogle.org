@@ -4,3 +4,5 @@ Abandoning traditional services for other alternatives.
 
 https://www.reddit.com/r/degoogle/comments/hx7895/success_stories_yes_it_can_be_done/ [[file:mobile.org][Mobile]]
 https://metager3.de/en/ looks like a good search engine?
+
+[[https://ashpex.neocities.org/2020/01/my-degoogled-phone/][My Degoogled Phone | ~/ashpex]]

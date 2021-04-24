@@ -7,5 +7,8 @@
 
 https://en.wikipedia.org/wiki/Monad_(category_theory)#Algebras_for_a_monad
 https://en.wikipedia.org/wiki/Kleisli_category -- category for monads
+http://www.philipzucker.com/computational-category-theory-in-python-ii-numpy-for-finvect/
+
+https://stackoverflow.com/questions/3870088/a-monad-is-just-a-monoid-in-the-category-of-endofunctors-whats-the-problem
 Does every monad arise from an adjunction?
  http://comonad.com/reader/ -- curry howard lambek currespondence guides researchers into computation. rea    ding a logic like type theory is a definitional trick as it is just reinterpretation of syntax. syntactic     categories are difficult to connect to categorical semantics
