@@ -15,7 +15,6 @@ https://www.reddit.com/r/Bitcoin/comments/wvm2w/secure_multiparty_bitcoin_anonym
 https://cointelegraph.com/news/defi-can-now-choose-to-run-trustless-zero-knowledge-proofs/amp
 https://donotpay.com/
 https://toc.cryptobook.us/
-https://caml.inria.fr/pub/docs/manual-ocaml/afl-fuzz.html
 https://wiki.osdev.org/Expanded_Main_Page
 https://raft.github.io/
 https://jackdoerner.net/research/
@@ -29,8 +28,8 @@ https://github.com/DimitarPetrov/stegify
 https://github.com/adjoint-io/bulletproofs
 https://github.com/Magentron/chkrootkit
 
-https://github.com/openwall/john john the ripper password cracker
-[[https://www.mattblaze.org/blog/p25][johnny cant encrypt]]
+[[https://github.com/openwall/john ][John the Ripper, a popular password cracker]]
+[[https://www.mattblaze.org/blog/p25][johnny can't encrypt]]
 https://github.com/The-Art-of-Hacking/h4cker
 [[https://github.com/cassidoo/scrapers][web scrapers]]
 [[https://news.ycombinator.com/item?id=23174421][saltpack crypto messaging format]]
@@ -43,15 +42,11 @@ https://news.ycombinator.com/item?id=23245724
 [[https://www.theatlantic.com/magazine/archive/2020/06/edward-snowden-operation-firstfruits/610573/][paranoia]]
 [[https://news.ycombinator.com/item?id=23221517][the surveillance story]]
 ** !! Important !!
-[[https://news.ycombinator.com/item?id=23500462][Best practices for managing and storing secrets like API keys and credentials | Hacker News]]
-[[https://web.archive.org/web/20130507230947/http://www.heise.de/tp/artikel/2/2898/1.html][Only NSA can listen, so that's ok]]
-[[https://arxiv.org/abs/2005.09535][backstabbers knife collection]]
-https://www.nist.gov/blogs/cybersecurity-insights/threat-models-differential-privacy
-
-http://matt.might.net/articles/practicing-privacy-encryption/ quick overview of encryption
-https://www.edwinwenink.xyz/posts/41-function_creep_encryption/ function creep, cryptography and security
-
-[[https://freedom-to-tinker.com/2015/10/14/how-is-nsa-breaking-so-much-crypto/][how is the nsa breaking so much crypto?]] they're spending tons of money to hack hard coded large values and bash them.
-
-
-https://blog.excalidraw.com/end-to-end-encryption/: using the crypto js API to encrypt and decrypt things in the browser without much work!
+- [[https://news.ycombinator.com/item?id=23500462][Best practices for managing and storing secrets like API keys and credentials | Hacker News]]
+- [[https://web.archive.org/web/20130507230947/http://www.heise.de/tp/artikel/2/2898/1.html][Only NSA can listen, so that's ok]]
+- [[https://arxiv.org/abs/2005.09535][backstabbers knife collection]]
+- https://www.nist.gov/blogs/cybersecurity-insights/threat-models-differential-privacy
+- http://matt.might.net/articles/practicing-privacy-encryption/ quick overview of encryption
+- https://www.edwinwenink.xyz/posts/41-function_creep_encryption/ function creep, cryptography and security
+- https://blog.excalidraw.com/end-to-end-encryption/: using the crypto js API to encrypt and decrypt things in the browser without much work!
+- [[https://pwning.systems/posts/an-introduction-to-kernel-exploitation-part1/][tutorial for kernel exploitation]], as recommended by a key linux contributor

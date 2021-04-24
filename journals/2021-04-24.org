@@ -1,0 +1,4 @@
+#+TITLE: Saturday, 04/24/2021
+** 10:11 exploring spacial software
+[[https://www.figma.com/community/file/966728170401174658][src]]
+designing your space is designing your product - by shaping user interactions within that space, you control how it is experienced.
