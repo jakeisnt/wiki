@@ -11,17 +11,32 @@
 <dt><a href="https://www.reddit.com/r/vim/comments/hwdehp/vim_osc_livecoding/">Vim OSC Livecoding</a></dt>
 <dd><a href="livecoding.org">Livecoding</a> in vim
 </dd>
+<dt><a href="https://github.com/tpope/vim-projectionist">https://github.com/tpope/vim-projectionist</a></dt>
+<dd><p>configure and work with projects like projectile for vim!</p>
+<p><a href="https://vimways.org/2018/death-by-a-thousand-files/">https://vimways.org/2018/death-by-a-thousand-files/</a> some random vim tips for working with large projects</p>
+</dd>
 </dl>
+<h2>Vim spector</h2>
+<p>vim debugging, essentially. <a href="https://www.reddit.com/r/vim/comments/i0lffn/thought_id_share_some_recent_vimspector/">https://www.reddit.com/r/vim/comments/i0lffn/thought_id_share_some_recent_vimspector/</a> <a href="https://github.com/glacambre/firenvim">https://github.com/glacambre/firenvim</a> embed nvim in the browser <a href="https://www.reddit.com/r/vim/comments/h8pgor/til_conceal_in_vim/">https://www.reddit.com/r/vim/comments/h8pgor/til_conceal_in_vim/</a> prettify symbol mode, or conceal. having glyphs to replace multiple characters seems so much nicer - especially with ligatures! look to do this with a vim configuration. <a href="https://vim.fandom.com/wiki/Editing_remote_files_via_scp_in_vim">https://vim.fandom.com/wiki/Editing_remote_files_via_scp_in_vim</a>: the best way to use netrw to edit remote files in vim</p>
 <h1>ideas</h1>
-<p><a href="https://www.reddit.com/r/vim/comments/hm6b9d/help_vim_wpm_counter/">wpm counter for vim</a> <a href="https://www.reddit.com/r/vim/comments/hz97jh/nerdtree_vs_defx_vs_nnn_which_one_do_you_prefer/">vim file browser recommendations</a> <a href="http://thedarnedestthing.com/space%20vim">http://thedarnedestthing.com/space%20vim</a> <a href="http://vimsheet.com/">http://vimsheet.com/</a> <a href="https://vim.rtorr.com/">https://vim.rtorr.com/</a></p>
+<p><a href="https://www.reddit.com/r/vim/comments/hxn5ue/how_do_i_use_macros_when_i_have_variable_amount/">https://www.reddit.com/r/vim/comments/hxn5ue/how_do_i_use_macros_when_i_have_variable_amount/</a>: working with macros of variable length to optimally edit! <a href="https://www.reddit.com/r/vim/comments/hm6b9d/help_vim_wpm_counter/">wpm counter for vim</a> <a href="https://www.reddit.com/r/vim/comments/hz97jh/nerdtree_vs_defx_vs_nnn_which_one_do_you_prefer/">vim file browser recommendations</a> <a href="http://thedarnedestthing.com/space%20vim">http://thedarnedestthing.com/space%20vim</a> <a href="http://vimsheet.com/">http://vimsheet.com/</a> <a href="https://vim.rtorr.com/">https://vim.rtorr.com/</a></p>
 <h1>Shortcut Optimisations</h1>
 <h2>Leader keys</h2>
 <dl>
 <dt>Comma</dt>
 <dd>As it should always be followed with a space grammatically, every other key can be freely mapped to with no delay! You lose the functionality of backwards repeating though…
 </dd>
+<dt>Space</dt>
+<dd>What doom emacs uses, my current key and what I'm used to. This works fine, but the timeout definitely can impact the fluency of writing on occasion.
+</dd>
+<dt>Semicolon</dt>
+<dd>Interesting option, but there seem to be some strange repeat patterns in specific modes.
+</dd>
+<dt>\</dt>
+<dd>Controversial, it's pretty far away… but it's the default. Unclear whether bashing the pinkie to the right is a great motion (just like Emacs and the left).
+</dd>
 </dl>
-<h1>Lua plugins</h1>
+<h1>Lua plugins and config</h1>
 <p>I don't think lua is ready for NixOS yet - it seems to have some trouble finding plugins for the Lua path - but it's worth considering for the future.</p>
 <dl>
 <dt>feline.nvim</dt>
