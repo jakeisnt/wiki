@@ -54,3 +54,5 @@ https://ma.tt/2019/12/comments-and-collatz-conundrum/
 http://homepages.inf.ed.ac.uk/libkin/fmt/fmt.pdf
 
 [[https://en.m.wikipedia.org/wiki/Rubik's_Cube_group][Rubik&#39;s Cube group - Wikipedia]]
+
+[[https://news.ycombinator.com/item?id=24257468][A brief overview and discussion of PCA.]]

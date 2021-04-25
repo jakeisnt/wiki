@@ -1,5 +1,4 @@
 #+TITLE: Etc
-
 [[https://github.com/gfredericks/quinedb][quinedb that's a key value store]]
 [[https://github.com/veggiedefender/open-and-shut][type in morse code by slamming your laptop]]
 [[https://github.com/schollz/howmanypeoplearearound][count the number of people around you by monitoring wifi signals]]
@@ -9,11 +8,9 @@
 [[https://github.com/controversial/wikipedia-map][visualize connections between wikipedia pages]]
 [[https://github.com/howonlee/audible-cos][listen to an np complete problem]] [[file:music.org][Music]]
 [[https://github.com/turbomaze/28-hour-day][an experiment with a 28 hour day]] [[file:quantified-self.org][Quantified Self]]
-
 [[https://github.com/hms-dbmi/viv][big word tiny brain]]
 [[https://github.com/Rotonde/People][people and their dat urls]]
 [[https://github.com/Rotonde/rotonde-client][rotonde social media client]]
-
 [[https://github.com/hwayne/rsl][a turing tarpit with many registers!]]
 [[https://github.com/hwayne/awesome-cold-showers][unhype people]]
 [[https://github.com/SBRG/bigg_models][genomics models]]
@@ -26,55 +23,38 @@
 [[https://github.com/yudai/gotty][share your terminal as a web application]]
 [[https://github.com/achiurizo/consular][automates development workflow setup]]
 [[https://github.com/rvizzz/rotate][create recursive image animations]]
-
 [[https://github.com/0install/0install][decentralized package installation framework]]
 [[https://github.com/modfy/modfy.video][video transcoder in the browser]]
 [[https://github.com/varnishcache/varnish-cache][varnish cache]]
 [[https://github.com/stargate/stargate][api framework for data]]
-
 [[https://github.com/Roenbaeck/anchor][dbms for the fifth normal form]]
 [[https://github.com/learn-anything/learn-anything][learn anything]]
-
 https://github.com/markledwich2/Recfluence analysis of youtube political influence via recommendations
-
 https://github.com/joeycastillo/The-Open-Book open book project; open source device for reading
 [[https://github.com/papers-we-love/papers-we-love][papers we love in cs]]
 [[https://github.com/ocharles/papers][git annex repo of papers]]
-
 https://apps.ankiweb.net/
 http://matt.might.net/articles/electric-meat/
 https://explog.in/notes/walk.html
 http://matt.might.net/articles/what-cs-majors-should-know/
 http://matt.might.net/articles/how-to-blog-as-an-academic/
-[[https://en.wikipedia.org/wiki/List_of_cognitive_biases][list of cognitive biases]]
-
 [[https://thebolditalic.com/the-three-bay-areas-b09aa2c4d727]]
 [[https://medium.com/message/networks-without-networks-7644933a3100][The Sixth Stage of Grief Is Retro-computing | by Paul Ford | The Message | Medium]]
-
 [[https://www.youtube.com/watch?app=desktop&v=dS6rCaDSwW8][jon blow's most important talk on programming]]
-
 [[https://www.youtube.com/watch?v=M1t0egTZY44&app=desktop][walter lewin: how to make teaching come alive]]
 [[https://www.youtube.com/watch?v=P1ww1IXRfTA&t&app=desktop][richard feynman: fun to imagine]]
 https://www.the-tls.co.uk/articles/feynman-making-the-extraordinary-look-easy/
-
 [[[[https://academic.oup.com/migration/article/8/2/228/5163084][Poverty, networks, resistance: The economic sociology of Roma migration for begging | Migration Studies | Oxford Academic]]]t[Motivations of Roma migration]]
-
 [[https://www.dreamsongs.com/PoetryOfProgramming.html][The poetry of programming]]
 [[https://www.dreamsongs.com/DesignedAsDesigner.html][designed as designer essay, on how art and programming languages are produced]]
 [[http://douglas-self.com/MUSEUM/museum.htm][The museum of retro technology]]
 [[https://saffronhuang.com/post/a-sensory-deprivation-flotation-tank-almost-drowned-me/][a sensory deprivation tank almost drowned me]]: on our relationship with technology - it'll always be self-destructive in the end.
 [[http://n-gate.com/hackernews/]['webshit weekly']]: the worst of hacker news
-
 [[https://www.theatlantic.com/magazine/archive/2017/04/why-is-silicon-valley-so-awful-to-women/517788/?fbclid=IwAR29wNYuXh_R64gXgw7CTN6mVZlFNjrwMdd4YQkYv3lEWZUFZQMvqFq66x0][Why is silicon valley so awful to women?]]
-[[https://github.com/inconvergent/weir][a system for making generative algorithms]]; succeeds [[https://github.com/uvNikita/snek][snek]]
-
-https://blog.plover.com/book/free-hop.html why i make the book available for free
 [[https://www.quantamagazine.org/einstein-symmetry-and-the-future-of-physics-20190626/][ideas behind einstein]]
 [[https://kk.org/thetechnium/68-bits-of-unsolicited-advice/][68 bits of unsolicited advice]]. come back to take notes on this.
 [[https://www.reddit.com/r/MFPMPPJWFA/][uhh what]]
 [[https://www.reddit.com/r/programming/comments/hv16l6/essays_on_programming_i_think_about_a_lot/][good essays about programming]]
-
-
 [[http://opentaxsolver.sourceforge.net/index.html][open source tax solver program! much better to use than turbotax]]
 [[http://seinfeld.co/library/][i'm really not sure what this is; rnadom greco roman, daoist and unix resources]]
 [[https://www.quantamagazine.org/how-to-design-a-perpetual-energy-machine-20200401/][designing a perpetual energy machine]]
@@ -82,16 +62,13 @@ https://blog.plover.com/book/free-hop.html why i make the book available for fre
 [[https://ciechanow.ski/gears/][on gears]]: a beautifully exploratory piece of life!
 https://sendcard.us/ fun product!
 https://github.com/angrybacon/gitaxian-probability mtg probabilities
-
 https://observablehq.com/@jakechvatal i forgot what this is but i have an account...
 https://hackaday.com/2016/05/03/volkswagen-beetle-the-most-hackable-car/ hackable car
 http://www.ccs.neu.edu/home/hlnguyen/cs7805/spring20/index.html
 [[https://mobile.twitter.com/david_perell/status/1257484391204352002][one idea that changed your life]] and [[https://news.ycombinator.com/item?id=23092657][hn thread]]
-
 https://www.gwern.net/Search#search
 https://beepb00p.xyz/pkm-search.html#why
 https://wiki.nikitavoloboev.xyz/research-papers
-
 https://numinous.productions/ttft/
 https://contact.framasoft.org/en/#help
 https://www.1517fund.com/post/invisible-college
@@ -113,21 +90,14 @@ https://www.listennotes.com/blog/why-podcasts-are-my-new-wikipedia-the-perfect-4
 https://mitadmissions.org/blogs/entry/for-the-love-of-6470-montresor/ this writing is so good!
 https://mitadmissions.org/blogs/entry/techfair/
 https://news.ycombinator.com/item?id=23211184
-
-
 [[https://undergroundhousing.com/book.html][$50 and up underground house!]]
-
 https://postbag.co/ product finding neural backlinks? indexing pages? unclear.
 https://www2.staffingindustry.com/eng/Editorial/Daily-News/France-Employee-who-suffered-from-boredom-at-work-wins-40-000-in-court-case-54072?mkt_tok=eyJpIjoiTnpRM056QXhNVGRpWVdFMCIsInQiOiJiREUyd1F0U1VZaHkxbzZCZ0N6Mnl0UzBiZVRwMTdrcEpYSG5POXBNUGw1MjhjYWZGTFwvanBcL2t2akVaWms1N2pNT2wzVG1OYUN3RkNZSmRXQUFiUzRhaytzcithTEU3Z2gyQVZQMzlwN2dqbWZ5U1E1bUl5bHJlQzFpS3RuMXZxIn0%3D
-
-
 [[https://www.reddit.com/r/AskReddit/comments/hsirrq/what_is_something_free_from_the_internet_everyone/][great free resources on the internet]]
 https://www.reddit.com/r/MFPMPPJWFA/ niche as fuck: music french people might play at a party or just with friends around
 https://archive.org/details/lca2018-Housekeeping_and_Keynote_1_Matthew_Todd open source pharma
 [[https://news.ycombinator.com/item?id=23487121][theory of everything]]
-
 * TODO back up birthdays from people on facebook
 this is the only way i will truly be able to delete my facebook account
 logging birthdays and information about people externally to any social media platform that is predatory seems very useful
-*
 https://github.com/maehr/awesome-digital-history resources for digiral history

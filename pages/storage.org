@@ -1,9 +1,7 @@
 #+TITLE: Storage
 backup storage stuff
 
-[[https://github.com/stewartmcgown/uds][unlimited google drive storage]] - broken as of June 21 : (
+I currently use backblaze b2 via duplicati
 https://github.com/schollz/croc securely and easily share files between computers
-
 [[https://rclone.org/drive/#making-your-own-client-id][rclone or smth]]
-
 https://github.com/gilbertchen/duplicacy lock free duplication backup tool

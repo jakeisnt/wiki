@@ -16,6 +16,7 @@ http://www.cs.columbia.edu/~blei/seminar/2019-applied-causality/index.html appli
 
 http://www.papert.org/articles/EpistemologicalPluralism.html
 [[https://news.ycombinator.com/item?id=23515504][phil in isolation]]
+[[https://en.wikipedia.org/wiki/List_of_cognitive_biases][list of cognitive biases]]
 
 * SSC
 [[https://astralcodexten.substack.com/p/ontology-of-psychiatric-conditions?token=eyJ1c2VyX2lkIjoxOTQ4ODUwNiwicG9zdF9pZCI6MzE5NDk1ODksIl8iOiI3Mk5YMiIsImlhdCI6MTYxMjIyNjA1MywiZXhwIjoxNjEyMjI5NjUzLCJpc3MiOiJwdWItODkxMjAiLCJzdWIiOiJwb3N0LXJlYWN0aW9uIn0.BFNV0V77G-UmXrSuwzNN-CRtprqWUH_WZnmMuq6ngSo][Taxonometrics]]

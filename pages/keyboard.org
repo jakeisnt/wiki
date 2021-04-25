@@ -385,3 +385,5 @@ do the former?
 
 
 TODO: break this down into more specific topics!
+
+https://blog.plover.com/book/free-hop.html why i make the book available for free

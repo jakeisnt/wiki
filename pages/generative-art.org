@@ -55,3 +55,5 @@ https://quazikb.github.io/WaveEq/index.html: a real time wave tracer technique
 https://play.ertdfgcvb.xyz/abc.html#notes:technical a browser based live coding environment with live coding output; a tool and playground to play with ASCII, [[file:fonts.org][Fonts]], and otherwise.
 
 https://alteredqualia.com/: brilliant image generation and generative art work. inspirational!
+
+[[https://github.com/inconvergent/weir][a system for making generative algorithms]]; succeeds [[https://github.com/uvNikita/snek][snek]]
