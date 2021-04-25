@@ -1,10 +1,15 @@
 #+TITLE: Bodymod
 
-Body modification research.
-* barcodes
-https://en.m.wikipedia.org/wiki/QR_code
-https://barcode.tec-it.com/en/Aztec
-https://barcode.tec-it.com/en/USPSIMPackage?data=9102805213683062522920 cloning barcodes
-* nfc implants
-https://dangerousthings.com/
+Body modification and enhancement research with artificial tech (no drugs).
+
+* Barcodes
+These are tempting, but it seems like it could be a bad idea to 'hardcode' a URL that might not function properly in the future -- there's no good way for me to own a domain name without tying it to a specific product or service.
+
+I'm wondering if I should spec into the blockchain URLs with arbitrary extensions now or in the future; those seem like the most reliable way to capture truly permanent links, so long as the heuristic is supported by major browser engines.
+[[https://en.m.wikipedia.org/wiki/QR_code][Wikipedia's QR code guide]], with lots of quality information
+[[https://barcode.tec-it.com/en/Aztec][The Aztec barcode]], an alternative to the traditional one with supposedly just as much redundancy and a different look.
+[[https://barcode.tec-it.com/en/USPSIMPackage?data=9102805213683062522920][A nice utility for cloning barcodes.]]
+* NFC Implants
+I'd like to eventually get one of these, but the capacity of storage is increasing incredibly rapidly, and the ability of these implants has not quite cut up.
+[[https://dangerousthings.com/][DangerousThings]], probably the best place now to purchase one of these implants.
 [[https://forum.dangerousthings.com/t/magic-mifare-chips/6696][cloning mifare]]

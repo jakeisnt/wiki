@@ -17,7 +17,18 @@ http://marco-lopes.com/articles/Vim-and-Haskell-in-2019/ [[file:haskell.org][Has
 
 * Plugins
 - [[https://www.reddit.com/r/vim/comments/hwdehp/vim_osc_livecoding/][Vim OSC Livecoding]] :: [[file:livecoding.org][Livecoding]] in vim
+- https://github.com/tpope/vim-projectionist :: configure and work with projects like projectile for vim!
+
+  https://vimways.org/2018/death-by-a-thousand-files/ some random vim tips for working with large projects
+
+** Vim spector
+vim debugging, essentially.
+https://www.reddit.com/r/vim/comments/i0lffn/thought_id_share_some_recent_vimspector/
+https://github.com/glacambre/firenvim embed nvim in the browser
+https://www.reddit.com/r/vim/comments/h8pgor/til_conceal_in_vim/ prettify symbol mode, or conceal. having glyphs to replace multiple characters seems so much nicer - especially with ligatures! look to do this with a vim configuration.
+https://vim.fandom.com/wiki/Editing_remote_files_via_scp_in_vim: the best way to use netrw to edit remote files in vim
 * ideas
+https://www.reddit.com/r/vim/comments/hxn5ue/how_do_i_use_macros_when_i_have_variable_amount/: working with macros of variable length to optimally edit!
 [[https://www.reddit.com/r/vim/comments/hm6b9d/help_vim_wpm_counter/][wpm counter for vim]]
 [[https://www.reddit.com/r/vim/comments/hz97jh/nerdtree_vs_defx_vs_nnn_which_one_do_you_prefer/][vim file browser recommendations]]
 http://thedarnedestthing.com/space%20vim
@@ -27,8 +38,11 @@ https://vim.rtorr.com/
 * Shortcut Optimisations
 ** Leader keys
 - Comma :: As it should always be followed with a space grammatically, every other key can be freely mapped to with no delay! You lose the functionality of backwards repeating though...
+- Space :: What doom emacs uses, my current key and what I'm used to. This works fine, but the timeout definitely can impact the fluency of writing on occasion.
+- Semicolon :: Interesting option, but there seem to be some strange repeat patterns in specific modes.
+- \ :: Controversial, it's pretty far away... but it's the default. Unclear whether bashing the pinkie to the right is a great motion (just like Emacs and the left).
 
-* Lua plugins
+* Lua plugins and config
 I don't think lua is ready for NixOS yet - it seems to have some trouble finding plugins for the Lua path - but it's worth considering for the future.
 - feline.nvim :: A good status line for NeoVim with Lua, much faster than status quo.
 - [[https://reddit.com/r/neovim/comments/jqfjor/eslint_and_nvimlsp][Setting up NeoVim with its built in lsp server and ESLint]]

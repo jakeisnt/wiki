@@ -15,57 +15,38 @@ https://skillsmatter.com/skillscasts/14803-what-s-in-a-functional-compiler what'
 https://dl.acm.org/doi/abs/10.1145/512927.512941 first work on verifying and structuring compilers
 https://hassamuddin.com/blog/reg-alloc/ overview of register allocation
 https://getpocket.com/redirect?url=https%3A%2F%2Fwww.reddit.com%2Fr%2FProgrammingLanguages%2Fcomments%2Fhvs79e%2Ftracing_jit_vs_method_jit_what_to_choose%2F tracing jit vs method jit compilation -- learn the difference!
-
 https://groups.google.com/g/comp.arch/c/UXEi7G6WHuU/m/Z2z7fC7Xhr8J?pli=1 popcount: the NSA instruction
 https://vaibhavsagar.com/blog/2019/09/08/popcount/ more on popcount
 https://oswalt.dev/2020/11/anatomy-of-a-binary-executable/ cool article about whats inside a binary executable
 [[https://m.youtube.com/watch?v=yP29TKmK3_o][secure compilation from amal]]
-
 [[https://chrisseaton.com/truffleruby/basic-truffle-graphs/][truffle compiler graphs for real programming languages]]
 https://www.youtube.com/watch?v=BRNxM8szTPA&list=PLJq3XDLIJkib2h2fObomdFRZrQeJg4UIW some time on v8 and wasm, from compilers guy
 [[https://dl.acm.org/doi/abs/10.1145/2980983.2908106][idle time garbage collection]]
 [[https://docs.google.com/document/d/10CbqmRs-i8Jy0IE3ToEP25_FD8gj2kEHvfd3N0icN3g/preview][in-place field representation]] motivation and examples
 https://v8.dev/blog/react-cliff vy performance cliff in react
-
 * HOPL
 Great resource for learning about the history of programming languages research, by definition.
 https://dl.acm.org/doi/10.1145/1238844.1238853
 https://tlbh.it/index.html fun podcast about compilers
-
 * pattern matching
 https://www.reddit.com/r/ProgrammingLanguages/comments/g1vno3/beginner_resources_for_compiling_pattern_matching/
 https://www.reddit.com/r/ProgrammingLanguages/comments/f4gfum/pattern_matching_in_your_language/
 http://cone.jondgoodwin.com/coneref/refmatch.html
-
 https://www.edx.org/course/compilers
-
-http://web.eecs.utk.edu/~azh/blog/teenytinycompiler1.html cool project for a
-tiny compiler in python!
-
+http://web.eecs.utk.edu/~azh/blog/teenytinycompiler1.html cool project for a tiny compiler in python!
 [[https://reddit.com/r/Compilers/comments/hufog0/object_lifetimes_how_can_a_compiler_determine][Object Lifetimes - how can a compiler determine when to call the destructor of an object returned from a function?]]
-
 [[http://number-none.com/blow/][jon blow, game dev and compiler guy]]
-
 http://homes.sice.indiana.edu/samth/ -- sam tobin something, student of matthias
 https://www.reddit.com/r/ProgrammingLanguages/comments/9bft4d/do_you_know_of_compilerish_job_opportunities_for/
 [[https://github.com/rmccullagh/letsbuildacompiler][lets build a compiler book]]
 [[https://en.m.wikipedia.org/wiki/Duff%27s_device][compiler neat thing]]
 [[https://www.youtube.com/watch?v=de8Ak0nY1hA&app=desktop][improving compiler correctness using formal methods]]
-
-http://bootstrappable.org/ on trusting trust. ken thompson talk linked at the
-bottom is great, as are the other articles. great compilers literature
-
+http://bootstrappable.org/ on trusting trust. ken thompson talk linked at the bottom is great, as are the other articles. great compilers literature
 https://www.cs.cmu.edu/~janh/courses/411/16/ compiler design course at cmu.
 https://gist.github.com/cellularmitosis/1f55f9679f064bcff02905acb44ca510#simple-compiler-codebases-to-study
-
-https://zserge.com/posts/jvm/ how to write a toy jvm -- try this and put it
-on github! fun small thing to mess around with. add more to it, add new
-things, mess aroundand have fun!
-supposedly good material
-
+https://zserge.com/posts/jvm/ how to write a toy jvm -- try this and put it on github! fun small thing to mess around with. add more to it, add new things, mess aroundand have fun! supposedly good material
 [[https://github.com/seanbaxter/circle][he compiler is available for download. Get it!]]
 [[https://github.com/lampepfl/dotty][research compiler that will become Scala 3]] [[https://github.com/aditya-grover/node2vec][]]
-
 [[https://github.com/barak/stalin]["stalin brutally optimizing Scheme compiler, with Debianization patches"]]
 [[https://github.com/plasma-umass/Stopify][ JS-to-JS compiler that makes it easier to build Web IDEs and compile to JS.]]
 [[https://github.com/adam-mcdaniel/free][n esoteric programming language with an unusual compiler backend]]
@@ -74,7 +55,6 @@ supposedly good material
 https://www.reddit.com/r/ProgrammingLanguages/comments/i1s8m0/functional_programming_and_reference_counting/
 https://github.com/nanocaml/nanocaml
 https://github.com/doctorn/micro-mitten
-
 [[https://ucsd-cse131-f19.github.io/][Compiler Construction – CSE 131 F19]]
 [[https://www.reddit.com/r/ProgrammingLanguages/comments/hvs79e/tracing_jit_vs_method_jit_what_to_choose/][Tracing JIT vs Method JIT: What to choose? - ProgrammingLanguages]]
 [[https://technomancy.us/192][in which a compiler takes steps towards strapping its boots - Technomancy]]
@@ -87,14 +67,10 @@ https://github.com/doctorn/micro-mitten
 [[https://skillsmatter.com/skillscasts/14803-what-s-in-a-functional-compiler][What&#039;s in a Functional Compiler? | SkillsCast | 30th July 2020]]
 [[https://mobile.twitter.com/wilbowma/status/1314723979693682688][William J. Bowman @wilbowma@mastodon.social on Twitter: &quot;I generated language validators from my compiler course assignment specifications, turned them into contracts for my reference solution, and it&#39;s just finding bug after bug after bug. Bugs in specs, bugs in tests, bugs in implementation.&quot; / Twitter]]
 [[http://blog.ezyang.com/2011/06/debugging-compilers-with-optimization-fuel/][Debugging compilers with optimization fuel : Inside 245-5D]]
-
 [[https://generalproblem.net/lets_build_a_compiler/01-starting-out/][The General Problem]]
-
 [[https://hassamuddin.com/blog/reg-alloc/][A Quick Introduction to Register Allocation — Hassam Uddin | Developer]]
 [[https://www.reddit.com/r/ProgrammingLanguages/comments/i1s8m0/functional_programming_and_reference_counting/][Functional Programming and Reference Counting - ProgrammingLanguages]]
-
 [[https://gist.github.com/cellularmitosis/1f55f9679f064bcff02905acb44ca510#tutorials][lots of compilers resources]]
-
 http://worrydream.com/#!/LearnableProgramming designing a programming system for understanding programs
 [[https://catalog.princeton.edu/catalog/SCSB-8534958][compiling with continuations]] [[file:books.org][Books]]
 [[https://generalproblem.net/lets_build_a_compiler/01-starting-out/][let's build a compiler]] from noah zentzis, someone i talked to at intel.
@@ -106,6 +82,4 @@ https://blog.trailofbits.com/2020/05/22/emerging-talent-winternship-2020-highlig
 https://nicoleorchard.com/blog/compilers
 https://en.wikipedia.org/wiki/Uniform_Function_Call_Syntax any function can be called using method calls as well
 https://mobile.twitter.com/johnregehr/status/1290337031411777537 fun ideas for compiler optimization
-
-
 https://cs.au.dk/~amoeller/spa/ static program analysis course!

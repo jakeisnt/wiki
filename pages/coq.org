@@ -10,7 +10,6 @@ https://github.com/MetaCoq/metacoq metaprogramming
 https://github.com/atharvashukla/coq-tactics-index index of coq tactics and their meanings
 https://github.com/UniMath/UniMath coq and math?
 https://github.com/codyroux/name-the-biggest-number proving the biggest number in coq constructively
-
 [[https://github.com/dmelcer9/coq-lunch-learn][dmelcer9/coq-lunch-learn]]
 [[https://reddit.com/r/ProgrammingLanguages/comments/hx442x/a_formally_verified_highlevel_synthesis_tool][A formally verified high-level synthesis tool based on CompCert and written in Coq]]
 [[https://www.cs.princeton.edu/~ckorkut/][cs guy working on certicoq]]
@@ -21,14 +20,11 @@ https://github.com/codyroux/name-the-biggest-number proving the biggest number i
 https://github.com/hwayne/lets-prove-leftpad
 [[https://github.com/mit-frap/spring20]["Problem Sets for MIT 6.822 Formal Reasoning About Programs, Spring 2020"]]
 https://github.com/achlipala/frapapp formal reasoning about programs website
-
 [[https://github.com/bendy/DenotationalSemantics][denotational semantics of imperative language]] in the style of software foundations
 https://github.com/uwplse/pumpkin-pi something to do with a coq plugin suite?
 [[https://verifcomp.dbp.io/][verifcomp]]
-
 https://www.reddit.com/r/Coq/comments/tzpb9/webbased_proofbypointing_frontend_to_coq/
 https://news.ycombinator.com/item?id=26288749: a great approach to coq through a sample z3 tutorial
 [[http://www.cse.chalmers.se/research/group/logic/TypesSS05/resources/coq/CoqArt/][coqart]]: a textbook for learning more coq!
-
- [[https://www.youtube.com/watch?v=5e7UdWzITyQ&t=0][Coq proofs for the informal programmer, supposedly]]
- http://web.mit.edu/cpitcla/www/coq-rst/universe-polymorphism.html 
+[[https://www.youtube.com/watch?v=5e7UdWzITyQ&t=0][Coq proofs for the informal programmer, supposedly]]
+http://web.mit.edu/cpitcla/www/coq-rst/universe-polymorphism.html

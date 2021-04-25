@@ -2,4 +2,6 @@
 
 Collections of comment systems, particularly the distributed ones.
 
-https://quotebacks.net/: reply to data across the open web, and you can see everyone else's contributions to blogs! agnostic to whether the site has provided its own commend system.
+- https://quotebacks.net/ :: reply to data across the open web, and you can see everyone else's contributions to blogs! agnostic to whether the site has provided its own commend system.
+- Twemex :: A better user interface for Twitter!
+- ampie.app :: An incredible quality interface that indexes comments from different forums and displays in a convenient menu so that you can view discussions on the webpage you're currently using.

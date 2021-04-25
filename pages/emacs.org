@@ -20,6 +20,9 @@ This isn't to cause myself undue pain. It reduces context switching between the 
 - [[https://github.com/jkitchin/scimax][Scimax]] :: Scientific Emacs framework. Set up to serve as a good introduction!
 
 * Configurations
+https://github.com/sulami/dotfiles/blob/master/emacs/.emacs/README.org: good example of a literate emacs configuration
+http://aaronbedra.com/emacs.d/: great example of a configuration rendered as a webpage with org mode!
+
 https://www.reddit.com/r/emacs/comments/4srze9/watching_youtube_inside_emacs_25/ watching youtube in emacs
 https://www.emacswiki.org/emacs/ExampleConfigurations
 https://github.com/munen/emacs.d
@@ -61,6 +64,7 @@ https://github.com/christabella/doom-emacs-config
 
 ** Optimisations
 - [[http://bling.github.io/blog/2016/01/18/why-are-you-changing-gc-cons-threshold/][don't change gc-cons-threshold]] :: fix constant garbage collection by setting it very high when something happens, and changing afterwards to prevent constant garbage collection and freezing when the heap gets too big
+- https://anuragpeshne.github.io/essays/emacsSpeed.html :: other emacs pro tips
 
 * Community
 [[https://github.com/howardabrams/pdx-emacs-hackers][Portland Emacs Hackers]]
