@@ -1,4 +1,4 @@
-#+title: EXWM
+#+TITLE: EXWM
 [[https://github.com/ch11ng/exwm][EXWM]] is an [[file:./emacs.org][Emacs]] window manager.
 
 It's a simple wrapper for X11 functions that allows for the user to interface primarily with Emacs.

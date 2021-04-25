@@ -1,4 +1,4 @@
-#+title: Compilers
+#+TITLE: Compilers
 
 Compilers translate one language to another.
 They're most commonly used to translate higher level languages like C to lower level languages like Assembly.

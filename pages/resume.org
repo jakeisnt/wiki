@@ -1,4 +1,4 @@
-#+title: Resume
+#+TITLE: Resume
 
 - tags :: [[file:employment.org][employment]]
 

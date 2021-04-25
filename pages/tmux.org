@@ -1,4 +1,4 @@
-#+title: Tmux
+#+TITLE: Tmux
 
 Tmux is a terminal multiplexer,
 allowing one to track multiple groups of terminals

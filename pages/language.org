@@ -1,4 +1,4 @@
-#+title: Language
+#+TITLE: Language
 
 Thoughts about language, generally.
 https://www.goodreads.com/book/show/19661852-fluent-forever

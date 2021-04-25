@@ -1,4 +1,4 @@
-#+title: Erlang
+#+TITLE: Erlang
 
 [[file:programming-languages.org][Programming Languages]]
 
