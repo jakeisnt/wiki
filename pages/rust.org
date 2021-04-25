@@ -1,65 +1,51 @@
 #+TITLE: Rust
 - tags ::[[file:programming-languages.org][ Programming Languages]]
-* innovation in rust
 
-https://rust-analyzer.github.io/blog/2020/04/20/first-release.html
-https://github.com/nikomatsakis/rust-belt-rust-2019
+* libraries
+- [[https://github.com/Geal/nom][nom]] :: parser combinator for rust
+- [[https://github.com/PoiScript/orgize][orgize]] :: parse [[file:org_mode.org][Org Mode]] in rust
+https://github.com/tokio-rs/tokio
+https://github.com/rust-lang/datafrog datalog engine in rust
+https://github.com/noocene/mincodec super efficient data serialization format with unaligned bitstreams
+https://github.com/doctorn/trait-eval use turing complete rust trait system
+[[https://maud.lambda.xyz/web-frameworks.html][Web framework integration – Maud, a macro for writing HTML]]
+[[https://lib.rs/crates/handlebars][Handlebars — Rust utility // Lib.rs]]
+[[https://fasterthanli.me/articles/image-decay-as-a-service][image decay as a service, in rust]]
+* Tutorials
+https://github.com/sunjay/portrayer sample rust ray traceer
+https://arzg.github.io/lang/ make a lang, in rust
+[[https://raphlinus.github.io/rust/graphics/gpu/2020/06/13/fast-2d-rendering.html][Fast 2D rendering on GPU | Raph Levien’s blog]]
+[[https://rust-embedded.github.io/book/][Introduction - The Embedded Rust Book]] [[file:firmware.org][Firmware]]
+[[https://m.youtube.com/watch?v=A65w-qoyTYg][Cap'n Proto and Rust: Type Systems for Sharing by David Renshaw - YouTube]]
+[[https://rust-embedded.github.io/book][The Embedded Rust Book]]
+[[https://blog.aloni.org/posts/a-stack-less-rust-coroutine-100-loc/][- A stack-less Rust coroutine library under 100 LoC]]
+* Projects
+https://github.com/bvaisvil/zenith desktop monitor like top or htop but just better
+[[https://github.com/LemmyNet/lemmy][LemmyNet/lemmy: ? Building a federated alternative to reddit in rust]] [[file:social.org][Social]]
+[[https://github.com/bootandy/dust][intuitive version of du]]
+[[https://github.com/dalance/procs][replacement for 'ps' in rust]]
+[[https://github.com/restic/restic][efficient and secure backup program]]
+https://github.com/gchp/iota [[file:text-editors.org][Text Editors]]
+* Thinkpieces
+https://www.infoq.com/podcasts/rust-systems-programming/ quick summary of rust's role
+[[https://news.ycombinator.com/item?id=23246908][why i hate rust]]
+[[https://www.youtube.com/watch?app=desktop&v=4t1K66dMhWk][jon blow against rust]]
+[[https://www.youtube.com/watch?app=desktop&v=TH9VCN6UkyQ][jon blow new game programming languages]]
+[[https://gankra.github.io/blah/linear-rust/][The Pain Of Real Linear Types in Rust]]
+
+* innovation in rust
 https://github.com/rust-lang/polonius
 https://news.ycombinator.com/item?id=23113661
 https://en.m.wikipedia.org/wiki/Slab_allocation
 https://fnordig.de/2020/05/02/rust-in-an-instant/
-https://fnordig.de/2020/05/02/rust-in-an-instant/
 https://www.christianfscott.com/making-rust-as-fast-as-go/
-https://github.com/sunjay/portrayer sample rust ray traceer
-https://github.com/bvaisvil/zenith desktop monitor like top or htop but just better
-[[https://github.com/Geal/nom][nom]] :: parser combinator for rust
-https://github.com/PoiScript/orgize :: parse [[file:org_mode.org][Org Mode]] in rust
-https://rustwasm.github.io/docs/book/game-of-life/introduction.html build conway's game of life with rust, js, webassembly
 https://blog.mgattozzi.dev/rusts-runtime/ rust's runtime
-https://arzg.github.io/lang/ make a lang, in rust
-
-https://github.com/sunjay/portrayer sample rust ray traceer
-https://github.com/bvaisvil/zenith desktop monitor like top or htop but just better
-nom :: parser combinator for rust
-https://github.com/PoiScript/orgize :: parse [[file:org_mode.org][Org Mode]] in rust
-https://rustwasm.github.io/docs/book/game-of-life/introduction.html build conway's game of life with rust, js, webassembly
-
-https://gendignoux.com/blog/2020/06/16/rust-5-years-cross-platform.html
-lots of good rust resources linked here
-
-https://www.infoq.com/podcasts/rust-systems-programming/ quick summary of rust's role
-
-https://github.com/tokio-rs/tokio
-https://github.com/gchp/iota [[file:text-editors.org][Text Editors]]
-https://github.com/rust-lang/datafrog datalog engine in rust
-https://github.com/doctorn/trait-eval use turing complete rust trait system
+https://gendignoux.com/blog/2020/06/16/rust-5-years-cross-platform.html lots of good rust resources linked here
 https://github.com/aatxe/oxide the essence of rust
-[[https://news.ycombinator.com/item?id=23246908][why i hate rust]]
-https://github.com/noocene/mincodec super efficient data serialization format with unaligned bitstreams
-[[https://github.com/bootandy/dust][intuitive version of du]]
-[[https://github.com/dalance/procs][replacement for 'ps' in rust]]
-
-[[https://github.com/restic/restic][efficient and secure backup program]]
-
-[[https://rust-embedded.github.io/book/][Introduction - The Embedded Rust Book]] [[file:firmware.org][Firmware]]
-[[https://m.youtube.com/watch?v=A65w-qoyTYg][]&quot;Cap&#039;n Proto and Rust: Type Systems for Sharing&quot; by David Renshaw - YouTube]]
-[[https://rust-embedded.github.io/book][The Embedded Rust Book]]
 https://www.antonok.com/ -- good work in rust, have talked to him, cool guy
 https://varkor.github.io/blog/2018/11/10/monadic-do-notation-in-rust-part-i.html
-[[https://raphlinus.github.io/rust/graphics/gpu/2020/06/13/fast-2d-rendering.html][Fast 2D rendering on GPU | Raph Levien’s blog]]
-[[https://github.com/LemmyNet/lemmy][LemmyNet/lemmy: ? Building a federated alternative to reddit in rust]] [[file:social.org][Social]]
 https://gitlab.com/antonok/enum_dispatch#technical-details
-[[https://www.youtube.com/watch?app=desktop&v=4t1K66dMhWk][jon blow against rust]]
-[[https://www.youtube.com/watch?app=desktop&v=TH9VCN6UkyQ][jon blow new game programming languages]]
- [[https://thefuntastic.com/blog/fighting-rusts-type-system][Fighting Rust's Expressive Type System - TheFuntastic]]
- [[https://blog.aloni.org/posts/a-stack-less-rust-coroutine-100-loc/][- A stack-less Rust coroutine library under 100 LoC]]
- [[https://tavianator.com/2020/one_plus_one.html][Proving that 1 + 1 = 10 in Rust - tavianator.com]]
- [[https://maud.lambda.xyz/web-frameworks.html][Web framework integration – Maud, a macro for writing HTML]]
- [[https://lib.rs/crates/handlebars][Handlebars — Rust utility // Lib.rs]]
- [[https://gankra.github.io/blah/linear-rust/][The Pain Of Real Linear Types in Rust]]
-
-
- [[https://fasterthanli.me/articles/image-decay-as-a-service][image decay as a service, in rust]]
+[[https://thefuntastic.com/blog/fighting-rusts-type-system][Fighting Rust's Expressive Type System - TheFuntastic]]
+[[https://tavianator.com/2020/one_plus_one.html][Proving that 1 + 1 = 10 in Rust - tavianator.com]]
 [[https://osa1.net/posts/2020-12-24-crate-type-conditional.html][conditional compilation based on crate type]]
-
 https://news.ycombinator.com/item?id=24024876

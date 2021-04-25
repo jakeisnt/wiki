@@ -1,198 +1,42 @@
 #+title: Emacs
 Emacs is a fully-featured programming environment.
 
-It's often (or most commonly) referred to as a text editor,
-but this isn't the case. Other editors are designed to offer first-class
-interfaces for configuring keyboard shortcuts, text configurations, etc.
+It's often (or most commonly) referred to as a text editor, but this isn't the case. Other editors are designed to offer first-class interfaces for configuring keyboard shortcuts, text configurations, etc.
 
-However, emacslisp is structured not to be used as an editor configuration
-with some additional logic capabilities, but rather as a fully-featured
-programming language with proper language facilities.
+However, emacslisp is structured not to be used as an editor configuration with some additional logic capabilities, but rather as a fully-featured programming language with proper language facilities.
 
-Emacs is my desktop environment. [[file:./exwm.org][EXWM]] was my window manaager,
-elfeed is my RSS reader, mu4e is my email client and so forth.
-The one program that does not have a proper Emacs interface
-is the web browser, so I use Firefox (and web apps) for most other tools.
+Emacs is my desktop environment. [[file:./exwm.org][EXWM]] was my window manaager, elfeed is my RSS reader, mu4e is my email client and so forth. The one program that does not have a proper Emacs interface is the web browser, so I use Firefox (and web apps) for most other tools.
 
-This isn't to cause myself undue pain. It reduces context switching between the keyboard shortcuts of many programs and their keybindings,
-and allows time tracking, task tracking and information management
-(all fractured, often difficult concepts) to be managed by [[file:./org_mode.org][Org Mode]] entirely within Emacs. This tight integration allows me to take notes and track time without having to switch contexts to other programs with other
-user interfaces.
-https://www.reddit.com/r/emacs/comments/hzhkk1/what_simple_key_remapping_has_transformed_your/ good keymapping ideas!
-https://www.reddit.com/r/emacs/comments/hx45kc/banneditmode_a_writing_helper_to_highlight_weak/ highlight ban edit mode ci
-https://www.youtube.com/watch?app=desktop&v=Ho6nMWGtepY writing a powerpoint with org and emacs
+This isn't to cause myself undue pain. It reduces context switching between the keyboard shortcuts of many programs and their keybindings, and allows time tracking, task tracking and information management (all fractured, often difficult concepts) to be managed by [[file:./org_mode.org][Org Mode]] entirely within Emacs. This tight integration allows me to take notes and track time without having to switch contexts to other programs with other user interfaces.
+
+^ I don't really stick to this anymore, because emacs is honestly not slow and performant. It's much better to treat Emacs as a text editor and have other purpose built programs. Though there is a future where all text editing configuration is orthogonal to programs and handled independently, it is far from here yet.
+
 * Tools
-- [[https://github.com/karlicoss/cloudmacs][cloudmacs]] :: allows you to self-host your emacs configuration and access it in the browser.
-https://jonathanabennett.github.io/blog/2019/05/28/emacs.org-~-may-2019/ coding your comments with emacs
-* Configurations
-https://www.reddit.com/r/emacs/comments/4srze9/watching_youtube_inside_emacs_25/ watching youtube in emacs
-https://github.com/howardabrams/dot-files
-https://github.com/jethrokuan/dots
-https://github.com/codygman/hci human programming interface in emacs
-https://github.com/zaeph/.emacs.d
-https://github.com/Ambrevar/dotfiles
-
-* Community
-
-https://github.com/howardabrams/pdx-emacs-hackers
+- [[https://github.com/karlicoss/cloudmacs][cloudmacs]] :: allows you to self-host your emacs configuration and access it in the browser. :O
 
 * Frameworks
 - Doom Emacs :: The framework I use; focuses on optimization and concise configuration
 - Spacemacs :: I used to use this. It's too bloated for my tastes.
-- [[https://github.com/jkitchin/scimax][Scimax]] :: Scientific Emacs framework
+- [[https://github.com/jkitchin/scimax][Scimax]] :: Scientific Emacs framework. Set up to serve as a good introduction!
 
-* Packages I Haven't Tried
-https://github.com/mtekman/org-tanglesync.el sync org mode files with dotfiles external to them
-https://github.com/alphapapa/matrix-client.el emacs matrix client
-https://github.com/casouri/OrgMark add drawings to org mode from your ipad
-https://github.com/yati-sagade/orch add drawings to org mode from your android
-https://github.com/alraban/org-recoll emacs binding for recoll text search engine
-https://github.com/cpitclaudel/quick-peek peek at a window inline!
-https://github.com/legalnonsense/elgantt gantt chart (??) in org
-https://github.com/progfolio/doct declarative format for org capture templates
-https://github.com/jeremy-compostella/org-msg minor mode for replying to outlook in nice outlook html
-
-https://www.reddit.com/r/emacs/comments/i0qf5i/just_having_fun_playing_with_emacs/
-https://github.com/purcell/windswap
-[[https://www.reddit.com/r/emacs/comments/74hetz/emacs_everywhere/][emacs everywhere]]
-[[https://www.reddit.com/r/emacs/comments/aqs7jb/open_a_orgcapture_window_outside_emacs/][org-capture outside of emacs]]
-https://github.com/ibizaman/emacs-conflict emacs conflict
-https://git.carcosa.net/jmcbray/gemini.el gemini server for emacs
-https://www.emacswiki.org/emacs/TrampMode#toc1 tramp-mode for editing files on servers
-[[https://github.com/purcell/windswap][swap emacs windows]]
-https://github.com/Bad-ptr/persp-mode.el
-- [[https://github.com/NicolasPetton/Indium][Indium]] ::[[file:javascript.org][JavaScript]] development library
-https://github.com/davazp/graphql-mode gql mode for emacs
-https://github.com/lassik/emacs-format-all-the-code autoformat source code for many languages
-
-https://github.com/ubolonton/emacs-tree-sitter emacs bindings for tree sitter parsing
-https://github.com/charignon/github-review github code review in emacs
-* Links
-[[https://www.youtube.com/watch?v=KdcXu_RdKI0&feature=youtu.be][getting more out of org-capture]]
-[[https://www.emacswiki.org/emacs/KeyChord][KeyChord]] :: binding commands to combinations of keystrokes
-https://www.wisdomandwonder.com/article/10805/emacsorg-mode-choosing-the-best-writing-and-publishing-software
--- org mode with latex - how to make things work well!
-
-write your own emacs config for better speed
-https://blog.aaronbieber.com/2015/07/05/a-gentle-introduction-to-emacs-configuration.html
-http://aaronbedra.com/emacs.d/
-https://anuragpeshne.github.io/essays/emacsSpeed.html
+* Configurations
+https://www.reddit.com/r/emacs/comments/4srze9/watching_youtube_inside_emacs_25/ watching youtube in emacs
 https://www.emacswiki.org/emacs/ExampleConfigurations
 https://github.com/munen/emacs.d
 https://github.com/jhamrick/emacs
+https://github.com/howardabrams/dot-files
+https://github.com/jethrokuan/dots
+https://github.com/codygman/hci
+https://github.com/zaeph/.emacs.d
+https://github.com/Ambrevar/dotfiles
 
-https://www.reddit.com/r/emacs/comments/i09ncw/discussion_using_emacsorgmode_to_manage_life/ using org mode to manage your life
-https://www.reddit.com/r/emacs/comments/hxu9dx/withemacs_what_you_need_to_know_about_hooks/ emacs hooks
-
-https://app.getpocket.com/read/2677474486 gantt calendar (??) from nixos
-https://magit.vc/manual/forge/Token-Creation.html#Token-Creation magit has a cool interface for making pull requests, but the documentation does not make clear how fully featured it is...
-
-https://www.reddit.com/r/emacs/comments/74hetz/emacs_everywhere/ emacs everywhere
-[[https://m.youtube.com/watch?v=dljNabciEGg][literate devops with emacs]]
-* docs
-[[https://www.reddit.com/r/emacs/comments/hxu9dx/withemacs_what_you_need_to_know_about_hooks/][emacs hooks]]
-* emacs
-https://karthinks.com/software/batteries-included-with-emacs/ fun things that come with emacs!
-* Plugins
-https://cestlaz.github.io/post/using-emacs-70-org-protocol/
-https://github.com/abo-abo/avy jump to visible text with a character based decision tree
-http://www.howardism.org/Technical/Emacs/templates-tutorial.html configure snippets in emacs
-https://www.youtube.com/watch?app=desktop&v=gfZDwYeBlO4&amp%3Bt=2785s 'play emacs like an instrument'
-https://www.youtube.com/watch?app=desktop&v=4-ubCJF9htw emacs macros and hacks
-** Weight tracking and fitness
-[[file:exercise.org][Exercise]]
-https://www.reddit.com/r/emacs/comments/a4zipp/fitnessorg_an_emacs_foodweightworkout_tracker/
-https://gist.github.com/alphapapa/982467abc1bf29f57c5cd2c408a77bd5#file-weight-capture-template-el
-https://www.reddit.com/r/orgmode/duplicates/a4zsuu/fitnessorg_an_emacs_foodweightworkout_tracker/
-https://github.com/guancio/org-fit
-https://github.com/JNRowe/org-diet
-https://github.com/nobiot/Zero-to-Emacs-and-Org-roam getting emacs up on windows 10 (ugh)
-https://git.sr.ht/~technomancy/better-defaults
-** Doom configuration
-https://github.com/forrestchang/.doom.d
-
-[[https://github.com/sunnyhasija/Academic-Doom-Emacs-Config][sunnyhasija/Academic-Doom-Emacs-Config: My doom emacs configuration files]]
-
-https://github.com/NatTuck/doom-config/blob/master/config.el#L12 -- nat tuck's
-configuration
-https://github.com/christabella/doom-emacs-config
-https://tecosaur.github.io/emacs-config/config.html
-https://dotdoom.rgoswami.me/config.html
-https://github.com/christabella/doom-emacs-config
-[[https://www.ethanaa.com/blog/switching-to-doom-emacs/#doom-emacs][comprehensive instrs]]
-https://github.com/alphapapa/unpackaged.el#smerge-mode
-** Emacs configuration
 https://www.youtube.com/watch?app=desktop&v=PKaJoqQQoIA configuring emacs configuration
 https://github.com/shrysr/.emacs.d
 https://github.com/purcell/emacs.d
 https://github.com/zaeph/.emacs.d
 https://github.com/munen/emacs.d
-** Org mode
-[[https://github.com/karlicoss/orger][convert data into interactive org mode views]]
-[[https://blog.jethro.dev/posts/zettelkasten_with_org/][Org-mode Workflow Part 3: Zettelkasten with Org-mode · Jethro Kuan]]
-[[https://forum.zettelkasten.de/discussion/100/zettels-and-org-mode][Zettels and Org-mode — Zettelkasten Forum]]
-[[http://www.cachestocaches.com/2016/9/my-workflow-org-agenda/][My Workflow with Org-Agenda]]
-[[https://orgmode.org/manual/LaTeX-header-and-sectioning.html#LaTeX-header-and-sectioning][LaTeX header and sectioning (The Org Manual)]]
-[[https://karl-voit.at/2017/09/23/orgmode-as-markup-only/][Org-Mode Is One of the Most Reasonable Markup Languages to Use for Text]]
-[[https://karl-voit.at/orgmode/][Organize Your Life With Org-Mode]]
-[[https://rgoswami.me/posts/org-note-workflow/#zotero][An Orgmode Note Workflow :: Rohit Goswami — Reflections]]
-[[https://github.com/progfolio/doct][DOCT: Declarative Org Capture Templates]]
-[[https://reddit.com/r/emacs/comments/hzkyrb/org_capture_evil_go_into_insert_mode][Org Capture + Evil: Go into insert mode]]
-[[http://cachestocaches.com/2016/9/my-workflow-org-agenda][My Workflow with Org-Agenda]]
-[[https://m.youtube.com/watch?v=gDAbpz98ooU][A Tour of Org Roam - YouTube]]
-[[http://www.personal.psu.edu/bam49/notebook/org-mode-for-research/][Introduction Org Mode Project Management · Brian A. Maicke]]
-[[https://reddit.com/r/emacs/comments/hltl69/org_roam_for_academics_demo][Org Roam for Academics Demo]]
-[[http://mkbehr.com/posts/a-research-workflow-with-zotero-and-org-mode][A research workflow with Zotero and Org mode]]
-[[https://github.com/scallywag/org-board][scallywag/org-board: Org mode&#039;s web archiver.]]
-[[https://www.reddit.com/r/orgmode/comments/ijfor2/new_blog_and_new_post_about_exercise_tracking_in/][New blog and new post about exercise tracking in Org mode - orgmode]]
-https://gist.githubusercontent.com/rougier/ddb84c16c28f7cd75e27e50d4c3c43da/raw/0a91f0a6fd0b2e5fd097574cf1be82962d08db46/gistfile1.txt
-[[https://orgmode.org/manual/LaTeX-header-and-sectioning.html#LaTeX-header-and-sectioning][The Org Manual: LaTeX header and sectioning]]
-https://www.reddit.com/r/emacs/comments/hltl69/org_roam_for_academics_demo/ configuring org roam for academics
-https://github.com/progfolio/doct declarative org capture templates
-https://www.reddit.com/r/emacs/comments/64qwq5/emacs_orgbable_mysql_no_longer_working/ org-babel mysql
-https://orgmode.org/worg/org-contrib/org-protocol.html
-[[https://github.com/mtekman/org-tanglesync.el][org-tanglesnc]]
-[[https://www.reddit.com/r/emacs/comments/i09ncw/discussion_using_emacsorgmode_to_manage_life/][using org mode to manage life]]
-https://sachachua.com/blog/2010/09/new-note-taking-workflow-with-emacs-org-mode/
-[[https://write.as/dani/notes-on-org-noter][using org-noter]]
-[[https://rgoswami.me/posts/org-note-workflow/][org-mode note workflow]]
-[[https://www.reddit.com/r/emacs/comments/hnf3cw/my_orgmode_agenda_much_better_now_with_category/][org-agenda]]
-[[https://www.reddit.com/r/emacs/comments/hm9sn8/inline_arbitrary_latex_snippets_as_pngs_in_emacs/][latex in links]]
-[[http://www.mkbehr.com/posts/a-research-workflow-with-zotero-and-org-mode/][research workflow with zotero]]
-[[https://www.reddit.com/r/emacs/comments/hzkyrb/org_capture_evil_go_into_insert_mode/][org-capture and evil mode]]
-[[https://www.reddit.com/r/emacs/comments/fhji38/help_building_a_resumecv_with_orgmode_and_pandoc/][writing a resume with org-mode and pandoc]]
-[[https://emacs.stackexchange.com/questions/59007/export-resume-org-to-both-pdf-and-html][export resume.org to html and pdf]]
-[[https://rgoswami.me/posts/org-note-workflow/#zotero][zotero configuration]]
-https://karl-voit.at/orgmode/
-https://karl-voit.at/2017/09/23/orgmode-as-markup-only/
-[[https://github.com/alphapapa/org-rifle][org-rifle]]
-https://github.com/legalnonsense/elgantt/ gantt chart for org
-https://github.com/scallywag/org-board/blob/master/README archival system built off of pinboard
-https://github.com/sulami/dotfiles/blob/master/emacs/.emacs/README.org
-https://www.eliasstorms.net/zetteldeft/
-https://hiepph.github.io/post/2017-11-24-emacs-org-syncthing/ emacs, org and syncthing
-https://rgoswami.me/posts/colemak-dots-refactor/
-https://github.com/manateelazycat/emacs-application-framework
-[[https://github.com/progfolio/wikinforg][wikinfo convert wikipedia infoboxes into org mode entries]]
-** Mail
-[[file:mail.org][Mail]]
-https://emacs.stackexchange.com/questions/12927/reading-and-writing-email-with-emacs
-[[https://reddit.com/r/emacs/comments/hurwwg/mu4e_dealing_with_sending_html][Mu4e - dealing with sending html]]
-https://ryanwhittingham.com/using-multiple-email-accounts-with-mu4e/
-https://www.emacswiki.org/emacs/mu4e
-https://www.reddit.com/r/emacs/comments/6wqfp3/notmuch_delete_mail/
-[[https://www.youtube.com/watch?app=desktop&v=dljNabciEGg][literate devops with emacs]]
-[[https://www.emacswiki.org/emacs/DirectoryVariables][using dir-locals]]
-[[https://www.reddit.com/r/emacs/comments/hurwwg/mu4e_dealing_with_sending_html/][send html email with mu4e]]
-[[https://www.reddit.com/r/emacs/comments/hv5m0z/muwizard_easily_setup_mu4e_accounts_on_emacs/][mu wizard for easily setting up mu4e]]
-** music
-[[file:music.org][Music]]
-[[https://bzg.fr/en/emacs-org-babel-overtone-intro.html/][Emacs Org and Overtone quick intro · Bastien Guerry - Liberté, informatique, choucroute.]]
-https://www.reddit.com/r/emacs/comments/7yz1k2/using_emacs_43_music_with_mpd/
-https://github.com/jorenvo/simple-mpc
-[[https://lucidmanager.org/productivity/configure-emms/][Configure EMMS --- Emacs Multi-Media System on GNU/Linux]]
-https://gitea.petton.fr/mpdel/mpdel
-* nix and emacs configs
+
+** Nix and Emacs configurations
 https://github.com/kinnala/nixemacs
 https://github.com/benley/dotfiles/blob/master/overlays/emacs.nix
 https://blog.jethro.dev/posts/nix_buffer_emacs/
@@ -202,7 +46,71 @@ https://github.com/zachcurry/emacs-anywhere use emacs anywhere
 [[https://blog.akinori.org/][m g vs goto line in emacs]]
 
 https://www.reddit.com/r/emacs/comments/hywxef/visually_differentiate_between_links_to_files_and/ differentiate between links to files and links to websites in org
-[[http://bling.github.io/blog/2016/01/18/why-are-you-changing-gc-cons-threshold/][don't change gc-cons-threshold]]: fix constant garbage collection by setting it very high when something happens, and changing afterwards to prevent constant garbage collection and freezing when the heap gets too big
 
-https://github.com/thi-ng/org-spec org skeleton for tech specs
-[[https://jingsi.space/post/2017/04/05/organizing-a-complex-directory-for-emacs-org-mode-and-deft/#options-for-deft-mode][Organizing a Complex Directory for Emacs Org Mode and Deft]]
+** Doom configuration
+https://github.com/forrestchang/.doom.d
+[[https://github.com/sunnyhasija/Academic-Doom-Emacs-Config][sunnyhasija/Academic-Doom-Emacs-Config: My doom emacs configuration files]]
+
+https://github.com/NatTuck/doom-config/blob/master/config.el#L12 -- nat tuck's
+configuration
+https://github.com/christabella/doom-emacs-config
+https://tecosaur.github.io/emacs-config/config.html
+https://dotdoom.rgoswami.me/config.html
+https://github.com/christabella/doom-emacs-config
+[[https://www.ethanaa.com/blog/switching-to-doom-emacs/#doom-emacs][comprehensive instrs]]
+
+** Optimisations
+- [[http://bling.github.io/blog/2016/01/18/why-are-you-changing-gc-cons-threshold/][don't change gc-cons-threshold]] :: fix constant garbage collection by setting it very high when something happens, and changing afterwards to prevent constant garbage collection and freezing when the heap gets too big
+
+* Community
+[[https://github.com/howardabrams/pdx-emacs-hackers][Portland Emacs Hackers]]
+
+* Package Suggestions
+- [[https://github.com/mtekman/org-tanglesync.el][tanglesync]] :: sync org mode files with dotfiles external to them
+- [[https://github.com/alphapapa/matrix-client.el][emacs matrix client]] emacs matrix client
+- [[https://github.com/casouri/OrgMark][mark]] :: add drawings to org mode from your ipad, and [[https://github.com/yati-sagade/orch][orch]], an alternative for Android
+- [[https://github.com/alraban/org-recoll][recoll]] :: emacs binding for recoll text search engine
+- [[https://github.com/cpitclaudel/quick-peek][quick-peek]] :: peek at a window inline!
+- [[https://github.com/legalnonsense/elgantt][elegantt]] :: gantt chart (??) in org.
+- [[https://github.com/progfolio/doct][doct]] :: declarative format for org capture templates. use this in the future - seems better!
+- [[https://www.emacswiki.org/emacs/KeyChord][KeyChord]] :: binding commands to combinations of keystrokes
+- https://github.com/purcell/windswap
+- [[https://www.reddit.com/r/emacs/comments/74hetz/emacs_everywhere/][emacs everywhere]]
+- https://github.com/ibizaman/emacs-conflict emacs conflict
+- https://git.carcosa.net/jmcbray/gemini.el gemini server for emacs
+- https://www.emacswiki.org/emacs/TrampMode#toc1 tramp-mode for editing files on servers
+- [[https://github.com/purcell/windswap][swap emacs windows]]
+- https://github.com/Bad-ptr/persp-mode.el
+- https://github.com/davazp/graphql-mode gql mode for emacs
+- https://github.com/lassik/emacs-format-all-the-code autoformat source code for many languages
+* Links
+[[https://www.reddit.com/r/emacs/comments/hxu9dx/withemacs_what_you_need_to_know_about_hooks/][Brief guide to Emacs hooks]]
+[[https://www.reddit.com/r/emacs/comments/74hetz/emacs_everywhere/][emacs everywhere]]
+[[https://m.youtube.com/watch?v=dljNabciEGg][literate devops with emacs]]
+* Magit
+https://magit.vc/manual/forge/Token-Creation.html#Token-Creation magit has a cool interface for making pull requests, but the documentation does not make clear how fully featured it is...
+* emacs
+https://karthinks.com/software/batteries-included-with-emacs/ fun things that come with emacs!
+* Plugins
+https://github.com/abo-abo/avy jump to visible text with a character based decision tree
+http://www.howardism.org/Technical/Emacs/templates-tutorial.html configure snippets in emacs
+https://www.youtube.com/watch?app=desktop&v=gfZDwYeBlO4&amp%3Bt=2785s 'play emacs like an instrument'
+https://www.youtube.com/watch?app=desktop&v=4-ubCJF9htw emacs macros and hacks
+** Mail
+[[file:mail.org][Mail]]
+[[https://emacs.stackexchange.com/questions/12927/reading-and-writing-email-with-emacs][Overview of reading and writing email with Emacs]]
+[[https://reddit.com/r/emacs/comments/hurwwg/mu4e_dealing_with_sending_html][Mu4e - dealing with sending html]]
+[[https://ryanwhittingham.com/using-multiple-email-accounts-with-mu4e/][Manage multiple emails with MU4E]]
+[[https://www.emacswiki.org/emacs/mu4e][emacs wiki MU4E]]
+[[https://www.reddit.com/r/emacs/comments/6wqfp3/notmuch_delete_mail/][Manage mail deletion with NotMuch]]
+[[https://www.youtube.com/watch?app=desktop&v=dljNabciEGg][literate devops with emacs]]
+[[https://www.emacswiki.org/emacs/DirectoryVariables][using dir-locals]]
+[[https://www.reddit.com/r/emacs/comments/hurwwg/mu4e_dealing_with_sending_html/][send html email with mu4e]]
+[[https://www.reddit.com/r/emacs/comments/hv5m0z/muwizard_easily_setup_mu4e_accounts_on_emacs/][mu wizard for easily setting up mu4e]]
+** Music
+[[file:music.org][Music]]
+[[https://bzg.fr/en/emacs-org-babel-overtone-intro.html/][Emacs Org and Overtone quick intro · Bastien Guerry - Liberté, informatique, choucroute.]]
+[[https://www.reddit.com/r/emacs/comments/7yz1k2/using_emacs_43_music_with_mpd/][Using Emacs Music with MPD]]
+[[https://gitea.petton.fr/mpdel/mpdel][Emacs interface for MPD]]
+[[https://github.com/jorenvo/simple-mpc][Music Player Client for Emacs]] 
+[[https://lucidmanager.org/productivity/configure-emms/][Configure EMMS --- Emacs Multi-Media System on GNU/Linux]]

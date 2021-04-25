@@ -8,17 +8,18 @@ I'm now using a Fujifilm X-T3 with the 23mm f2 and 35mm f2 weather resistant len
 
 * Projects
 [[https://www.youtube.com/watch?v=U88i-85m_jE&app=desktop][Convert a camera to use Instax wide film!]] This is super cool. try this out when you have some time.
-https://m.youtube.com/watch?v=mUDTGMwfz3o shooting corporate headshots
+[[https://m.youtube.com/watch?v=mUDTGMwfz3o][corporate headshots]]
 * Fuji
-https://www.stevehuffphoto.com/2013/05/28/fuji-x-pro-1-and-the-voigtlander-nokton-50mm-f1-5-by-jim-gamblin/
+[[https://stevehuffphoto.com/2013/05/28/fuji-x-pro-1-and-the-voigtlander-nokton-50mm-f1-5-by-jim-gamblin][Fuji X-Pro 1 and the Voigtlander Nokton 50mm f/1.5 by Jim Gamblin]]
 https://fotodioxpro.com/products/lm-fxrf-prn
-
 [[https://pinshape.com/items/7919-3d-printed-35mm-film-on-120-spool][film on spool]]
+
+* Making a Camera
 [[https://www.35mmc.com/25/06/2017/hasselblad-xpan-ii-review/][3d print xpan]]
 [[https://www.35mmc.com/24/12/2018/panomicron-oxygen-review/#Discovering_and_buying_my_Panomicron_Oxygen][3d printing a camera]]
 [[https://www.35mmc.com/24/12/2018/panomicron-oxygen-review/#Discovering_and_buying_my_Panomicron_Oxygen][3d printed camera]]
 
-[[https://stevehuffphoto.com/2013/05/28/fuji-x-pro-1-and-the-voigtlander-nokton-50mm-f1-5-by-jim-gamblin][Fuji X-Pro 1 and the Voigtlander Nokton 50mm f/1.5 by Jim Gamblin]]
-https://www.crackedthecode.co/how-to-use-your-dslr-as-a-webcam-in-linux/: use dslr as a webcam on linux.
-i made some progress on this; added the kernel module and got that working, but it's not clear whether i was using gphoto2 properly.
-revisite this!
+* Other uses
+https://www.crackedthecode.co/how-to-use-your-dslr-as-a-webcam-in-linux/: use dslr as a webcam on linux. [[file:os.org][Operating Systems]]
+
+i made some progress on this; added the kernel module and got that working, but it's not clear whether i was using gphoto2 properly. revisit!

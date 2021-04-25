@@ -1,6 +1,5 @@
 #+TITLE: Biology
 
-** bio
 neurobiology
 in vivo / ex vivo
 in vitro

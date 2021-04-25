@@ -12,79 +12,31 @@ Vim is often preinstalled on Unix systems. If it's unavailable, such systems wil
 
 * Tools
 https://www.youtube.com/watch?app=desktop&v=-I1b8BINyEw my vim workflow
-https://www.reddit.com/r/vim/comments/h84oiy/list_of_all_vimtips/ lots of vim tips
-https://writing.grantcuster.com/posts/2020-07-12-swapping-color-schemes-across-all-terminals-and-vim-with-pywal-and-base16/ swapping all color schemes
-https://vimways.org/2018/death-by-a-thousand-files/ vim as the end all be all
-https://www.edwinwenink.xyz/posts/48-vim_fast_creating_and_linking_notes/ linking notes
 https://www.reddit.com/r/vim/comments/hvr09s/how_can_i_integrate_a_vim_text_editor_in_react/[[file:web.org][ Web]]
 http://marco-lopes.com/articles/Vim-and-Haskell-in-2019/ [[file:haskell.org][Haskell]]
-https://github.com/puremourning/vimspector debugging
-https://archive.emily.st/2018/11/13/vim-in-the-future/#vim-in-the-future vim in the future
-https://github.com/glepnir/dashboard-nvim vim dashboard
-https://vim.fandom.com/wiki/Editing_remote_files_via_scp_in_vim edit remote files in vim
-https://github.com/cassidoo/vim-up fun vim shortcuts
-https://www.youtube.com/watch?app=desktop&v=BhwtnCaFTFk wild vim config
-https://www.reddit.com/r/vim/comments/5ryxin/any_plugins_like_projectile_emacs_for_vim/ like projectile, but for vim
-[[https://stevelosh.com/blog/2011/09/writing-vim-plugins/][how to write vim plugins]]
-https://github.com/JNRowe/vim-configs
-https://github.com/hlissner/.vim vim config
-https://github.com/nimboids/vim-config vim config
-https://www.reddit.com/r/vim/comments/hzesgf/ecstaticlife_will_never_be_the_same_again/ cool macros!
-https://github.com/alevchuk/vim-clutch hardware pedal for vim
-https://www.reddit.com/r/vim/comments/i08w2t/quicker_saving_and_saving_habits/ good saving habits in vim
-https://www.reddit.com/r/vim/comments/hvxtpf/using_variables_in_your_nvimrc/ using variables in your vimrc
-
-https://www.reddit.com/r/vim/comments/hy3yma/what_is_the_best_leader_key/ best leader key?
-https://www.reddit.com/r/vim/comments/i0lffn/thought_id_share_some_recent_vimspector/ vimspector
-https://github.com/tpope/vim-projectionist vim projections for granular project configuration
-
-https://github.com/glacambre/firenvim neovim in the browser
-https://github.com/puremourning/vimspector debugging system for vim
-https://www.reddit.com/r/vim/comments/i0lffn/thought_id_share_some_recent_vimspector/
-* Resources
-https://www.reddit.com/r/vim/comments/i1tfux/i_have_fallen_to_vim/ learning more about vim mappings
-https://www.reddit.com/r/vim/comments/h8pgor/til_conceal_in_vim/ -- concealing plaintext symbols with glyphs
 
 * Plugins
-https://www.reddit.com/r/vim/comments/i1p3s9/fernvim_a_modern_asynchronous_file_manager_for_vim/ async file manager, with lists of alternatives
-https://www.reddit.com/r/vim/comments/i0tciv/you_liked_so_much_the_first_version_that_i/ a vim plugin for highlighting infomration in different colors while parsing a document
-https://www.reddit.com/r/vim/comments/hvr09s/how_can_i_integrate_a_vim_text_editor_in_react/ adding vim text editor to react project
-https://www.reddit.com/r/vim/comments/hxn5ue/how_do_i_use_macros_when_i_have_variable_amount/ meta macros for variable amounts of data
-https://www.reddit.com/r/vim/comments/hwdehp/vim_osc_livecoding/ [[file:livecoding.org][Livecoding]] in vim
-https://app.getpocket.com/read/3056881828 arbitrary variables in vimrcs
-https://github.com/mhinz/vim-signify show a diff with vim sign column
-https://github.com/francoiscabrol/ranger.vim rangerinteraction inside of vim
-https://vim.fandom.com/wiki/Editing_remote_files_via_scp_in_vim
-https://www.reddit.com/r/vim/comments/h84oiy/list_of_all_vimtips/
+- [[https://www.reddit.com/r/vim/comments/hwdehp/vim_osc_livecoding/][Vim OSC Livecoding]] :: [[file:livecoding.org][Livecoding]] in vim
 * ideas
 [[https://www.reddit.com/r/vim/comments/hm6b9d/help_vim_wpm_counter/][wpm counter for vim]]
 [[https://www.reddit.com/r/vim/comments/hz97jh/nerdtree_vs_defx_vs_nnn_which_one_do_you_prefer/][vim file browser recommendations]]
-[[https://www.reddit.com/r/vim/comments/i1p3s9/fernvim_a_modern_asynchronous_file_manager_for_vim/][ferm, an asynchronous file manager]]
-https://vimways.org/2018/death-by-a-thousand-files/
-https://news.ycombinator.com/item?id=23091136
-https://github.com/nimboids/vim-config
-https://www.reddit.com/r/vimkeyboard/comments/guuqo3/vim_clutch_vc1_pedal_by_boss/
-
-https://github.com/CKolkey/.dotfiles/blob/master/nvim_init.vim
 http://thedarnedestthing.com/space%20vim
 http://vimsheet.com/
 https://vim.rtorr.com/
-https://github.com/huyvohcmc/dotfiles
-https://github.com/Blaradox/dotFiles
-https://github.com/xero/dotfiles
-* the best leader key
-https://www.reddit.com/r/vim/comments/hy3yma/what_is_the_best_leader_key/ finding the best leader key
-comma: as it should always be followed with a space grammatically, every other key can be freely mapped to with no delay! you lose the functionality of backwards repeating though...
 
+* Shortcut Optimisations
+** Leader keys
+- Comma :: As it should always be followed with a space grammatically, every other key can be freely mapped to with no delay! You lose the functionality of backwards repeating though...
 
 * Lua plugins
-- feline.nvim
+I don't think lua is ready for NixOS yet - it seems to have some trouble finding plugins for the Lua path - but it's worth considering for the future.
+- feline.nvim :: A good status line for NeoVim with Lua, much faster than status quo.
 - [[https://reddit.com/r/neovim/comments/jqfjor/eslint_and_nvimlsp][Setting up NeoVim with its built in lsp server and ESLint]]
 - github.com/simrat39/rust-tools.nvim :: good tools for writing for rust with nvim!
 - https://www.reddit.com/r/neovim/comments/mqrmco/git_worktrees/ : working with git worktrees in nvim
 - gitabra :: working with magit in neovim
  [[https://www.reddit.com/r/neovim/comments/m6vup7/full_lua_neovim_configuration/][good example of full lua neovim configuraion]]
  - https://www.reddit.com/r/neovim/comments/mn8ipa/lsp_add_missing_imports_on_complete_using_the/ 
-  https://www.reddit.com/r/neovim/comments/mbtboe/neovim_05_lsp_treesitter_compe_indentblankline/
-   https://www.reddit.com/r/neovim/comments/mrae84/neovim_config_showcase/
- https://www.reddit.com/r/neovim/comments/mrep3l/speedup_your_prettier_formatting_using_prettierd/ 
+ - https://www.reddit.com/r/neovim/comments/mbtboe/neovim_05_lsp_treesitter_compe_indentblankline/
+ - https://www.reddit.com/r/neovim/comments/mrae84/neovim_config_showcase/
+ - https://www.reddit.com/r/neovim/comments/mrep3l/speedup_your_prettier_formatting_using_prettierd/

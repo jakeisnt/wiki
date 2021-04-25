@@ -1,5 +1,5 @@
 #+title: Org Mode
-Org Mode is a markup language and a part of the Emacs ecosystem.
+Org Mode is a markup language and a part of the [[file:emacs.org][Emacs]] ecosystem.
 It's a favorite of developers, writers, and researchers alike,
 and is often used for literate programming.
 
@@ -72,3 +72,74 @@ https://www.reddit.com/r/orgmode/comments/iqhmd9/i_looked_at_my_notes_from_a_pre
 https://blog.polaris64.net/post/emacs-using-org-mode-to-track-exercises/ xercise tracking?
 https://m.youtube.com/watch?feature=youtu.be&t=207&v=fgizHHd7nOo doing more with org
 https://www.reddit.com/r/emacs/comments/gz4lk8/org_brain_and_org_roam/ :thread: better use of org mode in conjunction with citations, research and notes on various academic works.
+
+
+https://github.com/thi-ng/org-spec org skeleton for tech specs
+[[https://jingsi.space/post/2017/04/05/organizing-a-complex-directory-for-emacs-org-mode-and-deft/#options-for-deft-mode][Organizing a Complex Directory for Emacs Org Mode and Deft]]
+https://www.youtube.com/watch?app=desktop&v=Ho6nMWGtepY writing a powerpoint with org and emacs
+
+[[https://www.reddit.com/r/emacs/comments/aqs7jb/open_a_orgcapture_window_outside_emacs/][org-capture outside of emacs]]
+[[https://www.youtube.com/watch?v=KdcXu_RdKI0&feature=youtu.be][getting more out of org-capture]]
+https://www.wisdomandwonder.com/article/10805/emacsorg-mode-choosing-the-best-writing-and-publishing-software
+* Strategies
+https://www.reddit.com/r/emacs/comments/i09ncw/discussion_using_emacsorgmode_to_manage_life/ using org mode to manage your life
+
+
+[[https://github.com/karlicoss/orger][convert data into interactive org mode views]]
+[[https://orgmode.org/manual/LaTeX-header-and-sectioning.html#LaTeX-header-and-sectioning][LaTeX header and sectioning (The Org Manual)]]
+[[https://karl-voit.at/2017/09/23/orgmode-as-markup-only/][Org-Mode Is One of the Most Reasonable Markup Languages to Use for Text]]
+[[https://github.com/scallywag/org-board][scallywag/org-board: Org mode&#039;s web archiver.]]
+[[https://www.reddit.com/r/orgmode/comments/ijfor2/new_blog_and_new_post_about_exercise_tracking_in/][New blog and new post about exercise tracking in Org mode - orgmode]]
+https://gist.githubusercontent.com/rougier/ddb84c16c28f7cd75e27e50d4c3c43da/raw/0a91f0a6fd0b2e5fd097574cf1be82962d08db46/gistfile1.txt
+[[https://github.com/progfolio/wikinforg][wikinfo convert wikipedia infoboxes into org mode entries]]
+
+[[https://write.as/dani/notes-on-org-noter][using org-noter]]
+[[https://www.reddit.com/r/emacs/comments/hzkyrb/org_capture_evil_go_into_insert_mode/][org-capture and evil mode]]
+[[https://github.com/alphapapa/org-rifle][org-rifle]]
+https://karl-voit.at/orgmode/
+https://github.com/scallywag/org-board/blob/master/README archival system built off of pinboard
+https://karl-voit.at/2017/09/23/orgmode-as-markup-only/
+https://orgmode.org/worg/org-contrib/org-protocol.html
+https://cestlaz.github.io/post/using-emacs-70-org-protocol/
+[[https://www.reddit.com/r/emacs/comments/fhji38/help_building_a_resumecv_with_orgmode_and_pandoc/][writing a resume with org-mode and pandoc]]
+[[https://emacs.stackexchange.com/questions/59007/export-resume-org-to-both-pdf-and-html][export resume.org to html and pdf]]
+[[https://www.reddit.com/r/emacs/comments/hnf3cw/my_orgmode_agenda_much_better_now_with_category/][org-agenda]]
+[[https://www.reddit.com/r/emacs/comments/i09ncw/discussion_using_emacsorgmode_to_manage_life/][using org mode to manage life]]
+** Notes
+[[https://rgoswami.me/posts/org-note-workflow/][org-mode note workflow]]
+https://sachachua.com/blog/2010/09/new-note-taking-workflow-with-emacs-org-mode/
+[[https://rgoswami.me/posts/org-note-workflow/#zotero][An Orgmode Note Workflow :: Rohit Goswami — Reflections]]
+** LaTeX
+[[https://orgmode.org/manual/LaTeX-header-and-sectioning.html#LaTeX-header-and-sectioning][The Org Manual: LaTeX header and sectioning]]
+[[https://www.reddit.com/r/emacs/comments/hm9sn8/inline_arbitrary_latex_snippets_as_pngs_in_emacs/][latex in links]]
+** Zotero
+[[http://www.mkbehr.com/posts/a-research-workflow-with-zotero-and-org-mode/][research workflow with zotero]]
+[[http://mkbehr.com/posts/a-research-workflow-with-zotero-and-org-mode][A research workflow with Zotero and Org mode]]
+[[https://rgoswami.me/posts/org-note-workflow/#zotero][zotero configuration]]
+** Project Management
+[[https://karl-voit.at/orgmode/][Organize Your Life With Org-Mode]]
+[[http://www.personal.psu.edu/bam49/notebook/org-mode-for-research/][Introduction Org Mode Project Management · Brian A. Maicke]]
+* Capture
+
+[[https://github.com/progfolio/doct][DOCT: Declarative Org Capture Templates]]
+[[https://reddit.com/r/emacs/comments/hzkyrb/org_capture_evil_go_into_insert_mode][Org Capture + Evil: Go into insert mode]]
+* Agenda
+[[http://cachestocaches.com/2016/9/my-workflow-org-agenda][My Workflow with Org-Agenda]]
+
+* Wiki
+[[file:wiki.org][Wiki]]
+[[https://blog.jethro.dev/posts/zettelkasten_with_org/][Org-mode Workflow Part 3: Zettelkasten with Org-mode · Jethro Kuan]]
+https://www.eliasstorms.net/zetteldeft/
+[[https://forum.zettelkasten.de/discussion/100/zettels-and-org-mode][Zettels and Org-mode — Zettelkasten Forum]]
+** Org-Roam
+[[https://m.youtube.com/watch?v=gDAbpz98ooU][A Tour of Org Roam - YouTube]]
+[[https://reddit.com/r/emacs/comments/hltl69/org_roam_for_academics_demo][Org Roam for Academics Demo]]
+** Weight tracking and fitness
+[[file:exercise.org][Exercise]]
+https://www.reddit.com/r/emacs/comments/a4zipp/fitnessorg_an_emacs_foodweightworkout_tracker/
+https://gist.github.com/alphapapa/982467abc1bf29f57c5cd2c408a77bd5#file-weight-capture-template-el
+https://www.reddit.com/r/orgmode/duplicates/a4zsuu/fitnessorg_an_emacs_foodweightworkout_tracker/
+https://github.com/guancio/org-fit
+https://github.com/JNRowe/org-diet
+https://github.com/nobiot/Zero-to-Emacs-and-Org-roam getting emacs up on windows 10 (ugh)
+https://git.sr.ht/~technomancy/better-defaults
