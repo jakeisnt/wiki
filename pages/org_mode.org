@@ -1,4 +1,4 @@
-#+title: Org Mode
+#+TITLE: Org Mode
 Org Mode is a markup language and a part of the [[file:emacs.org][Emacs]] ecosystem.
 It's a favorite of developers, writers, and researchers alike,
 and is often used for literate programming.

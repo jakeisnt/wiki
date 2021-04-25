@@ -1,4 +1,4 @@
-#+title: Web
+#+TITLE: Web
 Things about the web.
 https://www.w3.org/TR/webmention/ webmentions!
 

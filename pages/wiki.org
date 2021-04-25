@@ -1,4 +1,4 @@
-#+title: Wiki
+#+TITLE: Wiki
 
 Wikis are tree-based tools for representing
 hierarchies of information.

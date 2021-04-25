@@ -1,3 +1,0 @@
-#+title: Typesetting
-
-The practice of designing and setting type.

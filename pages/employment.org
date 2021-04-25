@@ -1,4 +1,4 @@
-#+title: Employment
+#+TITLE: Employment
 
 Advice for finding employment.
 

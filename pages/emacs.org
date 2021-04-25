@@ -1,4 +1,4 @@
-#+title: Emacs
+#+TITLE: Emacs
 Emacs is a fully-featured programming environment.
 
 It's often (or most commonly) referred to as a text editor, but this isn't the case. Other editors are designed to offer first-class interfaces for configuring keyboard shortcuts, text configurations, etc.

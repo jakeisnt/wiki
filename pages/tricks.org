@@ -1,4 +1,4 @@
-#+TITLe: random tricks for linux systems
+#+TITLE: random tricks for linux systems
 
 * TODO move all of these to my nixos configuration somehow
 

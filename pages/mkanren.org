@@ -1,4 +1,4 @@
-#+title: kanren
+#+TITLE: kanren
 
 (mini|micro) kanren is an embeddable logic programming language and theorem prover that can be written in your favorite programming language in very few lines of code!
 

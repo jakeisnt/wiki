@@ -1,4 +1,4 @@
-#+title: Design
+#+TITLE: Design
 
 Notes on medium-agnostic design principles.
 

@@ -1,4 +1,4 @@
-#+title: Haskell
+#+TITLE: Haskell
 
 - tags :: [[file:programming-languages.org][Programming Languages]] 
 Notes on the Haskell programming language.

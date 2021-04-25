@@ -1,4 +1,4 @@
-#+title: Vim
+#+TITLE: Vim
 
 Vim is a text editor with an easily configurable extension language. It's most frequently used as a [[file:./terminal_ui.org][TUI]] program but also has an (aft-used) graphical application distribution (Gvim).
 

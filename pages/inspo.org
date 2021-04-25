@@ -1,4 +1,4 @@
-#+title: inspirational websites
+#+TITLE: inspirational websites
 [[https://amorphous.itch.io/][strange narrative games, good mono font]]
 [[https://cineshader.com/][cellular noise]]
 [[https://www.olivevideoeditor.org/][free video edition]]

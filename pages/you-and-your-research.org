@@ -1,4 +1,4 @@
-#+title: You and Your Research
+#+TITLE: You and Your Research
 * You and your research notes
 https://www.cs.virginia.edu/~robins/YouAndYourResearch.html
 - ``There are wavelengths that people cannot see, there are sounds that people cannot hear, and maybe computers have thoughts that people cannot think.''

@@ -1,4 +1,4 @@
-#+TITLe: Tools
+#+TITLE: Tools
 
 by documenting my belongings,
 i will either better appreciate them

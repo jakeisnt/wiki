@@ -1,19 +1,10 @@
-#+title: Terminal UI
+#+TITLE: Terminal UI
 
-A Terminal UI, or TUI, is a user interface
-that can be manipulated in the terminal,
-but that is not interacted with via shell commands.
+A Terminal UI, or TUI, is a user interface that can be manipulated in the terminal, but that is not interacted with via shell commands.
 
-Programs with a Terminal UI are written to function
-without the use of a graphical user interface,
-enabling easy access to desktop environments with
-tools such as SSH.
+Programs with a Terminal UI are written to function without the use of a graphical user interface, enabling easy access to desktop environments with tools such as SSH.
 
-Some choose to use their system in an entirely
-TUI-based fashion with programs such as vim, mutt and tmux.
-Unfortunately, many websites and web-based programs
-are not usable without a graphical user interface,
-
+Some choose to use their system in an entirely TUI-based fashion with programs such as vim, mutt and tmux. Unfortunately, many websites and web-based programs are not usable without a graphical user interface,
 
 * Terminal improvements
 [[https://github.com/unconed/TermKit][TermKit]]: an interactive terminal command application. helps users understand the terminal with lots of visualizations!

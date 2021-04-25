@@ -1,4 +1,4 @@
-#+title: acl2
+#+TITLE: acl2
 
 ACL2 is a [[file:theoremprover.org][theorem prover]] based on Common Lisp commonly used for the verification of hardware.
 

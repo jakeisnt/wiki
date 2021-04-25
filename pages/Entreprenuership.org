@@ -1,4 +1,4 @@
-#+title: entreprenuership
+#+TITLE: entreprenuership
 * Jean Yang
 
 https://blog.sigplan.org/2020/10/27/whats-the-role-of-developer-experience-in-programming-languages-research/

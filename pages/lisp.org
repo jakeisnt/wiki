@@ -1,4 +1,4 @@
-#+title: Lisp
+#+TITLE: Lisp
 
 Lisp is an elegant programming language referred to as 'better than blub'.
 
