@@ -1,8 +1,7 @@
 #+TITLE: Livecoding
 
 [[file:music.org][Music]]
-live coding is the practice of making music on the fly with code,
-though it could also be used to refer to other systems that involve the periodic editing and evaluation of code to produce effects on the fly
+live coding is the practice of making music on the fly with code, though it could also be used to refer to other systems that involve the periodic editing and evaluation of code to produce effects on the fly
 
 * Tutorials
 https://github.com/tsoding/haskell-music [[file:haskell.org][Haskell]] music in haskell

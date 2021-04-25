@@ -1,6 +1,6 @@
 #+TITLE: Fonts
 
-- tags :: [[file:../../.local/share/Trash/files/typesetting.org][Typesetting]], [[file:language.org][Language]], [[file:web_design.org][Web Design]]
+- tags :: [[file:language.org][Language]], [[file:web_design.org][Web Design]]
  
 Notes on fonts and font design.
 

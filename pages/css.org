@@ -27,83 +27,49 @@ https://codepen.io/hailedev/pen/OJyvvVQ minecraft in css
 https://codepen.io/cobra_winfrey/pen/LYpeKrd flowing letters !!
 https://codepen.io/wendko/pen/jObajYq choosing cats !
 https://codepen.io/cybercountess/pen/gOaoWmX isabelle's day off
-
 https://www.virtualgoodsdealer.com/: copy the css from this page. it's what i want to emulate the mac windows!!!!
-
 [[https://github.com/ESWAT/john-carmack-plan-archive][john carmack's archive]]
-[[http://dmitrysoshnikov.com/courses/essentials-of-garbage-collectors/][essentials of gc]]
-[[https://dickrnn.github.io/][dick rnn]]
 [[https://leimao.github.io/blog/Group-Lasso/][lasso reg]]
 [[https://www.youtube.com/watch?v=smlQbh6jQvg&app=desktop][amenity detection]]
-[[https://news.ycombinator.com/item?id=23165157][containers in linux]]
 [[https://www.thisworddoesnotexist.com/][this word not exist]]
 [[http://agdr.org/blog/][blog i like the look of]]
-[[http://agdr.org/blog/][look into jekyll ?? check out template above]]
-[[https://www.hillelwayne.com/post/ahk/?utm_source=hillelwayne&utm_medium=email][figuring out how to use autohotkey for better windows config]]
-
 [[http://math.ucr.edu/home/baez/twf.html][this week's finds ! cool content!]]
 [[https://johncarlosbaez.wordpress.com/][wp blog for above]]
 https://codepen.io/toshiya-marukubo/pen/oNbgPRX neat orbit thing
 https://codepen.io/oliviale/pen/BaoXOOP fake newspaper !
-https://thomaspark.co/2020/06/the-mad-magazine-fold-in-effect-in-css/ mad
-magazine folding simulation!
+https://thomaspark.co/2020/06/the-mad-magazine-fold-in-effect-in-css/ mad magazine folding simulation!
+https://www.simplified.guide/ssh/disable-timeout ssh timeout :: good reference.
 
-https://www.simplified.guide/ssh/disable-timeout ssh timeout :: good
-reference.
-
-https://shibumi.dev/posts/ good blog, some useful information and things to
-learn here
-
+https://shibumi.dev/posts/ good blog, some useful information and things to learn here
 https://www.tessera.li/ math visualizations in js
 
 https://avanier.now.sh/ i love this website
-
 https://avanier.now.sh/w/bucket.html make a bucket list !
 https://avanier.now.sh/w/glossary.html words i like
 https://avanier.now.sh/w/links.html curated links and resources
-
-compile my own repositories :: tips and tricks i use frequently, GA
-
 https://avanier.now.sh/w/orion.html programming on android?
 https://avanier.now.sh/w/navire.html
 use all of these technologies -- check them out!
 https://avanier.now.sh/w/natalie.html very cool; look into bringing this to
 class instead of a laptop for taking notes!
 https://avanier.now.sh/w/navire.html please do use this style for a website.
-
 http://evenunto.net/ yooo
-
-https://hraew.autophagy.io/ project and personal information repostiory. very
-cool interface
-https://hraew.autophagy.io/antimber/ very cool; a uniform switch for theming
-and system configuration that integrates with a set of personal preferences
-
+https://hraew.autophagy.io/ project and personal information repostiory. very cool interface
+https://hraew.autophagy.io/antimber/ very cool; a uniform switch for theming and system configuration that integrates with a set of personal preferences
 https://kaemura.com/ incredible website and experiments
 https://avanier.now.sh/w/work.html incredible interface
-https://avanier.now.sh/w/holly.html computer console; used as a portable
-ocmputer at school? very cool!
-
+https://avanier.now.sh/w/holly.html computer console; used as a portable ocmputer at school? very cool!
 https://avanier.now.sh/w/rabbit.html great idea
 https://avanier.now.sh/w/josh.html i love this
-
 https://avanier.now.sh/w/malin.html firefox theme?
-
 https://anxl.faith/ nut my pants
-
-https://heracl.es/ cool projects found below; navigation of films, diy kit
-for router, etc
-
+https://heracl.es/ cool projects found below; navigation of films, diy kit for router, etc
 https://shards.lectronice.com/ this is pcool.
-
 https://ellugar.co/ mexican game developer!
 https://shoelace.style/ a minimal css starter kit
-
-https://getpocket.com/redirect?url=https%3A%2F%2Fgithub.com%2Fhundredrabbits%2FThemes 100 rabbits theme framework
-
 [[https://latex.now.sh/][latex in css!]]
 [[https://tachyons.io/][responsive css framework]]
 [[https://every-layout.dev/][relearn css layout]]
-
 [[https://github.com/mcnuttandrew/cssql]["""Esoteric"" ""Programming"" ""Language"" transpiler for converting SQL to CSS "]]
 ** fun css
 [[https://codepen.io/chrisgannon/pen/oNjqpLy][slider]]
@@ -125,12 +91,10 @@ The stack component, similar to other spacer components,
 is useful for adding arbitrary spaces internal to and external from different components. THese help define discrete units for space as well which can be standardized across the application.
 * vulnerabilities
 [[https://github.com/saizai/cssfingerprint][saizai/cssfingerprint: a research project to see how well the CSS history hack can fingerprint a user]]
-
 [[https://easings.net/][all of the different CSS easing functions]]
 https://codepen.io/MrBlank/pen/JjXxovL cool css animation with envelope opening
 https://tympanus.net/codrops/2020/10/05/recreating-the-100-days-of-poetry-effect-with-shader-scrolltriger-and-css-grid/
 https://polypane.app/css-3d-transform-examples/
-
 [[https://developer.mozilla.org/en-US/docs/Web/CSS/@counter-style][count in CSS]]
 ** Security
 *** Do not blindly copy paste

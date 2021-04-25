@@ -1,5 +1,7 @@
 #+TITLE: Interior Design
 
+- tags :: [[file:furniture.org][Furniture]], [[file:favorites.org][Items]]
+
 [[https://www.benkuhn.net/lux/][your room can be as bright as the outdoors]]: brignening your room helps you stay more productive? the general[[file:blogs.org][Blogs]]  is good to follow as well
 
 * TODO shelf idea

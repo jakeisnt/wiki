@@ -10,3 +10,5 @@ https://en.wikichip.org/wiki/intel/loihi
 https://hackaday.com/2020/01/28/factory-laptop-with-ime-disabled/
 [[https://github.com/Metabolix/HackBGRT][Metabolix/HackBGRT: Windows boot logo changer for UEFI systems]]
 https://www.reddit.com/r/i3wm/comments/3b7a1j/closest_thing_to_i3_for_windows/cskcmjz/
+
+[[https://www.hillelwayne.com/post/ahk/?utm_source=hillelwayne&utm_medium=email][figuring out how to use autohotkey for better windows config]]

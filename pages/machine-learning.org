@@ -182,3 +182,5 @@ https://news.ycombinator.com/item?id=24096154
 
 https://news.ycombinator.com/item?id=24042150 idk what this is but it s
 https://github.com/vt-vl-lab/3d-photo-inpainting
+
+[[https://dickrnn.github.io/][dick rnn]]

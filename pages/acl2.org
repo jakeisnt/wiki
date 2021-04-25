@@ -1,4 +1,4 @@
-#+TITLE: acl2
+#+TITLE: ACL2
 
 ACL2 is a [[file:theoremprover.org][theorem prover]] based on Common Lisp commonly used for the verification of hardware.
 
@@ -6,10 +6,8 @@ ACL2 is a [[file:theoremprover.org][theorem prover]] based on Common Lisp common
 [[https://www.researchgate.net/publication/236578406_Verified_AIG_Algorithms_in_ACL2][This work]] discusses the verification of AIG graph representations of boolean functions.
 [[https://www.cs.utexas.edu/users/moore/publications/acl2-programming-exercises1.html][This page]] has good programming exercises for ACL2.
 
-ACL2 is often used in [[file:emacs.org][Emacs]] with [[http://proofgeneral.inf.ed.ac.uk/htmlshow.php?title=Proof+General+user+manual&file=releases%2FProofGeneral%2Fdoc%2FProofGeneral%2FProofGeneral_2.html][Proof General]].
+Often used in [[file:emacs.org][Emacs]] with [[http://proofgeneral.inf.ed.ac.uk/htmlshow.php?title=Proof+General+user+manual&file=releases%2FProofGeneral%2Fdoc%2FProofGeneral%2FProofGeneral_2.html][Proof General]].
 [[https://www.cs.utexas.edu/users/moore/publications/gentle-intro-to-acl2-programming.html][Introduction to ACL2 programming.]]
 [[https://www.cs.utexas.edu/users/moore/publications/acl2-books/car/][Computer Aided Reasoning]], the textbook out of UT, is likely worth spending time reading as well.
 
-[[http://www.ccs.neu.edu/home/pete/courses/Computer-Aided-Reasoning/2018-Fall/][Pete's site for Computer-Aided Reasoning]]: lots of good resources for ACL2/S and working with the technology.
-Add this to your emacs configuration!
-
+[[http://www.ccs.neu.edu/home/pete/courses/Computer-Aided-Reasoning/2018-Fall/][Pete's site for Computer-Aided Reasoning]]: lots of good resources for ACL2/S and working with the technology. Add his setup - or some modification of it - to your emacs configuration as a module!

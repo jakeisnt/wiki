@@ -83,3 +83,5 @@ https://nicoleorchard.com/blog/compilers
 https://en.wikipedia.org/wiki/Uniform_Function_Call_Syntax any function can be called using method calls as well
 https://mobile.twitter.com/johnregehr/status/1290337031411777537 fun ideas for compiler optimization
 https://cs.au.dk/~amoeller/spa/ static program analysis course!
+
+[[http://dmitrysoshnikov.com/courses/essentials-of-garbage-collectors/][essentials of gc]]

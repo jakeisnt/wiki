@@ -1,5 +1,7 @@
 #+TITLE: Connections between Japanese and Scandinavian Design
 
+- tags :: [[file:interior-design.org][Interior Design]], [[file:design.org][Design]], [[file:furniture.org][Furniture]]
+
 * research
 https://pen-online.com/design/japandi-combining-scandinavian-minimalism-and-japanese-aesthetics/?scrolled=0 short article, summary
 https://pen-online.com/culture/the-must-read-text-on-japanese-aesthetics-in-praise-of-shadows/ beautiful work on architecture; read og source

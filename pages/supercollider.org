@@ -1,6 +1,0 @@
-#+TITLE: Supercollider
-
-SuperCollider is software for [[file:../concepts/livecoding.org][Livecoding]].
-https://app.getpocket.com/read/696794912
-https://getpocket.com/redirect?url=http%3A%2F%2Fccrma.stanford.edu%2Fplanetccrma%2Fsoftware%2Fsupercollider-en%2F
-https://app.getpocket.com/read/3055856467
