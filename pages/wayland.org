@@ -1,10 +1,10 @@
 #+TITLE: Wayland
 
-Resources for wayland.
+Resources for Wayland [[file:wm.org][Window Management]].
 
-* Make sure it's not XWayland
+* How to make sure an application is not XWayland
 Install Xeyes, one of the X11 demo apps
-if the eyes are moving when you mouse over the app, it's X : ) and running on XWayland, as X is giving it access to all of your information.
+if the eyes are moving when you mouse over the app, it's X and running on XWayland, as X is giving it access to all of your information. Otherwise, you know it's just wayland.
 * Resources
 [[https://web.archive.org/web/20200505182132/https://wayland-book.com/][Wayland book, the comprehensive guide to using Wayland]].
 * Fixing screensharing on wayland

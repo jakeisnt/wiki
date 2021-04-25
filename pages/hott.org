@@ -6,4 +6,4 @@ https://www.cs.bham.ac.uk/~mhe/HoTT-UF-in-Agda-Lecture-Notes/index.html
 https://github.com/HoTT/book homotopy type theory book
 https://github.com/EgbertRijke/HoTT-Intro intro hott course (agda)
 
-https://en.wikipedia.org/wiki/Univalent_foundations [[file:dependent_types.org][Dependent Types]] research in which math structures are built out of objects called types
+https://en.wikipedia.org/wiki/Univalent_foundations [[file:../../.local/share/Trash/files/dependent_types.org][Dependent Types]] research in which math structures are built out of objects called types

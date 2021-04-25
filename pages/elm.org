@@ -4,7 +4,7 @@
 [[https://mmhaskell.com/blog/2018/11/19/elm-series-purescript-coming-up][on elm and purescript]]
 [[https://blog.noredink.com/post/126978281075/walkthrough-introducing-elm-to-a-js-web-app][elm with js web app]]
 [[https://hashrocket.com/blog/posts/elm-by-example-soup-to-nuts-part-1][elm by example]]
-[[https://github.com/Holmusk/elm-street][deciduous_tree: Crossing the road between Haskell and Elm]]
+[[https://github.com/Holmusk/elm-street][deciduous_tree: Crossing the road between Haskell and Elm]] [[file:haskell.org][Haskell]]
 [[https://github.com/JoeyEremondi/haskelm][Haskell to Elm translation using Template Haskell. Contains both a library and executable.]]
 [[https://github.com/elm-explorations/webgl][Functional rendering with WebGL in Elm]]
 [[https://github.com/rtfeldman/elm-spa-example][Single Page Application written in Elm]]

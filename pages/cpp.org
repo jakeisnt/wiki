@@ -6,10 +6,8 @@ systems programming languages.
 [[https://github.com/TheLartians/ModernCppStarter][a template for modern cpp projects]]
 [[https://github.com/katef/libfsm][library for DFAs and friends]]: [[file:regex.org][Regex]]
 [[https://github.com/tevador/RandomX]] proof of work via random code execution
-https://github.com/k-vernooy/tetris simple example tetris terminal app
 
 * 100R
-Program fluently with C89 + SDL (standard library) even GUI applications?
 [[https://networkencyclopedia.com/ansi-c-c/][ANSI C/C   – Network Encyclopedia]]
 * C Style
 https://aiju.de/misc/c-style
@@ -20,8 +18,7 @@ https://c9x.me/qscm/: a simple scheme interpreter [[file:lisp.org][Lisp]] writte
 https://bellard.org/otcc/
 [[https://bellard.org/tcc/ ][tiny c compiler]]
 http://web.eecs.utk.edu/~azh/blog/teenytinycompiler1.html
-[[https://ui.adsabs.harvard.edu/abs/2019arXiv190801324T/abstract][CREST: Hardware Formal Verification with ANSI-C Reference Specifications - ]] [[file:theoremprover.org][Theorem prover]]
-tiny compiler in python!
+[[https://ui.adsabs.harvard.edu/abs/2019arXiv190801324T/abstract][CREST: Hardware Formal Verification with ANSI-C Reference Specifications - ]] [[file:theoremprover.org][Theorem prover]] tiny compiler in python!
 [[https://gist.github.com/shakna-israel/4fd31ee469274aa49f8f9793c3e71163#lets-destroy-c][let's destroy c]]
 [[https://github.com/grz0zrg/fas][c pixels-based audio synthesizer]] [[file:music.org][Music]]
 [[https://github.com/Theldus/wsServer][tiny websocket server written in C]]
@@ -32,7 +29,6 @@ tiny compiler in python!
 [[https://ui.adsabs.harvard.edu/abs/2019arXiv190801324T/abstract][CREST: Hardware Formal Verification with ANSI-C Reference Specifications]]
 [[https://en.wikipedia.org/wiki/SystemC][SystemC]]
 [[http://www.catb.org/esr/structure-packing/][the lost art of structure packing]]
-
 [[https://blog.256bit.org/][The SRE wisdom]]
 [[https://capnproto.org/cxx.html][Cap'n Proto: C   Serialization]]
 https://gcc.gnu.org/onlinedocs/gcc/Static-Analyzer-Options.html
@@ -42,10 +38,7 @@ https://www.dreamsongs.com/RiseOfWorseIsBetter.html
 https://capnproto.org/cxx.html
 https://docs.racket-lang.org/manual-flomat/index.html
 https://gist.github.com/iitalics/83ad70b5d4bdba428145f20bf8bcdc2b
-
 [[https://en.m.wikibooks.org/wiki/C_Programming/Networking_in_UNIX][networking in unics]]
-
 https://mobile.twitter.com/thingskatedid/status/1316074032379248640 displaying stuff in a terminal [[file:posix.org][Posix]]
-
 [[https://aiju.de/misc/c-style][Notes On Programming In C]]
 [[https://ftrv.se/3][C code | The only good system is a sound system]]

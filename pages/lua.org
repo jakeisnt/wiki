@@ -1,4 +1,0 @@
-#+TITLE: Lua
-
-https://demoman.net/
-https://dev.to/enso_org/enso-dev-blog-19th-june-2020-52da

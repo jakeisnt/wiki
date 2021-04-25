@@ -10,53 +10,31 @@ https://github.com/airbnb/visx low level visualization components
 https://cineshader.com/ cinematic real tiem shader in webgl. incredible.
 https://github.com/luigimannoni/webxr-earthday
 https://codesandbox.io/s/react-three-fiber-gestures-8shbu
- [[https://tympanus.net/codrops/2020/09/30/creating-mirrors-in-react-three-fiber-and-three-js/][Creating Mirrors in React-Three-Fiber and Three.js | Codrops]]
- [[https://codepen.io/isladjan/pen/zYqLxeG][Dreaming of Jupiter - Three.js]]
- [[https://codepen.io/ScavengerFrontend/pen/GRZzdza][Thank You - 500 ✨ Interactive 3D Celebration]]
-
+[[https://tympanus.net/codrops/2020/09/30/creating-mirrors-in-react-three-fiber-and-three-js/][Creating Mirrors in React-Three-Fiber and Three.js | Codrops]]
+[[https://codepen.io/isladjan/pen/zYqLxeG][Dreaming of Jupiter - Three.js]]
+[[https://codepen.io/ScavengerFrontend/pen/GRZzdza][Thank You - 500 ✨ Interactive 3D Celebration]]
 https://oskarstalberg.com/game/planet/planet.html a planet creation game! incredible
 http://oskarstalberg.com/game/house/Index.html something to do with brigks, the same
 https://experiments.p5aholic.me/ incredible
-
 http://flamo.cc/ can't remember what this is but its cool
 https://palomakop.tv/
-
 ** TODO  [[https://codepen.io/ScavengerFrontend/pen/BazjGJR][Moving Mirror✨ Web Audio API and three.js]]
-Captured On: [2020-10-19 Mon 19:53]
 ** TODO  [[https://codepen.io/jh3y/pen/mdEPXPj][Bouncing Bunnies (animation-delay lesson) 😎]]
-Captured On: [2020-10-19 Mon 20:18]
 ** TODO  [[https://developer.mozilla.org/en-US/docs/Web/HTML/Quirks_Mode_and_Standards_Mode][Quirks Mode and Standards Mode - HTML: HyperText Markup Language | MDN]]
-Captured On: [2020-10-20 Tue 15:43]
- [[https://tympanus.net/codrops/2020/09/16/menu-to-inner-page-animation-with-image-grid-background/][Menu to Inner Page Animation with Image Grid Background | Codrops]]
+[[https://tympanus.net/codrops/2020/09/16/menu-to-inner-page-animation-with-image-grid-background/][Menu to Inner Page Animation with Image Grid Background | Codrops]]
 https://guglieri.com/
-
 ** TODO [[https://tympanus.net/Development/DiagonalThumbnails/][Diagonal Thumbnails Slideshow | Codrops]]
-
-Captured On: [2020-10-01 Thu 20:33]
-
 ** TODO [[https://tympanus.net/Development/ThumbFullTransition/][Thumbnail to Full Width Image Animation | Codrops]]
-
-Captured On: [2020-10-01 Thu 20:33]
-
 ** TODO [[https://tympanus.net/Development/MagneticButtons/index2.html][Magnetic Buttons with Hover Effects | Demo 2 | Codrops]]
-
-Captured On: [2020-10-01 Thu 20:33]
-
 ** TODO [[https://www.derschmale.com/][Der Schmale - Real-time 3D programming | David Lenaerts – Freelance graphics programmer]]
-
-Captured On: [2020-10-01 Thu 20:42]
-
 ** TODO [[https://codepen.io/pizza3/pen/MWyxYjw][Toon Fire Shader]]
-
-Captured On: [2020-10-04 Sun 21:02]
-https://morphing.encharm.studio/
-https://pislices.ca/archive
-https://github.com/RenaudRohlinger/r3f-next-starter good start for threejs
-
-https://github.com/AndrewPrifer/react-three-editable etitable interface for react three fiber
 * Other WebGL Utilities
 [[https://oframe.github.io/ogl/examples/?src=indexed-vs-non-indexed.html][OFrame demos]]
 https://tympanus.net/codrops/2019/10/16/case-study-chang-liu-portfolio-v4/ neat tutorial!
 http://reagent-project.github.io/docs/master/index.html
 https://iamsound.zora.co/gallery incredible 3d work
 https://smoothstep.io/anim/26d46785c1f6 incredible implementation of game of life inside of game of life
+https://morphing.encharm.studio/
+https://pislices.ca/archive
+https://github.com/RenaudRohlinger/r3f-next-starter good start for threejs
+https://github.com/AndrewPrifer/react-three-editable etitable interface for react three fiber

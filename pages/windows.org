@@ -1,14 +1,12 @@
 #+TITLE: Windows
+
+Utilities for windows [[file:os.org][Operating Systems]]. I don't use windows at all - I use [[file:nix.org][Nix]] - but as probably the most common OS we all have to become accustomed to it at some level.
+
 https://github.com/neiladit/Windows-Hacks
 https://github.com/lptstr/lcharmap character map utility
-
 http://www.delorie.com/djgpp/doc/rbinter/it/06/0.html -- windows scan codes for keyboard shortcuts
 [[https://github.com/Metabolix/HackBGRT][change boot logo for uefi based windows systems]]
 https://en.wikichip.org/wiki/intel/loihi
 https://hackaday.com/2020/01/28/factory-laptop-with-ime-disabled/
-
 [[https://github.com/Metabolix/HackBGRT][Metabolix/HackBGRT: Windows boot logo changer for UEFI systems]]
-
-
-
 https://www.reddit.com/r/i3wm/comments/3b7a1j/closest_thing_to_i3_for_windows/cskcmjz/

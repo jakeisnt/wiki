@@ -1,3 +1,0 @@
-#+TITLE: Dependent Types
-
-https://github.com/agda/agda

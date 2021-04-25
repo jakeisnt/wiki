@@ -1,5 +1,7 @@
 #+title: Erlang
 
+[[file:programming-languages.org][Programming Languages]]
+
 * References
 [[https://www.erlang.org/news/140][Erlang 23 Release Notes]]
 [[https://news.ycombinator.com/item?id=23166554][heres another one on erlang]]

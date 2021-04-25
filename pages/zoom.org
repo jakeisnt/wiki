@@ -1,2 +1,0 @@
-#+TITLE: Zoom
-https://ar.al/2020/06/25/how-to-use-the-zoom-malware-safely-on-linux-if-you-absolutely-have-to/

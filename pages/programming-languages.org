@@ -23,14 +23,11 @@
 
 ** DSLs
 - [[https://gitlab.inria.fr/verifisc/mlang][MLang]] :: A DSL created to represent and calculate the French tax code.
-http://bloom-lang.net/bud/
-https://dhall-lang.org/ langauge for system configuration
-https://microformats.io/ html dsl in classes to add meaning
-https://www.puzzlescript.net/ langauge for puzzles!
-https://frinklang.org/ frink
-
-[[http://frinklang.org/][Frink]]
-[[https://hillelwayne.com/post/frink?utm_source=hillelwayne&amp;utm_medium=email][The Frink is Good, the Unit is Evil]]
+- [[http://bloom-lang.net/bud/][Bloom]]
+- [[https://dhall-lang.org/][Dhall]] :: langauge for system configuration
+- https://microformats.io/ html dsl in classes to add meaning
+- [[https://www.puzzlescript.net/][puzzlescript]] :: language for puzzles!
+- [[http://frinklang.org/][Frink]] :: [[https://hillelwayne.com/post/frink?utm_source=hillelwayne&amp;utm_medium=email][The Frink is Good, the Unit is Evil]]
 [[https://github.com/Ahnfelt/funk][Ahnfelt/funk: PROTOTYPE: A minimal scripting language - OOP via lambda func]]
 [[https://parentheticallyspeaking.org/articles/pls-nature/][Programming Languages as Objects in Nature]]
 https://www.colm.net/open-source/ragel/ state machine compiler
@@ -53,7 +50,6 @@ https://www.dangermouse.net/esoteric/piet.html
 https://effekt-lang.org/ effekt polymorphism
 
 * Work
-
 https://hmc-cs111-fall2016.github.io/ class on DSLs
 https://github.com/google/evcxr
 https://github.com/hengestone/lua-languages programming languages targeting lua
@@ -68,9 +64,7 @@ This'll be factored out when I learn more about Lean.
 https://github.com/uwdb/Cosette automated sql solver
 https://github.com/ImperialCollegeLondon/group-theory-game group theory in lean
 
-* PL Notes
 * blurring the curry howard line
-
 https://www.youtube.com/watch?v=jrVPB-Ad5Gc&t=1870s&app=desktop
 works on autonomous vehicles, fun stuff
 
@@ -126,40 +120,7 @@ church numerals :: general way of using a function to produce numbers
 program that extracts information from a rust program and stick the semantics
 in agda
 
-* being human by being animal
-
-https://www.youtube.com/watch?v=oG058g3f8Ik&app=desktop
-removing animals of nay dignified cuteness; bojack horseman is pretty close
-to this uncanny valley of creepy absurdism. the desire is not to make the
-animals cute so much as lifelike and uncomfortable.
-
-bojack as a horse ::  horse, long face, depression, juxtaposition of a
-majestic animal as an alcoholic, etc. horse bredfor transportation but the
-role no longer fulfulls the animal; could come from some broader interest in
-horses
-the main characters are drawn from domestic animals !
-four legs good . two legs better . the control we have over domestic animals
-is associated with the characters chosen for the show .
-
-pushing the potential of animation to allow emotional states to hae an impact
-on the world through cartoon absurdism ! the animalism enables them to reveal
-the primal instincts of humans
-
-blind recreation to create images that are readable.
-diane. sometimes, life is a bitch; then, you keep living.
-
-* IDEA: configuration has two types of keymappings.
-
-one is relative to the
-location on the keyboard, while another is relative to the letter.  i like
-mixing both of these. there should be some system for allowing me to easily
-do the former?
-
-
-TODO: break this down into more specific topics!
-
 * blurring the curry howard line
-
 https://www.youtube.com/watch?v=jrVPB-Ad5Gc&t=1870s&app=desktop
 works on autonomous vehicles, fun stuff
 
@@ -216,21 +177,13 @@ program that extracts information from a rust program and stick the semantics
 in agda
 
 * future reading
-** prog synth
 ** toy lang
-
 [[https://h.christine.website/][powerful programming language]]
 [[http://willcrichton.net/notes/][type level programming]]
-
 [[https://2020.ecoop.org/home/iwaco-2020][aliasing and ownership]]
-
 [[https://www.youtube.com/watch?v=6avJHaC3C2U&app=desktop][the art of code]]
 [[https://pldi20.sigplan.org/details/pldi-2020-papers/65/Question-Selection-for-Interactive-Program-Synthesis][prog synth at pldi]]
-
-** useful lang
-** elm
-
-https://elm-lang.org/examples
+** ???
 https://www.reddit.com/r/gorillaz/comments/g980ui/rock_the_house_animation_by_%E3%83%96%E3%83%AB%E3%83%BC%E3%83%8F%E3%83%A0%E3%83%8F%E3%83%A0/
 -- how do i do animations like this?
 
@@ -241,11 +194,8 @@ resume for github
 http://mjb.io/ -- wild!
 
 * Programming Languages
-
 useful resources: https://github.com/wilbowma/pl-thesaurus -- too advanced for me
-
 ** Adjunction
-
 Whnen categories are Posets, adjunction is a Galois connection
 
 ** Strong Monad
@@ -269,14 +219,12 @@ in order theory: left adjoint of galois connection is lower adjoint
 in abstract interpretation, this is abstract function
 
 ** Galois Connection
-* *term rewriting
-
+* term rewriting
 https://www21.in.tum.de/~nipkow/TRaAT/ -- book benjamin had, it's a description
 of term rewriting problems, universal algebra, unification theory
 https://en.wikipedia.org/wiki/Rewriting
 
-* pl
-
+* pl random link spit
 https://www.reddit.com/r/ProgrammingLanguages/comments/fzu00x/naming_functional_and_destructive_operations/
 https://www.reddit.com/r/haskell/comments/60r9hu/proposal_suggest_explicit_type_application_for/
 https://www.amazon.com/gp/product/1555580416?ie=UTF8&tag=ucmbread-20&linkCode=as2&camp=1789&creative=390957&creativeASIN=1555580416
@@ -516,6 +464,9 @@ https://m.youtube.com/watch?v=jdn617M3-P4 hitchhiker trees: cool functional data
 https://wiki.xxiivv.com/site/fractran.html
 
 https://ziglearn.org/ learn zig
+
+[[https://news.ycombinator.com/item?id=21967668][Hobby kernel written in Zig]]
+https://malleable.systems/catalog/
 
 [[https://www.sciencedirect.com/science/article/pii/016764239190036W][On the expressive power of programming languages - ScienceDirect]]
 https://github.com/iitalics/Opal

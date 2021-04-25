@@ -1,3 +1,6 @@
-#+TITLE: Probprog
+#+TITLE: Probabilistic Programming Languages
+
+[[file:programming-languages.org][Programming Languages]]
+
 https://github.com/rmculpepper/gamble, and the racket page: http://rmculpepper.github.io/gamble/
 http://adriansampson.net/doc/ppl.html excellent introduction to probabilistic programming langauges.

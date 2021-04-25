@@ -376,3 +376,12 @@ https://xsznix.wordpress.com/
 
 https://github.com/shapr/markovkeyboard keyboard that changes by markov freuqnecy
 https://kevinlynagh.com/rust-zig/ : keyboard firmware in rust and zig! and a keyboard with it: https://www.reddit.com/r/MechanicalKeyboards/comments/eaufzh/every_pieces_are_precious/
+
+* IDEA: configuration has two types of keymappings.
+one is relative to the
+location on the keyboard, while another is relative to the letter.  i like
+mixing both of these. there should be some system for allowing me to easily
+do the former?
+
+
+TODO: break this down into more specific topics!
