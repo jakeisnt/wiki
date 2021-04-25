@@ -5,9 +5,7 @@ You can just SSH into the thing.
 
 * Mods
 [[https://github.com/Evidlo/remarkable_entware][entware remarkable]]
-[[https://github.com/Evidlo/remarkable_syncthing][Syncthing for Remarkable]]
-[[https://github.com/michaelmior/zotero-remarkable][zotero remarkable sync]]
+[[https://github.com/Evidlo/remarkable_syncthing][Syncthing for Remarkable]]  - this does not work, as remarkable uses a (remarkably, haha) unconventional format for tracking items and changes in order to cache some information. i need to write my own tool to convert between a sane format and the remarkable's proprietary one (perhaps i can store some info in pdf metadata for caching and access it on the remarkable side?).
+[[https://github.com/michaelmior/zotero-remarkable][zotero remarkable sync]] - wish this didn't delete from zotero and had a two way sync, bringing the PDFs back in. that would be incredibly powerful.
 [[https://github.com/reHackable/awesome-reMarkable][awesome remarkable]]
-
-https://remarkable.com/store/remarkable-2?utm_source=facebook-ads-network&utm_medium=paid-social&utm_campaign=2001+-+RT+-+Introducing+reMarkable+2+-+0-7+days&utm_content=Image+-+USD&utm_term=0-7+days+US
 https://github.com/ddvk/remarkable-hacks

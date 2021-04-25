@@ -1,6 +1,5 @@
 #+TITLE: Arch Linux
 
-
 Arch Linux is a popular, flexible Linux distribution. [[file:os.org][Operating Systems]]
 It's a /rolling release/ distribution. This means that it always has the newest versions of packages and the linux kernel.
 
@@ -11,7 +10,6 @@ I no longer use the system because I've become frustrated with Linux's approach 
 * Derivatives
 [[https://github.com/archcraft-os/archcraft][Archcraft]]
 [[https://github.com/BlackArch/blackarch][BlackArch: Arch for pentesters]] 
-
 * Tools
 - [[https://github.com/fosskers/aura][Aura]] is a package manager for Arch and the AUR
 - [[https://github.com/ibrahimbutt/direwolf-arch-rice][Direwolf's Arch Rice]] :: scripts for ricing arch

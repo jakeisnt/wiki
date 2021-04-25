@@ -1,16 +1,12 @@
 #+TITLE: Color
 
+- tags :: [[file:design.org][Design]] [[file:fonts.org][Fonts]] [[file:css.org][CSS]]
 https://github.com/robinovitch61/color-controversy
 [[https://codepen.io/jackiezen/pen/vYGPQZK][Pantone Color Chips]]
 [[http://vrl.cs.brown.edu/color][Colorgorical]]
 [[https://richzhang.github.io/colorization/][Colorful Image Colorization]]
-
-
 - [[http://clrs.cc/][clrs.cc]] :: communicative colors for browser prototyping.
-
 [[http://clrs.cc/][default web colors for sites optimized for the browser]]
-
 https://www.happyhues.co/ helps pick and curate colors
 [[https://material.io/resources/color/#!/?view.left=0&view.right=0&primary.color=00c185][Color Tool - Material Design]]
-
 https://ciechanow.ski/lights-and-shadows/
