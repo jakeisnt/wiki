@@ -1,42 +1,32 @@
 #+TITLE: Firefox
 
+A great browser that deserves to be supported - because Rust exists and because Chrome doesn't deserve a monopoly.
+
 * Customization
-https://github.com/cadejscroggins/tilde browser startpage
-https://www.reddit.com/r/FirefoxCSS/comments/hyq315/update_to_minfox_theme_clean_and_minimal_firefox/ minifox, an updated firefox theme
-https://getpocket.com/redirect?url=https%3A%2F%2Fgithub.com%2FMrOtherGuy%2Ffirefox-csshacks%2Ftree%2Fmaster%2Fchrome firefox css hacks
-https://www.reddit.com/r/FirefoxCSS/comments/hneh2u/a_blurred_transparent_and_modern_looking_theme/ transparent firefox theme
+- [[https://github.com/cadejscroggins/tilde][Cool browser startpage]]
+- https://www.reddit.com/r/FirefoxCSS/comments/hyq315/update_to_minfox_theme_clean_and_minimal_firefox/ minifox, an updated firefox theme
+- https://www.reddit.com/r/FirefoxCSS/comments/hneh2u/a_blurred_transparent_and_modern_looking_theme/ transparent firefox theme
+- [[https://github.com/Timvde/UserChrome-Tweaks][community maintained repository of userChrome.css tweaks for Firefox]]
+- [[https://www.reddit.com/r/FirefoxCSS/comments/hneh2u/a_blurred_transparent_and_modern_looking_theme/][A b̶l̶u̶r̶r̶e̶d̶ transparent and modern looking theme - FirefoxCSS]]
+- [[https://github.com/akshat46/FlyingFox][great firefox config]]
+- https://www.reddit.com/r/FirefoxCSS/comments/hf97kk/my_take_on_hiding_as_much_as_possible/
+- [[https://github.com/MrOtherGuy/firefox-csshacks][MrOtherGuy/firefox-csshacks: Collection of userstyles affecting the browser]]
+- [[https://github.com/MrOtherGuy/firefox-csshacks/tree/master/chrome][firefox-csshacks/chrome at master · MrOtherGuy/firefox-csshacks]]
+- [[https://github.com/akshat46/FlyingFox][n opinionated set of configurations for firefox.]]
+* Security
+[[https://github.com/mindedsecurity/behave][prevent port scanning and other bad things]]
+* Extensions
+- [[https://bitbucket.org/magnolia1234/bypass-paywalls-firefox-clean/src/master/][magnolia1234 / bypass-paywalls-firefox-clean — Bitbucket]]
+- [[https://www.reddit.com/r/firefox/comments/61x5ps/possible_to_set_searx_as_search_engine_for/][Set new search engine for address bar]]
+- [[https://github.com/jbmartinez/speed-readerff][speed reading extension for Firefox based on OpenSpritz]]
+* Other Browsers
+- [[https://github.com/midori-browser/core][Midori]]
+- [[https://github.com/atlas-engineer/nyxt][atlas-engineer/nyxt: Nyxt - Be productive.]]
+- [[https://www.ekioh.com/acid.html][Flow browser passes the Acid tests - Ekioh]]
+- [[https://stackoverflow.com/questions/3527800/how-do-browsers-read-and-interpret-css][How do browsers read and interpret CSS? - Stack Overflow]]
 
-* Other Options
-https://github.com/midori-browser/core fast webkit browser
-https://www.reddit.com/r/vim/comments/hyzfgd/what_vim_firefox_plugin_are_you_using/ vim firefox keybindings
-
-[[https://github.com/Timvde/UserChrome-Tweaks][ community maintained repository of userChrome.css tweaks for Firefox]]
-
-[[https://www.reddit.com/r/FirefoxCSS/comments/hneh2u/a_blurred_transparent_and_modern_looking_theme/][A b̶l̶u̶r̶r̶e̶d̶ transparent and modern looking theme - FirefoxCSS]]
-
-[[https://github.com/MrOtherGuy/firefox-csshacks][MrOtherGuy/firefox-csshacks: Collection of userstyles affecting the browser]]
-[[https://github.com/MrOtherGuy/firefox-csshacks/tree/master/chrome][firefox-csshacks/chrome at master · MrOtherGuy/firefox-csshacks]]
-
-[[https://github.com/sprig/org-capture-extension][sprig/org-capture-extension: A Chrome and firefox extension facilitating or]]
-
-[[https://bitbucket.org/magnolia1234/bypass-paywalls-firefox-clean/src/master/][magnolia1234 / bypass-paywalls-firefox-clean — Bitbucket]]
-
-[[https://www.reddit.com/r/firefox/comments/61x5ps/possible_to_set_searx_as_search_engine_for/][Possible to set searx as search engine for address bar? - firefox]]
-[[https://www.reddit.com/r/FirefoxCSS/comments/hyq315/update_to_minfox_theme_clean_and_minimal_firefox/][Update to Minfox theme - Clean and minimal Firefox with minimum modificatio]]
-[[https://github.com/akshat46/FlyingFox][great firefox config]]
-[[https://github.com/jbmartinez/speed-readerff][ speed reading extension for Firefox based on OpenSpritz]]
-[[https://github.com/akshat46/FlyingFox][n opinionated set of configurations for firefox.]]
-https://www.reddit.com/r/FirefoxCSS/comments/hf97kk/my_take_on_hiding_as_much_as_possible/
-[[https://github.com/karlicoss/promnesia][extended mind firefox extension]]: track visited sites etc.
-[[https://github.com/mindedsecurity/behave][monitoring browser extension]]
-* other browsers
-[[https://github.com/atlas-engineer/nyxt][atlas-engineer/nyxt: Nyxt - Be productive.]]
-[[https://www.ekioh.com/acid.html][Flow browser passes the Acid tests - Ekioh]]
- [[https://stackoverflow.com/questions/3527800/how-do-browsers-read-and-interpret-css][How do browsers read and interpret CSS? - Stack Overflow]]
-
-
- r/startpages: customized firefox start pages
 * Navigation Extensions
+[[https://www.reddit.com/r/vim/comments/hyzfgd/what_vim_firefox_plugin_are_you_using/][an overview of different vim firefox plugins]]
 ** Vimium
 Solid with basic Vim commands. I've used it for a long time.
 ** Tridactyl

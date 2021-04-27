@@ -1,7 +1,6 @@
 #+TITLE: Management
 
 What's your company size?
-https://app.getpocket.com/read/2836850076
 A good read on organizational design and culture.
 [[https://github.com/ksindi/managers-playbook][manager's playbook: heuristics for effective management]]
 

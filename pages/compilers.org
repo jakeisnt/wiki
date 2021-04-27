@@ -14,7 +14,6 @@ https://o1o.ch/about/ interesting compilers work in R
 https://skillsmatter.com/skillscasts/14803-what-s-in-a-functional-compiler what's in a functional compiler? talk
 https://dl.acm.org/doi/abs/10.1145/512927.512941 first work on verifying and structuring compilers
 https://hassamuddin.com/blog/reg-alloc/ overview of register allocation
-https://getpocket.com/redirect?url=https%3A%2F%2Fwww.reddit.com%2Fr%2FProgrammingLanguages%2Fcomments%2Fhvs79e%2Ftracing_jit_vs_method_jit_what_to_choose%2F tracing jit vs method jit compilation -- learn the difference!
 https://groups.google.com/g/comp.arch/c/UXEi7G6WHuU/m/Z2z7fC7Xhr8J?pli=1 popcount: the NSA instruction
 https://vaibhavsagar.com/blog/2019/09/08/popcount/ more on popcount
 https://oswalt.dev/2020/11/anatomy-of-a-binary-executable/ cool article about whats inside a binary executable

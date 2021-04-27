@@ -42,6 +42,7 @@ https://aaronguo1996.github.io/project/hoogleplus/ this is the coolest shit
 [[https://downloads.haskell.org/~ghc/8.10.1/docs/html/users_guide/glasgow_exts.html#extension-MagicHash][9.1. Language options — Glasgow Haskell Compiler 8.10.1 User&#039;s Guide]]
 https://downloads.haskell.org/~ghc/7.0.1/docs/html/users_guide/rewrite-rules.html
 [[https://mpickering.github.io//ide/posts/2020-08-04-measuring-memory-size.html][IDE 2020: Measuring memory usage of Haskell values and patching GHC]]
+[[https://gist.github.com/AndrasKovacs/c7d385aa117929503feb][Lambda calculus implemented at the type level in GHC]]
 
 ** TemplateHaskell
 - backlinks :: [[file:MacroNotes.org][Macros]]
@@ -137,14 +138,6 @@ getting ncurses5-compat-libs:
 [[https://www.airpair.com/haskell-tutorial/intro-to-haskell-web-apps][client side apps in haskell]]
 - [[https://wiki.haskell.org/Web/Frameworks][web frameworks for haskell]]
 https://github.com/raviksharma/bartosz-basics-of-haskell basics of haskell tutorial
-
-https://app.getpocket.com/read/3056979135 ghc with lorri
-https://getpocket.com/redirect?url=https%3A%2F%2Fwww.reddit.com%2Fr%2Fhaskell%2Fcomments%2Fhvt8h1%2Fjob_work_with_me_in_the_fully_remote_org_as_a%2F uses haskell!
-
-https://getpocket.com/redirect?url=https%3A%2F%2Fchris-martin.org%2F haskell dude
-https://getpocket.com/redirect?url=https%3A%2F%2Fchris-martin.org%2F2015%2Finstalling-nixos installing nixos
-
-https://app.getpocket.com/read/2558647524 learning nixos easily
 * Proofs
 - [[https://blog.madsbuch.com/proving-stuff-in-haskell/][A casual guide to proving things in Haskell]]
 - [[https://wiki.haskell.org/Dependent_type][Dependent types in the context of Haskell (limited support)]]
@@ -170,11 +163,8 @@ icebreaker fpga
 https://github.com/mikeizbicki/subhask rewrite of prelude to make numerics fun and fast
 https://mpickering.github.io//ide/posts/2020-08-04-measuring-memory-size.html measuring memory usage in haskell
 * web
-
 https://m.youtube.com/watch?v=65GWGc5LNxc debugging ghc assertion error
-
 https://reasonablypolymorphic.com/blog/towards-tactics/index.html navigating the haskell tactics engine
-
 https://www.srid.ca/haskell-new-project.html creating a new haskell project with ide support and nix
 * etc...
 [[https://github.com/facebook/Haxl]["A Haskell library that simplifies access to remote data, such as databases or web-based services. "]]
