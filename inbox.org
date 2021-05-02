@@ -1,0 +1,5 @@
+* TODO version control system that captures movements
+- file system implementation that records all of the operations performed on a file over time
+- editor that integrates with all of those changes and can easily visualize them
+- somehow logged to a file
+- perhaps converted to git or something?  this goes along with the 'file system' in memory editor idea i had before.
