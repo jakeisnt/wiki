@@ -53,6 +53,7 @@ My site can be found at https://jacob.chvatal.com.
 - https://2d4.dev/ :: I love the look of this. It feels just like a resume, but it's able to accurately and properly communicate all of their interests, projects and accomplishments!
 - https://www.jainfamilyinstitute.org/ :: Great [[file:../../.local/share/Trash/files/20210226200637-brutalist.org][brutalist]] showcase of works under a foundation.
 - https://mynrd.co.uk/ :: This is so fun to navigate. Hints for finding hidden secrets are throughout the website!
+- https://laurendorman.io :: Great layout of work and great font choice. https://yams.studio is inspirational.
 ** Brutalist
 - https://www.r2design.pt/ :: Great overview of lots of minimal books.
 - http://timput.com/ :: Seems like a super fun person. Simple blog theme.

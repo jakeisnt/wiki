@@ -5,6 +5,8 @@ https://medium.com/@jamesheathers/i-quit-be062295f638
 [[https://lindseykuper.livejournal.com/383642.html][what the first half of grad school was like]]
 
 * Labs
+https://homes.cs.washington.edu/~emina: work with rosette, a language that allows for the creation of efficient tools for program verification and synthesis!
+
 UMich
 UChicago
 http://uwplse.org/

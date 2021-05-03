@@ -9,3 +9,9 @@ You can just SSH into the thing.
 [[https://github.com/michaelmior/zotero-remarkable][zotero remarkable sync]] - wish this didn't delete from zotero and had a two way sync, bringing the PDFs back in. that would be incredibly powerful.
 [[https://github.com/reHackable/awesome-reMarkable][awesome remarkable]]
 https://github.com/ddvk/remarkable-hacks
+
+* Utilities
+- rmfuse: fuse filesystem for viewing the remarkable cloud
+- rmapi: shell for interacting with the remarkable cloud
+
+  - https://duckpond.ch/nix/bash/2020/01/08/reMarkable.html: good blog post for hacking the remarkable utilities to better interact with the device;

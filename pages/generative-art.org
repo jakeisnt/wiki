@@ -57,3 +57,4 @@ https://play.ertdfgcvb.xyz/abc.html#notes:technical a browser based live coding 
 https://alteredqualia.com/: brilliant image generation and generative art work. inspirational!
 
 [[https://github.com/inconvergent/weir][a system for making generative algorithms]]; succeeds [[https://github.com/uvNikita/snek][snek]]
+https://varun.ca/noises: an overview of noise in creative coding
