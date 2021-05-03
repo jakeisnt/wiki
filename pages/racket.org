@@ -37,3 +37,4 @@ https://docs.racket-lang.org/datalog/index.html
 https://docs.racket-lang.org/Elle/index.html
 https://docs.racket-lang.org/heresy/index.html
 https://docs.racket-lang.org/plai-typed/index.html: scheme lang with ml type system
+the one for memoization is cool! just claled "memoize"

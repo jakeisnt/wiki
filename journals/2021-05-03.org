@@ -1,0 +1,5 @@
+#+TITLE: Monday, 05/03/2021
+** 15:33 reduce employer dependence
+proprietary projects own your mind share! even open source ones do, but proprietary are the worst - the more you invest in a technology and specialize in a particular implementation, the more that tool has mind share over your actions.
+
+alternatively, building universally applicable skills, generalizeable tools or software independent of corporations is incredibly powerful - you can keep that knowledge around regardless of the ecosystem you're investing in because you learned in principle, not in practice. this is the motivation for research, for System F and type theory over specific language implmentations, for understanding the big picture - as this can never be stolen from you. using tools that are /so/ abstract is incredibly dangerous, and that's sort of the truth in everything about computer science - but by abstracting them at a theoretical level and working with generalizeable ideas rather than specific technologies, you'll never really be trapped by an employer.
