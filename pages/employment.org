@@ -14,4 +14,9 @@ https://talent.works/2017/09/28/getting-ghosted-on-your-job-applications-heres-f
 - Save resume as first and last name, not 'resume'
 - Tailor the resume to match the job and add key words.
   idea: automate this?
-- Always remember: a resume is for an interview, not a job. Just give them enough information to encourage them to interveiw you.
+- Always remember: a resume is for an interview, not a job. Just give them enough information to encourage them to interview you.
+* Great questions for interviews
+- "Could you resolve this merge conflict with me?"
+  - Get a feel for their critical thinking and communication skills
+  - Test their knowledge with git
+  - Test their critical thinking in a pair programming session, learn about how they think about a programming language you expect them to be comfortable in.

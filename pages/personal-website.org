@@ -113,4 +113,5 @@ My site can be found at https://jacob.chvatal.com.
 - https://nico.xyz/projects/ :: Love the interface; minimal summary to the right coupled with panes appearing and fading to the right.
 - https://twitter.com/gwern/status/1092221945427517440 :: some excellent notes from gwern about web design and optimizations.
 - https://caballerocoll.com/experiments/wasm-sunray/: Love the detailed documentation regarding each project as well as the code previews. Makes for a good experience!
-https://brandontysonstudio.com/
+- https://brandontysonstudio.com/
+- https://viraybautista.com
