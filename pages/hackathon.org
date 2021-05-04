@@ -329,3 +329,5 @@ reasonml, using elisa algorithm!
 * recipe app
  https://www.ica.se/recept/kladdig-kladdkaka-722982/ we can do so much better
  - fulcro: maybe with recipe website. get started on that at some point!
+* anonymous form website
+easy to use and completely transparent to everyone
