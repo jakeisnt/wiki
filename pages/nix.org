@@ -150,7 +150,6 @@ Run programs in systemd cgroups (check out grahamc's config)
 [[https://www.reddit.com/r/haskell/comments/hzeued/neuron_06_released_futureproof_notetaking_tool/][Neuron 0.6 released: future-proof note-taking tool written in Haskell, Nix ]]
 [[https://www.reddit.com/r/NixOS/comments/i2gaul/searching_and_installing_packages_in_nixos/][Searching and installing packages in NixOS - NixOS]]
 [[https://github.com/stites/haskell.nix-niv][stites/haskell.nix-niv]]
-[[https://www.reddit.com/r/NixOS/comments/htoxea/setting_up_ghcnix_with_lorri/][setting up ghc.nix with lorri - NixOS]]
 [[https://nixos.wiki/wiki/NixOS_on_ZFS][NixOS on ZFS - NixOS Wiki]]
 [[https://elvishjerricco.github.io/2018/12/06/encrypted-boot-on-zfs-with-nixos.html][Encrypted /boot on ZFS with NixOS]]
 [[https://github.com/brainrape/nixform][brainrape/nixform]]
@@ -160,8 +159,7 @@ Run programs in systemd cgroups (check out grahamc's config)
 https://davedellacosta.com/posts/2019-03-29-why-nixos-is-hard-and-how-to-fix.html
 https://github.com/dustinlacewell/dotfiles
 https://github.com/nix-community/nixos-generators image builders for nix
-
-
+https://github.com/nix-community/todomvc-nix: canonical example for nix, works with or without flakes apparently.
 https://lemire.me/blog/2020/05/22/programming-inside-a-container/ programming inside of containers
 
 https://unix.stackexchange.com/questions/522822/different-methods-to-run-a-non-nixos-executable-on-nixos
@@ -169,9 +167,6 @@ https://github.com/NixOS/nixpkgs/issues/26067 making a nix service abstraction l
 https://grahamc.com/blog/erase-your-darlings
 https://gitlab.com/vdemeester/home this seems like a config worth looking through!
 [[https://www.johnbcoughlin.com/posts/nix-dynamic-linking/index.html][debugging a dynamic linking bug in a nix project]]
-
-
-https://github.com/haskell-nix/hnix a nix reimplementation in [[file:haskell.org][Haskell]]
 
  [[https://github.com/danielfullmer/robotnix][danielfullmer/robotnix: Build Android (AOSP) using Nix]]  [[file:mobile.org][Mobile]]
 
@@ -185,9 +180,6 @@ Captured On: [2020-10-18 Sun 15:14]
 Captured On: [2020-10-18 Sun 15:15]
 ** TODO  [[https://serokell.io/blog/dimensions-haskell-singletons][Dimensions and Haskell: Singletons in Action]]
 Captured On: [2020-10-18 Sun 16:36]
-
-** TODO [[https://haskell-miso.org/examples][Miso: A tasty Haskell front-end framework]]
-Captured On: [2020-10-18 Sun 14:16]
 
 https://github.com/Trundle/NixOS-WSL nixos on wsl
 https://github.com/telent/nixwrt build images for MIPS using nixpkgs
