@@ -1,0 +1,21 @@
+#+TITLE: SMT
+
+[[https://jix.one/the-assembly-language-of-satisfiability.html][src - maybe?]]
+
+* SAT solvers
+** Cons
+- Require input problem to be a propositional logic formula in conjunctive normal form (CNF). This is not a natural way to express most problems that require SAT
+- Computing CNF formulas is often bad and hard so SAT solvers aren't really at the right "level" for use by the working programmer
+- Look up `cardinality constraints CNF` on google scholar - reveals lots of problems and tradeoffs that can be made
+
+** Why SMT over SAT?
+- SMT solvers allow more freedom in the expression of input problems - support integers, fixed width floats, arrays and potentially other datatypes, as well as common operations on those types, without requiring a specific normal form!
+- API that allows for the manipulation of the input formula exposed by the solver, unlike strict
+
+** How do they work?
+*** Bit blasting
+- Directly convert input formula into an equivalent Boolean formula in CNF
+- Limited to formulas where every data type has a finite set of values
+- Need a SAT solver as a backend, any improvement to SAT translates directly to an improvement to an SMT solver - so this is just additional tooling around a SAT solver to make it much easier to use.
+*** CDCL(T)
+- Definition: conflict driven cause learning - the algorithm employed by most modern SAT solvers.

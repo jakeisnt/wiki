@@ -21,3 +21,5 @@ Emacs functions as well.
 
 Really, Emacs (and EXWM) are partial solutions to a more systemic issue -- the way in which the Unix philosophy has lost its way on the modern Linux system.
 
+* Fixing issues
+[[https://tech.toryanderson.com/2020/10/19/emacs-in-emacs-a-triumph-for-exwm/][run emacs in emacs for better exwm performance]]

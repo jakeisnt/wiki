@@ -496,6 +496,11 @@ https://github.com/thesephist/schrift an experimental runtime for ink lang
 [[https://github.com/kragen/tokthr][bytecode interpreter in x86 asm]]
 [[https://github.com/monsonite/Z80_Forth][multitasking Z81 forth]]
 [[https://github.com/wilbowma/pl-thesaurus][pl thesaurus]]
+- [[https://colorforth.github.io/hopl.html][forth in the early years]]
+  - evolved throughout the 60s, only a single programmer!
+  - "unique combination of ingredients"
+  - context free text based language combining words that have a variety of (arguably) advanced features, and runnable on small embedded systems with sufficient
+
 
 [[https://github.com/zesterer/atto][atto]]:: super simple self hosted programming language
 [[https://github.com/skx/gobasic][BASIC interpreter in Go]]
@@ -603,3 +608,5 @@ http://www.is.ocha.ac.jp/~asai/Black/ :: an extension of scheme that not only al
 [[https://esoteric.codes/blog/david-madore][interview about unlambda]]
 
 [[typetheorypodcast.com]] probably a good podcast
+
+https://mitpress.mit.edu/books/reasoned-schemer-second-edition: excellent book co authored by northeastern prof jason hemann
