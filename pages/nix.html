@@ -143,4 +143,31 @@
 <p>Do not be afraid to use the –help flag! I've learned a lotfrom it.</p>
 <ul>
 <li>Update a specific input: `nix flake update –update-input spicetify-nix` do</li>
-</ul></body></html>
+</ul>
+<h1>Go</h1>
+<div class="sourceCode" id="cb1"><pre class="sourceCode nix"><code class="sourceCode bash"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="kw">{</span> <span class="ex">lib,</span> buildGoModule, fetchFromGithub }:</span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="co"># buildGoModule can be pulled in from the package</span></span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="ex">buildGoModule</span> rec {</span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a>  <span class="ex">pname</span> = <span class="st">&quot;mangadesk&quot;</span><span class="kw">;</span></span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a>  <span class="ex">version</span> = <span class="st">&quot;0.0.1&quot;</span><span class="kw">;</span></span>
+<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a>  <span class="co"># fetch the derivation from wherever</span></span>
+<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a>  <span class="ex">src</span> = pkgs.fetchFromGitHub {</span>
+<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a>    <span class="ex">owner</span> = <span class="st">&quot;darylhjd&quot;</span><span class="kw">;</span></span>
+<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a>    <span class="ex">repo</span> = <span class="st">&quot;mangadesk&quot;</span><span class="kw">;</span></span>
+<span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a>    <span class="fu">rev</span> = <span class="st">&quot;v</span><span class="va">${version}</span><span class="st">&quot;</span><span class="kw">;</span></span>
+<span id="cb1-11"><a href="#cb1-11" aria-hidden="true" tabindex="-1"></a>    <span class="ex">sha256</span> = <span class="st">&quot;1kgb5k55fxjcf1829fkp7wyd162391am9zhfgl50a606rlsfsh7h&quot;</span><span class="kw">;</span></span>
+<span id="cb1-12"><a href="#cb1-12" aria-hidden="true" tabindex="-1"></a>  <span class="kw">};</span></span>
+<span id="cb1-13"><a href="#cb1-13" aria-hidden="true" tabindex="-1"></a>  <span class="co"># this is an intermediate sha256 that is spit out when the derivation fails, somehow. needs more work!</span></span>
+<span id="cb1-14"><a href="#cb1-14" aria-hidden="true" tabindex="-1"></a>  <span class="co"># vendorSha256 = &quot;1879j77k96684wi554rkjxydrj8g3hpp0kvxz03sd8dmwr3lh83j&quot;;</span></span>
+<span id="cb1-15"><a href="#cb1-15" aria-hidden="true" tabindex="-1"></a>  <span class="ex">subPackages</span> = [ <span class="st">&quot;.&quot;</span> ]<span class="kw">;</span></span>
+<span id="cb1-16"><a href="#cb1-16" aria-hidden="true" tabindex="-1"></a>  <span class="ex">deleteVendor</span> = true<span class="kw">;</span></span>
+<span id="cb1-17"><a href="#cb1-17" aria-hidden="true" tabindex="-1"></a>  <span class="ex">runVend</span> = true<span class="kw">;</span></span>
+<span id="cb1-18"><a href="#cb1-18" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-19"><a href="#cb1-19" aria-hidden="true" tabindex="-1"></a>  <span class="ex">meta</span> = with lib<span class="kw">;</span> <span class="kw">{</span></span>
+<span id="cb1-20"><a href="#cb1-20" aria-hidden="true" tabindex="-1"></a>    <span class="ex">homepage</span> = <span class="st">&quot;https://github.com/darylhjd/mangadesk&quot;</span><span class="kw">;</span></span>
+<span id="cb1-21"><a href="#cb1-21" aria-hidden="true" tabindex="-1"></a>    <span class="ex">description</span> = <span class="st">&quot;Terminal client for MangaDex&quot;</span><span class="kw">;</span></span>
+<span id="cb1-22"><a href="#cb1-22" aria-hidden="true" tabindex="-1"></a>    <span class="ex">license</span> = licenses.mit<span class="kw">;</span></span>
+<span id="cb1-23"><a href="#cb1-23" aria-hidden="true" tabindex="-1"></a>    <span class="ex">maintainers</span> = with maintainers<span class="kw">;</span> <span class="bu">[</span> jakeisnt <span class="bu">]</span><span class="kw">;</span></span>
+<span id="cb1-24"><a href="#cb1-24" aria-hidden="true" tabindex="-1"></a>    <span class="ex">platforms</span> = platforms.linux ++ platforms.darwin<span class="kw">;</span></span>
+<span id="cb1-25"><a href="#cb1-25" aria-hidden="true" tabindex="-1"></a>  <span class="kw">};</span></span>
+<span id="cb1-26"><a href="#cb1-26" aria-hidden="true" tabindex="-1"></a><span class="er">}</span></span></code></pre></div></body></html>
