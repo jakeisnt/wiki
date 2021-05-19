@@ -197,3 +197,33 @@ get a nix shell for your whole configuration!
 Do not be afraid to use the --help flag! I've learned a lotfrom it.
 - Update a specific input: `nix flake update --update-input spicetify-nix`
   do
+
+* Go
+#+BEGIN_SRC nix
+{ lib, buildGoModule, fetchFromGithub }:
+# buildGoModule can be pulled in from the package
+buildGoModule rec {
+  pname = "mangadesk";
+  version = "0.0.1";
+  # fetch the derivation from wherever
+  src = pkgs.fetchFromGitHub {
+    owner = "darylhjd";
+    repo = "mangadesk";
+    rev = "v${version}";
+    sha256 = "1kgb5k55fxjcf1829fkp7wyd162391am9zhfgl50a606rlsfsh7h";
+  };
+  # this is an intermediate sha256 that is spit out when the derivation fails, somehow. needs more work!
+  # vendorSha256 = "1879j77k96684wi554rkjxydrj8g3hpp0kvxz03sd8dmwr3lh83j";
+  subPackages = [ "." ];
+  deleteVendor = true;
+  runVend = true;
+
+  meta = with lib; {
+    homepage = "https://github.com/darylhjd/mangadesk";
+    description = "Terminal client for MangaDex";
+    license = licenses.mit;
+    maintainers = with maintainers; [ jakeisnt ];
+    platforms = platforms.linux ++ platforms.darwin;
+  };
+}
+#+END_SRC
