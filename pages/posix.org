@@ -32,3 +32,21 @@ https://gist.github.com/katef/59450aa622315bd35fc27bd383c2dbe6#file-life-utf8-c 
 https://news.ycombinator.com/item?id=24256883 portable executables!
 
 [[https://kkovacs.eu/cool-but-obscure-unix-tools/][terminal utils to look at]]
+
+
+* unix shell programming: the next 50 years
+[[https://sigops.org/s/conferences/hotos/2021/papers/hotos21-s06-greenberg.pdf][src]] and [[https://www.reddit.com/r/ProgrammingLanguages/comments/nfcij6/unix_shell_programming_the_next_50_years_hotos/][discussion]]
+** The good
+- Universal language for interoperability
+- Works with anything and is a medium between anything
+- Incredibly expressive (and often efficient) EDSL for stream processing
+- Interactive environment for interacting with the computer
+**  bad
+- insane specification that isn't implemented correctly in *any* shell, not even worth diving into
+- too arbitrary - it has infinite flexibility and that prevents it from doing anything
+- too dynamic - everything in a shell script is dependent on global state, which prevents any form of optimization or program change
+- performance cannot scale because it cannot be optimized
+** Future
+- Smoosh :: fully formalize and implement the posix shell, showing differences between specifications across semantics
+- PaSH/POSH :: annotation languages as a high level specification interface for interactive programs, can be used as abstract models for command behaviors! This allows for better system specification that can actually be enforced (thinking of tools like Alloy here!)
+- static reasoning :: previous bullets name annotation languages that give us information about the shell - why not dynamically rewrite and inspect every shell command?
