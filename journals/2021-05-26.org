@@ -3,3 +3,9 @@
 then re-refers - this is how we have such great image or facial recognition (most of us).
 things tend to look nicer actually if we have seen them before!!
 if there are fewer distinct numbers present in a sequence, the sequence is more visually appealing - or carries less visual weight!
+** 22:44 make useless things
+[[https://web.eecs.utk.edu/~azh/blog/makinguselessstuff.html][make useless stuff - austin henley, asst prof]]
+don't waste your time on homework problems - make something that's fun for you!! it doesn't matter what utility or business purpose it serves, because we don't have to be entreprenuers - just make it cool :  ) and finish it!! make it fun! enjoy it!
+
+
+work programming and programming for fun can be two separate skills - programming outside of work can improve your productivity at work, but it doesn't necessarily impact your ability to navigate software development, right? it's okay to make things that are fun and cool and that other people enjoy!
