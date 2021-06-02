@@ -610,3 +610,4 @@ http://www.is.ocha.ac.jp/~asai/Black/ :: an extension of scheme that not only al
 [[typetheorypodcast.com]] probably a good podcast
 
 https://mitpress.mit.edu/books/reasoned-schemer-second-edition: excellent book co authored by northeastern prof jason hemann
+https://abby.how/posts/cubical-type-theory.html: this is probably good but way too hard for me to understand
