@@ -1,0 +1,23 @@
+#+TITLE: Monday, 06/07/2021
+** 22:38 moving away from this wiki
+i have been and need to build a system to move away from this system; plaintext just isn't cutting it anymore.
+
+however, i need something to use practically daily to take notes, so this is that.
+*** recent tips
+- posture :: align the four cores: apple, chest, stomach, and pubic bone should all align to form a straight line.
+- ask why someone feels good :: not just when they say 'bad' to 'how are you' - we should be equally interested in their positive experiences!
+  
+
+*** some threads to come back to
+https://twitter.com/thesephist/status/1243871452656545792?s=03
+https://twitter.com/david_perell/status/1399210396310020096?s=03
+** 23:17 learning from railway
+[[https://blog.railway.app/p/how-we-work][src]]
+- post daily wraps: what did you do previously? what are you going to do tomorrow? just post sometime during the day!
+- minimize recurring meetings! we don't need a lot of them because they're distracting!
+- use one service as a central hub, and have automated status updating
+- discord: sync, super low resistance to hopping into other calls, tools or things; Linear: personal tast queue of tasks with definite acceptance criteria: imminent async; Notion: indefinite async and everything that has to do with long term documentation!
+** 23:19 reward
+how to get into stimulants (concretely)? note: not healthy until my diet has stabilized!
+
+narratives: write them and keep writing them! gain depth inwards, because depth inwards and truly understanding your own interactions and motivations empowers you to do anything with true conviction 
