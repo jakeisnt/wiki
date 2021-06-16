@@ -3,3 +3,4 @@
 - editor that integrates with all of those changes and can easily visualize them
 - somehow logged to a file
 - perhaps converted to git or something?  this goes along with the 'file system' in memory editor idea i had before.
+* TODO [[][]]
