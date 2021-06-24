@@ -46,5 +46,7 @@ http://matt.might.net/articles/hacking-strength/ gaining muscle with least resis
 http://matt.might.net/articles/least-resistance-weight-loss/ same for weight loss
 [[https://news.ycombinator.com/item?id=23426189][mental wealth]]
 
+ some evidence suggests that climbing too high will kill the brain: https://www.outsideonline.com/1884846/are-mountains-killing-your-brain#close
+
 * TODO improving health: skin
 https://news.ycombinator.com/item?id=24261826 being ok with not being extraordinary

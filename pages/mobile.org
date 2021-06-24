@@ -33,3 +33,6 @@ mimic much of this design in an android launcher! i love how minimal it is and t
 [[https://m.youtube.com/watch?v=Y3O6m3otNO0][Tensegrity Lamp Running ColorChord on Android with USB in C - YouTube]]
 https://scattered-thoughts.net/writing/pinephone-first-steps/:
 [[file:nix.org][Nix]], getting the Pinephone up and running with Mobile NixOS as well as some other resources : )
+
+
+https://gitlab.com/Jasc0/i3-pinephone-dots: resources for using the pinephone easily with i3 - surprisingly looked fairly usable!

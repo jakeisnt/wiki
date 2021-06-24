@@ -1,0 +1,63 @@
+#+TITLE: Tuesday, 06/22/2021
+** 10:15 more excellent articles this morning
+*** two conversations with marvin gaye
+https://nelsongeorge.substack.com/p/two-conversations-with-marvin-gaye
+there is lots of noise this morning. i can hear three fans, the clicks, whirls, and fluid flowing through the laundry machine, the occasional vacuum and my brother and mother talking downstairs. it's cleaning day, apparently, as my mother's told me that my father is at work, which leaves plenty of audial space for the cacaphony of cleaning devices, light switches flicking and doors slamming and fans blaring and doors slamming and all, that echo through the rooms of the house.
+
+i'll work on the quality of my morning writing. anyways...
+
+this interview with gaye is early in the life of the writer and late in the artistic career of gaye. he moved from los angeles to explore other influences, exploring african music markets and building companies to help establish other avenues for music. in our lifetime was almost improvised, all of the music coming off of the top of the head then retroactively adding lyrics and 'sweetening'.
+
+the authors personal descriptions of the events that lead him to the interviews aren't incredibly interesting - they're written about personal events, but this veil of journalistic integrity has not really been lifted, so the author is unwilling to entirely inject his emotions, actions and feelings to set the stage for such interviews. i have no reason to care about the author's migraines; he was lining me up for a long description of Gaye's comeback record, but that was just a tease for a bland discussion of his childhood illness.
+
+i want to use turpentine as an adjective. i really lost my train of thought today - don't fall off like this so hard in the future! you have work to do!
+ the exposition about approaching marvin, and the circumstances behind the interview, are interesting - negative stress in the air? somehow sensing hostility from the crowd? marvin says his approach to sexuality is subtle exhibitionism - can't deal with the raw fact, so it's vealed in some expression of the idea rather than the acts themselves. often it takes just minutes for him to write songs!!! but contrived music takes much longer. self admitting this in and of itself is impressive.
+
+ interviewing seems like an excellent life skill, as interesting as getting to know people is and more. asking good questions is one of the best skills you can have. i really need to practice interviewing and talking to others!!!!
+
+ rarely deal in the past - all that's important is whether you get the next laugh or not!
+the reflections of the artist on seeing gaye live without talking to him later are very flat expressions of ideas - not incredibly interesting. i didn't enjoy this article overall - it reads as if the author is trying to push their ego into the piece, but they hesitate before corrupting the article as a 'journalistic' piece. there isn't a clear thesis or piece of information the author is trying to impart, and yet the writing strings together cherry-picked bits of information from gaye and from the author's personal life, seemingly without purpose. i don't doubt the interviewing skill of the author, but their ability to properly frame their thoughts - even in this synopsis - to present a clear message is sorely lacking.
+
+*** helena - forever - 2016
+https://griefbacon.substack.com/p/forever
+having the idea to write and choosing to write on substack rather than on my own terms may have been a poor decision. substack is a great system for content delivery, but doesn't provide any value aside from that.
+
+love citations of other authors in this piece. george carlin - owning a pet is investing in a small tragedy. life is just investing in larger ones, surely? it's unclear to what degree we choose our path and to what degree we simply end up with who and what is left. someone being older simply means that you will, on average, be able to spend less time together, no different than any other serious medical condition. i often think about how old twenty one is and that it feels much too old - rappers, singers, tik tok artists, what have you are blowing up at sixteen, seventeen, eighteen, nineteen, and it's hard not to be left behind - but at the same time i know i had issues that prevented me from pursuing those kinds of things when i was in high school, even though i'm free now. addiction to consumption may be the biggest issue that i face now. there is still far too much i want to learn about and explore, but i'm not sure if that's a figment of some sort of information addiction or some honest curiosity for working everywhere and doing everything. the nails on my left hand are getting long enough that they're starting to be annoying, but i'm proud of that because i've never had that before. we're working on the right hand, and the feet, and we will get there someday.
+
+love is a preemptive form of grief - allowing something to matter is another way of saying that you will care when it's gone, and things disappearing is inevitable. this commitment scares me. it's hitting me that if i don't do lots of work now then i might struggle in the future, so work is not so much a convenience or somethign for entertainment as it is a necessity, and i have not been doing so hot in that department. the thought of staging a death is fascinating - completely preparing a scene for the inevitable.
+
+wolfgang weingart - brilliant graphic designer - pre current trend of maximalism, very orward, accomplished a lot
+memphis group - postmodern furniture, lighting fabrics, carpets, ceramics, glass, metal objects. foundational contributors to current trends, though much less homogenous
+
+read wilhelm meister's apprenticeship
+** 18:14 others
+http://www.cs.cmu.edu/~jasonh/advice.html: great list of resources for applying to grad school. check back on this if i really decide to pursue it!!
+https://elliott.computer/
+https://saffronhuang.com/
+both cool websites i am cutting off because i don't want to spend the time to explore - not right now. enjoyed saffron's 'managers instead of elites' piece as well as the ideas behind the handmade web.
+
+
+*** great recommendations
+** 19:30 more articles, this time in the evening.
+*** upside decay
+https://brianlui.dog/2020/10/06/upside-decay/
+upside provides a positive outcome in a normal distribution of luck outcomes - presenting additional benefit that isn't expected, such as scientific innovation that improves society with little downside, and accomplishes things that objectively improve metrics that operate on a large scale - such as gdp - to demonstrate improved societal progress as a whole.
+
+scientific innovation often results in progress happening in bursts - single
+large innovations are associated with demonstrable improvement, and with enough
+moonshots some are guaranteed to strike innovative gold, substantially raising
+certain metrics! if lots of things have to go right for a single successful discovery, this is effectively flipping lots of coins in succession - all heads and we have a winner! enough shots and everything lines up just right.
+
+upside decay is the decay in likelihood that these innovative events occur - like running into someone in a coffee shop, or too atoms colliding, or something - and demonstrably harms changes of success. if a coin flip lands on heads less than half the time, obviously you're many times less likely to succeed in a task that combines multiple heads.
+
+this has really corrosive effects on organizations and is often very hard to spot - how do you quantify or measure upside decay in the moment rather than in retrospect? the article uses china as an example of an organization that seeks stability and security in the global sphere.
+
+author posits that upside decay is preceded by a lack of virtue - acting disingenuously and without credibility, and rewarding  behaviors other than those that will eventually be honest and optimal. author points to lots of chinese state decisions that reach this conclusion, decisions that may have been made with irrational means.
+
+theory of 'weak ties' - informal networks, acquaintances, cultural influence, etc; weak ties only support virtuous decisions rather than all decisions because they're not mandatory - they're volunteered, optional support. facebook falls into this trap - healthy teams quit once hired because they don't support practice of optimiizing for revenue above all else; culture and values are incredibly important, even if they don't align with optimal business decisions. berkshire seems to have trust, just as costco does - minimizing profit margins and often not necessarily making the most optimal decision in exchange for extremely valuable opt-in relationships. (recent put all eggs in one basket and watch the basket very carefully theory really comes to mind here - spreading out means you're bound to lose track of something, and as such you're only going to end up average). positive sum interactiions encourage people to do things because they want to - and these virtuous actions result in lots of lucky breaks, because others afford optional oppoertunities to organizations that they're skeptical to entertain otherwise
+** 20:34 ap and nazis and more!
+https://www.tabletmag.com/sections/news/articles/ap-collaboration-nazis-reporting-news
+as they compromized to obey nazi rule in return for being able to operate, they ended up actively fueling nazi propaganda! they accepted what was happening in germany and kept quiet, even though organizations like the new york times did not - and yet, though the ap collaborated on a propagand aproject with the ss, they also helped jewish people safely settle in other countries - what is moral here? they rehired some who left the AP to join the SS? is that right? news organizations from the US operating in iran and saudi arabia make significant compromises to work in those territories - but never disclose what those cooperations are. this is likely similar to israel palestine media coverage - israel and usgov have the power. or was AP collaborating with Hamas?
+
+the articles's thesis: questioning the desire to report 'from inside', instead suggesting that we should look from the outside in to gain intelligence and report, because this is more moral than any sort of internal action. established sources publish unrelia ble information so frequently for these exact reasons!
+kind of unrelated but i really like how clean the website is - no distractions, just words.
