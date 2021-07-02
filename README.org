@@ -18,5 +18,7 @@ and is in a state of continuous improvement.
 
 I often use [[https://logseq.com][Logseq]] to work on these notes, though my primary interface to them is through [[https://github.com/org-roam/org-roam][org-roam]].
 
+This wiki is part of [[the agora][https://anagora.org]]
+
 * Contributing
 If you've found an issue with the wiki or would otherwise like to contribute, feel free to open a pull request!
