@@ -1,9 +1,13 @@
 <!DOCTYPE HTML>
-<html><head><title>random tricks for linux systems - Jacob Chvatal&#39;s Wiki</title><link rel="stylesheet" type="text/css" href="https://jakeisnt.github.io/styles/main.css"></head><body><h1 class="title">random tricks for linux systems</h1><h1><span class="todo TODO">TODO</span> move all of these to my nixos configuration somehow</h1>
-<h1>enable pulseaudio noise cancellation</h1>
+<html><head><title>tricks for linux system - Jacob Chvatal&#39;s Wiki</title><link rel="stylesheet" type="text/css" href="https://jakeisnt.github.io/styles/main.css"></head><body><h1 class="title">tricks for linux system</h1><h1>enable pulseaudio noise cancellation</h1>
 <p>put in /etc/pulse/default.pa:</p>
 <div class="sourceCode" id="cb1" data-org-language="sh"><pre class="sourceCode bash"><code class="sourceCode bash"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="ex">load-module</span> module-echo-cancel use_master_format=1 aec_method=webrtc aec_args=<span class="st">&quot;analog_gain_control=0\ digital_gain_control=1&quot;</span> source_name=echoCancel_source sink_name=echoCancel_sink</span>
 <span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="ex">set-default-source</span> echoCancel_source</span>
 <span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="ex">set-default-sink</span> echoCancel_sink</span></code></pre></div>
+<h1>docker troubleshooting</h1>
+<div class="sourceCode" id="cb2" data-org-language="sh"><pre class="sourceCode bash"><code class="sourceCode bash"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="co"># remove all containers</span></span>
+<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a><span class="ex">docker</span> rmi <span class="va">$(</span><span class="ex">docker</span> images <span class="at">-a</span> <span class="at">-q</span><span class="va">)</span></span>
+<span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a><span class="co"># stop all running containers</span></span>
+<span id="cb2-4"><a href="#cb2-4" aria-hidden="true" tabindex="-1"></a><span class="ex">docker</span> stop <span class="va">$(</span><span class="ex">docker</span> ps <span class="at">-a</span> <span class="at">-q</span><span class="va">)</span></span></code></pre></div>
 <h1>Pranks</h1>
 <p><a href="https://github.com/mathiasbynens/evil.sh">https://github.com/mathiasbynens/evil.sh</a> <a href="https://github.com/zeroby0/pranks#7-change-editors">https://github.com/zeroby0/pranks#7-change-editors</a></p></body></html>

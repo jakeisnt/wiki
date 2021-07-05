@@ -6,32 +6,4 @@
 <p><a href="https://github.com/acmesh-official/acme.sh">a full ACME protocol implemented in shell</a> <a href="web.html">Web</a></p>
 <p><a href="https://gist.github.com/katef/59450aa622315bd35fc27bd383c2dbe6#file-life-utf8-c">https://gist.github.com/katef/59450aa622315bd35fc27bd383c2dbe6#file-life-utf8-c</a> <a href="cpp.html">C and C++</a> <a href="https://github.com/zeroby0/pranks#7-change-editors">fun ideas for pranks at the shell</a>, and <a href="https://github.com/mathiasbynens/evil.sh">https://github.com/mathiasbynens/evil.sh</a></p>
 <p><a href="https://news.ycombinator.com/item?id=24256883">https://news.ycombinator.com/item?id=24256883</a> portable executables!</p>
-<p><a href="https://kkovacs.eu/cool-but-obscure-unix-tools/">terminal utils to look at</a></p>
-<h1>unix shell programming: the next 50 years</h1>
-<p><a href="https://sigops.org/s/conferences/hotos/2021/papers/hotos21-s06-greenberg.pdf">src</a> and <a href="https://www.reddit.com/r/ProgrammingLanguages/comments/nfcij6/unix_shell_programming_the_next_50_years_hotos/">discussion</a></p>
-<h2>The good</h2>
-<ul>
-<li>Universal language for interoperability</li>
-<li>Works with anything and is a medium between anything</li>
-<li>Incredibly expressive (and often efficient) EDSL for stream processing</li>
-<li>Interactive environment for interacting with the computer</li>
-</ul>
-<h2>bad</h2>
-<ul>
-<li>insane specification that isn't implemented correctly in <strong>any</strong> shell, not even worth diving into</li>
-<li>too arbitrary - it has infinite flexibility and that prevents it from doing anything</li>
-<li>too dynamic - everything in a shell script is dependent on global state, which prevents any form of optimization or program change</li>
-<li>performance cannot scale because it cannot be optimized</li>
-</ul>
-<h2>Future</h2>
-<dl>
-<dt>Smoosh</dt>
-<dd>fully formalize and implement the posix shell, showing differences between specifications across semantics
-</dd>
-<dt>PaSH/POSH</dt>
-<dd>annotation languages as a high level specification interface for interactive programs, can be used as abstract models for command behaviors! This allows for better system specification that can actually be enforced (thinking of tools like Alloy here!)
-</dd>
-<dt>static reasoning</dt>
-<dd>previous bullets name annotation languages that give us information about the shell - why not dynamically rewrite and inspect every shell command?
-</dd>
-</dl></body></html>
+<p><a href="https://kkovacs.eu/cool-but-obscure-unix-tools/">terminal utils to look at</a></p></body></html>
