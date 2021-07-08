@@ -1,0 +1,9 @@
+#+TITLE: Wednesday, 07/07/2021
+** 23:23 finally got emacs back!
+honestly kind of a pain to use nightly builds of nixos and upgrade frequently when it comes to using external package managers. doing everything with nix /just works/, but when other package managers are involved things start breaking, doom emacs has to be reloaded and updated and the components have to be reinstalled and all of these things, and it ends up just causing a headache. it ends up just being easier to manage /everything/ in nixos evven if it makes things slightly less ergonomic to use to be flexible? though it's also possible i'm just managing emacs incorectly as well.
+** 23:35 was recommended
+frank o'hara poetry, i think mentioned by someone in that pseudodocumentary of a narrative i've been reading about that dude at the vietnam war negotiating a relationship with a guy named Pyle, but regardless of this he seems like an interesting poet to read about despite dying very young. making the note here for later.
+
+also war redommended mark fisher and k-punk for his blog and philisophical and artistic work. his papers have been downloaded.
+
+tomorrow i'll play with generative art finally. particle interactions look to have incredible potential. also have to order new keyswitches - cherry mx browns are just as disappointing as they have been rumored to be.
