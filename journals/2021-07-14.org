@@ -26,3 +26,44 @@ the idea of the machine!!
 https://www.sacred-texts.com/bud/tea.htm
 teaism - culture unto itself - promoted by japanese isolation. much ado about nothing? a tempest in a teacup!
 in a particular manner for tea = always. heaven is shattered in struggle for power, but tea is mediation, almost.
+*** TODO generative work
+[[file:../pages/generative-art.org][Generative Art]] [[file:../pages/rust.org][Rust]]
+**** physarium
+https://sagejenson.com/physarum
+- approximation of physariam transport networks: jeff jones, via georgios cherouvim
+- physarium structure effectively searches to find shortest paths!
+
+- look into simulation systems:
+  - containment based
+  - simulation based
+- email them about this too! this looks incredible!
+**** particle interactions with deposited substrate
+https://ciphrd.com/2021/07/07/particle-interactions-using-deposited-substrate-as-communication-layer-ds-cl/
+- agents deposit substrate into the environment
+- sample environment using sensors
+- systems work well with organic simulations; model after natural phenomena!
+
+great clustering behavior?!
+look for something that can parallelize as well! how do we keep the nature while losing the computational complexity? want emerging behaviors to be results of any kind of particle interactions. read lots of the referenced articles! love decision tree approach based on concentration levels of the substrate at specific sensor positions.
+
+deposited substrate as communication layer framework (helpful to have high level models of this behavior!)
+- write :: how do particles modify substrates?
+- read + react :: how to they read substrates and react according to it? reaction will always depend on how data is read from environment
+- env, update :: how to environment and substrates evolve over time? are there other systems and rules applied to the module?
+- ptp interactions :: does it require true particle to particle interactions?
+
+particles are often a means to construct the transport network rather than visualizing the network itself - we can then re-add particles to the networks that appear to be logical but are really just approximated from generated paths
+
+the attraction and repulsion dynamics (local) are fascinating here!
+good use of simulation code throughout the article - big fan of this style. come back to this!
+** 23:41
+seamless way to transition rom phone to desktop work and jot down different ideas in environments
+
+the email:
+ssh program that gives you drag and drop move capabilities
+
+Jul 12, 2021 11:02:42 PM Jake Chvatal <jake@isnt.online>:
+
+    inspired by android remote install thing somehow
+** 23:55
+https://blog.davetcode.co.uk/post/21st-century-emulator/
