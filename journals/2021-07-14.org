@@ -1,0 +1,28 @@
+#+TITLE: Wednesday, 07/14/2021
+** 21:20
+*** brain
+[[https://www.quantamagazine.org/brains-background-noise-may-hold-clues-to-persistent-mysteries-20210208/]]
+sleep research: finding boundaries between wakefulness and consciousness
+in erratic background of neuron activity
+kind of bad article imo, doesnt give enough detail - but kind of interesting! using filtered frequency ranges with fourier analysis to find things in 'random noise' to identify memory decline, memory issues, etc
+*** cat person and me
+https://slate.com/human-interest/2021/07/cat-person-kristen-roupenian-viral-story-about-me.html
+
+another article, like me, like _my_ article; like other articles, a reflection of abuse and how it impacts others. strange relationship with biography that's almost fiction but not quite - sometimes a misappropriation of our sstories, but who owns a story?
+*** building a memex!!
+https://thesephist.com/posts/monocle/
+
+built a universal full text search engine, indexing lots of public information online to post - optimizing for time to first result with just a vague query in mind to see what we have seen before! need something we also own and understand - this is so important for the software we write. owning your own services is so valuable. feel safe allowing it to index my personal and private data - the data is more personal and significant than other files! should *own* my entire data stack.
+incredible experience report so far. should index people i have met! incredible experience! infraastructural project.
+*** great site
+https://isthisa.com/
+indexes some excellent posts
+*** bush on the memex
+https://hyfen.net/memex/updates/crystals-esp-and-mind-control
+the idea of the machine!!
+*** sites
+[[file:../pages/personal-website.org][Personal Websites]] https://maxbittker.com/making-sandspiel the website is super fun and the falling sand game specifically - reminds me of all those games about combining chemicals together!
+*** TODO the book of tea
+https://www.sacred-texts.com/bud/tea.htm
+teaism - culture unto itself - promoted by japanese isolation. much ado about nothing? a tempest in a teacup!
+in a particular manner for tea = always. heaven is shattered in struggle for power, but tea is mediation, almost.

@@ -5,17 +5,19 @@ https://www.realtimerendering.com/raytracinggems/
 [[https://github.com/cnlohr/noeuclid][Non-euclidean GPU Raytraced Game]]:[[file:game-dev.org][Game Dev]]
 https://github.com/disconcision/depthop
 
-https://github.com/browserdotsys/vecchio ray tracing in one weekend :: looks fun to do [[file:rust.org][Rust]]
-https://github.com/athas/raytracers
+https://github.com/athas/raytracers: good inspiration for spending time writing raytracers on my own!
 
 [[https://www.reddit.com/r/opengl/comments/hwntc1/following_learnopenglcom_but_my_triangles_being/][Following learnopengl.com but my triangles being culled weirdly. Code in co]]
-
 [[https://github.com/browserdotsys/vecchio][ray tracing fast]]
 
 [[https://github.com/codeplaysoftware/sycl-for-cuda][Codeplay CUDA Backend for LLVM SYCL]]
 http://steveharoz.com/research/biomotion/
 [[https://marctenbosch.com/news/2020/05/siggraph-2020-technical-paper-n-dimensional-rigid-body-dynamics/][n dimensional rigid body dynamics]]
-https://github.com/browserdotsys/vecchio
 [[https://www.youtube.com/watch?v=kEB11PQ9Eo8&app=desktop][non-euclidean worlds engine]]
- [[https://nelari.us/post/raytracer_with_rust_and_zig/][Writing a small ray tracer in Rust and Zig // My thought repository]] [[file:rust.org][Rust]]
 https://ambrevar.xyz/homogeneous/index.html [[file:math.org][Math]]
+
+* Raytracing in one weekend
+** Implementations
+https://github.com/browserdotsys/vecchio ray tracing in one weekend :: looks fun to do [[file:rust.org][Rust]]
+[[https://nelari.us/post/raytracer_with_rust_and_zig/][Writing a small ray tracer in Rust and Zig // My thought repository]] [[file:rust.org][Rust]]
+** personal notes
